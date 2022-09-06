@@ -1,0 +1,51 @@
+[2022-08-11 22:49:22,500] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: nse_daily_data_load.load_ftp_namedstage manual__2022-08-12T02:46:13.868910+00:00 [queued]>
+[2022-08-11 22:49:22,543] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: nse_daily_data_load.load_ftp_namedstage manual__2022-08-12T02:46:13.868910+00:00 [queued]>
+[2022-08-11 22:49:22,564] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2022-08-11 22:49:22,564] {taskinstance.py:1357} INFO - Starting attempt 2 of 2
+[2022-08-11 22:49:22,564] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2022-08-11 22:49:22,660] {taskinstance.py:1377} INFO - Executing <Task(PythonOperator): load_ftp_namedstage> on 2022-08-12 02:46:13.868910+00:00
+[2022-08-11 22:49:22,663] {standard_task_runner.py:52} INFO - Started process 34027 to run task
+[2022-08-11 22:49:22,695] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'nse_daily_data_load', 'load_ftp_namedstage', 'manual__2022-08-12T02:46:13.868910+00:00', '--job-id', '269', '--raw', '--subdir', 'DAGS_FOLDER/nse_daily_load_stg.py', '--cfg-path', '/tmp/tmpdapk5drg', '--error-file', '/tmp/tmpsv8p1q2w']
+[2022-08-11 22:49:22,705] {standard_task_runner.py:80} INFO - Job 269: Subtask load_ftp_namedstage
+[2022-08-11 22:49:23,003] {task_command.py:369} INFO - Running <TaskInstance: nse_daily_data_load.load_ftp_namedstage manual__2022-08-12T02:46:13.868910+00:00 [running]> on host osboxes
+[2022-08-11 22:49:23,274] {taskinstance.py:1569} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=Airflow
+AIRFLOW_CTX_DAG_ID=nse_daily_data_load
+AIRFLOW_CTX_TASK_ID=load_ftp_namedstage
+AIRFLOW_CTX_EXECUTION_DATE=2022-08-12T02:46:13.868910+00:00
+AIRFLOW_CTX_TRY_NUMBER=2
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-08-12T02:46:13.868910+00:00
+[2022-08-11 22:49:23,345] {base.py:68} INFO - Using connection ID 'snowflake_conn_id' for task execution.
+[2022-08-11 22:49:23,368] {connection.py:257} INFO - Snowflake Connector for Python Version: 2.7.8, Python Version: 3.8.10, Platform: Linux-5.4.0-74-generic-x86_64-with-glibc2.29
+[2022-08-11 22:49:23,389] {connection.py:876} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2022-08-11 22:49:23,390] {connection.py:894} INFO - Setting use_openssl_only mode to False
+[2022-08-11 22:49:24,505] {cursor.py:710} INFO - query: [ALTER SESSION SET autocommit=False]
+[2022-08-11 22:49:24,614] {cursor.py:734} INFO - query execution done
+[2022-08-11 22:49:24,614] {snowflake.py:328} INFO - Running statement: put file:///home/osboxes/Desktop/Files/cm*.csv @EDW_DEV.EDW.NSE_DAILY_STG;, parameters: None
+[2022-08-11 22:49:24,615] {cursor.py:710} INFO - query: [put file:///home/osboxes/Desktop/Files/cm*.csv @EDW_DEV.EDW.NSE_DAILY_STG;]
+[2022-08-11 22:49:25,007] {cursor.py:734} INFO - query execution done
+[2022-08-11 22:49:30,549] {snowflake.py:338} INFO - Statement execution info - {'source': 'cm01AUG2022bhav.csv', 'target': 'cm01AUG2022bhav.csv.gz', 'source_size': 211775, 'target_size': 85184, 'source_compression': 'NONE', 'target_compression': 'GZIP', 'status': 'UPLOADED', 'message': ''}
+[2022-08-11 22:49:30,549] {snowflake.py:338} INFO - Statement execution info - {'source': 'cm02AUG2022bhav.csv', 'target': 'cm02AUG2022bhav.csv.gz', 'source_size': 207021, 'target_size': 83568, 'source_compression': 'NONE', 'target_compression': 'GZIP', 'status': 'UPLOADED', 'message': ''}
+[2022-08-11 22:49:30,549] {snowflake.py:338} INFO - Statement execution info - {'source': 'cm03AUG2022bhav.csv', 'target': 'cm03AUG2022bhav.csv.gz', 'source_size': 206930, 'target_size': 83536, 'source_compression': 'NONE', 'target_compression': 'GZIP', 'status': 'UPLOADED', 'message': ''}
+[2022-08-11 22:49:30,549] {snowflake.py:338} INFO - Statement execution info - {'source': 'cm04AUG2022bhav.csv', 'target': 'cm04AUG2022bhav.csv.gz', 'source_size': 206669, 'target_size': 83856, 'source_compression': 'NONE', 'target_compression': 'GZIP', 'status': 'UPLOADED', 'message': ''}
+[2022-08-11 22:49:30,549] {snowflake.py:338} INFO - Statement execution info - {'source': 'cm05AUG2022bhav.csv', 'target': 'cm05AUG2022bhav.csv.gz', 'source_size': 206683, 'target_size': 83536, 'source_compression': 'NONE', 'target_compression': 'GZIP', 'status': 'UPLOADED', 'message': ''}
+[2022-08-11 22:49:30,549] {snowflake.py:338} INFO - Statement execution info - {'source': 'cm08AUG2022bhav.csv', 'target': 'cm08AUG2022bhav.csv.gz', 'source_size': 221717, 'target_size': 87824, 'source_compression': 'NONE', 'target_compression': 'GZIP', 'status': 'UPLOADED', 'message': ''}
+[2022-08-11 22:49:30,549] {snowflake.py:338} INFO - Statement execution info - {'source': 'cm10AUG2022bhav.csv', 'target': 'cm10AUG2022bhav.csv.gz', 'source_size': 209168, 'target_size': 84272, 'source_compression': 'NONE', 'target_compression': 'GZIP', 'status': 'UPLOADED', 'message': ''}
+[2022-08-11 22:49:30,549] {snowflake.py:338} INFO - Statement execution info - {'source': 'cm11AUG2022bhav.csv', 'target': 'cm11AUG2022bhav.csv.gz', 'source_size': 207446, 'target_size': 83568, 'source_compression': 'NONE', 'target_compression': 'GZIP', 'status': 'UPLOADED', 'message': ''}
+[2022-08-11 22:49:30,549] {snowflake.py:338} INFO - Statement execution info - {'source': 'cm25JUL2022bhav.csv', 'target': 'cm25JUL2022bhav.csv.gz', 'source_size': 219706, 'target_size': 86512, 'source_compression': 'NONE', 'target_compression': 'GZIP', 'status': 'UPLOADED', 'message': ''}
+[2022-08-11 22:49:30,549] {snowflake.py:338} INFO - Statement execution info - {'source': 'cm26JUL2022bhav.csv', 'target': 'cm26JUL2022bhav.csv.gz', 'source_size': 205178, 'target_size': 82128, 'source_compression': 'NONE', 'target_compression': 'GZIP', 'status': 'UPLOADED', 'message': ''}
+[2022-08-11 22:49:30,549] {snowflake.py:338} INFO - Statement execution info - {'source': 'cm27JUL2022bhav.csv', 'target': 'cm27JUL2022bhav.csv.gz', 'source_size': 205409, 'target_size': 82384, 'source_compression': 'NONE', 'target_compression': 'GZIP', 'status': 'UPLOADED', 'message': ''}
+[2022-08-11 22:49:30,556] {snowflake.py:338} INFO - Statement execution info - {'source': 'cm28JUL2022bhav.csv', 'target': 'cm28JUL2022bhav.csv.gz', 'source_size': 206419, 'target_size': 82864, 'source_compression': 'NONE', 'target_compression': 'GZIP', 'status': 'UPLOADED', 'message': ''}
+[2022-08-11 22:49:30,557] {snowflake.py:338} INFO - Statement execution info - {'source': 'cm29JUL2022bhav.csv', 'target': 'cm29JUL2022bhav.csv.gz', 'source_size': 206605, 'target_size': 83328, 'source_compression': 'NONE', 'target_compression': 'GZIP', 'status': 'UPLOADED', 'message': ''}
+[2022-08-11 22:49:30,557] {snowflake.py:342} INFO - Rows affected: 13
+[2022-08-11 22:49:30,557] {snowflake.py:343} INFO - Snowflake query id: 01a63aa9-0501-b6c8-006e-0a83000281c6
+[2022-08-11 22:49:30,557] {cursor.py:710} INFO - query: [COMMIT]
+[2022-08-11 22:49:30,668] {cursor.py:734} INFO - query execution done
+[2022-08-11 22:49:30,668] {connection.py:507} INFO - closed
+[2022-08-11 22:49:30,736] {connection.py:510} INFO - No async queries seem to be running, deleting session
+[2022-08-11 22:49:30,858] {python.py:173} INFO - Done. Returned value was: None
+[2022-08-11 22:49:30,896] {taskinstance.py:1395} INFO - Marking task as SUCCESS. dag_id=nse_daily_data_load, task_id=load_ftp_namedstage, execution_date=20220812T024613, start_date=20220812T024922, end_date=20220812T024930
+[2022-08-11 22:49:30,967] {local_task_job.py:156} INFO - Task exited with return code 0
+[2022-08-11 22:49:31,042] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check

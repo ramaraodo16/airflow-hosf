@@ -1,0 +1,70 @@
+[2022-07-31 14:51:41,908] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: nse_daily_data_load.nse_download_files manual__2022-07-30T01:07:26.978376+00:00 [queued]>
+[2022-07-31 14:51:41,916] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: nse_daily_data_load.nse_download_files manual__2022-07-30T01:07:26.978376+00:00 [queued]>
+[2022-07-31 14:51:41,916] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-31 14:51:41,916] {taskinstance.py:1357} INFO - Starting attempt 3 of 3
+[2022-07-31 14:51:41,916] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-31 14:51:41,958] {taskinstance.py:1377} INFO - Executing <Task(PythonOperator): nse_download_files> on 2022-07-30 01:07:26.978376+00:00
+[2022-07-31 14:51:41,963] {standard_task_runner.py:52} INFO - Started process 829421 to run task
+[2022-07-31 14:51:41,967] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'nse_daily_data_load', 'nse_download_files', 'manual__2022-07-30T01:07:26.978376+00:00', '--job-id', '108', '--raw', '--subdir', 'DAGS_FOLDER/nse_daily_load_stg.py', '--cfg-path', '/tmp/tmplufmcftg', '--error-file', '/tmp/tmpqytmm2fi']
+[2022-07-31 14:51:41,968] {standard_task_runner.py:80} INFO - Job 108: Subtask nse_download_files
+[2022-07-31 14:51:42,031] {task_command.py:369} INFO - Running <TaskInstance: nse_daily_data_load.nse_download_files manual__2022-07-30T01:07:26.978376+00:00 [running]> on host osboxes
+[2022-07-31 14:51:42,098] {taskinstance.py:1569} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=Airflow
+AIRFLOW_CTX_DAG_ID=nse_daily_data_load
+AIRFLOW_CTX_TASK_ID=nse_download_files
+AIRFLOW_CTX_EXECUTION_DATE=2022-07-30T01:07:26.978376+00:00
+AIRFLOW_CTX_TRY_NUMBER=3
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-07-30T01:07:26.978376+00:00
+[2022-07-31 14:51:42,100] {logging_mixin.py:115} INFO - 
+cm25JUL2022bhav
+[2022-07-31 14:51:42,100] {logging_mixin.py:115} INFO - enter try in loop
+[2022-07-31 14:51:42,100] {logging_mixin.py:115} INFO - https://www1.nseindia.com/content/historical/EQUITIES/2022/JUL/cm25JUL2022bhav.csv.zip
+[2022-07-31 14:51:42,706] {logging_mixin.py:115} INFO - https://www1.nseindia.com/content/historical/EQUITIES/2022/JUL/cm25JUL2022bhav.csv.zip
+[2022-07-31 14:51:42,706] {logging_mixin.py:115} INFO - 
+cm26JUL2022bhav
+[2022-07-31 14:51:42,706] {logging_mixin.py:115} INFO - enter try in loop
+[2022-07-31 14:51:42,707] {logging_mixin.py:115} INFO - https://www1.nseindia.com/content/historical/EQUITIES/2022/JUL/cm26JUL2022bhav.csv.zip
+[2022-07-31 14:51:43,323] {logging_mixin.py:115} INFO - https://www1.nseindia.com/content/historical/EQUITIES/2022/JUL/cm26JUL2022bhav.csv.zip
+[2022-07-31 14:51:43,324] {logging_mixin.py:115} INFO - 
+cm27JUL2022bhav
+[2022-07-31 14:51:43,324] {logging_mixin.py:115} INFO - enter try in loop
+[2022-07-31 14:51:43,324] {logging_mixin.py:115} INFO - https://www1.nseindia.com/content/historical/EQUITIES/2022/JUL/cm27JUL2022bhav.csv.zip
+[2022-07-31 14:51:44,362] {logging_mixin.py:115} INFO - https://www1.nseindia.com/content/historical/EQUITIES/2022/JUL/cm27JUL2022bhav.csv.zip
+[2022-07-31 14:51:44,363] {logging_mixin.py:115} INFO - 
+cm28JUL2022bhav
+[2022-07-31 14:51:44,363] {logging_mixin.py:115} INFO - enter try in loop
+[2022-07-31 14:51:44,363] {logging_mixin.py:115} INFO - https://www1.nseindia.com/content/historical/EQUITIES/2022/JUL/cm28JUL2022bhav.csv.zip
+[2022-07-31 14:51:45,029] {logging_mixin.py:115} INFO - https://www1.nseindia.com/content/historical/EQUITIES/2022/JUL/cm28JUL2022bhav.csv.zip
+[2022-07-31 14:51:45,030] {logging_mixin.py:115} INFO - 
+cm29JUL2022bhav
+[2022-07-31 14:51:45,030] {logging_mixin.py:115} INFO - enter try in loop
+[2022-07-31 14:51:45,030] {logging_mixin.py:115} INFO - https://www1.nseindia.com/content/historical/EQUITIES/2022/JUL/cm29JUL2022bhav.csv.zip
+[2022-07-31 14:51:45,884] {logging_mixin.py:115} INFO - https://www1.nseindia.com/content/historical/EQUITIES/2022/JUL/cm29JUL2022bhav.csv.zip
+[2022-07-31 14:51:45,885] {logging_mixin.py:115} INFO - 
+cm30JUL2022bhav
+[2022-07-31 14:51:45,885] {logging_mixin.py:115} INFO - enter try in loop
+[2022-07-31 14:51:45,885] {logging_mixin.py:115} INFO - https://www1.nseindia.com/content/historical/EQUITIES/2022/JUL/cm30JUL2022bhav.csv.zip
+[2022-07-31 14:51:46,050] {logging_mixin.py:115} INFO - issue occured
+[2022-07-31 14:51:46,053] {logging_mixin.py:115} INFO - ['cm25JUL2022bhav.csv.zip', 'cm26JUL2022bhav.csv.zip', 'cm27JUL2022bhav.csv.zip', 'cm28JUL2022bhav.csv.zip', 'cm29JUL2022bhav.csv.zip']
+[2022-07-31 14:51:46,054] {logging_mixin.py:115} INFO - cm25JUL2022bhav.csv.zip
+[2022-07-31 14:51:46,068] {logging_mixin.py:115} INFO - cm26JUL2022bhav.csv.zip
+[2022-07-31 14:51:46,093] {logging_mixin.py:115} INFO - cm27JUL2022bhav.csv.zip
+[2022-07-31 14:51:46,103] {logging_mixin.py:115} INFO - cm28JUL2022bhav.csv.zip
+[2022-07-31 14:51:46,115] {logging_mixin.py:115} INFO - cm29JUL2022bhav.csv.zip
+[2022-07-31 14:51:46,118] {taskinstance.py:1889} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/osboxes/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 171, in execute
+    return_value = self.execute_callable()
+  File "/home/osboxes/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 189, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/osboxes/airflow/dags/nse_daily_load_stg.py", line 97, in nse_data_down_site
+    shutil.move(fw,'/home/osboxes/Desktop/Files')
+  File "/usr/lib/python3.8/shutil.py", line 789, in move
+    raise Error("Destination path '%s' already exists" % real_dst)
+shutil.Error: Destination path '/home/osboxes/Desktop/Files/cm29JUL2022bhav.csv.zip' already exists
+[2022-07-31 14:51:46,165] {taskinstance.py:1395} INFO - Marking task as FAILED. dag_id=nse_daily_data_load, task_id=nse_download_files, execution_date=20220730T010726, start_date=20220731T185141, end_date=20220731T185146
+[2022-07-31 14:51:46,247] {standard_task_runner.py:92} ERROR - Failed to execute job 108 for task nse_download_files (Destination path '/home/osboxes/Desktop/Files/cm29JUL2022bhav.csv.zip' already exists; 829421)
+[2022-07-31 14:51:46,269] {local_task_job.py:156} INFO - Task exited with return code 1
+[2022-07-31 14:51:46,534] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

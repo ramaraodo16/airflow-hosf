@@ -1,0 +1,39 @@
+[2022-08-28 11:07:52,106] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: nse_daily_data_load.load_ftp_namedstage scheduled__2022-08-24T13:37:00+00:00 [queued]>
+[2022-08-28 11:07:52,137] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: nse_daily_data_load.load_ftp_namedstage scheduled__2022-08-24T13:37:00+00:00 [queued]>
+[2022-08-28 11:07:52,137] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2022-08-28 11:07:52,137] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2022-08-28 11:07:52,137] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2022-08-28 11:07:52,198] {taskinstance.py:1377} INFO - Executing <Task(PythonOperator): load_ftp_namedstage> on 2022-08-24 13:37:00+00:00
+[2022-08-28 11:07:52,202] {standard_task_runner.py:52} INFO - Started process 12866 to run task
+[2022-08-28 11:07:52,214] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'nse_daily_data_load', 'load_ftp_namedstage', 'scheduled__2022-08-24T13:37:00+00:00', '--job-id', '395', '--raw', '--subdir', 'DAGS_FOLDER/nse_daily_load_stg.py', '--cfg-path', '/tmp/tmp7d076jvb', '--error-file', '/tmp/tmpdz_nqj8g']
+[2022-08-28 11:07:52,214] {standard_task_runner.py:80} INFO - Job 395: Subtask load_ftp_namedstage
+[2022-08-28 11:07:52,314] {task_command.py:369} INFO - Running <TaskInstance: nse_daily_data_load.load_ftp_namedstage scheduled__2022-08-24T13:37:00+00:00 [running]> on host osboxes
+[2022-08-28 11:07:52,666] {taskinstance.py:1569} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=Airflow
+AIRFLOW_CTX_DAG_ID=nse_daily_data_load
+AIRFLOW_CTX_TASK_ID=load_ftp_namedstage
+AIRFLOW_CTX_EXECUTION_DATE=2022-08-24T13:37:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-08-24T13:37:00+00:00
+[2022-08-28 11:07:52,709] {base.py:68} INFO - Using connection ID 'snowflake_conn_id' for task execution.
+[2022-08-28 11:07:52,712] {connection.py:257} INFO - Snowflake Connector for Python Version: 2.7.8, Python Version: 3.8.10, Platform: Linux-5.4.0-74-generic-x86_64-with-glibc2.29
+[2022-08-28 11:07:52,732] {connection.py:876} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2022-08-28 11:07:52,733] {connection.py:894} INFO - Setting use_openssl_only mode to False
+[2022-08-28 11:07:55,253] {cursor.py:710} INFO - query: [ALTER SESSION SET autocommit=False]
+[2022-08-28 11:07:55,371] {cursor.py:734} INFO - query execution done
+[2022-08-28 11:07:55,372] {snowflake.py:328} INFO - Running statement: put file:///home/osboxes/Desktop/Files/cm*.csv @EDW_DEV.EDW.NSE_DAILY_STG;, parameters: None
+[2022-08-28 11:07:55,374] {cursor.py:710} INFO - query: [put file:///home/osboxes/Desktop/Files/cm*.csv @EDW_DEV.EDW.NSE_DAILY_STG;]
+[2022-08-28 11:07:56,021] {cursor.py:734} INFO - query execution done
+[2022-08-28 11:07:58,124] {snowflake.py:338} INFO - Statement execution info - {'source': 'cm12AUG2022bhav.csv', 'target': 'cm12AUG2022bhav.csv.gz', 'source_size': 209154, 'target_size': 0, 'source_compression': 'NONE', 'target_compression': 'GZIP', 'status': 'SKIPPED', 'message': ''}
+[2022-08-28 11:07:58,124] {snowflake.py:342} INFO - Rows affected: 1
+[2022-08-28 11:07:58,125] {snowflake.py:343} INFO - Snowflake query id: 01a6978b-0501-c6c0-006e-0a8300056006
+[2022-08-28 11:07:58,125] {cursor.py:710} INFO - query: [COMMIT]
+[2022-08-28 11:07:58,233] {cursor.py:734} INFO - query execution done
+[2022-08-28 11:07:58,236] {connection.py:507} INFO - closed
+[2022-08-28 11:07:58,300] {connection.py:510} INFO - No async queries seem to be running, deleting session
+[2022-08-28 11:07:58,392] {python.py:173} INFO - Done. Returned value was: None
+[2022-08-28 11:07:58,505] {taskinstance.py:1395} INFO - Marking task as SUCCESS. dag_id=nse_daily_data_load, task_id=load_ftp_namedstage, execution_date=20220824T133700, start_date=20220828T150752, end_date=20220828T150758
+[2022-08-28 11:07:58,688] {local_task_job.py:156} INFO - Task exited with return code 0
+[2022-08-28 11:07:59,072] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check

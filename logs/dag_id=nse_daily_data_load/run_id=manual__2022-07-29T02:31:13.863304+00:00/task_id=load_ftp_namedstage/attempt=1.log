@@ -1,0 +1,129 @@
+[2022-07-28 22:31:25,837] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: nse_daily_data_load.load_ftp_namedstage manual__2022-07-29T02:31:13.863304+00:00 [queued]>
+[2022-07-28 22:31:25,844] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: nse_daily_data_load.load_ftp_namedstage manual__2022-07-29T02:31:13.863304+00:00 [queued]>
+[2022-07-28 22:31:25,845] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-28 22:31:25,845] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2022-07-28 22:31:25,845] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-28 22:31:25,880] {taskinstance.py:1377} INFO - Executing <Task(PythonOperator): load_ftp_namedstage> on 2022-07-29 02:31:13.863304+00:00
+[2022-07-28 22:31:25,904] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'nse_daily_data_load', 'load_ftp_namedstage', 'manual__2022-07-29T02:31:13.863304+00:00', '--job-id', '58', '--raw', '--subdir', 'DAGS_FOLDER/nse_daily_load_stg.py', '--cfg-path', '/tmp/tmpkpzpmqrs', '--error-file', '/tmp/tmpewgjc5hr']
+[2022-07-28 22:31:25,885] {standard_task_runner.py:52} INFO - Started process 2812114 to run task
+[2022-07-28 22:31:26,033] {standard_task_runner.py:80} INFO - Job 58: Subtask load_ftp_namedstage
+[2022-07-28 22:31:26,428] {task_command.py:369} INFO - Running <TaskInstance: nse_daily_data_load.load_ftp_namedstage manual__2022-07-29T02:31:13.863304+00:00 [running]> on host osboxes
+[2022-07-28 22:31:27,139] {taskinstance.py:1569} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=Airflow
+AIRFLOW_CTX_DAG_ID=nse_daily_data_load
+AIRFLOW_CTX_TASK_ID=load_ftp_namedstage
+AIRFLOW_CTX_EXECUTION_DATE=2022-07-29T02:31:13.863304+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-07-29T02:31:13.863304+00:00
+[2022-07-28 22:31:27,153] {base.py:68} INFO - Using connection ID 'snowflake_conn_id' for task execution.
+[2022-07-28 22:31:27,192] {connection.py:257} INFO - Snowflake Connector for Python Version: 2.7.8, Python Version: 3.8.10, Platform: Linux-5.4.0-74-generic-x86_64-with-glibc2.29
+[2022-07-28 22:31:27,230] {connection.py:876} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2022-07-28 22:31:27,232] {connection.py:894} INFO - Setting use_openssl_only mode to False
+[2022-07-28 22:31:27,316] {connectionpool.py:780} WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<snowflake.connector.vendored.urllib3.connection.HTTPSConnection object at 0x7fd24e14c250>: Failed to establish a new connection: [Errno -2] Name or service not known')': /session/v1/login-request?request_id=1130ddb6-1d60-4ae8-9981-7e69337558f9&databaseName=EDW_PROD&schemaName=EDW&warehouse=COMPUTE_WH&roleName=ACCOUNTADMIN&request_guid=1ea0627d-291d-47a5-b2e3-5a74ced56e13
+[2022-07-28 22:31:29,589] {connectionpool.py:780} WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<snowflake.connector.vendored.urllib3.connection.HTTPSConnection object at 0x7fd24e14cd00>: Failed to establish a new connection: [Errno -2] Name or service not known')': /session/v1/login-request?request_id=d5e03967-6b8a-4fe0-9f05-7bf0fa21aff9&databaseName=EDW_PROD&schemaName=EDW&warehouse=COMPUTE_WH&roleName=ACCOUNTADMIN&request_guid=ebdae71c-8bb7-40f8-97b9-2ba8885fdb54
+[2022-07-28 22:31:29,617] {taskinstance.py:1889} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/osboxes/.local/lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/connection.py", line 169, in _new_conn
+    conn = connection.create_connection(
+  File "/home/osboxes/.local/lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/util/connection.py", line 73, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/usr/lib/python3.8/socket.py", line 918, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/osboxes/.local/lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/connectionpool.py", line 699, in urlopen
+    httplib_response = self._make_request(
+  File "/home/osboxes/.local/lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/connectionpool.py", line 382, in _make_request
+    self._validate_conn(conn)
+  File "/home/osboxes/.local/lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/connectionpool.py", line 1010, in _validate_conn
+    conn.connect()
+  File "/home/osboxes/.local/lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/connection.py", line 353, in connect
+    conn = self._new_conn()
+  File "/home/osboxes/.local/lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/connection.py", line 181, in _new_conn
+    raise NewConnectionError(
+snowflake.connector.vendored.urllib3.exceptions.NewConnectionError: <snowflake.connector.vendored.urllib3.connection.HTTPSConnection object at 0x7fd24e14c400>: Failed to establish a new connection: [Errno -2] Name or service not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/osboxes/.local/lib/python3.8/site-packages/snowflake/connector/vendored/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/home/osboxes/.local/lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/connectionpool.py", line 783, in urlopen
+    return self.urlopen(
+  File "/home/osboxes/.local/lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/connectionpool.py", line 755, in urlopen
+    retries = retries.increment(
+  File "/home/osboxes/.local/lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/util/retry.py", line 574, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+snowflake.connector.vendored.urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='nya25226.snowflakecomputing.com', port=443): Max retries exceeded with url: /session/v1/login-request?request_id=1130ddb6-1d60-4ae8-9981-7e69337558f9&databaseName=EDW_PROD&schemaName=EDW&warehouse=COMPUTE_WH&roleName=ACCOUNTADMIN&request_guid=1ea0627d-291d-47a5-b2e3-5a74ced56e13 (Caused by NewConnectionError('<snowflake.connector.vendored.urllib3.connection.HTTPSConnection object at 0x7fd24e14c400>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/osboxes/.local/lib/python3.8/site-packages/snowflake/connector/network.py", line 1009, in _request_exec
+    raw_ret = session.request(
+  File "/home/osboxes/.local/lib/python3.8/site-packages/snowflake/connector/vendored/requests/sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/osboxes/.local/lib/python3.8/site-packages/snowflake/connector/vendored/requests/sessions.py", line 655, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/osboxes/.local/lib/python3.8/site-packages/snowflake/connector/vendored/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+snowflake.connector.vendored.requests.exceptions.ConnectionError: HTTPSConnectionPool(host='nya25226.snowflakecomputing.com', port=443): Max retries exceeded with url: /session/v1/login-request?request_id=1130ddb6-1d60-4ae8-9981-7e69337558f9&databaseName=EDW_PROD&schemaName=EDW&warehouse=COMPUTE_WH&roleName=ACCOUNTADMIN&request_guid=1ea0627d-291d-47a5-b2e3-5a74ced56e13 (Caused by NewConnectionError('<snowflake.connector.vendored.urllib3.connection.HTTPSConnection object at 0x7fd24e14c400>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/osboxes/.local/lib/python3.8/site-packages/snowflake/connector/connection.py", line 1014, in __authenticate
+    auth.authenticate(
+  File "/home/osboxes/.local/lib/python3.8/site-packages/snowflake/connector/auth.py", line 257, in authenticate
+    ret = self._rest._post_request(
+  File "/home/osboxes/.local/lib/python3.8/site-packages/snowflake/connector/network.py", line 705, in _post_request
+    ret = self.fetch(
+  File "/home/osboxes/.local/lib/python3.8/site-packages/snowflake/connector/network.py", line 795, in fetch
+    ret = self._request_exec_wrapper(
+  File "/home/osboxes/.local/lib/python3.8/site-packages/snowflake/connector/network.py", line 905, in _request_exec_wrapper
+    raise e
+  File "/home/osboxes/.local/lib/python3.8/site-packages/snowflake/connector/network.py", line 838, in _request_exec_wrapper
+    return_object = self._request_exec(
+  File "/home/osboxes/.local/lib/python3.8/site-packages/snowflake/connector/network.py", line 1086, in _request_exec
+    raise OperationalError(
+snowflake.connector.errors.OperationalError: 251011: 251011: ConnectionTimeout occurred. Will be handled by authenticator
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/osboxes/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 171, in execute
+    return_value = self.execute_callable()
+  File "/home/osboxes/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 189, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/osboxes/airflow/dags/nse_daily_load_stg.py", line 27, in load_local_inter_stg
+    res1 = ld_lcl_ins.run(sql = sql_t)
+  File "/home/osboxes/.local/lib/python3.8/site-packages/airflow/providers/snowflake/hooks/snowflake.py", line 320, in run
+    with closing(self.get_conn()) as conn:
+  File "/home/osboxes/.local/lib/python3.8/site-packages/airflow/providers/snowflake/hooks/snowflake.py", line 259, in get_conn
+    conn = connector.connect(**conn_config)
+  File "/home/osboxes/.local/lib/python3.8/site-packages/snowflake/connector/__init__.py", line 51, in Connect
+    return SnowflakeConnection(**kwargs)
+  File "/home/osboxes/.local/lib/python3.8/site-packages/snowflake/connector/connection.py", line 279, in __init__
+    self.connect(**kwargs)
+  File "/home/osboxes/.local/lib/python3.8/site-packages/snowflake/connector/connection.py", line 492, in connect
+    self.__open_connection()
+  File "/home/osboxes/.local/lib/python3.8/site-packages/snowflake/connector/connection.py", line 731, in __open_connection
+    self._authenticate(auth_instance)
+  File "/home/osboxes/.local/lib/python3.8/site-packages/snowflake/connector/connection.py", line 994, in _authenticate
+    self.__authenticate(self.__preprocess_auth_instance(auth_instance))
+  File "/home/osboxes/.local/lib/python3.8/site-packages/snowflake/connector/connection.py", line 1059, in __authenticate
+    raise auth_op
+  File "/home/osboxes/.local/lib/python3.8/site-packages/snowflake/connector/connection.py", line 1036, in __authenticate
+    auth_instance.handle_timeout(
+  File "/home/osboxes/.local/lib/python3.8/site-packages/snowflake/connector/auth_by_plugin.py", line 117, in handle_timeout
+    raise OperationalError(
+snowflake.connector.errors.OperationalError: 250001: 250001: Could not connect to Snowflake backend after 0 attempt(s).Aborting
+[2022-07-28 22:31:29,746] {taskinstance.py:1395} INFO - Marking task as FAILED. dag_id=nse_daily_data_load, task_id=load_ftp_namedstage, execution_date=20220729T023113, start_date=20220729T023125, end_date=20220729T023129
+[2022-07-28 22:31:29,990] {standard_task_runner.py:92} ERROR - Failed to execute job 58 for task load_ftp_namedstage (250001: 250001: Could not connect to Snowflake backend after 0 attempt(s).Aborting; 2812114)
+[2022-07-28 22:31:30,033] {local_task_job.py:156} INFO - Task exited with return code 1
+[2022-07-28 22:31:30,223] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

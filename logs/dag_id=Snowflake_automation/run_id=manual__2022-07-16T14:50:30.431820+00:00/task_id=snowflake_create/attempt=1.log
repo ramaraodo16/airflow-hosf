@@ -1,0 +1,39 @@
+[2022-07-16 10:50:38,505] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: Snowflake_automation.snowflake_create manual__2022-07-16T14:50:30.431820+00:00 [queued]>
+[2022-07-16 10:50:38,511] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: Snowflake_automation.snowflake_create manual__2022-07-16T14:50:30.431820+00:00 [queued]>
+[2022-07-16 10:50:38,512] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-16 10:50:38,512] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2022-07-16 10:50:38,512] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-16 10:50:38,543] {taskinstance.py:1377} INFO - Executing <Task(SnowflakeOperator): snowflake_create> on 2022-07-16 14:50:30.431820+00:00
+[2022-07-16 10:50:38,546] {standard_task_runner.py:52} INFO - Started process 34667 to run task
+[2022-07-16 10:50:38,551] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'Snowflake_automation', 'snowflake_create', 'manual__2022-07-16T14:50:30.431820+00:00', '--job-id', '5', '--raw', '--subdir', 'DAGS_FOLDER/test_0716.py', '--cfg-path', '/tmp/tmpiz3tv8gn', '--error-file', '/tmp/tmpb6rlx783']
+[2022-07-16 10:50:38,552] {standard_task_runner.py:80} INFO - Job 5: Subtask snowflake_create
+[2022-07-16 10:50:38,602] {task_command.py:369} INFO - Running <TaskInstance: Snowflake_automation.snowflake_create manual__2022-07-16T14:50:30.431820+00:00 [running]> on host osboxes
+[2022-07-16 10:50:38,693] {taskinstance.py:1569} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=Airflow
+AIRFLOW_CTX_DAG_ID=Snowflake_automation
+AIRFLOW_CTX_TASK_ID=snowflake_create
+AIRFLOW_CTX_EXECUTION_DATE=2022-07-16T14:50:30.431820+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-07-16T14:50:30.431820+00:00
+[2022-07-16 10:50:38,693] {snowflake.py:118} INFO - Executing: [' Create table IF not exists EDW_PROD.EDW.Airflow_test_tab (dag_pname string  Pipe_number number(10,0));', " insert into EDW_PROD.EDW.Airflow_test_tab values('Test_AF_SF', 1);", " insert into EDW_PROD.EDW.Airflow_test_tab values('Test2_AF_SF', 2);"]
+[2022-07-16 10:50:38,707] {taskinstance.py:1889} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/osboxes/.local/lib/python3.8/site-packages/airflow/providers/snowflake/operators/snowflake.py", line 120, in execute
+    execution_info = hook.run(self.sql, autocommit=self.autocommit, parameters=self.parameters)
+  File "/home/osboxes/.local/lib/python3.8/site-packages/airflow/providers/snowflake/hooks/snowflake.py", line 320, in run
+    with closing(self.get_conn()) as conn:
+  File "/home/osboxes/.local/lib/python3.8/site-packages/airflow/providers/snowflake/hooks/snowflake.py", line 258, in get_conn
+    conn_config = self._get_conn_params()
+  File "/home/osboxes/.local/lib/python3.8/site-packages/airflow/providers/snowflake/hooks/snowflake.py", line 160, in _get_conn_params
+    conn = self.get_connection(self.snowflake_conn_id)  # type: ignore[attr-defined]
+  File "/home/osboxes/.local/lib/python3.8/site-packages/airflow/hooks/base.py", line 67, in get_connection
+    conn = Connection.get_connection_from_secrets(conn_id)
+  File "/home/osboxes/.local/lib/python3.8/site-packages/airflow/models/connection.py", line 430, in get_connection_from_secrets
+    raise AirflowNotFoundException(f"The conn_id `{conn_id}` isn't defined")
+airflow.exceptions.AirflowNotFoundException: The conn_id `Snowflake_conn_id` isn't defined
+[2022-07-16 10:50:38,710] {taskinstance.py:1395} INFO - Marking task as FAILED. dag_id=Snowflake_automation, task_id=snowflake_create, execution_date=20220716T145030, start_date=20220716T145038, end_date=20220716T145038
+[2022-07-16 10:50:38,743] {standard_task_runner.py:92} ERROR - Failed to execute job 5 for task snowflake_create (The conn_id `Snowflake_conn_id` isn't defined; 34667)
+[2022-07-16 10:50:38,749] {local_task_job.py:156} INFO - Task exited with return code 1
+[2022-07-16 10:50:38,790] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

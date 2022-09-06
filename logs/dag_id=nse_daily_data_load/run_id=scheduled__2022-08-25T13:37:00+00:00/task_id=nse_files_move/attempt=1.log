@@ -1,0 +1,31 @@
+[2022-08-28 11:05:14,808] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: nse_daily_data_load.nse_files_move scheduled__2022-08-25T13:37:00+00:00 [queued]>
+[2022-08-28 11:05:14,858] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: nse_daily_data_load.nse_files_move scheduled__2022-08-25T13:37:00+00:00 [queued]>
+[2022-08-28 11:05:14,859] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2022-08-28 11:05:14,860] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2022-08-28 11:05:14,860] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2022-08-28 11:05:14,928] {taskinstance.py:1377} INFO - Executing <Task(PythonOperator): nse_files_move> on 2022-08-25 13:37:00+00:00
+[2022-08-28 11:05:14,932] {standard_task_runner.py:52} INFO - Started process 10130 to run task
+[2022-08-28 11:05:14,957] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'nse_daily_data_load', 'nse_files_move', 'scheduled__2022-08-25T13:37:00+00:00', '--job-id', '389', '--raw', '--subdir', 'DAGS_FOLDER/nse_daily_load_stg.py', '--cfg-path', '/tmp/tmpo6oolozp', '--error-file', '/tmp/tmpn23pxblt']
+[2022-08-28 11:05:14,976] {standard_task_runner.py:80} INFO - Job 389: Subtask nse_files_move
+[2022-08-28 11:05:15,446] {task_command.py:369} INFO - Running <TaskInstance: nse_daily_data_load.nse_files_move scheduled__2022-08-25T13:37:00+00:00 [running]> on host osboxes
+[2022-08-28 11:05:15,876] {taskinstance.py:1569} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=Airflow
+AIRFLOW_CTX_DAG_ID=nse_daily_data_load
+AIRFLOW_CTX_TASK_ID=nse_files_move
+AIRFLOW_CTX_EXECUTION_DATE=2022-08-25T13:37:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-08-25T13:37:00+00:00
+[2022-08-28 11:05:15,880] {logging_mixin.py:115} INFO - 2022-08-28
+[2022-08-28 11:05:15,913] {logging_mixin.py:115} INFO - directory already available
+[2022-08-28 11:05:15,913] {logging_mixin.py:115} INFO - /home/osboxes/Desktop/archives_files/2022-08-28 target file location
+[2022-08-28 11:05:15,913] {logging_mixin.py:115} INFO - /home/osboxes/Desktop/Files/cm12AUG2022bhav.csv 
+ error identified Destination path '/home/osboxes/Desktop/archives_files/2022-08-28/cm12AUG2022bhav.csv' already exists
+[2022-08-28 11:05:15,935] {python.py:173} INFO - Done. Returned value was: None
+[2022-08-28 11:05:16,142] {taskinstance.py:1395} INFO - Marking task as SUCCESS. dag_id=nse_daily_data_load, task_id=nse_files_move, execution_date=20220825T133700, start_date=20220828T150514, end_date=20220828T150516
+[2022-08-28 11:05:21,449] {standard_task_runner.py:92} ERROR - Failed to execute job 389 for task nse_files_move ((sqlite3.OperationalError) database is locked
+(Background on this error at: http://sqlalche.me/e/14/e3q8); 10130)
+[2022-08-28 11:05:21,590] {local_task_job.py:156} INFO - Task exited with return code 1
+[2022-08-28 11:05:21,608] {taskinstance.py:1395} INFO - Marking task as FAILED. dag_id=nse_daily_data_load, task_id=nse_files_move, execution_date=20220825T133700, start_date=20220828T150514, end_date=20220828T150521
+[2022-08-28 11:05:25,952] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

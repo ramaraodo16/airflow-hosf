@@ -1,0 +1,54 @@
+[2022-07-17 12:04:24,091] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: nse_daily_data_load.Named_stg_copy_tstg manual__2022-07-17T15:51:20.430255+00:00 [queued]>
+[2022-07-17 12:04:24,102] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: nse_daily_data_load.Named_stg_copy_tstg manual__2022-07-17T15:51:20.430255+00:00 [queued]>
+[2022-07-17 12:04:24,102] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-17 12:04:24,103] {taskinstance.py:1357} INFO - Starting attempt 2 of 2
+[2022-07-17 12:04:24,103] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-17 12:04:24,144] {taskinstance.py:1377} INFO - Executing <Task(SnowflakeOperator): Named_stg_copy_tstg> on 2022-07-17 15:51:20.430255+00:00
+[2022-07-17 12:04:24,148] {standard_task_runner.py:52} INFO - Started process 360242 to run task
+[2022-07-17 12:04:24,153] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'nse_daily_data_load', 'Named_stg_copy_tstg', 'manual__2022-07-17T15:51:20.430255+00:00', '--job-id', '20', '--raw', '--subdir', 'DAGS_FOLDER/nse_daily_load_stg.py', '--cfg-path', '/tmp/tmph5ueb4u4', '--error-file', '/tmp/tmp_x7rdeq8']
+[2022-07-17 12:04:24,153] {standard_task_runner.py:80} INFO - Job 20: Subtask Named_stg_copy_tstg
+[2022-07-17 12:04:24,233] {task_command.py:369} INFO - Running <TaskInstance: nse_daily_data_load.Named_stg_copy_tstg manual__2022-07-17T15:51:20.430255+00:00 [running]> on host osboxes
+[2022-07-17 12:04:24,294] {taskinstance.py:1569} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=Airflow
+AIRFLOW_CTX_DAG_ID=nse_daily_data_load
+AIRFLOW_CTX_TASK_ID=Named_stg_copy_tstg
+AIRFLOW_CTX_EXECUTION_DATE=2022-07-17T15:51:20.430255+00:00
+AIRFLOW_CTX_TRY_NUMBER=2
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-07-17T15:51:20.430255+00:00
+[2022-07-17 12:04:24,294] {snowflake.py:118} INFO - Executing: copy into "TEST_DB"."EDW_DEV"."NSE_STOCK_DAILY_DATA_STG" 
+from @nse_stocks_data_stg/ pattern =  '.*cm.*' file_format = 'EDW_DEV.EDW.NSE_SD_FMT_CSV' purge =true; 
+[2022-07-17 12:04:24,319] {base.py:68} INFO - Using connection ID 'snowflake_conn_id' for task execution.
+[2022-07-17 12:04:24,322] {connection.py:257} INFO - Snowflake Connector for Python Version: 2.7.8, Python Version: 3.8.10, Platform: Linux-5.4.0-74-generic-x86_64-with-glibc2.29
+[2022-07-17 12:04:24,323] {connection.py:876} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2022-07-17 12:04:24,323] {connection.py:894} INFO - Setting use_openssl_only mode to False
+[2022-07-17 12:04:25,160] {cursor.py:710} INFO - query: [ALTER SESSION SET autocommit=True]
+[2022-07-17 12:04:25,258] {cursor.py:734} INFO - query execution done
+[2022-07-17 12:04:25,258] {snowflake.py:328} INFO - Running statement: copy into "TEST_DB"."EDW_DEV"."NSE_STOCK_DAILY_DATA_STG" 
+from @nse_stocks_data_stg/ pattern =  '.*cm.*' file_format = 'EDW_DEV.EDW.NSE_SD_FMT_CSV' purge =true;, parameters: None
+[2022-07-17 12:04:25,259] {cursor.py:710} INFO - query: [copy into "TEST_DB"."EDW_DEV"."NSE_STOCK_DAILY_DATA_STG" from @nse_stocks_data_s...]
+[2022-07-17 12:04:25,337] {cursor.py:734} INFO - query execution done
+[2022-07-17 12:04:25,340] {connection.py:507} INFO - closed
+[2022-07-17 12:04:25,388] {connection.py:510} INFO - No async queries seem to be running, deleting session
+[2022-07-17 12:04:25,472] {taskinstance.py:1889} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/osboxes/.local/lib/python3.8/site-packages/airflow/providers/snowflake/operators/snowflake.py", line 120, in execute
+    execution_info = hook.run(self.sql, autocommit=self.autocommit, parameters=self.parameters)
+  File "/home/osboxes/.local/lib/python3.8/site-packages/airflow/providers/snowflake/hooks/snowflake.py", line 332, in run
+    cur.execute(sql_statement)
+  File "/home/osboxes/.local/lib/python3.8/site-packages/snowflake/connector/cursor.py", line 799, in execute
+    Error.errorhandler_wrapper(self.connection, self, error_class, errvalue)
+  File "/home/osboxes/.local/lib/python3.8/site-packages/snowflake/connector/errors.py", line 273, in errorhandler_wrapper
+    handed_over = Error.hand_to_other_handler(
+  File "/home/osboxes/.local/lib/python3.8/site-packages/snowflake/connector/errors.py", line 328, in hand_to_other_handler
+    cursor.errorhandler(connection, cursor, error_class, error_value)
+  File "/home/osboxes/.local/lib/python3.8/site-packages/snowflake/connector/errors.py", line 207, in default_errorhandler
+    raise error_class(
+snowflake.connector.errors.ProgrammingError: 001757 (42601): 01a5ab84-0601-a62d-0065-88030006257a: SQL compilation error:
+Table 'TEST_DB.EDW_DEV.NSE_STOCK_DAILY_DATA_STG' does not exist
+[2022-07-17 12:04:25,480] {taskinstance.py:1395} INFO - Marking task as FAILED. dag_id=nse_daily_data_load, task_id=Named_stg_copy_tstg, execution_date=20220717T155120, start_date=20220717T160424, end_date=20220717T160425
+[2022-07-17 12:04:25,535] {standard_task_runner.py:92} ERROR - Failed to execute job 20 for task Named_stg_copy_tstg (001757 (42601): 01a5ab84-0601-a62d-0065-88030006257a: SQL compilation error:
+Table 'TEST_DB.EDW_DEV.NSE_STOCK_DAILY_DATA_STG' does not exist; 360242)
+[2022-07-17 12:04:25,547] {local_task_job.py:156} INFO - Task exited with return code 1
+[2022-07-17 12:04:25,600] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

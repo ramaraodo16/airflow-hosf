@@ -1,0 +1,142 @@
+[2022-08-11 22:46:26,098] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: nse_daily_data_load.old_files_clear manual__2022-08-12T02:46:13.868910+00:00 [queued]>
+[2022-08-11 22:46:26,106] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: nse_daily_data_load.old_files_clear manual__2022-08-12T02:46:13.868910+00:00 [queued]>
+[2022-08-11 22:46:26,127] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2022-08-11 22:46:26,127] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2022-08-11 22:46:26,128] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2022-08-11 22:46:26,290] {taskinstance.py:1377} INFO - Executing <Task(PythonOperator): old_files_clear> on 2022-08-12 02:46:13.868910+00:00
+[2022-08-11 22:46:26,331] {standard_task_runner.py:52} INFO - Started process 30667 to run task
+[2022-08-11 22:46:26,342] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'nse_daily_data_load', 'old_files_clear', 'manual__2022-08-12T02:46:13.868910+00:00', '--job-id', '260', '--raw', '--subdir', 'DAGS_FOLDER/nse_daily_load_stg.py', '--cfg-path', '/tmp/tmp9yv9l5ny', '--error-file', '/tmp/tmp3qm1i4e8']
+[2022-08-11 22:46:26,358] {standard_task_runner.py:80} INFO - Job 260: Subtask old_files_clear
+[2022-08-11 22:46:27,044] {task_command.py:369} INFO - Running <TaskInstance: nse_daily_data_load.old_files_clear manual__2022-08-12T02:46:13.868910+00:00 [running]> on host osboxes
+[2022-08-11 22:46:27,380] {taskinstance.py:1569} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=Airflow
+AIRFLOW_CTX_DAG_ID=nse_daily_data_load
+AIRFLOW_CTX_TASK_ID=old_files_clear
+AIRFLOW_CTX_EXECUTION_DATE=2022-08-12T02:46:13.868910+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-08-12T02:46:13.868910+00:00
+[2022-08-11 22:46:27,381] {logging_mixin.py:115} INFO - directory already available
+[2022-08-11 22:46:27,381] {logging_mixin.py:115} INFO - directory already available
+[2022-08-11 22:46:27,381] {logging_mixin.py:115} INFO - get sub dir []
+[2022-08-11 22:46:27,381] {logging_mixin.py:115} INFO - /home/osboxes/Desktop/bkp/2022-08-11/ c-1
+[2022-08-11 22:46:27,381] {logging_mixin.py:115} INFO - new tgt /home/osboxes/Desktop/bkp/2022-08-11/c-1
+[2022-08-11 22:46:27,382] {logging_mixin.py:115} INFO - 2022-08-11
+[2022-08-11 22:46:27,382] {logging_mixin.py:115} INFO - ['cm29JUL2022bhav.csv.zip', 'cm03AUG2022bhav.csv (3).zip', 'cm01AUG2022bhav.csv (3).zip', 'cm28JUL2022bhav.csv (3).zip', '.env', 'cm10AUG2022bhav.csv (1).zip', 'cm28JUL2022bhav.csv (2).zip', 'cm01AUG2022bhav.csv (1).zip', 'cm28JUL2022bhav.csv (1).zip', 'airflow.cfg', 'dags', 'cm27JUL2022bhav.csv (2).zip', 'cm29JUL2022bhav.csv (3).zip', 'cm08AUG2022bhav.csv (1).zip', 'cm29JUL2022bhav.csv (7).zip', 'cm04AUG2022bhav.csv (1).zip', 'cm05AUG2022bhav.csv (1).zip', 'plugins', 'logs', 'cm25JUL2022bhav.csv (2).zip', 'cm25JUL2022bhav.csv (1).zip', 'webserver_config.py', 'cm02AUG2022bhav.csv (3).zip', 'cm29JUL2022bhav.csv (6).zip', 'README.md', 'cm02AUG2022bhav.csv (1).zip', 'cm26JUL2022bhav.csv (3).zip', '.git', 'cm27JUL2022bhav.csv (1).zip', 'cm26JUL2022bhav.csv (1).zip', 'docker-compose.yml', 'cm11AUG2022bhav.csv (1).zip', 'airflow.db', 'cm04AUG2022bhav.csv (2).zip', 'airflow-webserver.pid', 'cm27JUL2022bhav.csv (3).zip', 'cm02AUG2022bhav.csv (2).zip', 'cm29JUL2022bhav.csv (1).zip', 'cm03AUG2022bhav.csv (2).zip', 'cm29JUL2022bhav.csv (2).zip', 'cm26JUL2022bhav.csv (2).zip', 'cm29JUL2022bhav.csv (4).zip', 'cm29JUL2022bhav.csv (8).zip', 'cm05AUG2022bhav.csv (2).zip', 'cm03AUG2022bhav.csv (1).zip', 'cm01AUG2022bhav.csv (2).zip', 'cm29JUL2022bhav.csv (5).zip', 'cm25JUL2022bhav.csv (3).zip'] get current directory
+[2022-08-11 22:46:27,382] {logging_mixin.py:115} INFO - Testin ------------- <module 'posixpath' from '/usr/lib/python3.8/posixpath.py'> ------- /home/osboxes/airflow/dags
+[2022-08-11 22:46:27,382] {logging_mixin.py:115} INFO - cm29JUL2022bhav.csv.zip file1 ====== /home/osboxes/airflow/dags
+[2022-08-11 22:46:27,382] {logging_mixin.py:115} INFO - /home/osboxes/airflow/dags/cm29JUL2022bhav.csv.zip 
+ error identified [Errno 2] No such file or directory: '/home/osboxes/airflow/dags/cm29JUL2022bhav.csv.zip'
+[2022-08-11 22:46:27,382] {logging_mixin.py:115} INFO - cm03AUG2022bhav.csv (3).zip file1 ====== /home/osboxes/airflow/dags
+[2022-08-11 22:46:27,382] {logging_mixin.py:115} INFO - /home/osboxes/airflow/dags/cm03AUG2022bhav.csv (3).zip 
+ error identified [Errno 2] No such file or directory: '/home/osboxes/airflow/dags/cm03AUG2022bhav.csv (3).zip'
+[2022-08-11 22:46:27,382] {logging_mixin.py:115} INFO - cm01AUG2022bhav.csv (3).zip file1 ====== /home/osboxes/airflow/dags
+[2022-08-11 22:46:27,382] {logging_mixin.py:115} INFO - /home/osboxes/airflow/dags/cm01AUG2022bhav.csv (3).zip 
+ error identified [Errno 2] No such file or directory: '/home/osboxes/airflow/dags/cm01AUG2022bhav.csv (3).zip'
+[2022-08-11 22:46:27,382] {logging_mixin.py:115} INFO - cm28JUL2022bhav.csv (3).zip file1 ====== /home/osboxes/airflow/dags
+[2022-08-11 22:46:27,382] {logging_mixin.py:115} INFO - /home/osboxes/airflow/dags/cm28JUL2022bhav.csv (3).zip 
+ error identified [Errno 2] No such file or directory: '/home/osboxes/airflow/dags/cm28JUL2022bhav.csv (3).zip'
+[2022-08-11 22:46:27,382] {logging_mixin.py:115} INFO - cm10AUG2022bhav.csv (1).zip file1 ====== /home/osboxes/airflow/dags
+[2022-08-11 22:46:27,382] {logging_mixin.py:115} INFO - /home/osboxes/airflow/dags/cm10AUG2022bhav.csv (1).zip 
+ error identified [Errno 2] No such file or directory: '/home/osboxes/airflow/dags/cm10AUG2022bhav.csv (1).zip'
+[2022-08-11 22:46:27,382] {logging_mixin.py:115} INFO - cm28JUL2022bhav.csv (2).zip file1 ====== /home/osboxes/airflow/dags
+[2022-08-11 22:46:27,382] {logging_mixin.py:115} INFO - /home/osboxes/airflow/dags/cm28JUL2022bhav.csv (2).zip 
+ error identified [Errno 2] No such file or directory: '/home/osboxes/airflow/dags/cm28JUL2022bhav.csv (2).zip'
+[2022-08-11 22:46:27,382] {logging_mixin.py:115} INFO - cm01AUG2022bhav.csv (1).zip file1 ====== /home/osboxes/airflow/dags
+[2022-08-11 22:46:27,382] {logging_mixin.py:115} INFO - /home/osboxes/airflow/dags/cm01AUG2022bhav.csv (1).zip 
+ error identified [Errno 2] No such file or directory: '/home/osboxes/airflow/dags/cm01AUG2022bhav.csv (1).zip'
+[2022-08-11 22:46:27,382] {logging_mixin.py:115} INFO - cm28JUL2022bhav.csv (1).zip file1 ====== /home/osboxes/airflow/dags
+[2022-08-11 22:46:27,382] {logging_mixin.py:115} INFO - /home/osboxes/airflow/dags/cm28JUL2022bhav.csv (1).zip 
+ error identified [Errno 2] No such file or directory: '/home/osboxes/airflow/dags/cm28JUL2022bhav.csv (1).zip'
+[2022-08-11 22:46:27,383] {logging_mixin.py:115} INFO - cm27JUL2022bhav.csv (2).zip file1 ====== /home/osboxes/airflow/dags
+[2022-08-11 22:46:27,383] {logging_mixin.py:115} INFO - /home/osboxes/airflow/dags/cm27JUL2022bhav.csv (2).zip 
+ error identified [Errno 2] No such file or directory: '/home/osboxes/airflow/dags/cm27JUL2022bhav.csv (2).zip'
+[2022-08-11 22:46:27,383] {logging_mixin.py:115} INFO - cm29JUL2022bhav.csv (3).zip file1 ====== /home/osboxes/airflow/dags
+[2022-08-11 22:46:27,383] {logging_mixin.py:115} INFO - /home/osboxes/airflow/dags/cm29JUL2022bhav.csv (3).zip 
+ error identified [Errno 2] No such file or directory: '/home/osboxes/airflow/dags/cm29JUL2022bhav.csv (3).zip'
+[2022-08-11 22:46:27,383] {logging_mixin.py:115} INFO - cm08AUG2022bhav.csv (1).zip file1 ====== /home/osboxes/airflow/dags
+[2022-08-11 22:46:27,383] {logging_mixin.py:115} INFO - /home/osboxes/airflow/dags/cm08AUG2022bhav.csv (1).zip 
+ error identified [Errno 2] No such file or directory: '/home/osboxes/airflow/dags/cm08AUG2022bhav.csv (1).zip'
+[2022-08-11 22:46:27,383] {logging_mixin.py:115} INFO - cm29JUL2022bhav.csv (7).zip file1 ====== /home/osboxes/airflow/dags
+[2022-08-11 22:46:27,383] {logging_mixin.py:115} INFO - /home/osboxes/airflow/dags/cm29JUL2022bhav.csv (7).zip 
+ error identified [Errno 2] No such file or directory: '/home/osboxes/airflow/dags/cm29JUL2022bhav.csv (7).zip'
+[2022-08-11 22:46:27,383] {logging_mixin.py:115} INFO - cm04AUG2022bhav.csv (1).zip file1 ====== /home/osboxes/airflow/dags
+[2022-08-11 22:46:27,383] {logging_mixin.py:115} INFO - /home/osboxes/airflow/dags/cm04AUG2022bhav.csv (1).zip 
+ error identified [Errno 2] No such file or directory: '/home/osboxes/airflow/dags/cm04AUG2022bhav.csv (1).zip'
+[2022-08-11 22:46:27,383] {logging_mixin.py:115} INFO - cm05AUG2022bhav.csv (1).zip file1 ====== /home/osboxes/airflow/dags
+[2022-08-11 22:46:27,383] {logging_mixin.py:115} INFO - /home/osboxes/airflow/dags/cm05AUG2022bhav.csv (1).zip 
+ error identified [Errno 2] No such file or directory: '/home/osboxes/airflow/dags/cm05AUG2022bhav.csv (1).zip'
+[2022-08-11 22:46:27,383] {logging_mixin.py:115} INFO - cm25JUL2022bhav.csv (2).zip file1 ====== /home/osboxes/airflow/dags
+[2022-08-11 22:46:27,383] {logging_mixin.py:115} INFO - /home/osboxes/airflow/dags/cm25JUL2022bhav.csv (2).zip 
+ error identified [Errno 2] No such file or directory: '/home/osboxes/airflow/dags/cm25JUL2022bhav.csv (2).zip'
+[2022-08-11 22:46:27,383] {logging_mixin.py:115} INFO - cm25JUL2022bhav.csv (1).zip file1 ====== /home/osboxes/airflow/dags
+[2022-08-11 22:46:27,383] {logging_mixin.py:115} INFO - /home/osboxes/airflow/dags/cm25JUL2022bhav.csv (1).zip 
+ error identified [Errno 2] No such file or directory: '/home/osboxes/airflow/dags/cm25JUL2022bhav.csv (1).zip'
+[2022-08-11 22:46:27,383] {logging_mixin.py:115} INFO - cm02AUG2022bhav.csv (3).zip file1 ====== /home/osboxes/airflow/dags
+[2022-08-11 22:46:27,383] {logging_mixin.py:115} INFO - /home/osboxes/airflow/dags/cm02AUG2022bhav.csv (3).zip 
+ error identified [Errno 2] No such file or directory: '/home/osboxes/airflow/dags/cm02AUG2022bhav.csv (3).zip'
+[2022-08-11 22:46:27,383] {logging_mixin.py:115} INFO - cm29JUL2022bhav.csv (6).zip file1 ====== /home/osboxes/airflow/dags
+[2022-08-11 22:46:27,383] {logging_mixin.py:115} INFO - /home/osboxes/airflow/dags/cm29JUL2022bhav.csv (6).zip 
+ error identified [Errno 2] No such file or directory: '/home/osboxes/airflow/dags/cm29JUL2022bhav.csv (6).zip'
+[2022-08-11 22:46:27,383] {logging_mixin.py:115} INFO - cm02AUG2022bhav.csv (1).zip file1 ====== /home/osboxes/airflow/dags
+[2022-08-11 22:46:27,384] {logging_mixin.py:115} INFO - /home/osboxes/airflow/dags/cm02AUG2022bhav.csv (1).zip 
+ error identified [Errno 2] No such file or directory: '/home/osboxes/airflow/dags/cm02AUG2022bhav.csv (1).zip'
+[2022-08-11 22:46:27,384] {logging_mixin.py:115} INFO - cm26JUL2022bhav.csv (3).zip file1 ====== /home/osboxes/airflow/dags
+[2022-08-11 22:46:27,384] {logging_mixin.py:115} INFO - /home/osboxes/airflow/dags/cm26JUL2022bhav.csv (3).zip 
+ error identified [Errno 2] No such file or directory: '/home/osboxes/airflow/dags/cm26JUL2022bhav.csv (3).zip'
+[2022-08-11 22:46:27,384] {logging_mixin.py:115} INFO - cm27JUL2022bhav.csv (1).zip file1 ====== /home/osboxes/airflow/dags
+[2022-08-11 22:46:27,384] {logging_mixin.py:115} INFO - /home/osboxes/airflow/dags/cm27JUL2022bhav.csv (1).zip 
+ error identified [Errno 2] No such file or directory: '/home/osboxes/airflow/dags/cm27JUL2022bhav.csv (1).zip'
+[2022-08-11 22:46:27,384] {logging_mixin.py:115} INFO - cm26JUL2022bhav.csv (1).zip file1 ====== /home/osboxes/airflow/dags
+[2022-08-11 22:46:27,384] {logging_mixin.py:115} INFO - /home/osboxes/airflow/dags/cm26JUL2022bhav.csv (1).zip 
+ error identified [Errno 2] No such file or directory: '/home/osboxes/airflow/dags/cm26JUL2022bhav.csv (1).zip'
+[2022-08-11 22:46:27,384] {logging_mixin.py:115} INFO - cm11AUG2022bhav.csv (1).zip file1 ====== /home/osboxes/airflow/dags
+[2022-08-11 22:46:27,384] {logging_mixin.py:115} INFO - /home/osboxes/airflow/dags/cm11AUG2022bhav.csv (1).zip 
+ error identified [Errno 2] No such file or directory: '/home/osboxes/airflow/dags/cm11AUG2022bhav.csv (1).zip'
+[2022-08-11 22:46:27,384] {logging_mixin.py:115} INFO - cm04AUG2022bhav.csv (2).zip file1 ====== /home/osboxes/airflow/dags
+[2022-08-11 22:46:27,384] {logging_mixin.py:115} INFO - /home/osboxes/airflow/dags/cm04AUG2022bhav.csv (2).zip 
+ error identified [Errno 2] No such file or directory: '/home/osboxes/airflow/dags/cm04AUG2022bhav.csv (2).zip'
+[2022-08-11 22:46:27,384] {logging_mixin.py:115} INFO - cm27JUL2022bhav.csv (3).zip file1 ====== /home/osboxes/airflow/dags
+[2022-08-11 22:46:27,384] {logging_mixin.py:115} INFO - /home/osboxes/airflow/dags/cm27JUL2022bhav.csv (3).zip 
+ error identified [Errno 2] No such file or directory: '/home/osboxes/airflow/dags/cm27JUL2022bhav.csv (3).zip'
+[2022-08-11 22:46:27,384] {logging_mixin.py:115} INFO - cm02AUG2022bhav.csv (2).zip file1 ====== /home/osboxes/airflow/dags
+[2022-08-11 22:46:27,384] {logging_mixin.py:115} INFO - /home/osboxes/airflow/dags/cm02AUG2022bhav.csv (2).zip 
+ error identified [Errno 2] No such file or directory: '/home/osboxes/airflow/dags/cm02AUG2022bhav.csv (2).zip'
+[2022-08-11 22:46:27,384] {logging_mixin.py:115} INFO - cm29JUL2022bhav.csv (1).zip file1 ====== /home/osboxes/airflow/dags
+[2022-08-11 22:46:27,384] {logging_mixin.py:115} INFO - /home/osboxes/airflow/dags/cm29JUL2022bhav.csv (1).zip 
+ error identified [Errno 2] No such file or directory: '/home/osboxes/airflow/dags/cm29JUL2022bhav.csv (1).zip'
+[2022-08-11 22:46:27,384] {logging_mixin.py:115} INFO - cm03AUG2022bhav.csv (2).zip file1 ====== /home/osboxes/airflow/dags
+[2022-08-11 22:46:27,384] {logging_mixin.py:115} INFO - /home/osboxes/airflow/dags/cm03AUG2022bhav.csv (2).zip 
+ error identified [Errno 2] No such file or directory: '/home/osboxes/airflow/dags/cm03AUG2022bhav.csv (2).zip'
+[2022-08-11 22:46:27,384] {logging_mixin.py:115} INFO - cm29JUL2022bhav.csv (2).zip file1 ====== /home/osboxes/airflow/dags
+[2022-08-11 22:46:27,384] {logging_mixin.py:115} INFO - /home/osboxes/airflow/dags/cm29JUL2022bhav.csv (2).zip 
+ error identified [Errno 2] No such file or directory: '/home/osboxes/airflow/dags/cm29JUL2022bhav.csv (2).zip'
+[2022-08-11 22:46:27,384] {logging_mixin.py:115} INFO - cm26JUL2022bhav.csv (2).zip file1 ====== /home/osboxes/airflow/dags
+[2022-08-11 22:46:27,384] {logging_mixin.py:115} INFO - /home/osboxes/airflow/dags/cm26JUL2022bhav.csv (2).zip 
+ error identified [Errno 2] No such file or directory: '/home/osboxes/airflow/dags/cm26JUL2022bhav.csv (2).zip'
+[2022-08-11 22:46:27,384] {logging_mixin.py:115} INFO - cm29JUL2022bhav.csv (4).zip file1 ====== /home/osboxes/airflow/dags
+[2022-08-11 22:46:27,385] {logging_mixin.py:115} INFO - /home/osboxes/airflow/dags/cm29JUL2022bhav.csv (4).zip 
+ error identified [Errno 2] No such file or directory: '/home/osboxes/airflow/dags/cm29JUL2022bhav.csv (4).zip'
+[2022-08-11 22:46:27,385] {logging_mixin.py:115} INFO - cm29JUL2022bhav.csv (8).zip file1 ====== /home/osboxes/airflow/dags
+[2022-08-11 22:46:27,385] {logging_mixin.py:115} INFO - /home/osboxes/airflow/dags/cm29JUL2022bhav.csv (8).zip 
+ error identified [Errno 2] No such file or directory: '/home/osboxes/airflow/dags/cm29JUL2022bhav.csv (8).zip'
+[2022-08-11 22:46:27,385] {logging_mixin.py:115} INFO - cm05AUG2022bhav.csv (2).zip file1 ====== /home/osboxes/airflow/dags
+[2022-08-11 22:46:27,385] {logging_mixin.py:115} INFO - /home/osboxes/airflow/dags/cm05AUG2022bhav.csv (2).zip 
+ error identified [Errno 2] No such file or directory: '/home/osboxes/airflow/dags/cm05AUG2022bhav.csv (2).zip'
+[2022-08-11 22:46:27,385] {logging_mixin.py:115} INFO - cm03AUG2022bhav.csv (1).zip file1 ====== /home/osboxes/airflow/dags
+[2022-08-11 22:46:27,385] {logging_mixin.py:115} INFO - /home/osboxes/airflow/dags/cm03AUG2022bhav.csv (1).zip 
+ error identified [Errno 2] No such file or directory: '/home/osboxes/airflow/dags/cm03AUG2022bhav.csv (1).zip'
+[2022-08-11 22:46:27,385] {logging_mixin.py:115} INFO - cm01AUG2022bhav.csv (2).zip file1 ====== /home/osboxes/airflow/dags
+[2022-08-11 22:46:27,385] {logging_mixin.py:115} INFO - /home/osboxes/airflow/dags/cm01AUG2022bhav.csv (2).zip 
+ error identified [Errno 2] No such file or directory: '/home/osboxes/airflow/dags/cm01AUG2022bhav.csv (2).zip'
+[2022-08-11 22:46:27,385] {logging_mixin.py:115} INFO - cm29JUL2022bhav.csv (5).zip file1 ====== /home/osboxes/airflow/dags
+[2022-08-11 22:46:27,385] {logging_mixin.py:115} INFO - /home/osboxes/airflow/dags/cm29JUL2022bhav.csv (5).zip 
+ error identified [Errno 2] No such file or directory: '/home/osboxes/airflow/dags/cm29JUL2022bhav.csv (5).zip'
+[2022-08-11 22:46:27,385] {logging_mixin.py:115} INFO - cm25JUL2022bhav.csv (3).zip file1 ====== /home/osboxes/airflow/dags
+[2022-08-11 22:46:27,385] {logging_mixin.py:115} INFO - /home/osboxes/airflow/dags/cm25JUL2022bhav.csv (3).zip 
+ error identified [Errno 2] No such file or directory: '/home/osboxes/airflow/dags/cm25JUL2022bhav.csv (3).zip'
+[2022-08-11 22:46:27,385] {python.py:173} INFO - Done. Returned value was: None
+[2022-08-11 22:46:27,436] {taskinstance.py:1395} INFO - Marking task as SUCCESS. dag_id=nse_daily_data_load, task_id=old_files_clear, execution_date=20220812T024613, start_date=20220812T024626, end_date=20220812T024627
+[2022-08-11 22:46:27,612] {local_task_job.py:156} INFO - Task exited with return code 0
+[2022-08-11 22:46:27,782] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check

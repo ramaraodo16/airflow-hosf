@@ -1,0 +1,658 @@
+[2022-08-23 00:07:18,150] {processor.py:153} INFO - Started process (PID=179435) to work on /home/osboxes/airflow/dags/stock_scd2.py
+[2022-08-23 00:07:18,151] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/stock_scd2.py for tasks to queue
+[2022-08-23 00:07:18,151] {logging_mixin.py:115} INFO - [2022-08-23 00:07:18,151] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/stock_scd2.py
+[2022-08-23 00:07:18,746] {logging_mixin.py:115} INFO - [2022-08-23 00:07:18,746] {backend.py:193} INFO - Loading KWallet
+[2022-08-23 00:07:18,751] {logging_mixin.py:115} INFO - [2022-08-23 00:07:18,751] {backend.py:193} INFO - Loading SecretService
+[2022-08-23 00:07:18,757] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:07:18,758] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:07:18,759] {logging_mixin.py:115} INFO - [2022-08-23 00:07:18,758] {backend.py:193} INFO - Loading Windows
+[2022-08-23 00:07:18,759] {logging_mixin.py:115} INFO - [2022-08-23 00:07:18,759] {backend.py:193} INFO - Loading chainer
+[2022-08-23 00:07:18,760] {logging_mixin.py:115} INFO - [2022-08-23 00:07:18,760] {backend.py:193} INFO - Loading macOS
+[2022-08-23 00:07:18,890] {processor.py:651} INFO - DAG(s) dict_keys(['Stockdim_update']) retrieved from /home/osboxes/airflow/dags/stock_scd2.py
+[2022-08-23 00:07:18,906] {logging_mixin.py:115} INFO - [2022-08-23 00:07:18,906] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-23 00:07:18,920] {logging_mixin.py:115} INFO - [2022-08-23 00:07:18,920] {dag.py:2915} INFO - Setting next_dagrun for Stockdim_update to None, run_after=None
+[2022-08-23 00:07:18,963] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/stock_scd2.py took 0.816 seconds
+[2022-08-23 00:07:51,944] {processor.py:153} INFO - Started process (PID=179707) to work on /home/osboxes/airflow/dags/stock_scd2.py
+[2022-08-23 00:07:51,945] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/stock_scd2.py for tasks to queue
+[2022-08-23 00:07:51,945] {logging_mixin.py:115} INFO - [2022-08-23 00:07:51,945] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/stock_scd2.py
+[2022-08-23 00:07:52,448] {logging_mixin.py:115} INFO - [2022-08-23 00:07:52,447] {backend.py:193} INFO - Loading KWallet
+[2022-08-23 00:07:52,453] {logging_mixin.py:115} INFO - [2022-08-23 00:07:52,453] {backend.py:193} INFO - Loading SecretService
+[2022-08-23 00:07:52,459] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:07:52,460] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:07:52,460] {logging_mixin.py:115} INFO - [2022-08-23 00:07:52,460] {backend.py:193} INFO - Loading Windows
+[2022-08-23 00:07:52,461] {logging_mixin.py:115} INFO - [2022-08-23 00:07:52,461] {backend.py:193} INFO - Loading chainer
+[2022-08-23 00:07:52,462] {logging_mixin.py:115} INFO - [2022-08-23 00:07:52,462] {backend.py:193} INFO - Loading macOS
+[2022-08-23 00:07:52,587] {processor.py:651} INFO - DAG(s) dict_keys(['Stockdim_update']) retrieved from /home/osboxes/airflow/dags/stock_scd2.py
+[2022-08-23 00:07:52,601] {logging_mixin.py:115} INFO - [2022-08-23 00:07:52,601] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-23 00:07:52,615] {logging_mixin.py:115} INFO - [2022-08-23 00:07:52,614] {dag.py:2915} INFO - Setting next_dagrun for Stockdim_update to None, run_after=None
+[2022-08-23 00:07:52,649] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/stock_scd2.py took 0.708 seconds
+[2022-08-23 00:08:28,390] {processor.py:153} INFO - Started process (PID=179998) to work on /home/osboxes/airflow/dags/stock_scd2.py
+[2022-08-23 00:08:28,401] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/stock_scd2.py for tasks to queue
+[2022-08-23 00:08:28,401] {logging_mixin.py:115} INFO - [2022-08-23 00:08:28,401] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/stock_scd2.py
+[2022-08-23 00:08:28,887] {logging_mixin.py:115} INFO - [2022-08-23 00:08:28,879] {backend.py:193} INFO - Loading KWallet
+[2022-08-23 00:08:28,897] {logging_mixin.py:115} INFO - [2022-08-23 00:08:28,897] {backend.py:193} INFO - Loading SecretService
+[2022-08-23 00:08:28,903] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:08:28,904] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:08:28,905] {logging_mixin.py:115} INFO - [2022-08-23 00:08:28,905] {backend.py:193} INFO - Loading Windows
+[2022-08-23 00:08:28,906] {logging_mixin.py:115} INFO - [2022-08-23 00:08:28,906] {backend.py:193} INFO - Loading chainer
+[2022-08-23 00:08:28,906] {logging_mixin.py:115} INFO - [2022-08-23 00:08:28,906] {backend.py:193} INFO - Loading macOS
+[2022-08-23 00:08:29,019] {processor.py:651} INFO - DAG(s) dict_keys(['Stockdim_update']) retrieved from /home/osboxes/airflow/dags/stock_scd2.py
+[2022-08-23 00:08:29,034] {logging_mixin.py:115} INFO - [2022-08-23 00:08:29,034] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-23 00:08:29,046] {logging_mixin.py:115} INFO - [2022-08-23 00:08:29,045] {dag.py:2915} INFO - Setting next_dagrun for Stockdim_update to None, run_after=None
+[2022-08-23 00:08:29,068] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/stock_scd2.py took 0.681 seconds
+[2022-08-23 00:09:10,617] {processor.py:153} INFO - Started process (PID=180326) to work on /home/osboxes/airflow/dags/stock_scd2.py
+[2022-08-23 00:09:10,619] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/stock_scd2.py for tasks to queue
+[2022-08-23 00:09:10,619] {logging_mixin.py:115} INFO - [2022-08-23 00:09:10,619] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/stock_scd2.py
+[2022-08-23 00:09:11,094] {logging_mixin.py:115} INFO - [2022-08-23 00:09:11,094] {backend.py:193} INFO - Loading KWallet
+[2022-08-23 00:09:11,099] {logging_mixin.py:115} INFO - [2022-08-23 00:09:11,099] {backend.py:193} INFO - Loading SecretService
+[2022-08-23 00:09:11,104] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:09:11,105] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:09:11,105] {logging_mixin.py:115} INFO - [2022-08-23 00:09:11,105] {backend.py:193} INFO - Loading Windows
+[2022-08-23 00:09:11,106] {logging_mixin.py:115} INFO - [2022-08-23 00:09:11,106] {backend.py:193} INFO - Loading chainer
+[2022-08-23 00:09:11,107] {logging_mixin.py:115} INFO - [2022-08-23 00:09:11,107] {backend.py:193} INFO - Loading macOS
+[2022-08-23 00:09:11,226] {processor.py:651} INFO - DAG(s) dict_keys(['Stockdim_update']) retrieved from /home/osboxes/airflow/dags/stock_scd2.py
+[2022-08-23 00:09:11,239] {logging_mixin.py:115} INFO - [2022-08-23 00:09:11,238] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-23 00:09:11,263] {logging_mixin.py:115} INFO - [2022-08-23 00:09:11,263] {dag.py:2915} INFO - Setting next_dagrun for Stockdim_update to None, run_after=None
+[2022-08-23 00:09:11,288] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/stock_scd2.py took 0.673 seconds
+[2022-08-23 00:09:43,957] {processor.py:153} INFO - Started process (PID=180597) to work on /home/osboxes/airflow/dags/stock_scd2.py
+[2022-08-23 00:09:43,959] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/stock_scd2.py for tasks to queue
+[2022-08-23 00:09:43,959] {logging_mixin.py:115} INFO - [2022-08-23 00:09:43,959] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/stock_scd2.py
+[2022-08-23 00:09:44,438] {logging_mixin.py:115} INFO - [2022-08-23 00:09:44,437] {backend.py:193} INFO - Loading KWallet
+[2022-08-23 00:09:44,442] {logging_mixin.py:115} INFO - [2022-08-23 00:09:44,442] {backend.py:193} INFO - Loading SecretService
+[2022-08-23 00:09:44,450] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:09:44,451] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:09:44,451] {logging_mixin.py:115} INFO - [2022-08-23 00:09:44,451] {backend.py:193} INFO - Loading Windows
+[2022-08-23 00:09:44,452] {logging_mixin.py:115} INFO - [2022-08-23 00:09:44,452] {backend.py:193} INFO - Loading chainer
+[2022-08-23 00:09:44,452] {logging_mixin.py:115} INFO - [2022-08-23 00:09:44,452] {backend.py:193} INFO - Loading macOS
+[2022-08-23 00:09:44,680] {processor.py:651} INFO - DAG(s) dict_keys(['Stockdim_update']) retrieved from /home/osboxes/airflow/dags/stock_scd2.py
+[2022-08-23 00:09:44,692] {logging_mixin.py:115} INFO - [2022-08-23 00:09:44,691] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-23 00:09:44,706] {logging_mixin.py:115} INFO - [2022-08-23 00:09:44,706] {dag.py:2915} INFO - Setting next_dagrun for Stockdim_update to None, run_after=None
+[2022-08-23 00:09:44,731] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/stock_scd2.py took 0.776 seconds
+[2022-08-23 00:10:25,780] {processor.py:153} INFO - Started process (PID=180963) to work on /home/osboxes/airflow/dags/stock_scd2.py
+[2022-08-23 00:10:25,790] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/stock_scd2.py for tasks to queue
+[2022-08-23 00:10:25,792] {logging_mixin.py:115} INFO - [2022-08-23 00:10:25,792] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/stock_scd2.py
+[2022-08-23 00:10:26,815] {logging_mixin.py:115} INFO - [2022-08-23 00:10:26,815] {backend.py:193} INFO - Loading KWallet
+[2022-08-23 00:10:26,820] {logging_mixin.py:115} INFO - [2022-08-23 00:10:26,820] {backend.py:193} INFO - Loading SecretService
+[2022-08-23 00:10:26,829] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:10:26,830] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:10:26,830] {logging_mixin.py:115} INFO - [2022-08-23 00:10:26,830] {backend.py:193} INFO - Loading Windows
+[2022-08-23 00:10:26,831] {logging_mixin.py:115} INFO - [2022-08-23 00:10:26,831] {backend.py:193} INFO - Loading chainer
+[2022-08-23 00:10:26,831] {logging_mixin.py:115} INFO - [2022-08-23 00:10:26,831] {backend.py:193} INFO - Loading macOS
+[2022-08-23 00:10:26,979] {processor.py:651} INFO - DAG(s) dict_keys(['Stockdim_update']) retrieved from /home/osboxes/airflow/dags/stock_scd2.py
+[2022-08-23 00:10:27,025] {logging_mixin.py:115} INFO - [2022-08-23 00:10:27,024] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-23 00:10:27,045] {logging_mixin.py:115} INFO - [2022-08-23 00:10:27,045] {dag.py:2915} INFO - Setting next_dagrun for Stockdim_update to None, run_after=None
+[2022-08-23 00:10:27,084] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/stock_scd2.py took 1.364 seconds
+[2022-08-23 00:11:02,711] {processor.py:153} INFO - Started process (PID=181248) to work on /home/osboxes/airflow/dags/stock_scd2.py
+[2022-08-23 00:11:02,713] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/stock_scd2.py for tasks to queue
+[2022-08-23 00:11:02,714] {logging_mixin.py:115} INFO - [2022-08-23 00:11:02,714] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/stock_scd2.py
+[2022-08-23 00:11:03,440] {logging_mixin.py:115} INFO - [2022-08-23 00:11:03,440] {backend.py:193} INFO - Loading KWallet
+[2022-08-23 00:11:03,445] {logging_mixin.py:115} INFO - [2022-08-23 00:11:03,445] {backend.py:193} INFO - Loading SecretService
+[2022-08-23 00:11:03,449] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:11:03,450] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:11:03,451] {logging_mixin.py:115} INFO - [2022-08-23 00:11:03,451] {backend.py:193} INFO - Loading Windows
+[2022-08-23 00:11:03,451] {logging_mixin.py:115} INFO - [2022-08-23 00:11:03,451] {backend.py:193} INFO - Loading chainer
+[2022-08-23 00:11:03,452] {logging_mixin.py:115} INFO - [2022-08-23 00:11:03,452] {backend.py:193} INFO - Loading macOS
+[2022-08-23 00:11:03,565] {processor.py:651} INFO - DAG(s) dict_keys(['Stockdim_update']) retrieved from /home/osboxes/airflow/dags/stock_scd2.py
+[2022-08-23 00:11:03,589] {logging_mixin.py:115} INFO - [2022-08-23 00:11:03,578] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-23 00:11:03,599] {logging_mixin.py:115} INFO - [2022-08-23 00:11:03,599] {dag.py:2915} INFO - Setting next_dagrun for Stockdim_update to None, run_after=None
+[2022-08-23 00:11:03,649] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/stock_scd2.py took 0.940 seconds
+[2022-08-23 00:11:36,160] {processor.py:153} INFO - Started process (PID=181617) to work on /home/osboxes/airflow/dags/stock_scd2.py
+[2022-08-23 00:11:36,163] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/stock_scd2.py for tasks to queue
+[2022-08-23 00:11:36,164] {logging_mixin.py:115} INFO - [2022-08-23 00:11:36,164] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/stock_scd2.py
+[2022-08-23 00:11:36,634] {logging_mixin.py:115} INFO - [2022-08-23 00:11:36,633] {backend.py:193} INFO - Loading KWallet
+[2022-08-23 00:11:36,640] {logging_mixin.py:115} INFO - [2022-08-23 00:11:36,639] {backend.py:193} INFO - Loading SecretService
+[2022-08-23 00:11:36,644] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:11:36,644] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:11:36,645] {logging_mixin.py:115} INFO - [2022-08-23 00:11:36,645] {backend.py:193} INFO - Loading Windows
+[2022-08-23 00:11:36,658] {logging_mixin.py:115} INFO - [2022-08-23 00:11:36,658] {backend.py:193} INFO - Loading chainer
+[2022-08-23 00:11:36,659] {logging_mixin.py:115} INFO - [2022-08-23 00:11:36,659] {backend.py:193} INFO - Loading macOS
+[2022-08-23 00:11:36,780] {processor.py:651} INFO - DAG(s) dict_keys(['Stockdim_update']) retrieved from /home/osboxes/airflow/dags/stock_scd2.py
+[2022-08-23 00:11:36,792] {logging_mixin.py:115} INFO - [2022-08-23 00:11:36,792] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-23 00:11:36,805] {logging_mixin.py:115} INFO - [2022-08-23 00:11:36,805] {dag.py:2915} INFO - Setting next_dagrun for Stockdim_update to None, run_after=None
+[2022-08-23 00:11:36,837] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/stock_scd2.py took 0.680 seconds
+[2022-08-23 00:12:18,486] {processor.py:153} INFO - Started process (PID=181958) to work on /home/osboxes/airflow/dags/stock_scd2.py
+[2022-08-23 00:12:18,488] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/stock_scd2.py for tasks to queue
+[2022-08-23 00:12:18,488] {logging_mixin.py:115} INFO - [2022-08-23 00:12:18,488] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/stock_scd2.py
+[2022-08-23 00:12:18,964] {logging_mixin.py:115} INFO - [2022-08-23 00:12:18,963] {backend.py:193} INFO - Loading KWallet
+[2022-08-23 00:12:18,968] {logging_mixin.py:115} INFO - [2022-08-23 00:12:18,968] {backend.py:193} INFO - Loading SecretService
+[2022-08-23 00:12:18,977] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:12:18,978] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:12:18,978] {logging_mixin.py:115} INFO - [2022-08-23 00:12:18,978] {backend.py:193} INFO - Loading Windows
+[2022-08-23 00:12:18,979] {logging_mixin.py:115} INFO - [2022-08-23 00:12:18,979] {backend.py:193} INFO - Loading chainer
+[2022-08-23 00:12:18,979] {logging_mixin.py:115} INFO - [2022-08-23 00:12:18,979] {backend.py:193} INFO - Loading macOS
+[2022-08-23 00:12:19,088] {processor.py:651} INFO - DAG(s) dict_keys(['Stockdim_update']) retrieved from /home/osboxes/airflow/dags/stock_scd2.py
+[2022-08-23 00:12:19,103] {logging_mixin.py:115} INFO - [2022-08-23 00:12:19,102] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-23 00:12:19,115] {logging_mixin.py:115} INFO - [2022-08-23 00:12:19,115] {dag.py:2915} INFO - Setting next_dagrun for Stockdim_update to None, run_after=None
+[2022-08-23 00:12:19,143] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/stock_scd2.py took 0.659 seconds
+[2022-08-23 00:12:52,975] {processor.py:153} INFO - Started process (PID=182243) to work on /home/osboxes/airflow/dags/stock_scd2.py
+[2022-08-23 00:12:52,977] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/stock_scd2.py for tasks to queue
+[2022-08-23 00:12:52,977] {logging_mixin.py:115} INFO - [2022-08-23 00:12:52,977] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/stock_scd2.py
+[2022-08-23 00:12:53,440] {logging_mixin.py:115} INFO - [2022-08-23 00:12:53,439] {backend.py:193} INFO - Loading KWallet
+[2022-08-23 00:12:53,445] {logging_mixin.py:115} INFO - [2022-08-23 00:12:53,445] {backend.py:193} INFO - Loading SecretService
+[2022-08-23 00:12:53,450] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:12:53,450] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:12:53,451] {logging_mixin.py:115} INFO - [2022-08-23 00:12:53,451] {backend.py:193} INFO - Loading Windows
+[2022-08-23 00:12:53,451] {logging_mixin.py:115} INFO - [2022-08-23 00:12:53,451] {backend.py:193} INFO - Loading chainer
+[2022-08-23 00:12:53,452] {logging_mixin.py:115} INFO - [2022-08-23 00:12:53,452] {backend.py:193} INFO - Loading macOS
+[2022-08-23 00:12:53,575] {processor.py:651} INFO - DAG(s) dict_keys(['Stockdim_update']) retrieved from /home/osboxes/airflow/dags/stock_scd2.py
+[2022-08-23 00:12:53,587] {logging_mixin.py:115} INFO - [2022-08-23 00:12:53,586] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-23 00:12:53,599] {logging_mixin.py:115} INFO - [2022-08-23 00:12:53,599] {dag.py:2915} INFO - Setting next_dagrun for Stockdim_update to None, run_after=None
+[2022-08-23 00:12:53,624] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/stock_scd2.py took 0.652 seconds
+[2022-08-23 00:13:30,641] {processor.py:153} INFO - Started process (PID=182535) to work on /home/osboxes/airflow/dags/stock_scd2.py
+[2022-08-23 00:13:30,642] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/stock_scd2.py for tasks to queue
+[2022-08-23 00:13:30,643] {logging_mixin.py:115} INFO - [2022-08-23 00:13:30,643] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/stock_scd2.py
+[2022-08-23 00:13:31,146] {logging_mixin.py:115} INFO - [2022-08-23 00:13:31,145] {backend.py:193} INFO - Loading KWallet
+[2022-08-23 00:13:31,152] {logging_mixin.py:115} INFO - [2022-08-23 00:13:31,152] {backend.py:193} INFO - Loading SecretService
+[2022-08-23 00:13:31,157] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:13:31,158] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:13:31,158] {logging_mixin.py:115} INFO - [2022-08-23 00:13:31,158] {backend.py:193} INFO - Loading Windows
+[2022-08-23 00:13:31,159] {logging_mixin.py:115} INFO - [2022-08-23 00:13:31,159] {backend.py:193} INFO - Loading chainer
+[2022-08-23 00:13:31,159] {logging_mixin.py:115} INFO - [2022-08-23 00:13:31,159] {backend.py:193} INFO - Loading macOS
+[2022-08-23 00:13:31,271] {processor.py:651} INFO - DAG(s) dict_keys(['Stockdim_update']) retrieved from /home/osboxes/airflow/dags/stock_scd2.py
+[2022-08-23 00:13:31,285] {logging_mixin.py:115} INFO - [2022-08-23 00:13:31,285] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-23 00:13:31,295] {logging_mixin.py:115} INFO - [2022-08-23 00:13:31,295] {dag.py:2915} INFO - Setting next_dagrun for Stockdim_update to None, run_after=None
+[2022-08-23 00:13:31,320] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/stock_scd2.py took 0.681 seconds
+[2022-08-23 00:14:04,184] {processor.py:153} INFO - Started process (PID=182783) to work on /home/osboxes/airflow/dags/stock_scd2.py
+[2022-08-23 00:14:04,185] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/stock_scd2.py for tasks to queue
+[2022-08-23 00:14:04,186] {logging_mixin.py:115} INFO - [2022-08-23 00:14:04,186] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/stock_scd2.py
+[2022-08-23 00:14:04,775] {logging_mixin.py:115} INFO - [2022-08-23 00:14:04,774] {backend.py:193} INFO - Loading KWallet
+[2022-08-23 00:14:04,781] {logging_mixin.py:115} INFO - [2022-08-23 00:14:04,781] {backend.py:193} INFO - Loading SecretService
+[2022-08-23 00:14:04,785] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:14:04,786] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:14:04,787] {logging_mixin.py:115} INFO - [2022-08-23 00:14:04,786] {backend.py:193} INFO - Loading Windows
+[2022-08-23 00:14:04,789] {logging_mixin.py:115} INFO - [2022-08-23 00:14:04,789] {backend.py:193} INFO - Loading chainer
+[2022-08-23 00:14:04,790] {logging_mixin.py:115} INFO - [2022-08-23 00:14:04,790] {backend.py:193} INFO - Loading macOS
+[2022-08-23 00:14:04,900] {processor.py:651} INFO - DAG(s) dict_keys(['Stockdim_update']) retrieved from /home/osboxes/airflow/dags/stock_scd2.py
+[2022-08-23 00:14:04,923] {logging_mixin.py:115} INFO - [2022-08-23 00:14:04,922] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-23 00:14:04,933] {logging_mixin.py:115} INFO - [2022-08-23 00:14:04,933] {dag.py:2915} INFO - Setting next_dagrun for Stockdim_update to None, run_after=None
+[2022-08-23 00:14:04,968] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/stock_scd2.py took 0.786 seconds
+[2022-08-23 00:14:43,055] {processor.py:153} INFO - Started process (PID=183110) to work on /home/osboxes/airflow/dags/stock_scd2.py
+[2022-08-23 00:14:43,071] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/stock_scd2.py for tasks to queue
+[2022-08-23 00:14:43,073] {logging_mixin.py:115} INFO - [2022-08-23 00:14:43,073] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/stock_scd2.py
+[2022-08-23 00:14:43,547] {logging_mixin.py:115} INFO - [2022-08-23 00:14:43,547] {backend.py:193} INFO - Loading KWallet
+[2022-08-23 00:14:43,554] {logging_mixin.py:115} INFO - [2022-08-23 00:14:43,554] {backend.py:193} INFO - Loading SecretService
+[2022-08-23 00:14:43,559] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:14:43,560] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:14:43,560] {logging_mixin.py:115} INFO - [2022-08-23 00:14:43,560] {backend.py:193} INFO - Loading Windows
+[2022-08-23 00:14:43,561] {logging_mixin.py:115} INFO - [2022-08-23 00:14:43,561] {backend.py:193} INFO - Loading chainer
+[2022-08-23 00:14:43,562] {logging_mixin.py:115} INFO - [2022-08-23 00:14:43,562] {backend.py:193} INFO - Loading macOS
+[2022-08-23 00:14:43,671] {processor.py:651} INFO - DAG(s) dict_keys(['Stockdim_update']) retrieved from /home/osboxes/airflow/dags/stock_scd2.py
+[2022-08-23 00:14:43,683] {logging_mixin.py:115} INFO - [2022-08-23 00:14:43,683] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-23 00:14:43,696] {logging_mixin.py:115} INFO - [2022-08-23 00:14:43,696] {dag.py:2915} INFO - Setting next_dagrun for Stockdim_update to None, run_after=None
+[2022-08-23 00:14:43,732] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/stock_scd2.py took 0.679 seconds
+[2022-08-23 00:15:22,936] {processor.py:153} INFO - Started process (PID=183513) to work on /home/osboxes/airflow/dags/stock_scd2.py
+[2022-08-23 00:15:22,937] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/stock_scd2.py for tasks to queue
+[2022-08-23 00:15:22,938] {logging_mixin.py:115} INFO - [2022-08-23 00:15:22,938] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/stock_scd2.py
+[2022-08-23 00:15:23,447] {logging_mixin.py:115} INFO - [2022-08-23 00:15:23,447] {backend.py:193} INFO - Loading KWallet
+[2022-08-23 00:15:23,454] {logging_mixin.py:115} INFO - [2022-08-23 00:15:23,454] {backend.py:193} INFO - Loading SecretService
+[2022-08-23 00:15:23,458] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:15:23,461] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:15:23,462] {logging_mixin.py:115} INFO - [2022-08-23 00:15:23,462] {backend.py:193} INFO - Loading Windows
+[2022-08-23 00:15:23,463] {logging_mixin.py:115} INFO - [2022-08-23 00:15:23,463] {backend.py:193} INFO - Loading chainer
+[2022-08-23 00:15:23,463] {logging_mixin.py:115} INFO - [2022-08-23 00:15:23,463] {backend.py:193} INFO - Loading macOS
+[2022-08-23 00:15:23,574] {processor.py:651} INFO - DAG(s) dict_keys(['Stockdim_update']) retrieved from /home/osboxes/airflow/dags/stock_scd2.py
+[2022-08-23 00:15:23,596] {logging_mixin.py:115} INFO - [2022-08-23 00:15:23,596] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-23 00:15:23,621] {logging_mixin.py:115} INFO - [2022-08-23 00:15:23,621] {dag.py:2915} INFO - Setting next_dagrun for Stockdim_update to None, run_after=None
+[2022-08-23 00:15:23,649] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/stock_scd2.py took 0.717 seconds
+[2022-08-23 00:15:55,369] {processor.py:153} INFO - Started process (PID=183760) to work on /home/osboxes/airflow/dags/stock_scd2.py
+[2022-08-23 00:15:55,370] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/stock_scd2.py for tasks to queue
+[2022-08-23 00:15:55,370] {logging_mixin.py:115} INFO - [2022-08-23 00:15:55,370] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/stock_scd2.py
+[2022-08-23 00:15:55,835] {logging_mixin.py:115} INFO - [2022-08-23 00:15:55,834] {backend.py:193} INFO - Loading KWallet
+[2022-08-23 00:15:55,839] {logging_mixin.py:115} INFO - [2022-08-23 00:15:55,839] {backend.py:193} INFO - Loading SecretService
+[2022-08-23 00:15:55,847] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:15:55,848] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:15:55,848] {logging_mixin.py:115} INFO - [2022-08-23 00:15:55,848] {backend.py:193} INFO - Loading Windows
+[2022-08-23 00:15:55,849] {logging_mixin.py:115} INFO - [2022-08-23 00:15:55,849] {backend.py:193} INFO - Loading chainer
+[2022-08-23 00:15:55,849] {logging_mixin.py:115} INFO - [2022-08-23 00:15:55,849] {backend.py:193} INFO - Loading macOS
+[2022-08-23 00:15:55,956] {processor.py:651} INFO - DAG(s) dict_keys(['Stockdim_update']) retrieved from /home/osboxes/airflow/dags/stock_scd2.py
+[2022-08-23 00:15:55,968] {logging_mixin.py:115} INFO - [2022-08-23 00:15:55,967] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-23 00:15:55,980] {logging_mixin.py:115} INFO - [2022-08-23 00:15:55,979] {dag.py:2915} INFO - Setting next_dagrun for Stockdim_update to None, run_after=None
+[2022-08-23 00:15:56,017] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/stock_scd2.py took 0.651 seconds
+[2022-08-23 00:16:33,088] {processor.py:153} INFO - Started process (PID=184051) to work on /home/osboxes/airflow/dags/stock_scd2.py
+[2022-08-23 00:16:33,090] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/stock_scd2.py for tasks to queue
+[2022-08-23 00:16:33,090] {logging_mixin.py:115} INFO - [2022-08-23 00:16:33,090] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/stock_scd2.py
+[2022-08-23 00:16:33,718] {logging_mixin.py:115} INFO - [2022-08-23 00:16:33,717] {backend.py:193} INFO - Loading KWallet
+[2022-08-23 00:16:33,724] {logging_mixin.py:115} INFO - [2022-08-23 00:16:33,724] {backend.py:193} INFO - Loading SecretService
+[2022-08-23 00:16:33,728] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:16:33,729] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:16:33,729] {logging_mixin.py:115} INFO - [2022-08-23 00:16:33,729] {backend.py:193} INFO - Loading Windows
+[2022-08-23 00:16:33,730] {logging_mixin.py:115} INFO - [2022-08-23 00:16:33,730] {backend.py:193} INFO - Loading chainer
+[2022-08-23 00:16:33,730] {logging_mixin.py:115} INFO - [2022-08-23 00:16:33,730] {backend.py:193} INFO - Loading macOS
+[2022-08-23 00:16:33,835] {processor.py:651} INFO - DAG(s) dict_keys(['Stockdim_update']) retrieved from /home/osboxes/airflow/dags/stock_scd2.py
+[2022-08-23 00:16:33,849] {logging_mixin.py:115} INFO - [2022-08-23 00:16:33,849] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-23 00:16:33,861] {logging_mixin.py:115} INFO - [2022-08-23 00:16:33,861] {dag.py:2915} INFO - Setting next_dagrun for Stockdim_update to None, run_after=None
+[2022-08-23 00:16:33,897] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/stock_scd2.py took 0.812 seconds
+[2022-08-23 00:17:11,688] {processor.py:153} INFO - Started process (PID=184385) to work on /home/osboxes/airflow/dags/stock_scd2.py
+[2022-08-23 00:17:11,689] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/stock_scd2.py for tasks to queue
+[2022-08-23 00:17:11,690] {logging_mixin.py:115} INFO - [2022-08-23 00:17:11,690] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/stock_scd2.py
+[2022-08-23 00:17:12,146] {logging_mixin.py:115} INFO - [2022-08-23 00:17:12,145] {backend.py:193} INFO - Loading KWallet
+[2022-08-23 00:17:12,151] {logging_mixin.py:115} INFO - [2022-08-23 00:17:12,151] {backend.py:193} INFO - Loading SecretService
+[2022-08-23 00:17:12,156] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:17:12,157] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:17:12,157] {logging_mixin.py:115} INFO - [2022-08-23 00:17:12,157] {backend.py:193} INFO - Loading Windows
+[2022-08-23 00:17:12,158] {logging_mixin.py:115} INFO - [2022-08-23 00:17:12,158] {backend.py:193} INFO - Loading chainer
+[2022-08-23 00:17:12,158] {logging_mixin.py:115} INFO - [2022-08-23 00:17:12,158] {backend.py:193} INFO - Loading macOS
+[2022-08-23 00:17:12,268] {processor.py:651} INFO - DAG(s) dict_keys(['Stockdim_update']) retrieved from /home/osboxes/airflow/dags/stock_scd2.py
+[2022-08-23 00:17:12,280] {logging_mixin.py:115} INFO - [2022-08-23 00:17:12,280] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-23 00:17:12,292] {logging_mixin.py:115} INFO - [2022-08-23 00:17:12,291] {dag.py:2915} INFO - Setting next_dagrun for Stockdim_update to None, run_after=None
+[2022-08-23 00:17:12,336] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/stock_scd2.py took 0.650 seconds
+[2022-08-23 00:17:44,388] {processor.py:153} INFO - Started process (PID=184635) to work on /home/osboxes/airflow/dags/stock_scd2.py
+[2022-08-23 00:17:44,389] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/stock_scd2.py for tasks to queue
+[2022-08-23 00:17:44,390] {logging_mixin.py:115} INFO - [2022-08-23 00:17:44,390] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/stock_scd2.py
+[2022-08-23 00:17:44,871] {logging_mixin.py:115} INFO - [2022-08-23 00:17:44,870] {backend.py:193} INFO - Loading KWallet
+[2022-08-23 00:17:44,876] {logging_mixin.py:115} INFO - [2022-08-23 00:17:44,876] {backend.py:193} INFO - Loading SecretService
+[2022-08-23 00:17:44,881] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:17:44,881] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:17:44,882] {logging_mixin.py:115} INFO - [2022-08-23 00:17:44,882] {backend.py:193} INFO - Loading Windows
+[2022-08-23 00:17:44,882] {logging_mixin.py:115} INFO - [2022-08-23 00:17:44,882] {backend.py:193} INFO - Loading chainer
+[2022-08-23 00:17:44,883] {logging_mixin.py:115} INFO - [2022-08-23 00:17:44,883] {backend.py:193} INFO - Loading macOS
+[2022-08-23 00:17:45,016] {processor.py:651} INFO - DAG(s) dict_keys(['Stockdim_update']) retrieved from /home/osboxes/airflow/dags/stock_scd2.py
+[2022-08-23 00:17:45,027] {logging_mixin.py:115} INFO - [2022-08-23 00:17:45,027] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-23 00:17:45,039] {logging_mixin.py:115} INFO - [2022-08-23 00:17:45,039] {dag.py:2915} INFO - Setting next_dagrun for Stockdim_update to None, run_after=None
+[2022-08-23 00:17:45,077] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/stock_scd2.py took 0.700 seconds
+[2022-08-23 00:18:23,131] {processor.py:153} INFO - Started process (PID=184937) to work on /home/osboxes/airflow/dags/stock_scd2.py
+[2022-08-23 00:18:23,132] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/stock_scd2.py for tasks to queue
+[2022-08-23 00:18:23,133] {logging_mixin.py:115} INFO - [2022-08-23 00:18:23,132] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/stock_scd2.py
+[2022-08-23 00:18:23,625] {logging_mixin.py:115} INFO - [2022-08-23 00:18:23,619] {backend.py:193} INFO - Loading KWallet
+[2022-08-23 00:18:23,630] {logging_mixin.py:115} INFO - [2022-08-23 00:18:23,630] {backend.py:193} INFO - Loading SecretService
+[2022-08-23 00:18:23,647] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:18:23,648] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:18:23,648] {logging_mixin.py:115} INFO - [2022-08-23 00:18:23,648] {backend.py:193} INFO - Loading Windows
+[2022-08-23 00:18:23,649] {logging_mixin.py:115} INFO - [2022-08-23 00:18:23,649] {backend.py:193} INFO - Loading chainer
+[2022-08-23 00:18:23,652] {logging_mixin.py:115} INFO - [2022-08-23 00:18:23,652] {backend.py:193} INFO - Loading macOS
+[2022-08-23 00:18:23,892] {processor.py:651} INFO - DAG(s) dict_keys(['Stockdim_update']) retrieved from /home/osboxes/airflow/dags/stock_scd2.py
+[2022-08-23 00:18:23,904] {logging_mixin.py:115} INFO - [2022-08-23 00:18:23,904] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-23 00:18:23,916] {logging_mixin.py:115} INFO - [2022-08-23 00:18:23,916] {dag.py:2915} INFO - Setting next_dagrun for Stockdim_update to None, run_after=None
+[2022-08-23 00:18:23,945] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/stock_scd2.py took 0.817 seconds
+[2022-08-23 00:19:00,644] {processor.py:153} INFO - Started process (PID=185245) to work on /home/osboxes/airflow/dags/stock_scd2.py
+[2022-08-23 00:19:00,645] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/stock_scd2.py for tasks to queue
+[2022-08-23 00:19:00,646] {logging_mixin.py:115} INFO - [2022-08-23 00:19:00,646] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/stock_scd2.py
+[2022-08-23 00:19:01,128] {logging_mixin.py:115} INFO - [2022-08-23 00:19:01,127] {backend.py:193} INFO - Loading KWallet
+[2022-08-23 00:19:01,133] {logging_mixin.py:115} INFO - [2022-08-23 00:19:01,133] {backend.py:193} INFO - Loading SecretService
+[2022-08-23 00:19:01,138] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:19:01,139] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:19:01,140] {logging_mixin.py:115} INFO - [2022-08-23 00:19:01,140] {backend.py:193} INFO - Loading Windows
+[2022-08-23 00:19:01,140] {logging_mixin.py:115} INFO - [2022-08-23 00:19:01,140] {backend.py:193} INFO - Loading chainer
+[2022-08-23 00:19:01,141] {logging_mixin.py:115} INFO - [2022-08-23 00:19:01,141] {backend.py:193} INFO - Loading macOS
+[2022-08-23 00:19:01,264] {processor.py:651} INFO - DAG(s) dict_keys(['Stockdim_update']) retrieved from /home/osboxes/airflow/dags/stock_scd2.py
+[2022-08-23 00:19:01,275] {logging_mixin.py:115} INFO - [2022-08-23 00:19:01,275] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-23 00:19:01,286] {logging_mixin.py:115} INFO - [2022-08-23 00:19:01,286] {dag.py:2915} INFO - Setting next_dagrun for Stockdim_update to None, run_after=None
+[2022-08-23 00:19:01,329] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/stock_scd2.py took 0.688 seconds
+[2022-08-23 00:19:42,445] {processor.py:153} INFO - Started process (PID=185570) to work on /home/osboxes/airflow/dags/stock_scd2.py
+[2022-08-23 00:19:42,447] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/stock_scd2.py for tasks to queue
+[2022-08-23 00:19:42,447] {logging_mixin.py:115} INFO - [2022-08-23 00:19:42,447] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/stock_scd2.py
+[2022-08-23 00:19:42,941] {logging_mixin.py:115} INFO - [2022-08-23 00:19:42,940] {backend.py:193} INFO - Loading KWallet
+[2022-08-23 00:19:42,948] {logging_mixin.py:115} INFO - [2022-08-23 00:19:42,948] {backend.py:193} INFO - Loading SecretService
+[2022-08-23 00:19:42,952] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:19:42,953] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:19:42,953] {logging_mixin.py:115} INFO - [2022-08-23 00:19:42,953] {backend.py:193} INFO - Loading Windows
+[2022-08-23 00:19:42,954] {logging_mixin.py:115} INFO - [2022-08-23 00:19:42,954] {backend.py:193} INFO - Loading chainer
+[2022-08-23 00:19:42,955] {logging_mixin.py:115} INFO - [2022-08-23 00:19:42,955] {backend.py:193} INFO - Loading macOS
+[2022-08-23 00:19:43,063] {processor.py:651} INFO - DAG(s) dict_keys(['Stockdim_update']) retrieved from /home/osboxes/airflow/dags/stock_scd2.py
+[2022-08-23 00:19:43,074] {logging_mixin.py:115} INFO - [2022-08-23 00:19:43,074] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-23 00:19:43,087] {logging_mixin.py:115} INFO - [2022-08-23 00:19:43,087] {dag.py:2915} INFO - Setting next_dagrun for Stockdim_update to None, run_after=None
+[2022-08-23 00:19:43,116] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/stock_scd2.py took 0.676 seconds
+[2022-08-23 00:20:16,579] {processor.py:153} INFO - Started process (PID=185892) to work on /home/osboxes/airflow/dags/stock_scd2.py
+[2022-08-23 00:20:16,580] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/stock_scd2.py for tasks to queue
+[2022-08-23 00:20:16,581] {logging_mixin.py:115} INFO - [2022-08-23 00:20:16,581] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/stock_scd2.py
+[2022-08-23 00:20:17,043] {logging_mixin.py:115} INFO - [2022-08-23 00:20:17,043] {backend.py:193} INFO - Loading KWallet
+[2022-08-23 00:20:17,049] {logging_mixin.py:115} INFO - [2022-08-23 00:20:17,049] {backend.py:193} INFO - Loading SecretService
+[2022-08-23 00:20:17,053] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:20:17,057] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:20:17,058] {logging_mixin.py:115} INFO - [2022-08-23 00:20:17,058] {backend.py:193} INFO - Loading Windows
+[2022-08-23 00:20:17,058] {logging_mixin.py:115} INFO - [2022-08-23 00:20:17,058] {backend.py:193} INFO - Loading chainer
+[2022-08-23 00:20:17,059] {logging_mixin.py:115} INFO - [2022-08-23 00:20:17,059] {backend.py:193} INFO - Loading macOS
+[2022-08-23 00:20:17,167] {processor.py:651} INFO - DAG(s) dict_keys(['Stockdim_update']) retrieved from /home/osboxes/airflow/dags/stock_scd2.py
+[2022-08-23 00:20:17,178] {logging_mixin.py:115} INFO - [2022-08-23 00:20:17,178] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-23 00:20:17,190] {logging_mixin.py:115} INFO - [2022-08-23 00:20:17,190] {dag.py:2915} INFO - Setting next_dagrun for Stockdim_update to None, run_after=None
+[2022-08-23 00:20:17,231] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/stock_scd2.py took 0.655 seconds
+[2022-08-23 00:20:55,179] {processor.py:153} INFO - Started process (PID=186196) to work on /home/osboxes/airflow/dags/stock_scd2.py
+[2022-08-23 00:20:55,182] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/stock_scd2.py for tasks to queue
+[2022-08-23 00:20:55,182] {logging_mixin.py:115} INFO - [2022-08-23 00:20:55,182] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/stock_scd2.py
+[2022-08-23 00:20:55,742] {logging_mixin.py:115} INFO - [2022-08-23 00:20:55,741] {backend.py:193} INFO - Loading KWallet
+[2022-08-23 00:20:55,748] {logging_mixin.py:115} INFO - [2022-08-23 00:20:55,748] {backend.py:193} INFO - Loading SecretService
+[2022-08-23 00:20:55,756] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:20:55,757] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:20:55,757] {logging_mixin.py:115} INFO - [2022-08-23 00:20:55,757] {backend.py:193} INFO - Loading Windows
+[2022-08-23 00:20:55,758] {logging_mixin.py:115} INFO - [2022-08-23 00:20:55,758] {backend.py:193} INFO - Loading chainer
+[2022-08-23 00:20:55,758] {logging_mixin.py:115} INFO - [2022-08-23 00:20:55,758] {backend.py:193} INFO - Loading macOS
+[2022-08-23 00:20:55,888] {processor.py:651} INFO - DAG(s) dict_keys(['Stockdim_update']) retrieved from /home/osboxes/airflow/dags/stock_scd2.py
+[2022-08-23 00:20:55,900] {logging_mixin.py:115} INFO - [2022-08-23 00:20:55,899] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-23 00:20:55,913] {logging_mixin.py:115} INFO - [2022-08-23 00:20:55,913] {dag.py:2915} INFO - Setting next_dagrun for Stockdim_update to None, run_after=None
+[2022-08-23 00:20:55,942] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/stock_scd2.py took 0.765 seconds
+[2022-08-23 00:21:33,759] {processor.py:153} INFO - Started process (PID=186504) to work on /home/osboxes/airflow/dags/stock_scd2.py
+[2022-08-23 00:21:33,760] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/stock_scd2.py for tasks to queue
+[2022-08-23 00:21:33,760] {logging_mixin.py:115} INFO - [2022-08-23 00:21:33,760] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/stock_scd2.py
+[2022-08-23 00:21:34,229] {logging_mixin.py:115} INFO - [2022-08-23 00:21:34,228] {backend.py:193} INFO - Loading KWallet
+[2022-08-23 00:21:34,234] {logging_mixin.py:115} INFO - [2022-08-23 00:21:34,234] {backend.py:193} INFO - Loading SecretService
+[2022-08-23 00:21:34,239] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:21:34,239] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:21:34,240] {logging_mixin.py:115} INFO - [2022-08-23 00:21:34,240] {backend.py:193} INFO - Loading Windows
+[2022-08-23 00:21:34,240] {logging_mixin.py:115} INFO - [2022-08-23 00:21:34,240] {backend.py:193} INFO - Loading chainer
+[2022-08-23 00:21:34,241] {logging_mixin.py:115} INFO - [2022-08-23 00:21:34,241] {backend.py:193} INFO - Loading macOS
+[2022-08-23 00:21:34,370] {processor.py:651} INFO - DAG(s) dict_keys(['Stockdim_update']) retrieved from /home/osboxes/airflow/dags/stock_scd2.py
+[2022-08-23 00:21:34,383] {logging_mixin.py:115} INFO - [2022-08-23 00:21:34,382] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-23 00:21:34,393] {logging_mixin.py:115} INFO - [2022-08-23 00:21:34,392] {dag.py:2915} INFO - Setting next_dagrun for Stockdim_update to None, run_after=None
+[2022-08-23 00:21:34,430] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/stock_scd2.py took 0.673 seconds
+[2022-08-23 00:22:09,710] {processor.py:153} INFO - Started process (PID=186806) to work on /home/osboxes/airflow/dags/stock_scd2.py
+[2022-08-23 00:22:09,711] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/stock_scd2.py for tasks to queue
+[2022-08-23 00:22:09,712] {logging_mixin.py:115} INFO - [2022-08-23 00:22:09,712] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/stock_scd2.py
+[2022-08-23 00:22:10,175] {logging_mixin.py:115} INFO - [2022-08-23 00:22:10,174] {backend.py:193} INFO - Loading KWallet
+[2022-08-23 00:22:10,179] {logging_mixin.py:115} INFO - [2022-08-23 00:22:10,179] {backend.py:193} INFO - Loading SecretService
+[2022-08-23 00:22:10,185] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:22:10,186] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:22:10,187] {logging_mixin.py:115} INFO - [2022-08-23 00:22:10,187] {backend.py:193} INFO - Loading Windows
+[2022-08-23 00:22:10,188] {logging_mixin.py:115} INFO - [2022-08-23 00:22:10,188] {backend.py:193} INFO - Loading chainer
+[2022-08-23 00:22:10,188] {logging_mixin.py:115} INFO - [2022-08-23 00:22:10,188] {backend.py:193} INFO - Loading macOS
+[2022-08-23 00:22:10,307] {processor.py:651} INFO - DAG(s) dict_keys(['Stockdim_update']) retrieved from /home/osboxes/airflow/dags/stock_scd2.py
+[2022-08-23 00:22:10,328] {logging_mixin.py:115} INFO - [2022-08-23 00:22:10,328] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-23 00:22:10,344] {logging_mixin.py:115} INFO - [2022-08-23 00:22:10,344] {dag.py:2915} INFO - Setting next_dagrun for Stockdim_update to None, run_after=None
+[2022-08-23 00:22:10,367] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/stock_scd2.py took 0.660 seconds
+[2022-08-23 00:22:47,930] {processor.py:153} INFO - Started process (PID=187092) to work on /home/osboxes/airflow/dags/stock_scd2.py
+[2022-08-23 00:22:47,931] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/stock_scd2.py for tasks to queue
+[2022-08-23 00:22:47,932] {logging_mixin.py:115} INFO - [2022-08-23 00:22:47,932] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/stock_scd2.py
+[2022-08-23 00:22:48,632] {logging_mixin.py:115} INFO - [2022-08-23 00:22:48,632] {backend.py:193} INFO - Loading KWallet
+[2022-08-23 00:22:48,636] {logging_mixin.py:115} INFO - [2022-08-23 00:22:48,636] {backend.py:193} INFO - Loading SecretService
+[2022-08-23 00:22:48,642] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:22:48,643] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:22:48,643] {logging_mixin.py:115} INFO - [2022-08-23 00:22:48,643] {backend.py:193} INFO - Loading Windows
+[2022-08-23 00:22:48,644] {logging_mixin.py:115} INFO - [2022-08-23 00:22:48,644] {backend.py:193} INFO - Loading chainer
+[2022-08-23 00:22:48,644] {logging_mixin.py:115} INFO - [2022-08-23 00:22:48,644] {backend.py:193} INFO - Loading macOS
+[2022-08-23 00:22:48,748] {processor.py:651} INFO - DAG(s) dict_keys(['Stockdim_update']) retrieved from /home/osboxes/airflow/dags/stock_scd2.py
+[2022-08-23 00:22:48,761] {logging_mixin.py:115} INFO - [2022-08-23 00:22:48,760] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-23 00:22:48,771] {logging_mixin.py:115} INFO - [2022-08-23 00:22:48,771] {dag.py:2915} INFO - Setting next_dagrun for Stockdim_update to None, run_after=None
+[2022-08-23 00:22:48,812] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/stock_scd2.py took 0.894 seconds
+[2022-08-23 00:23:29,146] {processor.py:153} INFO - Started process (PID=187413) to work on /home/osboxes/airflow/dags/stock_scd2.py
+[2022-08-23 00:23:29,150] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/stock_scd2.py for tasks to queue
+[2022-08-23 00:23:29,150] {logging_mixin.py:115} INFO - [2022-08-23 00:23:29,150] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/stock_scd2.py
+[2022-08-23 00:23:29,928] {logging_mixin.py:115} INFO - [2022-08-23 00:23:29,927] {backend.py:193} INFO - Loading KWallet
+[2022-08-23 00:23:29,933] {logging_mixin.py:115} INFO - [2022-08-23 00:23:29,933] {backend.py:193} INFO - Loading SecretService
+[2022-08-23 00:23:29,938] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:23:29,939] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:23:29,939] {logging_mixin.py:115} INFO - [2022-08-23 00:23:29,939] {backend.py:193} INFO - Loading Windows
+[2022-08-23 00:23:29,940] {logging_mixin.py:115} INFO - [2022-08-23 00:23:29,940] {backend.py:193} INFO - Loading chainer
+[2022-08-23 00:23:29,940] {logging_mixin.py:115} INFO - [2022-08-23 00:23:29,940] {backend.py:193} INFO - Loading macOS
+[2022-08-23 00:23:30,049] {processor.py:651} INFO - DAG(s) dict_keys(['Stockdim_update']) retrieved from /home/osboxes/airflow/dags/stock_scd2.py
+[2022-08-23 00:23:30,066] {logging_mixin.py:115} INFO - [2022-08-23 00:23:30,065] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-23 00:23:30,096] {logging_mixin.py:115} INFO - [2022-08-23 00:23:30,096] {dag.py:2915} INFO - Setting next_dagrun for Stockdim_update to None, run_after=None
+[2022-08-23 00:23:30,120] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/stock_scd2.py took 0.976 seconds
+[2022-08-23 00:24:08,116] {processor.py:153} INFO - Started process (PID=187735) to work on /home/osboxes/airflow/dags/stock_scd2.py
+[2022-08-23 00:24:08,119] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/stock_scd2.py for tasks to queue
+[2022-08-23 00:24:08,120] {logging_mixin.py:115} INFO - [2022-08-23 00:24:08,120] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/stock_scd2.py
+[2022-08-23 00:24:08,613] {logging_mixin.py:115} INFO - [2022-08-23 00:24:08,612] {backend.py:193} INFO - Loading KWallet
+[2022-08-23 00:24:08,619] {logging_mixin.py:115} INFO - [2022-08-23 00:24:08,619] {backend.py:193} INFO - Loading SecretService
+[2022-08-23 00:24:08,624] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:24:08,624] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:24:08,625] {logging_mixin.py:115} INFO - [2022-08-23 00:24:08,625] {backend.py:193} INFO - Loading Windows
+[2022-08-23 00:24:08,625] {logging_mixin.py:115} INFO - [2022-08-23 00:24:08,625] {backend.py:193} INFO - Loading chainer
+[2022-08-23 00:24:08,626] {logging_mixin.py:115} INFO - [2022-08-23 00:24:08,626] {backend.py:193} INFO - Loading macOS
+[2022-08-23 00:24:08,731] {processor.py:651} INFO - DAG(s) dict_keys(['Stockdim_update']) retrieved from /home/osboxes/airflow/dags/stock_scd2.py
+[2022-08-23 00:24:08,743] {logging_mixin.py:115} INFO - [2022-08-23 00:24:08,743] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-23 00:24:08,753] {logging_mixin.py:115} INFO - [2022-08-23 00:24:08,753] {dag.py:2915} INFO - Setting next_dagrun for Stockdim_update to None, run_after=None
+[2022-08-23 00:24:08,777] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/stock_scd2.py took 0.664 seconds
+[2022-08-23 00:24:46,870] {processor.py:153} INFO - Started process (PID=188024) to work on /home/osboxes/airflow/dags/stock_scd2.py
+[2022-08-23 00:24:46,872] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/stock_scd2.py for tasks to queue
+[2022-08-23 00:24:46,872] {logging_mixin.py:115} INFO - [2022-08-23 00:24:46,872] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/stock_scd2.py
+[2022-08-23 00:24:47,444] {logging_mixin.py:115} INFO - [2022-08-23 00:24:47,444] {backend.py:193} INFO - Loading KWallet
+[2022-08-23 00:24:47,449] {logging_mixin.py:115} INFO - [2022-08-23 00:24:47,449] {backend.py:193} INFO - Loading SecretService
+[2022-08-23 00:24:47,456] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:24:47,457] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:24:47,457] {logging_mixin.py:115} INFO - [2022-08-23 00:24:47,457] {backend.py:193} INFO - Loading Windows
+[2022-08-23 00:24:47,458] {logging_mixin.py:115} INFO - [2022-08-23 00:24:47,458] {backend.py:193} INFO - Loading chainer
+[2022-08-23 00:24:47,458] {logging_mixin.py:115} INFO - [2022-08-23 00:24:47,458] {backend.py:193} INFO - Loading macOS
+[2022-08-23 00:24:47,683] {processor.py:651} INFO - DAG(s) dict_keys(['Stockdim_update']) retrieved from /home/osboxes/airflow/dags/stock_scd2.py
+[2022-08-23 00:24:47,711] {logging_mixin.py:115} INFO - [2022-08-23 00:24:47,711] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-23 00:24:47,740] {logging_mixin.py:115} INFO - [2022-08-23 00:24:47,739] {dag.py:2915} INFO - Setting next_dagrun for Stockdim_update to None, run_after=None
+[2022-08-23 00:24:47,774] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/stock_scd2.py took 0.907 seconds
+[2022-08-23 00:25:21,905] {processor.py:153} INFO - Started process (PID=188366) to work on /home/osboxes/airflow/dags/stock_scd2.py
+[2022-08-23 00:25:21,907] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/stock_scd2.py for tasks to queue
+[2022-08-23 00:25:21,907] {logging_mixin.py:115} INFO - [2022-08-23 00:25:21,907] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/stock_scd2.py
+[2022-08-23 00:25:22,355] {logging_mixin.py:115} INFO - [2022-08-23 00:25:22,355] {backend.py:193} INFO - Loading KWallet
+[2022-08-23 00:25:22,372] {logging_mixin.py:115} INFO - [2022-08-23 00:25:22,372] {backend.py:193} INFO - Loading SecretService
+[2022-08-23 00:25:22,376] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:25:22,377] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:25:22,377] {logging_mixin.py:115} INFO - [2022-08-23 00:25:22,377] {backend.py:193} INFO - Loading Windows
+[2022-08-23 00:25:22,378] {logging_mixin.py:115} INFO - [2022-08-23 00:25:22,378] {backend.py:193} INFO - Loading chainer
+[2022-08-23 00:25:22,378] {logging_mixin.py:115} INFO - [2022-08-23 00:25:22,378] {backend.py:193} INFO - Loading macOS
+[2022-08-23 00:25:22,483] {processor.py:651} INFO - DAG(s) dict_keys(['Stockdim_update']) retrieved from /home/osboxes/airflow/dags/stock_scd2.py
+[2022-08-23 00:25:22,494] {logging_mixin.py:115} INFO - [2022-08-23 00:25:22,494] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-23 00:25:22,507] {logging_mixin.py:115} INFO - [2022-08-23 00:25:22,506] {dag.py:2915} INFO - Setting next_dagrun for Stockdim_update to None, run_after=None
+[2022-08-23 00:25:22,543] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/stock_scd2.py took 0.641 seconds
+[2022-08-23 00:26:00,695] {processor.py:153} INFO - Started process (PID=188700) to work on /home/osboxes/airflow/dags/stock_scd2.py
+[2022-08-23 00:26:00,696] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/stock_scd2.py for tasks to queue
+[2022-08-23 00:26:00,697] {logging_mixin.py:115} INFO - [2022-08-23 00:26:00,696] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/stock_scd2.py
+[2022-08-23 00:26:01,135] {logging_mixin.py:115} INFO - [2022-08-23 00:26:01,134] {backend.py:193} INFO - Loading KWallet
+[2022-08-23 00:26:01,139] {logging_mixin.py:115} INFO - [2022-08-23 00:26:01,139] {backend.py:193} INFO - Loading SecretService
+[2022-08-23 00:26:01,145] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:26:01,146] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:26:01,146] {logging_mixin.py:115} INFO - [2022-08-23 00:26:01,146] {backend.py:193} INFO - Loading Windows
+[2022-08-23 00:26:01,147] {logging_mixin.py:115} INFO - [2022-08-23 00:26:01,147] {backend.py:193} INFO - Loading chainer
+[2022-08-23 00:26:01,148] {logging_mixin.py:115} INFO - [2022-08-23 00:26:01,148] {backend.py:193} INFO - Loading macOS
+[2022-08-23 00:26:01,266] {processor.py:651} INFO - DAG(s) dict_keys(['Stockdim_update']) retrieved from /home/osboxes/airflow/dags/stock_scd2.py
+[2022-08-23 00:26:01,278] {logging_mixin.py:115} INFO - [2022-08-23 00:26:01,278] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-23 00:26:01,289] {logging_mixin.py:115} INFO - [2022-08-23 00:26:01,289] {dag.py:2915} INFO - Setting next_dagrun for Stockdim_update to None, run_after=None
+[2022-08-23 00:26:01,316] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/stock_scd2.py took 0.624 seconds
+[2022-08-23 00:26:32,813] {processor.py:153} INFO - Started process (PID=188947) to work on /home/osboxes/airflow/dags/stock_scd2.py
+[2022-08-23 00:26:32,813] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/stock_scd2.py for tasks to queue
+[2022-08-23 00:26:32,814] {logging_mixin.py:115} INFO - [2022-08-23 00:26:32,813] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/stock_scd2.py
+[2022-08-23 00:26:33,252] {logging_mixin.py:115} INFO - [2022-08-23 00:26:33,252] {backend.py:193} INFO - Loading KWallet
+[2022-08-23 00:26:33,260] {logging_mixin.py:115} INFO - [2022-08-23 00:26:33,260] {backend.py:193} INFO - Loading SecretService
+[2022-08-23 00:26:33,266] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:26:33,267] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:26:33,267] {logging_mixin.py:115} INFO - [2022-08-23 00:26:33,267] {backend.py:193} INFO - Loading Windows
+[2022-08-23 00:26:33,268] {logging_mixin.py:115} INFO - [2022-08-23 00:26:33,268] {backend.py:193} INFO - Loading chainer
+[2022-08-23 00:26:33,268] {logging_mixin.py:115} INFO - [2022-08-23 00:26:33,268] {backend.py:193} INFO - Loading macOS
+[2022-08-23 00:26:33,395] {processor.py:651} INFO - DAG(s) dict_keys(['Stockdim_update']) retrieved from /home/osboxes/airflow/dags/stock_scd2.py
+[2022-08-23 00:26:33,423] {logging_mixin.py:115} INFO - [2022-08-23 00:26:33,423] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-23 00:26:33,435] {logging_mixin.py:115} INFO - [2022-08-23 00:26:33,435] {dag.py:2915} INFO - Setting next_dagrun for Stockdim_update to None, run_after=None
+[2022-08-23 00:26:33,461] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/stock_scd2.py took 0.651 seconds
+[2022-08-23 00:27:07,803] {processor.py:153} INFO - Started process (PID=189238) to work on /home/osboxes/airflow/dags/stock_scd2.py
+[2022-08-23 00:27:07,815] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/stock_scd2.py for tasks to queue
+[2022-08-23 00:27:07,815] {logging_mixin.py:115} INFO - [2022-08-23 00:27:07,815] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/stock_scd2.py
+[2022-08-23 00:27:08,261] {logging_mixin.py:115} INFO - [2022-08-23 00:27:08,260] {backend.py:193} INFO - Loading KWallet
+[2022-08-23 00:27:08,265] {logging_mixin.py:115} INFO - [2022-08-23 00:27:08,265] {backend.py:193} INFO - Loading SecretService
+[2022-08-23 00:27:08,270] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:27:08,271] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:27:08,272] {logging_mixin.py:115} INFO - [2022-08-23 00:27:08,272] {backend.py:193} INFO - Loading Windows
+[2022-08-23 00:27:08,272] {logging_mixin.py:115} INFO - [2022-08-23 00:27:08,272] {backend.py:193} INFO - Loading chainer
+[2022-08-23 00:27:08,273] {logging_mixin.py:115} INFO - [2022-08-23 00:27:08,273] {backend.py:193} INFO - Loading macOS
+[2022-08-23 00:27:08,380] {processor.py:651} INFO - DAG(s) dict_keys(['Stockdim_update']) retrieved from /home/osboxes/airflow/dags/stock_scd2.py
+[2022-08-23 00:27:08,392] {logging_mixin.py:115} INFO - [2022-08-23 00:27:08,392] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-23 00:27:08,403] {logging_mixin.py:115} INFO - [2022-08-23 00:27:08,403] {dag.py:2915} INFO - Setting next_dagrun for Stockdim_update to None, run_after=None
+[2022-08-23 00:27:08,431] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/stock_scd2.py took 0.631 seconds
+[2022-08-23 00:27:46,498] {processor.py:153} INFO - Started process (PID=189532) to work on /home/osboxes/airflow/dags/stock_scd2.py
+[2022-08-23 00:27:46,499] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/stock_scd2.py for tasks to queue
+[2022-08-23 00:27:46,500] {logging_mixin.py:115} INFO - [2022-08-23 00:27:46,500] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/stock_scd2.py
+[2022-08-23 00:27:47,071] {logging_mixin.py:115} INFO - [2022-08-23 00:27:47,070] {backend.py:193} INFO - Loading KWallet
+[2022-08-23 00:27:47,076] {logging_mixin.py:115} INFO - [2022-08-23 00:27:47,076] {backend.py:193} INFO - Loading SecretService
+[2022-08-23 00:27:47,081] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:27:47,081] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:27:47,082] {logging_mixin.py:115} INFO - [2022-08-23 00:27:47,082] {backend.py:193} INFO - Loading Windows
+[2022-08-23 00:27:47,082] {logging_mixin.py:115} INFO - [2022-08-23 00:27:47,082] {backend.py:193} INFO - Loading chainer
+[2022-08-23 00:27:47,083] {logging_mixin.py:115} INFO - [2022-08-23 00:27:47,083] {backend.py:193} INFO - Loading macOS
+[2022-08-23 00:27:47,192] {processor.py:651} INFO - DAG(s) dict_keys(['Stockdim_update']) retrieved from /home/osboxes/airflow/dags/stock_scd2.py
+[2022-08-23 00:27:47,203] {logging_mixin.py:115} INFO - [2022-08-23 00:27:47,203] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-23 00:27:47,214] {logging_mixin.py:115} INFO - [2022-08-23 00:27:47,214] {dag.py:2915} INFO - Setting next_dagrun for Stockdim_update to None, run_after=None
+[2022-08-23 00:27:47,247] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/stock_scd2.py took 0.751 seconds
+[2022-08-23 00:28:23,618] {processor.py:153} INFO - Started process (PID=189837) to work on /home/osboxes/airflow/dags/stock_scd2.py
+[2022-08-23 00:28:23,620] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/stock_scd2.py for tasks to queue
+[2022-08-23 00:28:23,621] {logging_mixin.py:115} INFO - [2022-08-23 00:28:23,621] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/stock_scd2.py
+[2022-08-23 00:28:24,068] {logging_mixin.py:115} INFO - [2022-08-23 00:28:24,067] {backend.py:193} INFO - Loading KWallet
+[2022-08-23 00:28:24,075] {logging_mixin.py:115} INFO - [2022-08-23 00:28:24,074] {backend.py:193} INFO - Loading SecretService
+[2022-08-23 00:28:24,079] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:28:24,079] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:28:24,080] {logging_mixin.py:115} INFO - [2022-08-23 00:28:24,080] {backend.py:193} INFO - Loading Windows
+[2022-08-23 00:28:24,081] {logging_mixin.py:115} INFO - [2022-08-23 00:28:24,081] {backend.py:193} INFO - Loading chainer
+[2022-08-23 00:28:24,082] {logging_mixin.py:115} INFO - [2022-08-23 00:28:24,082] {backend.py:193} INFO - Loading macOS
+[2022-08-23 00:28:24,192] {processor.py:651} INFO - DAG(s) dict_keys(['Stockdim_update']) retrieved from /home/osboxes/airflow/dags/stock_scd2.py
+[2022-08-23 00:28:24,203] {logging_mixin.py:115} INFO - [2022-08-23 00:28:24,203] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-23 00:28:24,215] {logging_mixin.py:115} INFO - [2022-08-23 00:28:24,215] {dag.py:2915} INFO - Setting next_dagrun for Stockdim_update to None, run_after=None
+[2022-08-23 00:28:24,260] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/stock_scd2.py took 0.644 seconds
+[2022-08-23 00:29:01,251] {processor.py:153} INFO - Started process (PID=190147) to work on /home/osboxes/airflow/dags/stock_scd2.py
+[2022-08-23 00:29:01,253] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/stock_scd2.py for tasks to queue
+[2022-08-23 00:29:01,253] {logging_mixin.py:115} INFO - [2022-08-23 00:29:01,253] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/stock_scd2.py
+[2022-08-23 00:29:01,714] {logging_mixin.py:115} INFO - [2022-08-23 00:29:01,714] {backend.py:193} INFO - Loading KWallet
+[2022-08-23 00:29:01,719] {logging_mixin.py:115} INFO - [2022-08-23 00:29:01,719] {backend.py:193} INFO - Loading SecretService
+[2022-08-23 00:29:01,734] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:29:01,734] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:29:01,735] {logging_mixin.py:115} INFO - [2022-08-23 00:29:01,735] {backend.py:193} INFO - Loading Windows
+[2022-08-23 00:29:01,735] {logging_mixin.py:115} INFO - [2022-08-23 00:29:01,735] {backend.py:193} INFO - Loading chainer
+[2022-08-23 00:29:01,736] {logging_mixin.py:115} INFO - [2022-08-23 00:29:01,736] {backend.py:193} INFO - Loading macOS
+[2022-08-23 00:29:01,842] {processor.py:651} INFO - DAG(s) dict_keys(['Stockdim_update']) retrieved from /home/osboxes/airflow/dags/stock_scd2.py
+[2022-08-23 00:29:01,855] {logging_mixin.py:115} INFO - [2022-08-23 00:29:01,854] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-23 00:29:01,866] {logging_mixin.py:115} INFO - [2022-08-23 00:29:01,866] {dag.py:2915} INFO - Setting next_dagrun for Stockdim_update to None, run_after=None
+[2022-08-23 00:29:01,906] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/stock_scd2.py took 0.658 seconds
+[2022-08-23 00:29:37,030] {processor.py:153} INFO - Started process (PID=190435) to work on /home/osboxes/airflow/dags/stock_scd2.py
+[2022-08-23 00:29:37,033] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/stock_scd2.py for tasks to queue
+[2022-08-23 00:29:37,034] {logging_mixin.py:115} INFO - [2022-08-23 00:29:37,034] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/stock_scd2.py
+[2022-08-23 00:29:37,473] {logging_mixin.py:115} INFO - [2022-08-23 00:29:37,473] {backend.py:193} INFO - Loading KWallet
+[2022-08-23 00:29:37,478] {logging_mixin.py:115} INFO - [2022-08-23 00:29:37,478] {backend.py:193} INFO - Loading SecretService
+[2022-08-23 00:29:37,485] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:29:37,485] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:29:37,486] {logging_mixin.py:115} INFO - [2022-08-23 00:29:37,485] {backend.py:193} INFO - Loading Windows
+[2022-08-23 00:29:37,486] {logging_mixin.py:115} INFO - [2022-08-23 00:29:37,486] {backend.py:193} INFO - Loading chainer
+[2022-08-23 00:29:37,487] {logging_mixin.py:115} INFO - [2022-08-23 00:29:37,487] {backend.py:193} INFO - Loading macOS
+[2022-08-23 00:29:37,594] {processor.py:651} INFO - DAG(s) dict_keys(['Stockdim_update']) retrieved from /home/osboxes/airflow/dags/stock_scd2.py
+[2022-08-23 00:29:37,604] {logging_mixin.py:115} INFO - [2022-08-23 00:29:37,604] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-23 00:29:37,616] {logging_mixin.py:115} INFO - [2022-08-23 00:29:37,616] {dag.py:2915} INFO - Setting next_dagrun for Stockdim_update to None, run_after=None
+[2022-08-23 00:29:37,650] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/stock_scd2.py took 0.623 seconds
+[2022-08-23 00:30:16,793] {processor.py:153} INFO - Started process (PID=190798) to work on /home/osboxes/airflow/dags/stock_scd2.py
+[2022-08-23 00:30:16,795] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/stock_scd2.py for tasks to queue
+[2022-08-23 00:30:16,796] {logging_mixin.py:115} INFO - [2022-08-23 00:30:16,796] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/stock_scd2.py
+[2022-08-23 00:30:17,251] {logging_mixin.py:115} INFO - [2022-08-23 00:30:17,250] {backend.py:193} INFO - Loading KWallet
+[2022-08-23 00:30:17,255] {logging_mixin.py:115} INFO - [2022-08-23 00:30:17,255] {backend.py:193} INFO - Loading SecretService
+[2022-08-23 00:30:17,260] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:30:17,261] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:30:17,261] {logging_mixin.py:115} INFO - [2022-08-23 00:30:17,261] {backend.py:193} INFO - Loading Windows
+[2022-08-23 00:30:17,262] {logging_mixin.py:115} INFO - [2022-08-23 00:30:17,262] {backend.py:193} INFO - Loading chainer
+[2022-08-23 00:30:17,262] {logging_mixin.py:115} INFO - [2022-08-23 00:30:17,262] {backend.py:193} INFO - Loading macOS
+[2022-08-23 00:30:17,389] {processor.py:651} INFO - DAG(s) dict_keys(['Stockdim_update']) retrieved from /home/osboxes/airflow/dags/stock_scd2.py
+[2022-08-23 00:30:17,400] {logging_mixin.py:115} INFO - [2022-08-23 00:30:17,399] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-23 00:30:17,411] {logging_mixin.py:115} INFO - [2022-08-23 00:30:17,411] {dag.py:2915} INFO - Setting next_dagrun for Stockdim_update to None, run_after=None
+[2022-08-23 00:30:17,461] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/stock_scd2.py took 0.670 seconds
+[2022-08-23 00:30:50,572] {processor.py:153} INFO - Started process (PID=191070) to work on /home/osboxes/airflow/dags/stock_scd2.py
+[2022-08-23 00:30:50,574] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/stock_scd2.py for tasks to queue
+[2022-08-23 00:30:50,574] {logging_mixin.py:115} INFO - [2022-08-23 00:30:50,574] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/stock_scd2.py
+[2022-08-23 00:30:51,031] {logging_mixin.py:115} INFO - [2022-08-23 00:30:51,031] {backend.py:193} INFO - Loading KWallet
+[2022-08-23 00:30:51,038] {logging_mixin.py:115} INFO - [2022-08-23 00:30:51,037] {backend.py:193} INFO - Loading SecretService
+[2022-08-23 00:30:51,042] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:30:51,044] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:30:51,044] {logging_mixin.py:115} INFO - [2022-08-23 00:30:51,044] {backend.py:193} INFO - Loading Windows
+[2022-08-23 00:30:51,045] {logging_mixin.py:115} INFO - [2022-08-23 00:30:51,045] {backend.py:193} INFO - Loading chainer
+[2022-08-23 00:30:51,045] {logging_mixin.py:115} INFO - [2022-08-23 00:30:51,045] {backend.py:193} INFO - Loading macOS
+[2022-08-23 00:30:51,169] {processor.py:651} INFO - DAG(s) dict_keys(['Stockdim_update']) retrieved from /home/osboxes/airflow/dags/stock_scd2.py
+[2022-08-23 00:30:51,181] {logging_mixin.py:115} INFO - [2022-08-23 00:30:51,181] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-23 00:30:51,191] {logging_mixin.py:115} INFO - [2022-08-23 00:30:51,191] {dag.py:2915} INFO - Setting next_dagrun for Stockdim_update to None, run_after=None
+[2022-08-23 00:30:51,234] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/stock_scd2.py took 0.665 seconds
+[2022-08-23 00:31:32,896] {processor.py:153} INFO - Started process (PID=191427) to work on /home/osboxes/airflow/dags/stock_scd2.py
+[2022-08-23 00:31:32,899] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/stock_scd2.py for tasks to queue
+[2022-08-23 00:31:32,900] {logging_mixin.py:115} INFO - [2022-08-23 00:31:32,900] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/stock_scd2.py
+[2022-08-23 00:31:33,481] {logging_mixin.py:115} INFO - [2022-08-23 00:31:33,480] {backend.py:193} INFO - Loading KWallet
+[2022-08-23 00:31:33,488] {logging_mixin.py:115} INFO - [2022-08-23 00:31:33,488] {backend.py:193} INFO - Loading SecretService
+[2022-08-23 00:31:33,493] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:31:33,494] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:31:33,494] {logging_mixin.py:115} INFO - [2022-08-23 00:31:33,494] {backend.py:193} INFO - Loading Windows
+[2022-08-23 00:31:33,498] {logging_mixin.py:115} INFO - [2022-08-23 00:31:33,498] {backend.py:193} INFO - Loading chainer
+[2022-08-23 00:31:33,499] {logging_mixin.py:115} INFO - [2022-08-23 00:31:33,498] {backend.py:193} INFO - Loading macOS
+[2022-08-23 00:31:33,619] {processor.py:651} INFO - DAG(s) dict_keys(['Stockdim_update']) retrieved from /home/osboxes/airflow/dags/stock_scd2.py
+[2022-08-23 00:31:33,633] {logging_mixin.py:115} INFO - [2022-08-23 00:31:33,632] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-23 00:31:33,648] {logging_mixin.py:115} INFO - [2022-08-23 00:31:33,648] {dag.py:2915} INFO - Setting next_dagrun for Stockdim_update to None, run_after=None
+[2022-08-23 00:31:33,677] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/stock_scd2.py took 0.786 seconds
+[2022-08-23 00:32:11,391] {processor.py:153} INFO - Started process (PID=191733) to work on /home/osboxes/airflow/dags/stock_scd2.py
+[2022-08-23 00:32:11,393] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/stock_scd2.py for tasks to queue
+[2022-08-23 00:32:11,393] {logging_mixin.py:115} INFO - [2022-08-23 00:32:11,393] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/stock_scd2.py
+[2022-08-23 00:32:11,850] {logging_mixin.py:115} INFO - [2022-08-23 00:32:11,849] {backend.py:193} INFO - Loading KWallet
+[2022-08-23 00:32:11,854] {logging_mixin.py:115} INFO - [2022-08-23 00:32:11,854] {backend.py:193} INFO - Loading SecretService
+[2022-08-23 00:32:11,859] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:32:11,860] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:32:11,861] {logging_mixin.py:115} INFO - [2022-08-23 00:32:11,860] {backend.py:193} INFO - Loading Windows
+[2022-08-23 00:32:11,861] {logging_mixin.py:115} INFO - [2022-08-23 00:32:11,861] {backend.py:193} INFO - Loading chainer
+[2022-08-23 00:32:11,861] {logging_mixin.py:115} INFO - [2022-08-23 00:32:11,861] {backend.py:193} INFO - Loading macOS
+[2022-08-23 00:32:11,969] {processor.py:651} INFO - DAG(s) dict_keys(['Stockdim_update']) retrieved from /home/osboxes/airflow/dags/stock_scd2.py
+[2022-08-23 00:32:11,981] {logging_mixin.py:115} INFO - [2022-08-23 00:32:11,980] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-23 00:32:11,991] {logging_mixin.py:115} INFO - [2022-08-23 00:32:11,991] {dag.py:2915} INFO - Setting next_dagrun for Stockdim_update to None, run_after=None
+[2022-08-23 00:32:12,022] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/stock_scd2.py took 0.633 seconds
+[2022-08-23 00:32:43,588] {processor.py:153} INFO - Started process (PID=191996) to work on /home/osboxes/airflow/dags/stock_scd2.py
+[2022-08-23 00:32:43,591] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/stock_scd2.py for tasks to queue
+[2022-08-23 00:32:43,592] {logging_mixin.py:115} INFO - [2022-08-23 00:32:43,592] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/stock_scd2.py
+[2022-08-23 00:32:44,559] {logging_mixin.py:115} INFO - [2022-08-23 00:32:44,558] {backend.py:193} INFO - Loading KWallet
+[2022-08-23 00:32:44,581] {logging_mixin.py:115} INFO - [2022-08-23 00:32:44,581] {backend.py:193} INFO - Loading SecretService
+[2022-08-23 00:32:44,617] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:32:44,621] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:32:44,624] {logging_mixin.py:115} INFO - [2022-08-23 00:32:44,624] {backend.py:193} INFO - Loading Windows
+[2022-08-23 00:32:44,636] {logging_mixin.py:115} INFO - [2022-08-23 00:32:44,636] {backend.py:193} INFO - Loading chainer
+[2022-08-23 00:32:44,636] {logging_mixin.py:115} INFO - [2022-08-23 00:32:44,636] {backend.py:193} INFO - Loading macOS
+[2022-08-23 00:32:45,091] {processor.py:651} INFO - DAG(s) dict_keys(['Stockdim_update']) retrieved from /home/osboxes/airflow/dags/stock_scd2.py
+[2022-08-23 00:32:45,127] {logging_mixin.py:115} INFO - [2022-08-23 00:32:45,115] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-23 00:32:45,151] {logging_mixin.py:115} INFO - [2022-08-23 00:32:45,151] {dag.py:2915} INFO - Setting next_dagrun for Stockdim_update to None, run_after=None
+[2022-08-23 00:32:45,194] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/stock_scd2.py took 1.608 seconds
+[2022-08-23 00:33:22,180] {processor.py:153} INFO - Started process (PID=192368) to work on /home/osboxes/airflow/dags/stock_scd2.py
+[2022-08-23 00:33:22,182] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/stock_scd2.py for tasks to queue
+[2022-08-23 00:33:22,182] {logging_mixin.py:115} INFO - [2022-08-23 00:33:22,182] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/stock_scd2.py
+[2022-08-23 00:33:22,784] {logging_mixin.py:115} INFO - [2022-08-23 00:33:22,784] {backend.py:193} INFO - Loading KWallet
+[2022-08-23 00:33:22,790] {logging_mixin.py:115} INFO - [2022-08-23 00:33:22,789] {backend.py:193} INFO - Loading SecretService
+[2022-08-23 00:33:22,794] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:33:22,795] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:33:22,795] {logging_mixin.py:115} INFO - [2022-08-23 00:33:22,795] {backend.py:193} INFO - Loading Windows
+[2022-08-23 00:33:22,796] {logging_mixin.py:115} INFO - [2022-08-23 00:33:22,796] {backend.py:193} INFO - Loading chainer
+[2022-08-23 00:33:22,796] {logging_mixin.py:115} INFO - [2022-08-23 00:33:22,796] {backend.py:193} INFO - Loading macOS
+[2022-08-23 00:33:22,919] {processor.py:651} INFO - DAG(s) dict_keys(['Stockdim_update']) retrieved from /home/osboxes/airflow/dags/stock_scd2.py
+[2022-08-23 00:33:22,930] {logging_mixin.py:115} INFO - [2022-08-23 00:33:22,930] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-23 00:33:22,943] {logging_mixin.py:115} INFO - [2022-08-23 00:33:22,943] {dag.py:2915} INFO - Setting next_dagrun for Stockdim_update to None, run_after=None
+[2022-08-23 00:33:22,981] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/stock_scd2.py took 0.803 seconds
+[2022-08-23 00:34:03,102] {processor.py:153} INFO - Started process (PID=192687) to work on /home/osboxes/airflow/dags/stock_scd2.py
+[2022-08-23 00:34:03,104] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/stock_scd2.py for tasks to queue
+[2022-08-23 00:34:03,104] {logging_mixin.py:115} INFO - [2022-08-23 00:34:03,104] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/stock_scd2.py
+[2022-08-23 00:34:03,880] {logging_mixin.py:115} INFO - [2022-08-23 00:34:03,879] {backend.py:193} INFO - Loading KWallet
+[2022-08-23 00:34:03,886] {logging_mixin.py:115} INFO - [2022-08-23 00:34:03,886] {backend.py:193} INFO - Loading SecretService
+[2022-08-23 00:34:03,891] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:34:03,892] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:34:03,892] {logging_mixin.py:115} INFO - [2022-08-23 00:34:03,892] {backend.py:193} INFO - Loading Windows
+[2022-08-23 00:34:03,894] {logging_mixin.py:115} INFO - [2022-08-23 00:34:03,894] {backend.py:193} INFO - Loading chainer
+[2022-08-23 00:34:03,895] {logging_mixin.py:115} INFO - [2022-08-23 00:34:03,895] {backend.py:193} INFO - Loading macOS
+[2022-08-23 00:34:04,016] {processor.py:651} INFO - DAG(s) dict_keys(['Stockdim_update']) retrieved from /home/osboxes/airflow/dags/stock_scd2.py
+[2022-08-23 00:34:04,036] {logging_mixin.py:115} INFO - [2022-08-23 00:34:04,035] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-23 00:34:04,050] {logging_mixin.py:115} INFO - [2022-08-23 00:34:04,050] {dag.py:2915} INFO - Setting next_dagrun for Stockdim_update to None, run_after=None
+[2022-08-23 00:34:04,080] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/stock_scd2.py took 0.980 seconds
+[2022-08-23 00:34:42,203] {processor.py:153} INFO - Started process (PID=193041) to work on /home/osboxes/airflow/dags/stock_scd2.py
+[2022-08-23 00:34:42,206] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/stock_scd2.py for tasks to queue
+[2022-08-23 00:34:42,207] {logging_mixin.py:115} INFO - [2022-08-23 00:34:42,207] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/stock_scd2.py
+[2022-08-23 00:34:42,718] {logging_mixin.py:115} INFO - [2022-08-23 00:34:42,717] {backend.py:193} INFO - Loading KWallet
+[2022-08-23 00:34:42,722] {logging_mixin.py:115} INFO - [2022-08-23 00:34:42,722] {backend.py:193} INFO - Loading SecretService
+[2022-08-23 00:34:42,729] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:34:42,730] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:34:42,731] {logging_mixin.py:115} INFO - [2022-08-23 00:34:42,731] {backend.py:193} INFO - Loading Windows
+[2022-08-23 00:34:42,731] {logging_mixin.py:115} INFO - [2022-08-23 00:34:42,731] {backend.py:193} INFO - Loading chainer
+[2022-08-23 00:34:42,732] {logging_mixin.py:115} INFO - [2022-08-23 00:34:42,732] {backend.py:193} INFO - Loading macOS
+[2022-08-23 00:34:42,874] {processor.py:651} INFO - DAG(s) dict_keys(['Stockdim_update']) retrieved from /home/osboxes/airflow/dags/stock_scd2.py
+[2022-08-23 00:34:42,904] {logging_mixin.py:115} INFO - [2022-08-23 00:34:42,903] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-23 00:34:42,920] {logging_mixin.py:115} INFO - [2022-08-23 00:34:42,920] {dag.py:2915} INFO - Setting next_dagrun for Stockdim_update to None, run_after=None
+[2022-08-23 00:34:42,951] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/stock_scd2.py took 0.751 seconds
+[2022-08-23 00:35:18,736] {processor.py:153} INFO - Started process (PID=193388) to work on /home/osboxes/airflow/dags/stock_scd2.py
+[2022-08-23 00:35:18,737] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/stock_scd2.py for tasks to queue
+[2022-08-23 00:35:18,738] {logging_mixin.py:115} INFO - [2022-08-23 00:35:18,738] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/stock_scd2.py
+[2022-08-23 00:35:19,565] {logging_mixin.py:115} INFO - [2022-08-23 00:35:19,565] {backend.py:193} INFO - Loading KWallet
+[2022-08-23 00:35:19,575] {logging_mixin.py:115} INFO - [2022-08-23 00:35:19,575] {backend.py:193} INFO - Loading SecretService
+[2022-08-23 00:35:19,583] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:35:19,584] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:35:19,585] {logging_mixin.py:115} INFO - [2022-08-23 00:35:19,585] {backend.py:193} INFO - Loading Windows
+[2022-08-23 00:35:19,586] {logging_mixin.py:115} INFO - [2022-08-23 00:35:19,586] {backend.py:193} INFO - Loading chainer
+[2022-08-23 00:35:19,587] {logging_mixin.py:115} INFO - [2022-08-23 00:35:19,587] {backend.py:193} INFO - Loading macOS
+[2022-08-23 00:35:19,761] {processor.py:651} INFO - DAG(s) dict_keys(['Stockdim_update']) retrieved from /home/osboxes/airflow/dags/stock_scd2.py
+[2022-08-23 00:35:19,779] {logging_mixin.py:115} INFO - [2022-08-23 00:35:19,778] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-23 00:35:19,799] {logging_mixin.py:115} INFO - [2022-08-23 00:35:19,798] {dag.py:2915} INFO - Setting next_dagrun for Stockdim_update to None, run_after=None
+[2022-08-23 00:35:19,829] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/stock_scd2.py took 1.096 seconds
+[2022-08-23 00:35:50,679] {processor.py:153} INFO - Started process (PID=193634) to work on /home/osboxes/airflow/dags/stock_scd2.py
+[2022-08-23 00:35:50,679] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/stock_scd2.py for tasks to queue
+[2022-08-23 00:35:50,680] {logging_mixin.py:115} INFO - [2022-08-23 00:35:50,680] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/stock_scd2.py
+[2022-08-23 00:35:51,131] {logging_mixin.py:115} INFO - [2022-08-23 00:35:51,130] {backend.py:193} INFO - Loading KWallet
+[2022-08-23 00:35:51,137] {logging_mixin.py:115} INFO - [2022-08-23 00:35:51,137] {backend.py:193} INFO - Loading SecretService
+[2022-08-23 00:35:51,141] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:35:51,142] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:35:51,143] {logging_mixin.py:115} INFO - [2022-08-23 00:35:51,143] {backend.py:193} INFO - Loading Windows
+[2022-08-23 00:35:51,144] {logging_mixin.py:115} INFO - [2022-08-23 00:35:51,144] {backend.py:193} INFO - Loading chainer
+[2022-08-23 00:35:51,144] {logging_mixin.py:115} INFO - [2022-08-23 00:35:51,144] {backend.py:193} INFO - Loading macOS
+[2022-08-23 00:35:51,259] {processor.py:651} INFO - DAG(s) dict_keys(['Stockdim_update']) retrieved from /home/osboxes/airflow/dags/stock_scd2.py
+[2022-08-23 00:35:51,274] {logging_mixin.py:115} INFO - [2022-08-23 00:35:51,273] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-23 00:35:51,285] {logging_mixin.py:115} INFO - [2022-08-23 00:35:51,284] {dag.py:2915} INFO - Setting next_dagrun for Stockdim_update to None, run_after=None
+[2022-08-23 00:35:51,325] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/stock_scd2.py took 0.648 seconds

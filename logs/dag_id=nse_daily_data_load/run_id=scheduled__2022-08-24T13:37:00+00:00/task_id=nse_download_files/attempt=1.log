@@ -1,0 +1,217 @@
+[2022-08-28 11:05:36,962] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: nse_daily_data_load.nse_download_files scheduled__2022-08-24T13:37:00+00:00 [queued]>
+[2022-08-28 11:05:36,989] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: nse_daily_data_load.nse_download_files scheduled__2022-08-24T13:37:00+00:00 [queued]>
+[2022-08-28 11:05:36,989] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2022-08-28 11:05:36,990] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2022-08-28 11:05:36,990] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2022-08-28 11:05:37,036] {taskinstance.py:1377} INFO - Executing <Task(PythonOperator): nse_download_files> on 2022-08-24 13:37:00+00:00
+[2022-08-28 11:05:37,040] {standard_task_runner.py:52} INFO - Started process 10509 to run task
+[2022-08-28 11:05:37,044] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'nse_daily_data_load', 'nse_download_files', 'scheduled__2022-08-24T13:37:00+00:00', '--job-id', '390', '--raw', '--subdir', 'DAGS_FOLDER/nse_daily_load_stg.py', '--cfg-path', '/tmp/tmpui24gv4q', '--error-file', '/tmp/tmpbkfdncl5']
+[2022-08-28 11:05:37,045] {standard_task_runner.py:80} INFO - Job 390: Subtask nse_download_files
+[2022-08-28 11:05:37,127] {task_command.py:369} INFO - Running <TaskInstance: nse_daily_data_load.nse_download_files scheduled__2022-08-24T13:37:00+00:00 [running]> on host osboxes
+[2022-08-28 11:05:37,292] {taskinstance.py:1569} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=Airflow
+AIRFLOW_CTX_DAG_ID=nse_daily_data_load
+AIRFLOW_CTX_TASK_ID=nse_download_files
+AIRFLOW_CTX_EXECUTION_DATE=2022-08-24T13:37:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-08-24T13:37:00+00:00
+[2022-08-28 11:05:37,293] {logging_mixin.py:115} INFO - 
+cm25JUL2022bhav
+[2022-08-28 11:05:37,299] {logging_mixin.py:115} INFO - enter try in loop
+[2022-08-28 11:05:37,299] {logging_mixin.py:115} INFO - https://www1.nseindia.com/content/historical/EQUITIES/2022/JUL/cm25JUL2022bhav.csv.zip
+[2022-08-28 11:05:38,061] {logging_mixin.py:115} INFO - https://www1.nseindia.com/content/historical/EQUITIES/2022/JUL/cm25JUL2022bhav.csv.zip
+[2022-08-28 11:05:38,062] {logging_mixin.py:115} INFO - 
+cm26JUL2022bhav
+[2022-08-28 11:05:38,062] {logging_mixin.py:115} INFO - enter try in loop
+[2022-08-28 11:05:38,062] {logging_mixin.py:115} INFO - https://www1.nseindia.com/content/historical/EQUITIES/2022/JUL/cm26JUL2022bhav.csv.zip
+[2022-08-28 11:05:38,823] {logging_mixin.py:115} INFO - https://www1.nseindia.com/content/historical/EQUITIES/2022/JUL/cm26JUL2022bhav.csv.zip
+[2022-08-28 11:05:38,824] {logging_mixin.py:115} INFO - 
+cm27JUL2022bhav
+[2022-08-28 11:05:38,824] {logging_mixin.py:115} INFO - enter try in loop
+[2022-08-28 11:05:38,824] {logging_mixin.py:115} INFO - https://www1.nseindia.com/content/historical/EQUITIES/2022/JUL/cm27JUL2022bhav.csv.zip
+[2022-08-28 11:05:39,521] {logging_mixin.py:115} INFO - https://www1.nseindia.com/content/historical/EQUITIES/2022/JUL/cm27JUL2022bhav.csv.zip
+[2022-08-28 11:05:39,522] {logging_mixin.py:115} INFO - 
+cm28JUL2022bhav
+[2022-08-28 11:05:39,522] {logging_mixin.py:115} INFO - enter try in loop
+[2022-08-28 11:05:39,522] {logging_mixin.py:115} INFO - https://www1.nseindia.com/content/historical/EQUITIES/2022/JUL/cm28JUL2022bhav.csv.zip
+[2022-08-28 11:05:40,196] {logging_mixin.py:115} INFO - https://www1.nseindia.com/content/historical/EQUITIES/2022/JUL/cm28JUL2022bhav.csv.zip
+[2022-08-28 11:05:40,197] {logging_mixin.py:115} INFO - 
+cm29JUL2022bhav
+[2022-08-28 11:05:40,197] {logging_mixin.py:115} INFO - enter try in loop
+[2022-08-28 11:05:40,197] {logging_mixin.py:115} INFO - https://www1.nseindia.com/content/historical/EQUITIES/2022/JUL/cm29JUL2022bhav.csv.zip
+[2022-08-28 11:05:40,825] {logging_mixin.py:115} INFO - https://www1.nseindia.com/content/historical/EQUITIES/2022/JUL/cm29JUL2022bhav.csv.zip
+[2022-08-28 11:05:40,826] {logging_mixin.py:115} INFO - 
+cm30JUL2022bhav
+[2022-08-28 11:05:40,826] {logging_mixin.py:115} INFO - enter try in loop
+[2022-08-28 11:05:40,826] {logging_mixin.py:115} INFO - https://www1.nseindia.com/content/historical/EQUITIES/2022/JUL/cm30JUL2022bhav.csv.zip
+[2022-08-28 11:05:41,469] {logging_mixin.py:115} INFO - issue occured
+[2022-08-28 11:05:41,470] {logging_mixin.py:115} INFO - 
+cm01AUG2022bhav
+[2022-08-28 11:05:41,470] {logging_mixin.py:115} INFO - enter try in loop
+[2022-08-28 11:05:41,470] {logging_mixin.py:115} INFO - https://www1.nseindia.com/content/historical/EQUITIES/2022/AUG/cm01AUG2022bhav.csv.zip
+[2022-08-28 11:05:42,044] {logging_mixin.py:115} INFO - https://www1.nseindia.com/content/historical/EQUITIES/2022/AUG/cm01AUG2022bhav.csv.zip
+[2022-08-28 11:05:42,045] {logging_mixin.py:115} INFO - 
+cm02AUG2022bhav
+[2022-08-28 11:05:42,045] {logging_mixin.py:115} INFO - enter try in loop
+[2022-08-28 11:05:42,045] {logging_mixin.py:115} INFO - https://www1.nseindia.com/content/historical/EQUITIES/2022/AUG/cm02AUG2022bhav.csv.zip
+[2022-08-28 11:05:42,770] {logging_mixin.py:115} INFO - https://www1.nseindia.com/content/historical/EQUITIES/2022/AUG/cm02AUG2022bhav.csv.zip
+[2022-08-28 11:05:42,770] {logging_mixin.py:115} INFO - 
+cm03AUG2022bhav
+[2022-08-28 11:05:42,770] {logging_mixin.py:115} INFO - enter try in loop
+[2022-08-28 11:05:42,770] {logging_mixin.py:115} INFO - https://www1.nseindia.com/content/historical/EQUITIES/2022/AUG/cm03AUG2022bhav.csv.zip
+[2022-08-28 11:05:43,379] {logging_mixin.py:115} INFO - https://www1.nseindia.com/content/historical/EQUITIES/2022/AUG/cm03AUG2022bhav.csv.zip
+[2022-08-28 11:05:43,380] {logging_mixin.py:115} INFO - 
+cm04AUG2022bhav
+[2022-08-28 11:05:43,380] {logging_mixin.py:115} INFO - enter try in loop
+[2022-08-28 11:05:43,380] {logging_mixin.py:115} INFO - https://www1.nseindia.com/content/historical/EQUITIES/2022/AUG/cm04AUG2022bhav.csv.zip
+[2022-08-28 11:05:44,061] {logging_mixin.py:115} INFO - https://www1.nseindia.com/content/historical/EQUITIES/2022/AUG/cm04AUG2022bhav.csv.zip
+[2022-08-28 11:05:44,061] {logging_mixin.py:115} INFO - 
+cm05AUG2022bhav
+[2022-08-28 11:05:44,061] {logging_mixin.py:115} INFO - enter try in loop
+[2022-08-28 11:05:44,061] {logging_mixin.py:115} INFO - https://www1.nseindia.com/content/historical/EQUITIES/2022/AUG/cm05AUG2022bhav.csv.zip
+[2022-08-28 11:05:44,777] {logging_mixin.py:115} INFO - https://www1.nseindia.com/content/historical/EQUITIES/2022/AUG/cm05AUG2022bhav.csv.zip
+[2022-08-28 11:05:44,777] {logging_mixin.py:115} INFO - 
+cm06AUG2022bhav
+[2022-08-28 11:05:44,777] {logging_mixin.py:115} INFO - enter try in loop
+[2022-08-28 11:05:44,777] {logging_mixin.py:115} INFO - https://www1.nseindia.com/content/historical/EQUITIES/2022/AUG/cm06AUG2022bhav.csv.zip
+[2022-08-28 11:05:45,494] {logging_mixin.py:115} INFO - issue occured
+[2022-08-28 11:05:45,498] {logging_mixin.py:115} INFO - 
+cm07AUG2022bhav
+[2022-08-28 11:05:45,498] {logging_mixin.py:115} INFO - enter try in loop
+[2022-08-28 11:05:45,498] {logging_mixin.py:115} INFO - https://www1.nseindia.com/content/historical/EQUITIES/2022/AUG/cm07AUG2022bhav.csv.zip
+[2022-08-28 11:05:46,053] {logging_mixin.py:115} INFO - issue occured
+[2022-08-28 11:05:46,055] {logging_mixin.py:115} INFO - 
+cm08AUG2022bhav
+[2022-08-28 11:05:46,055] {logging_mixin.py:115} INFO - enter try in loop
+[2022-08-28 11:05:46,055] {logging_mixin.py:115} INFO - https://www1.nseindia.com/content/historical/EQUITIES/2022/AUG/cm08AUG2022bhav.csv.zip
+[2022-08-28 11:05:46,844] {logging_mixin.py:115} INFO - https://www1.nseindia.com/content/historical/EQUITIES/2022/AUG/cm08AUG2022bhav.csv.zip
+[2022-08-28 11:05:46,844] {logging_mixin.py:115} INFO - 
+cm09AUG2022bhav
+[2022-08-28 11:05:46,844] {logging_mixin.py:115} INFO - enter try in loop
+[2022-08-28 11:05:46,844] {logging_mixin.py:115} INFO - https://www1.nseindia.com/content/historical/EQUITIES/2022/AUG/cm09AUG2022bhav.csv.zip
+[2022-08-28 11:05:47,405] {logging_mixin.py:115} INFO - issue occured
+[2022-08-28 11:05:47,406] {logging_mixin.py:115} INFO - 
+cm10AUG2022bhav
+[2022-08-28 11:05:47,406] {logging_mixin.py:115} INFO - enter try in loop
+[2022-08-28 11:05:47,406] {logging_mixin.py:115} INFO - https://www1.nseindia.com/content/historical/EQUITIES/2022/AUG/cm10AUG2022bhav.csv.zip
+[2022-08-28 11:05:48,088] {logging_mixin.py:115} INFO - https://www1.nseindia.com/content/historical/EQUITIES/2022/AUG/cm10AUG2022bhav.csv.zip
+[2022-08-28 11:05:48,088] {logging_mixin.py:115} INFO - 
+cm11AUG2022bhav
+[2022-08-28 11:05:48,088] {logging_mixin.py:115} INFO - enter try in loop
+[2022-08-28 11:05:48,089] {logging_mixin.py:115} INFO - https://www1.nseindia.com/content/historical/EQUITIES/2022/AUG/cm11AUG2022bhav.csv.zip
+[2022-08-28 11:05:48,675] {logging_mixin.py:115} INFO - https://www1.nseindia.com/content/historical/EQUITIES/2022/AUG/cm11AUG2022bhav.csv.zip
+[2022-08-28 11:05:48,676] {logging_mixin.py:115} INFO - 
+cm12AUG2022bhav
+[2022-08-28 11:05:48,676] {logging_mixin.py:115} INFO - enter try in loop
+[2022-08-28 11:05:48,676] {logging_mixin.py:115} INFO - https://www1.nseindia.com/content/historical/EQUITIES/2022/AUG/cm12AUG2022bhav.csv.zip
+[2022-08-28 11:05:49,316] {logging_mixin.py:115} INFO - https://www1.nseindia.com/content/historical/EQUITIES/2022/AUG/cm12AUG2022bhav.csv.zip
+[2022-08-28 11:05:49,316] {logging_mixin.py:115} INFO - 
+cm13AUG2022bhav
+[2022-08-28 11:05:49,316] {logging_mixin.py:115} INFO - enter try in loop
+[2022-08-28 11:05:49,316] {logging_mixin.py:115} INFO - https://www1.nseindia.com/content/historical/EQUITIES/2022/AUG/cm13AUG2022bhav.csv.zip
+[2022-08-28 11:05:50,172] {logging_mixin.py:115} INFO - issue occured
+[2022-08-28 11:05:50,173] {logging_mixin.py:115} INFO - 
+cm14AUG2022bhav
+[2022-08-28 11:05:50,175] {logging_mixin.py:115} INFO - enter try in loop
+[2022-08-28 11:05:50,175] {logging_mixin.py:115} INFO - https://www1.nseindia.com/content/historical/EQUITIES/2022/AUG/cm14AUG2022bhav.csv.zip
+[2022-08-28 11:05:50,745] {logging_mixin.py:115} INFO - issue occured
+[2022-08-28 11:05:50,753] {logging_mixin.py:115} INFO - 
+cm15AUG2022bhav
+[2022-08-28 11:05:50,754] {logging_mixin.py:115} INFO - enter try in loop
+[2022-08-28 11:05:50,754] {logging_mixin.py:115} INFO - https://www1.nseindia.com/content/historical/EQUITIES/2022/AUG/cm15AUG2022bhav.csv.zip
+[2022-08-28 11:05:51,340] {logging_mixin.py:115} INFO - issue occured
+[2022-08-28 11:05:51,340] {logging_mixin.py:115} INFO - 
+cm16AUG2022bhav
+[2022-08-28 11:05:51,340] {logging_mixin.py:115} INFO - enter try in loop
+[2022-08-28 11:05:51,340] {logging_mixin.py:115} INFO - https://www1.nseindia.com/content/historical/EQUITIES/2022/AUG/cm16AUG2022bhav.csv.zip
+[2022-08-28 11:05:52,069] {logging_mixin.py:115} INFO - https://www1.nseindia.com/content/historical/EQUITIES/2022/AUG/cm16AUG2022bhav.csv.zip
+[2022-08-28 11:05:52,069] {logging_mixin.py:115} INFO - 
+cm17AUG2022bhav
+[2022-08-28 11:05:52,069] {logging_mixin.py:115} INFO - enter try in loop
+[2022-08-28 11:05:52,069] {logging_mixin.py:115} INFO - https://www1.nseindia.com/content/historical/EQUITIES/2022/AUG/cm17AUG2022bhav.csv.zip
+[2022-08-28 11:05:52,749] {logging_mixin.py:115} INFO - https://www1.nseindia.com/content/historical/EQUITIES/2022/AUG/cm17AUG2022bhav.csv.zip
+[2022-08-28 11:05:52,749] {logging_mixin.py:115} INFO - 
+cm18AUG2022bhav
+[2022-08-28 11:05:52,749] {logging_mixin.py:115} INFO - enter try in loop
+[2022-08-28 11:05:52,752] {logging_mixin.py:115} INFO - https://www1.nseindia.com/content/historical/EQUITIES/2022/AUG/cm18AUG2022bhav.csv.zip
+[2022-08-28 11:05:53,712] {logging_mixin.py:115} INFO - https://www1.nseindia.com/content/historical/EQUITIES/2022/AUG/cm18AUG2022bhav.csv.zip
+[2022-08-28 11:05:53,712] {logging_mixin.py:115} INFO - 
+cm19AUG2022bhav
+[2022-08-28 11:05:53,712] {logging_mixin.py:115} INFO - enter try in loop
+[2022-08-28 11:05:53,712] {logging_mixin.py:115} INFO - https://www1.nseindia.com/content/historical/EQUITIES/2022/AUG/cm19AUG2022bhav.csv.zip
+[2022-08-28 11:05:54,429] {logging_mixin.py:115} INFO - https://www1.nseindia.com/content/historical/EQUITIES/2022/AUG/cm19AUG2022bhav.csv.zip
+[2022-08-28 11:05:54,429] {logging_mixin.py:115} INFO - 
+cm20AUG2022bhav
+[2022-08-28 11:05:54,429] {logging_mixin.py:115} INFO - enter try in loop
+[2022-08-28 11:05:54,430] {logging_mixin.py:115} INFO - https://www1.nseindia.com/content/historical/EQUITIES/2022/AUG/cm20AUG2022bhav.csv.zip
+[2022-08-28 11:05:55,039] {logging_mixin.py:115} INFO - issue occured
+[2022-08-28 11:05:55,040] {logging_mixin.py:115} INFO - 
+cm21AUG2022bhav
+[2022-08-28 11:05:55,040] {logging_mixin.py:115} INFO - enter try in loop
+[2022-08-28 11:05:55,040] {logging_mixin.py:115} INFO - https://www1.nseindia.com/content/historical/EQUITIES/2022/AUG/cm21AUG2022bhav.csv.zip
+[2022-08-28 11:05:55,619] {logging_mixin.py:115} INFO - issue occured
+[2022-08-28 11:05:55,620] {logging_mixin.py:115} INFO - 
+cm22AUG2022bhav
+[2022-08-28 11:05:55,620] {logging_mixin.py:115} INFO - enter try in loop
+[2022-08-28 11:05:55,620] {logging_mixin.py:115} INFO - https://www1.nseindia.com/content/historical/EQUITIES/2022/AUG/cm22AUG2022bhav.csv.zip
+[2022-08-28 11:05:56,270] {logging_mixin.py:115} INFO - https://www1.nseindia.com/content/historical/EQUITIES/2022/AUG/cm22AUG2022bhav.csv.zip
+[2022-08-28 11:05:56,270] {logging_mixin.py:115} INFO - 
+cm23AUG2022bhav
+[2022-08-28 11:05:56,270] {logging_mixin.py:115} INFO - enter try in loop
+[2022-08-28 11:05:56,270] {logging_mixin.py:115} INFO - https://www1.nseindia.com/content/historical/EQUITIES/2022/AUG/cm23AUG2022bhav.csv.zip
+[2022-08-28 11:05:57,093] {logging_mixin.py:115} INFO - https://www1.nseindia.com/content/historical/EQUITIES/2022/AUG/cm23AUG2022bhav.csv.zip
+[2022-08-28 11:05:57,094] {logging_mixin.py:115} INFO - 
+cm24AUG2022bhav
+[2022-08-28 11:05:57,094] {logging_mixin.py:115} INFO - enter try in loop
+[2022-08-28 11:05:57,094] {logging_mixin.py:115} INFO - https://www1.nseindia.com/content/historical/EQUITIES/2022/AUG/cm24AUG2022bhav.csv.zip
+[2022-08-28 11:05:57,710] {logging_mixin.py:115} INFO - https://www1.nseindia.com/content/historical/EQUITIES/2022/AUG/cm24AUG2022bhav.csv.zip
+[2022-08-28 11:05:57,711] {logging_mixin.py:115} INFO - 
+cm25AUG2022bhav
+[2022-08-28 11:05:57,711] {logging_mixin.py:115} INFO - enter try in loop
+[2022-08-28 11:05:57,711] {logging_mixin.py:115} INFO - https://www1.nseindia.com/content/historical/EQUITIES/2022/AUG/cm25AUG2022bhav.csv.zip
+[2022-08-28 11:05:58,479] {logging_mixin.py:115} INFO - https://www1.nseindia.com/content/historical/EQUITIES/2022/AUG/cm25AUG2022bhav.csv.zip
+[2022-08-28 11:05:58,479] {logging_mixin.py:115} INFO - 
+cm26AUG2022bhav
+[2022-08-28 11:05:58,479] {logging_mixin.py:115} INFO - enter try in loop
+[2022-08-28 11:05:58,479] {logging_mixin.py:115} INFO - https://www1.nseindia.com/content/historical/EQUITIES/2022/AUG/cm26AUG2022bhav.csv.zip
+[2022-08-28 11:05:59,226] {logging_mixin.py:115} INFO - https://www1.nseindia.com/content/historical/EQUITIES/2022/AUG/cm26AUG2022bhav.csv.zip
+[2022-08-28 11:05:59,226] {logging_mixin.py:115} INFO - 
+cm27AUG2022bhav
+[2022-08-28 11:05:59,226] {logging_mixin.py:115} INFO - enter try in loop
+[2022-08-28 11:05:59,226] {logging_mixin.py:115} INFO - https://www1.nseindia.com/content/historical/EQUITIES/2022/AUG/cm27AUG2022bhav.csv.zip
+[2022-08-28 11:05:59,911] {logging_mixin.py:115} INFO - issue occured
+[2022-08-28 11:05:59,911] {logging_mixin.py:115} INFO - 
+cm28AUG2022bhav
+[2022-08-28 11:05:59,911] {logging_mixin.py:115} INFO - enter try in loop
+[2022-08-28 11:05:59,911] {logging_mixin.py:115} INFO - https://www1.nseindia.com/content/historical/EQUITIES/2022/AUG/cm28AUG2022bhav.csv.zip
+[2022-08-28 11:06:00,323] {logging_mixin.py:115} INFO - issue occured
+[2022-08-28 11:06:00,324] {logging_mixin.py:115} INFO - ['cm25JUL2022bhav.csv.zip', 'cm26JUL2022bhav.csv.zip', 'cm27JUL2022bhav.csv.zip', 'cm28JUL2022bhav.csv.zip', 'cm29JUL2022bhav.csv.zip', 'cm01AUG2022bhav.csv.zip', 'cm02AUG2022bhav.csv.zip', 'cm03AUG2022bhav.csv.zip', 'cm04AUG2022bhav.csv.zip', 'cm05AUG2022bhav.csv.zip', 'cm08AUG2022bhav.csv.zip', 'cm10AUG2022bhav.csv.zip', 'cm11AUG2022bhav.csv.zip', 'cm12AUG2022bhav.csv.zip', 'cm16AUG2022bhav.csv.zip', 'cm17AUG2022bhav.csv.zip', 'cm18AUG2022bhav.csv.zip', 'cm19AUG2022bhav.csv.zip', 'cm22AUG2022bhav.csv.zip', 'cm23AUG2022bhav.csv.zip', 'cm24AUG2022bhav.csv.zip', 'cm25AUG2022bhav.csv.zip', 'cm26AUG2022bhav.csv.zip']
+[2022-08-28 11:06:00,324] {logging_mixin.py:115} INFO - cm25JUL2022bhav.csv.zip
+[2022-08-28 11:06:00,347] {logging_mixin.py:115} INFO - cm26JUL2022bhav.csv.zip
+[2022-08-28 11:06:00,377] {logging_mixin.py:115} INFO - cm27JUL2022bhav.csv.zip
+[2022-08-28 11:06:00,416] {logging_mixin.py:115} INFO - cm28JUL2022bhav.csv.zip
+[2022-08-28 11:06:00,422] {logging_mixin.py:115} INFO - cm29JUL2022bhav.csv.zip
+[2022-08-28 11:06:00,481] {logging_mixin.py:115} INFO - cm01AUG2022bhav.csv.zip
+[2022-08-28 11:06:00,514] {logging_mixin.py:115} INFO - cm02AUG2022bhav.csv.zip
+[2022-08-28 11:06:00,607] {logging_mixin.py:115} INFO - cm03AUG2022bhav.csv.zip
+[2022-08-28 11:06:00,689] {logging_mixin.py:115} INFO - cm04AUG2022bhav.csv.zip
+[2022-08-28 11:06:00,727] {logging_mixin.py:115} INFO - cm05AUG2022bhav.csv.zip
+[2022-08-28 11:06:00,741] {logging_mixin.py:115} INFO - cm08AUG2022bhav.csv.zip
+[2022-08-28 11:06:00,798] {logging_mixin.py:115} INFO - cm10AUG2022bhav.csv.zip
+[2022-08-28 11:06:00,821] {logging_mixin.py:115} INFO - cm11AUG2022bhav.csv.zip
+[2022-08-28 11:06:00,845] {logging_mixin.py:115} INFO - cm12AUG2022bhav.csv.zip
+[2022-08-28 11:06:00,864] {logging_mixin.py:115} INFO - cm16AUG2022bhav.csv.zip
+[2022-08-28 11:06:00,885] {logging_mixin.py:115} INFO - cm17AUG2022bhav.csv.zip
+[2022-08-28 11:06:00,888] {logging_mixin.py:115} INFO - cm18AUG2022bhav.csv.zip
+[2022-08-28 11:06:00,920] {logging_mixin.py:115} INFO - cm19AUG2022bhav.csv.zip
+[2022-08-28 11:06:00,922] {logging_mixin.py:115} INFO - cm22AUG2022bhav.csv.zip
+[2022-08-28 11:06:00,972] {logging_mixin.py:115} INFO - cm23AUG2022bhav.csv.zip
+[2022-08-28 11:06:00,975] {logging_mixin.py:115} INFO - cm24AUG2022bhav.csv.zip
+[2022-08-28 11:06:01,008] {logging_mixin.py:115} INFO - cm25AUG2022bhav.csv.zip
+[2022-08-28 11:06:01,030] {logging_mixin.py:115} INFO - cm26AUG2022bhav.csv.zip
+[2022-08-28 11:06:01,032] {python.py:173} INFO - Done. Returned value was: None
+[2022-08-28 11:06:01,038] {taskinstance.py:1395} INFO - Marking task as SUCCESS. dag_id=nse_daily_data_load, task_id=nse_download_files, execution_date=20220824T133700, start_date=20220828T150536, end_date=20220828T150601
+[2022-08-28 11:06:01,339] {local_task_job.py:156} INFO - Task exited with return code 0
+[2022-08-28 11:06:01,578] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,57 @@
+[2022-07-17 11:51:48,317] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: nse_daily_data_load.load_ftp_namedstage manual__2022-07-17T15:51:20.430255+00:00 [queued]>
+[2022-07-17 11:51:48,335] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: nse_daily_data_load.load_ftp_namedstage manual__2022-07-17T15:51:20.430255+00:00 [queued]>
+[2022-07-17 11:51:48,335] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-17 11:51:48,335] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2022-07-17 11:51:48,335] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-17 11:51:48,396] {taskinstance.py:1377} INFO - Executing <Task(PythonOperator): load_ftp_namedstage> on 2022-07-17 15:51:20.430255+00:00
+[2022-07-17 11:51:48,430] {standard_task_runner.py:52} INFO - Started process 351258 to run task
+[2022-07-17 11:51:48,434] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'nse_daily_data_load', 'load_ftp_namedstage', 'manual__2022-07-17T15:51:20.430255+00:00', '--job-id', '16', '--raw', '--subdir', 'DAGS_FOLDER/nse_daily_load_stg.py', '--cfg-path', '/tmp/tmpx_bwetlb', '--error-file', '/tmp/tmpwj8weegx']
+[2022-07-17 11:51:48,435] {standard_task_runner.py:80} INFO - Job 16: Subtask load_ftp_namedstage
+[2022-07-17 11:51:48,902] {task_command.py:369} INFO - Running <TaskInstance: nse_daily_data_load.load_ftp_namedstage manual__2022-07-17T15:51:20.430255+00:00 [running]> on host osboxes
+[2022-07-17 11:51:49,413] {taskinstance.py:1569} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=Airflow
+AIRFLOW_CTX_DAG_ID=nse_daily_data_load
+AIRFLOW_CTX_TASK_ID=load_ftp_namedstage
+AIRFLOW_CTX_EXECUTION_DATE=2022-07-17T15:51:20.430255+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-07-17T15:51:20.430255+00:00
+[2022-07-17 11:51:49,589] {base.py:68} INFO - Using connection ID 'snowflake_conn_id' for task execution.
+[2022-07-17 11:51:49,594] {connection.py:257} INFO - Snowflake Connector for Python Version: 2.7.8, Python Version: 3.8.10, Platform: Linux-5.4.0-74-generic-x86_64-with-glibc2.29
+[2022-07-17 11:51:49,633] {connection.py:876} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2022-07-17 11:51:49,662] {connection.py:894} INFO - Setting use_openssl_only mode to False
+[2022-07-17 11:51:55,601] {cursor.py:710} INFO - query: [ALTER SESSION SET autocommit=False]
+[2022-07-17 11:51:55,962] {cursor.py:734} INFO - query execution done
+[2022-07-17 11:51:55,964] {snowflake.py:328} INFO - Running statement: put file:///home/osboxes/Desktop/Files/cm*.csv @NSE_DAILY_STG;, parameters: None
+[2022-07-17 11:51:55,966] {cursor.py:710} INFO - query: [put file:///home/osboxes/Desktop/Files/cm*.csv @NSE_DAILY_STG;]
+[2022-07-17 11:51:56,352] {cursor.py:734} INFO - query execution done
+[2022-07-17 11:51:56,556] {connection.py:507} INFO - closed
+[2022-07-17 11:51:56,641] {connection.py:510} INFO - No async queries seem to be running, deleting session
+[2022-07-17 11:51:56,731] {taskinstance.py:1889} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/osboxes/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 171, in execute
+    return_value = self.execute_callable()
+  File "/home/osboxes/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 189, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/osboxes/airflow/dags/nse_daily_load_stg.py", line 27, in load_local_inter_stg
+    res1 = ld_lcl_ins.run(sql = sql_t)
+  File "/home/osboxes/.local/lib/python3.8/site-packages/airflow/providers/snowflake/hooks/snowflake.py", line 332, in run
+    cur.execute(sql_statement)
+  File "/home/osboxes/.local/lib/python3.8/site-packages/snowflake/connector/cursor.py", line 760, in execute
+    sf_file_transfer_agent.execute()
+  File "/home/osboxes/.local/lib/python3.8/site-packages/snowflake/connector/file_transfer_agent.py", line 359, in execute
+    self._init_file_metadata()
+  File "/home/osboxes/.local/lib/python3.8/site-packages/snowflake/connector/file_transfer_agent.py", line 994, in _init_file_metadata
+    Error.errorhandler_wrapper(
+  File "/home/osboxes/.local/lib/python3.8/site-packages/snowflake/connector/errors.py", line 273, in errorhandler_wrapper
+    handed_over = Error.hand_to_other_handler(
+  File "/home/osboxes/.local/lib/python3.8/site-packages/snowflake/connector/errors.py", line 328, in hand_to_other_handler
+    cursor.errorhandler(connection, cursor, error_class, error_value)
+  File "/home/osboxes/.local/lib/python3.8/site-packages/snowflake/connector/errors.py", line 207, in default_errorhandler
+    raise error_class(
+snowflake.connector.errors.ProgrammingError: 253006: 253006: Not a file but a directory: /home/osboxes/Desktop/Files/cm13JUL2020bhav.csv
+[2022-07-17 11:51:56,757] {taskinstance.py:1395} INFO - Marking task as FAILED. dag_id=nse_daily_data_load, task_id=load_ftp_namedstage, execution_date=20220717T155120, start_date=20220717T155148, end_date=20220717T155156
+[2022-07-17 11:51:57,106] {standard_task_runner.py:92} ERROR - Failed to execute job 16 for task load_ftp_namedstage (253006: 253006: Not a file but a directory: /home/osboxes/Desktop/Files/cm13JUL2020bhav.csv; 351258)
+[2022-07-17 11:51:57,171] {local_task_job.py:156} INFO - Task exited with return code 1
+[2022-07-17 11:51:57,393] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

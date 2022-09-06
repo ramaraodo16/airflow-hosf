@@ -1,0 +1,855 @@
+[2022-08-09 21:18:16,015] {processor.py:153} INFO - Started process (PID=337014) to work on /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:18:16,015] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/test_0716.py for tasks to queue
+[2022-08-09 21:18:16,016] {logging_mixin.py:115} INFO - [2022-08-09 21:18:16,016] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:18:16,327] {logging_mixin.py:115} INFO - [2022-08-09 21:18:16,326] {backend.py:193} INFO - Loading KWallet
+[2022-08-09 21:18:16,334] {logging_mixin.py:115} INFO - [2022-08-09 21:18:16,334] {backend.py:193} INFO - Loading SecretService
+[2022-08-09 21:18:16,339] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-09 21:18:16,339] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-09 21:18:16,341] {logging_mixin.py:115} INFO - [2022-08-09 21:18:16,341] {backend.py:193} INFO - Loading Windows
+[2022-08-09 21:18:16,342] {logging_mixin.py:115} INFO - [2022-08-09 21:18:16,342] {backend.py:193} INFO - Loading chainer
+[2022-08-09 21:18:16,342] {logging_mixin.py:115} INFO - [2022-08-09 21:18:16,342] {backend.py:193} INFO - Loading macOS
+[2022-08-09 21:18:16,529] {processor.py:651} INFO - DAG(s) dict_keys(['Snowflake_automation']) retrieved from /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:18:16,845] {logging_mixin.py:115} INFO - [2022-08-09 21:18:16,845] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-09 21:18:16,870] {logging_mixin.py:115} INFO - [2022-08-09 21:18:16,869] {dag.py:2915} INFO - Setting next_dagrun for Snowflake_automation to None, run_after=None
+[2022-08-09 21:18:16,911] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/test_0716.py took 0.898 seconds
+[2022-08-09 21:18:58,546] {processor.py:153} INFO - Started process (PID=337452) to work on /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:18:58,548] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/test_0716.py for tasks to queue
+[2022-08-09 21:18:58,548] {logging_mixin.py:115} INFO - [2022-08-09 21:18:58,548] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:18:58,879] {logging_mixin.py:115} INFO - [2022-08-09 21:18:58,878] {backend.py:193} INFO - Loading KWallet
+[2022-08-09 21:18:58,884] {logging_mixin.py:115} INFO - [2022-08-09 21:18:58,883] {backend.py:193} INFO - Loading SecretService
+[2022-08-09 21:18:58,890] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-09 21:18:58,890] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-09 21:18:58,891] {logging_mixin.py:115} INFO - [2022-08-09 21:18:58,891] {backend.py:193} INFO - Loading Windows
+[2022-08-09 21:18:58,892] {logging_mixin.py:115} INFO - [2022-08-09 21:18:58,892] {backend.py:193} INFO - Loading chainer
+[2022-08-09 21:18:58,892] {logging_mixin.py:115} INFO - [2022-08-09 21:18:58,892] {backend.py:193} INFO - Loading macOS
+[2022-08-09 21:18:59,002] {processor.py:651} INFO - DAG(s) dict_keys(['Snowflake_automation']) retrieved from /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:18:59,018] {logging_mixin.py:115} INFO - [2022-08-09 21:18:59,018] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-09 21:18:59,032] {logging_mixin.py:115} INFO - [2022-08-09 21:18:59,032] {dag.py:2915} INFO - Setting next_dagrun for Snowflake_automation to None, run_after=None
+[2022-08-09 21:18:59,067] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/test_0716.py took 0.523 seconds
+[2022-08-09 21:19:35,771] {processor.py:153} INFO - Started process (PID=337780) to work on /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:19:35,773] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/test_0716.py for tasks to queue
+[2022-08-09 21:19:35,774] {logging_mixin.py:115} INFO - [2022-08-09 21:19:35,774] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:19:36,081] {logging_mixin.py:115} INFO - [2022-08-09 21:19:36,079] {backend.py:193} INFO - Loading KWallet
+[2022-08-09 21:19:36,085] {logging_mixin.py:115} INFO - [2022-08-09 21:19:36,085] {backend.py:193} INFO - Loading SecretService
+[2022-08-09 21:19:36,090] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-09 21:19:36,091] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-09 21:19:36,091] {logging_mixin.py:115} INFO - [2022-08-09 21:19:36,091] {backend.py:193} INFO - Loading Windows
+[2022-08-09 21:19:36,092] {logging_mixin.py:115} INFO - [2022-08-09 21:19:36,092] {backend.py:193} INFO - Loading chainer
+[2022-08-09 21:19:36,092] {logging_mixin.py:115} INFO - [2022-08-09 21:19:36,092] {backend.py:193} INFO - Loading macOS
+[2022-08-09 21:19:36,193] {processor.py:651} INFO - DAG(s) dict_keys(['Snowflake_automation']) retrieved from /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:19:36,207] {logging_mixin.py:115} INFO - [2022-08-09 21:19:36,206] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-09 21:19:36,221] {logging_mixin.py:115} INFO - [2022-08-09 21:19:36,221] {dag.py:2915} INFO - Setting next_dagrun for Snowflake_automation to None, run_after=None
+[2022-08-09 21:19:36,267] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/test_0716.py took 0.499 seconds
+[2022-08-09 21:20:17,391] {processor.py:153} INFO - Started process (PID=338155) to work on /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:20:17,393] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/test_0716.py for tasks to queue
+[2022-08-09 21:20:17,394] {logging_mixin.py:115} INFO - [2022-08-09 21:20:17,394] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:20:17,712] {logging_mixin.py:115} INFO - [2022-08-09 21:20:17,710] {backend.py:193} INFO - Loading KWallet
+[2022-08-09 21:20:17,716] {logging_mixin.py:115} INFO - [2022-08-09 21:20:17,716] {backend.py:193} INFO - Loading SecretService
+[2022-08-09 21:20:17,722] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-09 21:20:17,722] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-09 21:20:17,723] {logging_mixin.py:115} INFO - [2022-08-09 21:20:17,722] {backend.py:193} INFO - Loading Windows
+[2022-08-09 21:20:17,723] {logging_mixin.py:115} INFO - [2022-08-09 21:20:17,723] {backend.py:193} INFO - Loading chainer
+[2022-08-09 21:20:17,723] {logging_mixin.py:115} INFO - [2022-08-09 21:20:17,723] {backend.py:193} INFO - Loading macOS
+[2022-08-09 21:20:17,829] {processor.py:651} INFO - DAG(s) dict_keys(['Snowflake_automation']) retrieved from /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:20:17,842] {logging_mixin.py:115} INFO - [2022-08-09 21:20:17,841] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-09 21:20:17,854] {logging_mixin.py:115} INFO - [2022-08-09 21:20:17,854] {dag.py:2915} INFO - Setting next_dagrun for Snowflake_automation to None, run_after=None
+[2022-08-09 21:20:17,882] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/test_0716.py took 0.493 seconds
+[2022-08-09 21:20:52,488] {processor.py:153} INFO - Started process (PID=338489) to work on /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:20:52,490] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/test_0716.py for tasks to queue
+[2022-08-09 21:20:52,490] {logging_mixin.py:115} INFO - [2022-08-09 21:20:52,490] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:20:52,796] {logging_mixin.py:115} INFO - [2022-08-09 21:20:52,795] {backend.py:193} INFO - Loading KWallet
+[2022-08-09 21:20:52,800] {logging_mixin.py:115} INFO - [2022-08-09 21:20:52,800] {backend.py:193} INFO - Loading SecretService
+[2022-08-09 21:20:52,807] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-09 21:20:52,808] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-09 21:20:52,808] {logging_mixin.py:115} INFO - [2022-08-09 21:20:52,808] {backend.py:193} INFO - Loading Windows
+[2022-08-09 21:20:52,809] {logging_mixin.py:115} INFO - [2022-08-09 21:20:52,809] {backend.py:193} INFO - Loading chainer
+[2022-08-09 21:20:52,809] {logging_mixin.py:115} INFO - [2022-08-09 21:20:52,809] {backend.py:193} INFO - Loading macOS
+[2022-08-09 21:20:52,913] {processor.py:651} INFO - DAG(s) dict_keys(['Snowflake_automation']) retrieved from /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:20:52,925] {logging_mixin.py:115} INFO - [2022-08-09 21:20:52,925] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-09 21:20:52,937] {logging_mixin.py:115} INFO - [2022-08-09 21:20:52,937] {dag.py:2915} INFO - Setting next_dagrun for Snowflake_automation to None, run_after=None
+[2022-08-09 21:20:52,965] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/test_0716.py took 0.479 seconds
+[2022-08-09 21:21:30,512] {processor.py:153} INFO - Started process (PID=338843) to work on /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:21:30,513] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/test_0716.py for tasks to queue
+[2022-08-09 21:21:30,514] {logging_mixin.py:115} INFO - [2022-08-09 21:21:30,514] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:21:30,836] {logging_mixin.py:115} INFO - [2022-08-09 21:21:30,835] {backend.py:193} INFO - Loading KWallet
+[2022-08-09 21:21:30,843] {logging_mixin.py:115} INFO - [2022-08-09 21:21:30,843] {backend.py:193} INFO - Loading SecretService
+[2022-08-09 21:21:30,849] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-09 21:21:30,850] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-09 21:21:30,850] {logging_mixin.py:115} INFO - [2022-08-09 21:21:30,850] {backend.py:193} INFO - Loading Windows
+[2022-08-09 21:21:30,851] {logging_mixin.py:115} INFO - [2022-08-09 21:21:30,851] {backend.py:193} INFO - Loading chainer
+[2022-08-09 21:21:30,851] {logging_mixin.py:115} INFO - [2022-08-09 21:21:30,851] {backend.py:193} INFO - Loading macOS
+[2022-08-09 21:21:30,954] {processor.py:651} INFO - DAG(s) dict_keys(['Snowflake_automation']) retrieved from /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:21:30,968] {logging_mixin.py:115} INFO - [2022-08-09 21:21:30,968] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-09 21:21:30,981] {logging_mixin.py:115} INFO - [2022-08-09 21:21:30,981] {dag.py:2915} INFO - Setting next_dagrun for Snowflake_automation to None, run_after=None
+[2022-08-09 21:21:31,008] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/test_0716.py took 0.498 seconds
+[2022-08-09 21:22:03,772] {processor.py:153} INFO - Started process (PID=339157) to work on /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:22:03,774] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/test_0716.py for tasks to queue
+[2022-08-09 21:22:03,775] {logging_mixin.py:115} INFO - [2022-08-09 21:22:03,775] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:22:04,095] {logging_mixin.py:115} INFO - [2022-08-09 21:22:04,094] {backend.py:193} INFO - Loading KWallet
+[2022-08-09 21:22:04,099] {logging_mixin.py:115} INFO - [2022-08-09 21:22:04,099] {backend.py:193} INFO - Loading SecretService
+[2022-08-09 21:22:04,105] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-09 21:22:04,106] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-09 21:22:04,106] {logging_mixin.py:115} INFO - [2022-08-09 21:22:04,106] {backend.py:193} INFO - Loading Windows
+[2022-08-09 21:22:04,107] {logging_mixin.py:115} INFO - [2022-08-09 21:22:04,107] {backend.py:193} INFO - Loading chainer
+[2022-08-09 21:22:04,107] {logging_mixin.py:115} INFO - [2022-08-09 21:22:04,107] {backend.py:193} INFO - Loading macOS
+[2022-08-09 21:22:04,229] {processor.py:651} INFO - DAG(s) dict_keys(['Snowflake_automation']) retrieved from /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:22:04,242] {logging_mixin.py:115} INFO - [2022-08-09 21:22:04,242] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-09 21:22:04,256] {logging_mixin.py:115} INFO - [2022-08-09 21:22:04,256] {dag.py:2915} INFO - Setting next_dagrun for Snowflake_automation to None, run_after=None
+[2022-08-09 21:22:04,292] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/test_0716.py took 0.522 seconds
+[2022-08-09 21:22:39,647] {processor.py:153} INFO - Started process (PID=339484) to work on /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:22:39,649] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/test_0716.py for tasks to queue
+[2022-08-09 21:22:39,649] {logging_mixin.py:115} INFO - [2022-08-09 21:22:39,649] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:22:39,963] {logging_mixin.py:115} INFO - [2022-08-09 21:22:39,960] {backend.py:193} INFO - Loading KWallet
+[2022-08-09 21:22:39,968] {logging_mixin.py:115} INFO - [2022-08-09 21:22:39,968] {backend.py:193} INFO - Loading SecretService
+[2022-08-09 21:22:39,974] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-09 21:22:39,974] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-09 21:22:39,975] {logging_mixin.py:115} INFO - [2022-08-09 21:22:39,975] {backend.py:193} INFO - Loading Windows
+[2022-08-09 21:22:39,975] {logging_mixin.py:115} INFO - [2022-08-09 21:22:39,975] {backend.py:193} INFO - Loading chainer
+[2022-08-09 21:22:39,976] {logging_mixin.py:115} INFO - [2022-08-09 21:22:39,976] {backend.py:193} INFO - Loading macOS
+[2022-08-09 21:22:40,075] {processor.py:651} INFO - DAG(s) dict_keys(['Snowflake_automation']) retrieved from /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:22:40,088] {logging_mixin.py:115} INFO - [2022-08-09 21:22:40,087] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-09 21:22:40,265] {logging_mixin.py:115} INFO - [2022-08-09 21:22:40,265] {dag.py:2915} INFO - Setting next_dagrun for Snowflake_automation to None, run_after=None
+[2022-08-09 21:22:40,289] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/test_0716.py took 0.644 seconds
+[2022-08-09 21:23:16,416] {processor.py:153} INFO - Started process (PID=339829) to work on /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:23:16,419] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/test_0716.py for tasks to queue
+[2022-08-09 21:23:16,419] {logging_mixin.py:115} INFO - [2022-08-09 21:23:16,419] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:23:16,709] {logging_mixin.py:115} INFO - [2022-08-09 21:23:16,705] {backend.py:193} INFO - Loading KWallet
+[2022-08-09 21:23:16,713] {logging_mixin.py:115} INFO - [2022-08-09 21:23:16,713] {backend.py:193} INFO - Loading SecretService
+[2022-08-09 21:23:16,720] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-09 21:23:16,721] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-09 21:23:16,721] {logging_mixin.py:115} INFO - [2022-08-09 21:23:16,721] {backend.py:193} INFO - Loading Windows
+[2022-08-09 21:23:16,722] {logging_mixin.py:115} INFO - [2022-08-09 21:23:16,722] {backend.py:193} INFO - Loading chainer
+[2022-08-09 21:23:16,722] {logging_mixin.py:115} INFO - [2022-08-09 21:23:16,722] {backend.py:193} INFO - Loading macOS
+[2022-08-09 21:23:16,825] {processor.py:651} INFO - DAG(s) dict_keys(['Snowflake_automation']) retrieved from /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:23:16,838] {logging_mixin.py:115} INFO - [2022-08-09 21:23:16,837] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-09 21:23:16,992] {logging_mixin.py:115} INFO - [2022-08-09 21:23:16,992] {dag.py:2915} INFO - Setting next_dagrun for Snowflake_automation to None, run_after=None
+[2022-08-09 21:23:17,028] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/test_0716.py took 0.614 seconds
+[2022-08-09 21:23:56,269] {processor.py:153} INFO - Started process (PID=340257) to work on /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:23:56,271] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/test_0716.py for tasks to queue
+[2022-08-09 21:23:56,271] {logging_mixin.py:115} INFO - [2022-08-09 21:23:56,271] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:23:56,608] {logging_mixin.py:115} INFO - [2022-08-09 21:23:56,607] {backend.py:193} INFO - Loading KWallet
+[2022-08-09 21:23:56,612] {logging_mixin.py:115} INFO - [2022-08-09 21:23:56,612] {backend.py:193} INFO - Loading SecretService
+[2022-08-09 21:23:56,620] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-09 21:23:56,620] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-09 21:23:56,621] {logging_mixin.py:115} INFO - [2022-08-09 21:23:56,621] {backend.py:193} INFO - Loading Windows
+[2022-08-09 21:23:56,621] {logging_mixin.py:115} INFO - [2022-08-09 21:23:56,621] {backend.py:193} INFO - Loading chainer
+[2022-08-09 21:23:56,622] {logging_mixin.py:115} INFO - [2022-08-09 21:23:56,622] {backend.py:193} INFO - Loading macOS
+[2022-08-09 21:23:56,724] {processor.py:651} INFO - DAG(s) dict_keys(['Snowflake_automation']) retrieved from /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:23:56,736] {logging_mixin.py:115} INFO - [2022-08-09 21:23:56,735] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-09 21:23:56,874] {logging_mixin.py:115} INFO - [2022-08-09 21:23:56,874] {dag.py:2915} INFO - Setting next_dagrun for Snowflake_automation to None, run_after=None
+[2022-08-09 21:23:56,915] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/test_0716.py took 0.650 seconds
+[2022-08-09 21:24:32,935] {processor.py:153} INFO - Started process (PID=340594) to work on /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:24:32,937] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/test_0716.py for tasks to queue
+[2022-08-09 21:24:32,937] {logging_mixin.py:115} INFO - [2022-08-09 21:24:32,937] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:24:33,248] {logging_mixin.py:115} INFO - [2022-08-09 21:24:33,247] {backend.py:193} INFO - Loading KWallet
+[2022-08-09 21:24:33,253] {logging_mixin.py:115} INFO - [2022-08-09 21:24:33,253] {backend.py:193} INFO - Loading SecretService
+[2022-08-09 21:24:33,258] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-09 21:24:33,259] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-09 21:24:33,259] {logging_mixin.py:115} INFO - [2022-08-09 21:24:33,259] {backend.py:193} INFO - Loading Windows
+[2022-08-09 21:24:33,260] {logging_mixin.py:115} INFO - [2022-08-09 21:24:33,260] {backend.py:193} INFO - Loading chainer
+[2022-08-09 21:24:33,260] {logging_mixin.py:115} INFO - [2022-08-09 21:24:33,260] {backend.py:193} INFO - Loading macOS
+[2022-08-09 21:24:33,362] {processor.py:651} INFO - DAG(s) dict_keys(['Snowflake_automation']) retrieved from /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:24:33,376] {logging_mixin.py:115} INFO - [2022-08-09 21:24:33,376] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-09 21:24:33,565] {logging_mixin.py:115} INFO - [2022-08-09 21:24:33,565] {dag.py:2915} INFO - Setting next_dagrun for Snowflake_automation to None, run_after=None
+[2022-08-09 21:24:33,591] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/test_0716.py took 0.659 seconds
+[2022-08-09 21:25:13,853] {processor.py:153} INFO - Started process (PID=340976) to work on /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:25:13,854] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/test_0716.py for tasks to queue
+[2022-08-09 21:25:13,855] {logging_mixin.py:115} INFO - [2022-08-09 21:25:13,855] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:25:14,172] {logging_mixin.py:115} INFO - [2022-08-09 21:25:14,171] {backend.py:193} INFO - Loading KWallet
+[2022-08-09 21:25:14,178] {logging_mixin.py:115} INFO - [2022-08-09 21:25:14,178] {backend.py:193} INFO - Loading SecretService
+[2022-08-09 21:25:14,183] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-09 21:25:14,183] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-09 21:25:14,184] {logging_mixin.py:115} INFO - [2022-08-09 21:25:14,184] {backend.py:193} INFO - Loading Windows
+[2022-08-09 21:25:14,187] {logging_mixin.py:115} INFO - [2022-08-09 21:25:14,187] {backend.py:193} INFO - Loading chainer
+[2022-08-09 21:25:14,187] {logging_mixin.py:115} INFO - [2022-08-09 21:25:14,187] {backend.py:193} INFO - Loading macOS
+[2022-08-09 21:25:14,286] {processor.py:651} INFO - DAG(s) dict_keys(['Snowflake_automation']) retrieved from /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:25:14,300] {logging_mixin.py:115} INFO - [2022-08-09 21:25:14,300] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-09 21:25:14,448] {logging_mixin.py:115} INFO - [2022-08-09 21:25:14,448] {dag.py:2915} INFO - Setting next_dagrun for Snowflake_automation to None, run_after=None
+[2022-08-09 21:25:14,489] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/test_0716.py took 0.639 seconds
+[2022-08-09 21:25:48,044] {processor.py:153} INFO - Started process (PID=341281) to work on /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:25:48,045] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/test_0716.py for tasks to queue
+[2022-08-09 21:25:48,046] {logging_mixin.py:115} INFO - [2022-08-09 21:25:48,046] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:25:48,356] {logging_mixin.py:115} INFO - [2022-08-09 21:25:48,355] {backend.py:193} INFO - Loading KWallet
+[2022-08-09 21:25:48,362] {logging_mixin.py:115} INFO - [2022-08-09 21:25:48,361] {backend.py:193} INFO - Loading SecretService
+[2022-08-09 21:25:48,366] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-09 21:25:48,367] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-09 21:25:48,367] {logging_mixin.py:115} INFO - [2022-08-09 21:25:48,367] {backend.py:193} INFO - Loading Windows
+[2022-08-09 21:25:48,368] {logging_mixin.py:115} INFO - [2022-08-09 21:25:48,368] {backend.py:193} INFO - Loading chainer
+[2022-08-09 21:25:48,368] {logging_mixin.py:115} INFO - [2022-08-09 21:25:48,368] {backend.py:193} INFO - Loading macOS
+[2022-08-09 21:25:48,470] {processor.py:651} INFO - DAG(s) dict_keys(['Snowflake_automation']) retrieved from /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:25:48,483] {logging_mixin.py:115} INFO - [2022-08-09 21:25:48,482] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-09 21:25:48,661] {logging_mixin.py:115} INFO - [2022-08-09 21:25:48,661] {dag.py:2915} INFO - Setting next_dagrun for Snowflake_automation to None, run_after=None
+[2022-08-09 21:25:48,695] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/test_0716.py took 0.654 seconds
+[2022-08-09 21:26:25,428] {processor.py:153} INFO - Started process (PID=341614) to work on /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:26:25,429] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/test_0716.py for tasks to queue
+[2022-08-09 21:26:25,429] {logging_mixin.py:115} INFO - [2022-08-09 21:26:25,429] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:26:25,734] {logging_mixin.py:115} INFO - [2022-08-09 21:26:25,733] {backend.py:193} INFO - Loading KWallet
+[2022-08-09 21:26:25,738] {logging_mixin.py:115} INFO - [2022-08-09 21:26:25,738] {backend.py:193} INFO - Loading SecretService
+[2022-08-09 21:26:25,744] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-09 21:26:25,745] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-09 21:26:25,745] {logging_mixin.py:115} INFO - [2022-08-09 21:26:25,745] {backend.py:193} INFO - Loading Windows
+[2022-08-09 21:26:25,746] {logging_mixin.py:115} INFO - [2022-08-09 21:26:25,746] {backend.py:193} INFO - Loading chainer
+[2022-08-09 21:26:25,746] {logging_mixin.py:115} INFO - [2022-08-09 21:26:25,746] {backend.py:193} INFO - Loading macOS
+[2022-08-09 21:26:25,951] {processor.py:651} INFO - DAG(s) dict_keys(['Snowflake_automation']) retrieved from /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:26:25,985] {logging_mixin.py:115} INFO - [2022-08-09 21:26:25,984] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-09 21:26:26,138] {logging_mixin.py:115} INFO - [2022-08-09 21:26:26,138] {dag.py:2915} INFO - Setting next_dagrun for Snowflake_automation to None, run_after=None
+[2022-08-09 21:26:26,165] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/test_0716.py took 0.740 seconds
+[2022-08-09 21:27:04,312] {processor.py:153} INFO - Started process (PID=342033) to work on /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:27:04,314] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/test_0716.py for tasks to queue
+[2022-08-09 21:27:04,314] {logging_mixin.py:115} INFO - [2022-08-09 21:27:04,314] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:27:04,661] {logging_mixin.py:115} INFO - [2022-08-09 21:27:04,660] {backend.py:193} INFO - Loading KWallet
+[2022-08-09 21:27:04,665] {logging_mixin.py:115} INFO - [2022-08-09 21:27:04,665] {backend.py:193} INFO - Loading SecretService
+[2022-08-09 21:27:04,673] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-09 21:27:04,673] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-09 21:27:04,674] {logging_mixin.py:115} INFO - [2022-08-09 21:27:04,673] {backend.py:193} INFO - Loading Windows
+[2022-08-09 21:27:04,674] {logging_mixin.py:115} INFO - [2022-08-09 21:27:04,674] {backend.py:193} INFO - Loading chainer
+[2022-08-09 21:27:04,674] {logging_mixin.py:115} INFO - [2022-08-09 21:27:04,674] {backend.py:193} INFO - Loading macOS
+[2022-08-09 21:27:04,784] {processor.py:651} INFO - DAG(s) dict_keys(['Snowflake_automation']) retrieved from /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:27:04,806] {logging_mixin.py:115} INFO - [2022-08-09 21:27:04,805] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-09 21:27:05,755] {logging_mixin.py:115} INFO - [2022-08-09 21:27:05,755] {dag.py:2915} INFO - Setting next_dagrun for Snowflake_automation to None, run_after=None
+[2022-08-09 21:27:05,788] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/test_0716.py took 1.479 seconds
+[2022-08-09 21:27:47,776] {processor.py:153} INFO - Started process (PID=342433) to work on /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:27:47,779] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/test_0716.py for tasks to queue
+[2022-08-09 21:27:47,780] {logging_mixin.py:115} INFO - [2022-08-09 21:27:47,780] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:27:48,087] {logging_mixin.py:115} INFO - [2022-08-09 21:27:48,086] {backend.py:193} INFO - Loading KWallet
+[2022-08-09 21:27:48,093] {logging_mixin.py:115} INFO - [2022-08-09 21:27:48,093] {backend.py:193} INFO - Loading SecretService
+[2022-08-09 21:27:48,098] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-09 21:27:48,099] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-09 21:27:48,099] {logging_mixin.py:115} INFO - [2022-08-09 21:27:48,099] {backend.py:193} INFO - Loading Windows
+[2022-08-09 21:27:48,101] {logging_mixin.py:115} INFO - [2022-08-09 21:27:48,101] {backend.py:193} INFO - Loading chainer
+[2022-08-09 21:27:48,102] {logging_mixin.py:115} INFO - [2022-08-09 21:27:48,102] {backend.py:193} INFO - Loading macOS
+[2022-08-09 21:27:48,203] {processor.py:651} INFO - DAG(s) dict_keys(['Snowflake_automation']) retrieved from /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:27:48,216] {logging_mixin.py:115} INFO - [2022-08-09 21:27:48,215] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-09 21:27:48,364] {logging_mixin.py:115} INFO - [2022-08-09 21:27:48,364] {dag.py:2915} INFO - Setting next_dagrun for Snowflake_automation to None, run_after=None
+[2022-08-09 21:27:48,396] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/test_0716.py took 0.623 seconds
+[2022-08-09 21:28:22,948] {processor.py:153} INFO - Started process (PID=342779) to work on /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:28:22,950] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/test_0716.py for tasks to queue
+[2022-08-09 21:28:22,950] {logging_mixin.py:115} INFO - [2022-08-09 21:28:22,950] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:28:23,241] {logging_mixin.py:115} INFO - [2022-08-09 21:28:23,240] {backend.py:193} INFO - Loading KWallet
+[2022-08-09 21:28:23,246] {logging_mixin.py:115} INFO - [2022-08-09 21:28:23,246] {backend.py:193} INFO - Loading SecretService
+[2022-08-09 21:28:23,251] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-09 21:28:23,252] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-09 21:28:23,252] {logging_mixin.py:115} INFO - [2022-08-09 21:28:23,252] {backend.py:193} INFO - Loading Windows
+[2022-08-09 21:28:23,252] {logging_mixin.py:115} INFO - [2022-08-09 21:28:23,252] {backend.py:193} INFO - Loading chainer
+[2022-08-09 21:28:23,255] {logging_mixin.py:115} INFO - [2022-08-09 21:28:23,255] {backend.py:193} INFO - Loading macOS
+[2022-08-09 21:28:23,356] {processor.py:651} INFO - DAG(s) dict_keys(['Snowflake_automation']) retrieved from /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:28:23,370] {logging_mixin.py:115} INFO - [2022-08-09 21:28:23,370] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-09 21:28:23,510] {logging_mixin.py:115} INFO - [2022-08-09 21:28:23,510] {dag.py:2915} INFO - Setting next_dagrun for Snowflake_automation to None, run_after=None
+[2022-08-09 21:28:23,556] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/test_0716.py took 0.610 seconds
+[2022-08-09 21:29:00,271] {processor.py:153} INFO - Started process (PID=343160) to work on /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:29:00,273] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/test_0716.py for tasks to queue
+[2022-08-09 21:29:00,273] {logging_mixin.py:115} INFO - [2022-08-09 21:29:00,273] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:29:00,578] {logging_mixin.py:115} INFO - [2022-08-09 21:29:00,567] {backend.py:193} INFO - Loading KWallet
+[2022-08-09 21:29:00,583] {logging_mixin.py:115} INFO - [2022-08-09 21:29:00,583] {backend.py:193} INFO - Loading SecretService
+[2022-08-09 21:29:00,588] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-09 21:29:00,591] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-09 21:29:00,592] {logging_mixin.py:115} INFO - [2022-08-09 21:29:00,592] {backend.py:193} INFO - Loading Windows
+[2022-08-09 21:29:00,592] {logging_mixin.py:115} INFO - [2022-08-09 21:29:00,592] {backend.py:193} INFO - Loading chainer
+[2022-08-09 21:29:00,593] {logging_mixin.py:115} INFO - [2022-08-09 21:29:00,593] {backend.py:193} INFO - Loading macOS
+[2022-08-09 21:29:00,694] {processor.py:651} INFO - DAG(s) dict_keys(['Snowflake_automation']) retrieved from /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:29:00,710] {logging_mixin.py:115} INFO - [2022-08-09 21:29:00,709] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-09 21:29:00,848] {logging_mixin.py:115} INFO - [2022-08-09 21:29:00,848] {dag.py:2915} INFO - Setting next_dagrun for Snowflake_automation to None, run_after=None
+[2022-08-09 21:29:00,876] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/test_0716.py took 0.607 seconds
+[2022-08-09 21:29:38,212] {processor.py:153} INFO - Started process (PID=343510) to work on /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:29:38,213] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/test_0716.py for tasks to queue
+[2022-08-09 21:29:38,213] {logging_mixin.py:115} INFO - [2022-08-09 21:29:38,213] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:29:38,526] {logging_mixin.py:115} INFO - [2022-08-09 21:29:38,525] {backend.py:193} INFO - Loading KWallet
+[2022-08-09 21:29:38,567] {logging_mixin.py:115} INFO - [2022-08-09 21:29:38,567] {backend.py:193} INFO - Loading SecretService
+[2022-08-09 21:29:38,603] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-09 21:29:38,613] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-09 21:29:38,621] {logging_mixin.py:115} INFO - [2022-08-09 21:29:38,621] {backend.py:193} INFO - Loading Windows
+[2022-08-09 21:29:38,622] {logging_mixin.py:115} INFO - [2022-08-09 21:29:38,622] {backend.py:193} INFO - Loading chainer
+[2022-08-09 21:29:38,622] {logging_mixin.py:115} INFO - [2022-08-09 21:29:38,622] {backend.py:193} INFO - Loading macOS
+[2022-08-09 21:29:38,756] {processor.py:651} INFO - DAG(s) dict_keys(['Snowflake_automation']) retrieved from /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:29:38,771] {logging_mixin.py:115} INFO - [2022-08-09 21:29:38,770] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-09 21:29:38,914] {logging_mixin.py:115} INFO - [2022-08-09 21:29:38,914] {dag.py:2915} INFO - Setting next_dagrun for Snowflake_automation to None, run_after=None
+[2022-08-09 21:29:38,949] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/test_0716.py took 0.739 seconds
+[2022-08-09 21:30:20,089] {processor.py:153} INFO - Started process (PID=343901) to work on /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:30:20,092] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/test_0716.py for tasks to queue
+[2022-08-09 21:30:20,093] {logging_mixin.py:115} INFO - [2022-08-09 21:30:20,093] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:30:20,392] {logging_mixin.py:115} INFO - [2022-08-09 21:30:20,390] {backend.py:193} INFO - Loading KWallet
+[2022-08-09 21:30:20,398] {logging_mixin.py:115} INFO - [2022-08-09 21:30:20,398] {backend.py:193} INFO - Loading SecretService
+[2022-08-09 21:30:20,403] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-09 21:30:20,404] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-09 21:30:20,405] {logging_mixin.py:115} INFO - [2022-08-09 21:30:20,405] {backend.py:193} INFO - Loading Windows
+[2022-08-09 21:30:20,405] {logging_mixin.py:115} INFO - [2022-08-09 21:30:20,405] {backend.py:193} INFO - Loading chainer
+[2022-08-09 21:30:20,406] {logging_mixin.py:115} INFO - [2022-08-09 21:30:20,406] {backend.py:193} INFO - Loading macOS
+[2022-08-09 21:30:20,506] {processor.py:651} INFO - DAG(s) dict_keys(['Snowflake_automation']) retrieved from /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:30:20,518] {logging_mixin.py:115} INFO - [2022-08-09 21:30:20,518] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-09 21:30:20,655] {logging_mixin.py:115} INFO - [2022-08-09 21:30:20,655] {dag.py:2915} INFO - Setting next_dagrun for Snowflake_automation to None, run_after=None
+[2022-08-09 21:30:20,707] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/test_0716.py took 0.620 seconds
+[2022-08-09 21:30:56,109] {processor.py:153} INFO - Started process (PID=344234) to work on /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:30:56,111] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/test_0716.py for tasks to queue
+[2022-08-09 21:30:56,111] {logging_mixin.py:115} INFO - [2022-08-09 21:30:56,111] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:30:56,414] {logging_mixin.py:115} INFO - [2022-08-09 21:30:56,413] {backend.py:193} INFO - Loading KWallet
+[2022-08-09 21:30:56,420] {logging_mixin.py:115} INFO - [2022-08-09 21:30:56,420] {backend.py:193} INFO - Loading SecretService
+[2022-08-09 21:30:56,425] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-09 21:30:56,427] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-09 21:30:56,427] {logging_mixin.py:115} INFO - [2022-08-09 21:30:56,427] {backend.py:193} INFO - Loading Windows
+[2022-08-09 21:30:56,428] {logging_mixin.py:115} INFO - [2022-08-09 21:30:56,428] {backend.py:193} INFO - Loading chainer
+[2022-08-09 21:30:56,428] {logging_mixin.py:115} INFO - [2022-08-09 21:30:56,428] {backend.py:193} INFO - Loading macOS
+[2022-08-09 21:30:56,526] {processor.py:651} INFO - DAG(s) dict_keys(['Snowflake_automation']) retrieved from /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:30:56,540] {logging_mixin.py:115} INFO - [2022-08-09 21:30:56,539] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-09 21:30:56,676] {logging_mixin.py:115} INFO - [2022-08-09 21:30:56,676] {dag.py:2915} INFO - Setting next_dagrun for Snowflake_automation to None, run_after=None
+[2022-08-09 21:30:56,702] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/test_0716.py took 0.596 seconds
+[2022-08-09 21:31:31,220] {processor.py:153} INFO - Started process (PID=344564) to work on /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:31:31,222] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/test_0716.py for tasks to queue
+[2022-08-09 21:31:31,222] {logging_mixin.py:115} INFO - [2022-08-09 21:31:31,222] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:31:31,657] {logging_mixin.py:115} INFO - [2022-08-09 21:31:31,655] {backend.py:193} INFO - Loading KWallet
+[2022-08-09 21:31:31,661] {logging_mixin.py:115} INFO - [2022-08-09 21:31:31,661] {backend.py:193} INFO - Loading SecretService
+[2022-08-09 21:31:31,667] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-09 21:31:31,668] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-09 21:31:31,668] {logging_mixin.py:115} INFO - [2022-08-09 21:31:31,668] {backend.py:193} INFO - Loading Windows
+[2022-08-09 21:31:31,669] {logging_mixin.py:115} INFO - [2022-08-09 21:31:31,669] {backend.py:193} INFO - Loading chainer
+[2022-08-09 21:31:31,669] {logging_mixin.py:115} INFO - [2022-08-09 21:31:31,669] {backend.py:193} INFO - Loading macOS
+[2022-08-09 21:31:31,769] {processor.py:651} INFO - DAG(s) dict_keys(['Snowflake_automation']) retrieved from /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:31:31,794] {logging_mixin.py:115} INFO - [2022-08-09 21:31:31,793] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-09 21:31:31,951] {logging_mixin.py:115} INFO - [2022-08-09 21:31:31,951] {dag.py:2915} INFO - Setting next_dagrun for Snowflake_automation to None, run_after=None
+[2022-08-09 21:31:31,995] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/test_0716.py took 0.777 seconds
+[2022-08-09 21:32:05,372] {processor.py:153} INFO - Started process (PID=344881) to work on /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:32:05,373] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/test_0716.py for tasks to queue
+[2022-08-09 21:32:05,373] {logging_mixin.py:115} INFO - [2022-08-09 21:32:05,373] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:32:05,674] {logging_mixin.py:115} INFO - [2022-08-09 21:32:05,673] {backend.py:193} INFO - Loading KWallet
+[2022-08-09 21:32:05,681] {logging_mixin.py:115} INFO - [2022-08-09 21:32:05,681] {backend.py:193} INFO - Loading SecretService
+[2022-08-09 21:32:05,686] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-09 21:32:05,687] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-09 21:32:05,687] {logging_mixin.py:115} INFO - [2022-08-09 21:32:05,687] {backend.py:193} INFO - Loading Windows
+[2022-08-09 21:32:05,689] {logging_mixin.py:115} INFO - [2022-08-09 21:32:05,689] {backend.py:193} INFO - Loading chainer
+[2022-08-09 21:32:05,689] {logging_mixin.py:115} INFO - [2022-08-09 21:32:05,689] {backend.py:193} INFO - Loading macOS
+[2022-08-09 21:32:05,790] {processor.py:651} INFO - DAG(s) dict_keys(['Snowflake_automation']) retrieved from /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:32:05,802] {logging_mixin.py:115} INFO - [2022-08-09 21:32:05,802] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-09 21:32:05,969] {logging_mixin.py:115} INFO - [2022-08-09 21:32:05,968] {dag.py:2915} INFO - Setting next_dagrun for Snowflake_automation to None, run_after=None
+[2022-08-09 21:32:06,007] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/test_0716.py took 0.638 seconds
+[2022-08-09 21:32:37,350] {processor.py:153} INFO - Started process (PID=345159) to work on /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:32:37,357] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/test_0716.py for tasks to queue
+[2022-08-09 21:32:37,357] {logging_mixin.py:115} INFO - [2022-08-09 21:32:37,357] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:32:37,651] {logging_mixin.py:115} INFO - [2022-08-09 21:32:37,650] {backend.py:193} INFO - Loading KWallet
+[2022-08-09 21:32:37,655] {logging_mixin.py:115} INFO - [2022-08-09 21:32:37,655] {backend.py:193} INFO - Loading SecretService
+[2022-08-09 21:32:37,662] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-09 21:32:37,663] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-09 21:32:37,663] {logging_mixin.py:115} INFO - [2022-08-09 21:32:37,663] {backend.py:193} INFO - Loading Windows
+[2022-08-09 21:32:37,664] {logging_mixin.py:115} INFO - [2022-08-09 21:32:37,664] {backend.py:193} INFO - Loading chainer
+[2022-08-09 21:32:37,664] {logging_mixin.py:115} INFO - [2022-08-09 21:32:37,664] {backend.py:193} INFO - Loading macOS
+[2022-08-09 21:32:37,766] {processor.py:651} INFO - DAG(s) dict_keys(['Snowflake_automation']) retrieved from /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:32:37,903] {logging_mixin.py:115} INFO - [2022-08-09 21:32:37,780] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-09 21:32:37,913] {logging_mixin.py:115} INFO - [2022-08-09 21:32:37,913] {dag.py:2915} INFO - Setting next_dagrun for Snowflake_automation to None, run_after=None
+[2022-08-09 21:32:37,939] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/test_0716.py took 0.591 seconds
+[2022-08-09 21:33:11,268] {processor.py:153} INFO - Started process (PID=345492) to work on /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:33:11,271] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/test_0716.py for tasks to queue
+[2022-08-09 21:33:11,272] {logging_mixin.py:115} INFO - [2022-08-09 21:33:11,272] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:33:11,566] {logging_mixin.py:115} INFO - [2022-08-09 21:33:11,565] {backend.py:193} INFO - Loading KWallet
+[2022-08-09 21:33:11,570] {logging_mixin.py:115} INFO - [2022-08-09 21:33:11,570] {backend.py:193} INFO - Loading SecretService
+[2022-08-09 21:33:11,576] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-09 21:33:11,577] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-09 21:33:11,577] {logging_mixin.py:115} INFO - [2022-08-09 21:33:11,577] {backend.py:193} INFO - Loading Windows
+[2022-08-09 21:33:11,578] {logging_mixin.py:115} INFO - [2022-08-09 21:33:11,578] {backend.py:193} INFO - Loading chainer
+[2022-08-09 21:33:11,578] {logging_mixin.py:115} INFO - [2022-08-09 21:33:11,578] {backend.py:193} INFO - Loading macOS
+[2022-08-09 21:33:11,678] {processor.py:651} INFO - DAG(s) dict_keys(['Snowflake_automation']) retrieved from /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:33:11,817] {logging_mixin.py:115} INFO - [2022-08-09 21:33:11,693] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-09 21:33:11,828] {logging_mixin.py:115} INFO - [2022-08-09 21:33:11,828] {dag.py:2915} INFO - Setting next_dagrun for Snowflake_automation to None, run_after=None
+[2022-08-09 21:33:11,855] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/test_0716.py took 0.589 seconds
+[2022-08-09 21:33:49,639] {processor.py:153} INFO - Started process (PID=345870) to work on /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:33:49,642] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/test_0716.py for tasks to queue
+[2022-08-09 21:33:49,642] {logging_mixin.py:115} INFO - [2022-08-09 21:33:49,642] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:33:49,935] {logging_mixin.py:115} INFO - [2022-08-09 21:33:49,934] {backend.py:193} INFO - Loading KWallet
+[2022-08-09 21:33:49,940] {logging_mixin.py:115} INFO - [2022-08-09 21:33:49,940] {backend.py:193} INFO - Loading SecretService
+[2022-08-09 21:33:49,945] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-09 21:33:49,946] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-09 21:33:49,946] {logging_mixin.py:115} INFO - [2022-08-09 21:33:49,946] {backend.py:193} INFO - Loading Windows
+[2022-08-09 21:33:49,947] {logging_mixin.py:115} INFO - [2022-08-09 21:33:49,947] {backend.py:193} INFO - Loading chainer
+[2022-08-09 21:33:49,947] {logging_mixin.py:115} INFO - [2022-08-09 21:33:49,947] {backend.py:193} INFO - Loading macOS
+[2022-08-09 21:33:50,047] {processor.py:651} INFO - DAG(s) dict_keys(['Snowflake_automation']) retrieved from /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:33:50,208] {logging_mixin.py:115} INFO - [2022-08-09 21:33:50,063] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-09 21:33:50,218] {logging_mixin.py:115} INFO - [2022-08-09 21:33:50,218] {dag.py:2915} INFO - Setting next_dagrun for Snowflake_automation to None, run_after=None
+[2022-08-09 21:33:50,271] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/test_0716.py took 0.634 seconds
+[2022-08-09 21:34:26,127] {processor.py:153} INFO - Started process (PID=346208) to work on /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:34:26,129] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/test_0716.py for tasks to queue
+[2022-08-09 21:34:26,130] {logging_mixin.py:115} INFO - [2022-08-09 21:34:26,130] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:34:26,439] {logging_mixin.py:115} INFO - [2022-08-09 21:34:26,437] {backend.py:193} INFO - Loading KWallet
+[2022-08-09 21:34:26,443] {logging_mixin.py:115} INFO - [2022-08-09 21:34:26,443] {backend.py:193} INFO - Loading SecretService
+[2022-08-09 21:34:26,450] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-09 21:34:26,450] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-09 21:34:26,451] {logging_mixin.py:115} INFO - [2022-08-09 21:34:26,451] {backend.py:193} INFO - Loading Windows
+[2022-08-09 21:34:26,451] {logging_mixin.py:115} INFO - [2022-08-09 21:34:26,451] {backend.py:193} INFO - Loading chainer
+[2022-08-09 21:34:26,452] {logging_mixin.py:115} INFO - [2022-08-09 21:34:26,452] {backend.py:193} INFO - Loading macOS
+[2022-08-09 21:34:26,559] {processor.py:651} INFO - DAG(s) dict_keys(['Snowflake_automation']) retrieved from /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:34:26,704] {logging_mixin.py:115} INFO - [2022-08-09 21:34:26,573] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-09 21:34:26,715] {logging_mixin.py:115} INFO - [2022-08-09 21:34:26,715] {dag.py:2915} INFO - Setting next_dagrun for Snowflake_automation to None, run_after=None
+[2022-08-09 21:34:26,751] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/test_0716.py took 0.626 seconds
+[2022-08-09 21:34:59,898] {processor.py:153} INFO - Started process (PID=346534) to work on /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:34:59,898] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/test_0716.py for tasks to queue
+[2022-08-09 21:34:59,899] {logging_mixin.py:115} INFO - [2022-08-09 21:34:59,899] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:35:00,224] {logging_mixin.py:115} INFO - [2022-08-09 21:35:00,222] {backend.py:193} INFO - Loading KWallet
+[2022-08-09 21:35:00,228] {logging_mixin.py:115} INFO - [2022-08-09 21:35:00,228] {backend.py:193} INFO - Loading SecretService
+[2022-08-09 21:35:00,235] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-09 21:35:00,236] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-09 21:35:00,236] {logging_mixin.py:115} INFO - [2022-08-09 21:35:00,236] {backend.py:193} INFO - Loading Windows
+[2022-08-09 21:35:00,237] {logging_mixin.py:115} INFO - [2022-08-09 21:35:00,237] {backend.py:193} INFO - Loading chainer
+[2022-08-09 21:35:00,237] {logging_mixin.py:115} INFO - [2022-08-09 21:35:00,237] {backend.py:193} INFO - Loading macOS
+[2022-08-09 21:35:00,354] {processor.py:651} INFO - DAG(s) dict_keys(['Snowflake_automation']) retrieved from /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:35:00,520] {logging_mixin.py:115} INFO - [2022-08-09 21:35:00,368] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-09 21:35:00,532] {logging_mixin.py:115} INFO - [2022-08-09 21:35:00,532] {dag.py:2915} INFO - Setting next_dagrun for Snowflake_automation to None, run_after=None
+[2022-08-09 21:35:00,584] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/test_0716.py took 0.688 seconds
+[2022-08-09 21:35:37,099] {processor.py:153} INFO - Started process (PID=346864) to work on /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:35:37,101] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/test_0716.py for tasks to queue
+[2022-08-09 21:35:37,102] {logging_mixin.py:115} INFO - [2022-08-09 21:35:37,102] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:35:37,415] {logging_mixin.py:115} INFO - [2022-08-09 21:35:37,414] {backend.py:193} INFO - Loading KWallet
+[2022-08-09 21:35:37,420] {logging_mixin.py:115} INFO - [2022-08-09 21:35:37,419] {backend.py:193} INFO - Loading SecretService
+[2022-08-09 21:35:37,428] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-09 21:35:37,429] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-09 21:35:37,429] {logging_mixin.py:115} INFO - [2022-08-09 21:35:37,429] {backend.py:193} INFO - Loading Windows
+[2022-08-09 21:35:37,430] {logging_mixin.py:115} INFO - [2022-08-09 21:35:37,430] {backend.py:193} INFO - Loading chainer
+[2022-08-09 21:35:37,430] {logging_mixin.py:115} INFO - [2022-08-09 21:35:37,430] {backend.py:193} INFO - Loading macOS
+[2022-08-09 21:35:37,532] {processor.py:651} INFO - DAG(s) dict_keys(['Snowflake_automation']) retrieved from /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:35:37,691] {logging_mixin.py:115} INFO - [2022-08-09 21:35:37,546] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-09 21:35:37,703] {logging_mixin.py:115} INFO - [2022-08-09 21:35:37,703] {dag.py:2915} INFO - Setting next_dagrun for Snowflake_automation to None, run_after=None
+[2022-08-09 21:35:37,732] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/test_0716.py took 0.636 seconds
+[2022-08-09 21:36:09,731] {processor.py:153} INFO - Started process (PID=347157) to work on /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:36:09,732] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/test_0716.py for tasks to queue
+[2022-08-09 21:36:09,733] {logging_mixin.py:115} INFO - [2022-08-09 21:36:09,733] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:36:10,034] {logging_mixin.py:115} INFO - [2022-08-09 21:36:10,032] {backend.py:193} INFO - Loading KWallet
+[2022-08-09 21:36:10,038] {logging_mixin.py:115} INFO - [2022-08-09 21:36:10,038] {backend.py:193} INFO - Loading SecretService
+[2022-08-09 21:36:10,045] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-09 21:36:10,045] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-09 21:36:10,046] {logging_mixin.py:115} INFO - [2022-08-09 21:36:10,046] {backend.py:193} INFO - Loading Windows
+[2022-08-09 21:36:10,046] {logging_mixin.py:115} INFO - [2022-08-09 21:36:10,046] {backend.py:193} INFO - Loading chainer
+[2022-08-09 21:36:10,047] {logging_mixin.py:115} INFO - [2022-08-09 21:36:10,046] {backend.py:193} INFO - Loading macOS
+[2022-08-09 21:36:10,147] {processor.py:651} INFO - DAG(s) dict_keys(['Snowflake_automation']) retrieved from /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:36:10,291] {logging_mixin.py:115} INFO - [2022-08-09 21:36:10,163] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-09 21:36:10,302] {logging_mixin.py:115} INFO - [2022-08-09 21:36:10,301] {dag.py:2915} INFO - Setting next_dagrun for Snowflake_automation to None, run_after=None
+[2022-08-09 21:36:10,328] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/test_0716.py took 0.599 seconds
+[2022-08-09 21:36:43,402] {processor.py:153} INFO - Started process (PID=347483) to work on /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:36:43,404] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/test_0716.py for tasks to queue
+[2022-08-09 21:36:43,404] {logging_mixin.py:115} INFO - [2022-08-09 21:36:43,404] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:36:43,720] {logging_mixin.py:115} INFO - [2022-08-09 21:36:43,719] {backend.py:193} INFO - Loading KWallet
+[2022-08-09 21:36:43,724] {logging_mixin.py:115} INFO - [2022-08-09 21:36:43,724] {backend.py:193} INFO - Loading SecretService
+[2022-08-09 21:36:43,729] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-09 21:36:43,731] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-09 21:36:43,732] {logging_mixin.py:115} INFO - [2022-08-09 21:36:43,732] {backend.py:193} INFO - Loading Windows
+[2022-08-09 21:36:43,732] {logging_mixin.py:115} INFO - [2022-08-09 21:36:43,732] {backend.py:193} INFO - Loading chainer
+[2022-08-09 21:36:43,733] {logging_mixin.py:115} INFO - [2022-08-09 21:36:43,733] {backend.py:193} INFO - Loading macOS
+[2022-08-09 21:36:43,832] {processor.py:651} INFO - DAG(s) dict_keys(['Snowflake_automation']) retrieved from /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:36:43,971] {logging_mixin.py:115} INFO - [2022-08-09 21:36:43,845] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-09 21:36:43,981] {logging_mixin.py:115} INFO - [2022-08-09 21:36:43,981] {dag.py:2915} INFO - Setting next_dagrun for Snowflake_automation to None, run_after=None
+[2022-08-09 21:36:44,025] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/test_0716.py took 0.625 seconds
+[2022-08-09 21:37:17,430] {processor.py:153} INFO - Started process (PID=347785) to work on /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:37:17,432] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/test_0716.py for tasks to queue
+[2022-08-09 21:37:17,433] {logging_mixin.py:115} INFO - [2022-08-09 21:37:17,432] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:37:17,747] {logging_mixin.py:115} INFO - [2022-08-09 21:37:17,746] {backend.py:193} INFO - Loading KWallet
+[2022-08-09 21:37:17,761] {logging_mixin.py:115} INFO - [2022-08-09 21:37:17,752] {backend.py:193} INFO - Loading SecretService
+[2022-08-09 21:37:17,766] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-09 21:37:17,767] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-09 21:37:17,767] {logging_mixin.py:115} INFO - [2022-08-09 21:37:17,767] {backend.py:193} INFO - Loading Windows
+[2022-08-09 21:37:17,768] {logging_mixin.py:115} INFO - [2022-08-09 21:37:17,768] {backend.py:193} INFO - Loading chainer
+[2022-08-09 21:37:17,768] {logging_mixin.py:115} INFO - [2022-08-09 21:37:17,768] {backend.py:193} INFO - Loading macOS
+[2022-08-09 21:37:17,868] {processor.py:651} INFO - DAG(s) dict_keys(['Snowflake_automation']) retrieved from /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:37:18,006] {logging_mixin.py:115} INFO - [2022-08-09 21:37:17,883] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-09 21:37:18,018] {logging_mixin.py:115} INFO - [2022-08-09 21:37:18,017] {dag.py:2915} INFO - Setting next_dagrun for Snowflake_automation to None, run_after=None
+[2022-08-09 21:37:18,068] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/test_0716.py took 0.640 seconds
+[2022-08-09 21:37:54,289] {processor.py:153} INFO - Started process (PID=348120) to work on /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:37:54,290] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/test_0716.py for tasks to queue
+[2022-08-09 21:37:54,291] {logging_mixin.py:115} INFO - [2022-08-09 21:37:54,291] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:37:54,583] {logging_mixin.py:115} INFO - [2022-08-09 21:37:54,582] {backend.py:193} INFO - Loading KWallet
+[2022-08-09 21:37:54,587] {logging_mixin.py:115} INFO - [2022-08-09 21:37:54,587] {backend.py:193} INFO - Loading SecretService
+[2022-08-09 21:37:54,593] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-09 21:37:54,594] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-09 21:37:54,595] {logging_mixin.py:115} INFO - [2022-08-09 21:37:54,594] {backend.py:193} INFO - Loading Windows
+[2022-08-09 21:37:54,595] {logging_mixin.py:115} INFO - [2022-08-09 21:37:54,595] {backend.py:193} INFO - Loading chainer
+[2022-08-09 21:37:54,595] {logging_mixin.py:115} INFO - [2022-08-09 21:37:54,595] {backend.py:193} INFO - Loading macOS
+[2022-08-09 21:37:54,716] {processor.py:651} INFO - DAG(s) dict_keys(['Snowflake_automation']) retrieved from /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:37:54,865] {logging_mixin.py:115} INFO - [2022-08-09 21:37:54,865] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-09 21:37:54,875] {logging_mixin.py:115} INFO - [2022-08-09 21:37:54,875] {dag.py:2915} INFO - Setting next_dagrun for Snowflake_automation to None, run_after=None
+[2022-08-09 21:37:54,917] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/test_0716.py took 0.631 seconds
+[2022-08-09 21:38:32,503] {processor.py:153} INFO - Started process (PID=348494) to work on /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:38:32,506] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/test_0716.py for tasks to queue
+[2022-08-09 21:38:32,506] {logging_mixin.py:115} INFO - [2022-08-09 21:38:32,506] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:38:32,839] {logging_mixin.py:115} INFO - [2022-08-09 21:38:32,838] {backend.py:193} INFO - Loading KWallet
+[2022-08-09 21:38:32,845] {logging_mixin.py:115} INFO - [2022-08-09 21:38:32,845] {backend.py:193} INFO - Loading SecretService
+[2022-08-09 21:38:32,850] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-09 21:38:32,850] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-09 21:38:32,851] {logging_mixin.py:115} INFO - [2022-08-09 21:38:32,851] {backend.py:193} INFO - Loading Windows
+[2022-08-09 21:38:32,851] {logging_mixin.py:115} INFO - [2022-08-09 21:38:32,851] {backend.py:193} INFO - Loading chainer
+[2022-08-09 21:38:32,852] {logging_mixin.py:115} INFO - [2022-08-09 21:38:32,852] {backend.py:193} INFO - Loading macOS
+[2022-08-09 21:38:32,963] {processor.py:651} INFO - DAG(s) dict_keys(['Snowflake_automation']) retrieved from /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:38:33,103] {logging_mixin.py:115} INFO - [2022-08-09 21:38:33,103] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-09 21:38:33,113] {logging_mixin.py:115} INFO - [2022-08-09 21:38:33,113] {dag.py:2915} INFO - Setting next_dagrun for Snowflake_automation to None, run_after=None
+[2022-08-09 21:38:33,147] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/test_0716.py took 0.659 seconds
+[2022-08-09 21:39:05,823] {processor.py:153} INFO - Started process (PID=348851) to work on /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:39:05,824] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/test_0716.py for tasks to queue
+[2022-08-09 21:39:05,824] {logging_mixin.py:115} INFO - [2022-08-09 21:39:05,824] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:39:06,131] {logging_mixin.py:115} INFO - [2022-08-09 21:39:06,130] {backend.py:193} INFO - Loading KWallet
+[2022-08-09 21:39:06,138] {logging_mixin.py:115} INFO - [2022-08-09 21:39:06,138] {backend.py:193} INFO - Loading SecretService
+[2022-08-09 21:39:06,143] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-09 21:39:06,143] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-09 21:39:06,144] {logging_mixin.py:115} INFO - [2022-08-09 21:39:06,143] {backend.py:193} INFO - Loading Windows
+[2022-08-09 21:39:06,145] {logging_mixin.py:115} INFO - [2022-08-09 21:39:06,145] {backend.py:193} INFO - Loading chainer
+[2022-08-09 21:39:06,146] {logging_mixin.py:115} INFO - [2022-08-09 21:39:06,146] {backend.py:193} INFO - Loading macOS
+[2022-08-09 21:39:06,246] {processor.py:651} INFO - DAG(s) dict_keys(['Snowflake_automation']) retrieved from /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:39:06,384] {logging_mixin.py:115} INFO - [2022-08-09 21:39:06,384] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-09 21:39:06,395] {logging_mixin.py:115} INFO - [2022-08-09 21:39:06,395] {dag.py:2915} INFO - Setting next_dagrun for Snowflake_automation to None, run_after=None
+[2022-08-09 21:39:06,432] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/test_0716.py took 0.612 seconds
+[2022-08-09 21:39:41,023] {processor.py:153} INFO - Started process (PID=349172) to work on /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:39:41,025] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/test_0716.py for tasks to queue
+[2022-08-09 21:39:41,025] {logging_mixin.py:115} INFO - [2022-08-09 21:39:41,025] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:39:41,320] {logging_mixin.py:115} INFO - [2022-08-09 21:39:41,319] {backend.py:193} INFO - Loading KWallet
+[2022-08-09 21:39:41,325] {logging_mixin.py:115} INFO - [2022-08-09 21:39:41,325] {backend.py:193} INFO - Loading SecretService
+[2022-08-09 21:39:41,330] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-09 21:39:41,331] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-09 21:39:41,331] {logging_mixin.py:115} INFO - [2022-08-09 21:39:41,331] {backend.py:193} INFO - Loading Windows
+[2022-08-09 21:39:41,332] {logging_mixin.py:115} INFO - [2022-08-09 21:39:41,332] {backend.py:193} INFO - Loading chainer
+[2022-08-09 21:39:41,332] {logging_mixin.py:115} INFO - [2022-08-09 21:39:41,332] {backend.py:193} INFO - Loading macOS
+[2022-08-09 21:39:41,436] {processor.py:651} INFO - DAG(s) dict_keys(['Snowflake_automation']) retrieved from /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:39:41,572] {logging_mixin.py:115} INFO - [2022-08-09 21:39:41,571] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-09 21:39:41,582] {logging_mixin.py:115} INFO - [2022-08-09 21:39:41,582] {dag.py:2915} INFO - Setting next_dagrun for Snowflake_automation to None, run_after=None
+[2022-08-09 21:39:41,620] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/test_0716.py took 0.599 seconds
+[2022-08-09 21:40:18,347] {processor.py:153} INFO - Started process (PID=349504) to work on /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:40:18,348] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/test_0716.py for tasks to queue
+[2022-08-09 21:40:18,348] {logging_mixin.py:115} INFO - [2022-08-09 21:40:18,348] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:40:18,679] {logging_mixin.py:115} INFO - [2022-08-09 21:40:18,678] {backend.py:193} INFO - Loading KWallet
+[2022-08-09 21:40:18,684] {logging_mixin.py:115} INFO - [2022-08-09 21:40:18,684] {backend.py:193} INFO - Loading SecretService
+[2022-08-09 21:40:18,688] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-09 21:40:18,689] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-09 21:40:18,689] {logging_mixin.py:115} INFO - [2022-08-09 21:40:18,689] {backend.py:193} INFO - Loading Windows
+[2022-08-09 21:40:18,690] {logging_mixin.py:115} INFO - [2022-08-09 21:40:18,690] {backend.py:193} INFO - Loading chainer
+[2022-08-09 21:40:18,690] {logging_mixin.py:115} INFO - [2022-08-09 21:40:18,690] {backend.py:193} INFO - Loading macOS
+[2022-08-09 21:40:18,799] {processor.py:651} INFO - DAG(s) dict_keys(['Snowflake_automation']) retrieved from /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:40:18,954] {logging_mixin.py:115} INFO - [2022-08-09 21:40:18,953] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-09 21:40:18,963] {logging_mixin.py:115} INFO - [2022-08-09 21:40:18,963] {dag.py:2915} INFO - Setting next_dagrun for Snowflake_automation to None, run_after=None
+[2022-08-09 21:40:19,013] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/test_0716.py took 0.668 seconds
+[2022-08-09 21:40:56,990] {processor.py:153} INFO - Started process (PID=349853) to work on /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:40:57,002] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/test_0716.py for tasks to queue
+[2022-08-09 21:40:57,002] {logging_mixin.py:115} INFO - [2022-08-09 21:40:57,002] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:40:57,305] {logging_mixin.py:115} INFO - [2022-08-09 21:40:57,304] {backend.py:193} INFO - Loading KWallet
+[2022-08-09 21:40:57,311] {logging_mixin.py:115} INFO - [2022-08-09 21:40:57,311] {backend.py:193} INFO - Loading SecretService
+[2022-08-09 21:40:57,315] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-09 21:40:57,316] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-09 21:40:57,318] {logging_mixin.py:115} INFO - [2022-08-09 21:40:57,318] {backend.py:193} INFO - Loading Windows
+[2022-08-09 21:40:57,319] {logging_mixin.py:115} INFO - [2022-08-09 21:40:57,319] {backend.py:193} INFO - Loading chainer
+[2022-08-09 21:40:57,319] {logging_mixin.py:115} INFO - [2022-08-09 21:40:57,319] {backend.py:193} INFO - Loading macOS
+[2022-08-09 21:40:57,419] {processor.py:651} INFO - DAG(s) dict_keys(['Snowflake_automation']) retrieved from /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:40:57,555] {logging_mixin.py:115} INFO - [2022-08-09 21:40:57,555] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-09 21:40:57,566] {logging_mixin.py:115} INFO - [2022-08-09 21:40:57,566] {dag.py:2915} INFO - Setting next_dagrun for Snowflake_automation to None, run_after=None
+[2022-08-09 21:40:57,591] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/test_0716.py took 0.604 seconds
+[2022-08-09 21:41:35,503] {processor.py:153} INFO - Started process (PID=350208) to work on /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:41:35,504] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/test_0716.py for tasks to queue
+[2022-08-09 21:41:35,505] {logging_mixin.py:115} INFO - [2022-08-09 21:41:35,505] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:41:35,815] {logging_mixin.py:115} INFO - [2022-08-09 21:41:35,814] {backend.py:193} INFO - Loading KWallet
+[2022-08-09 21:41:35,822] {logging_mixin.py:115} INFO - [2022-08-09 21:41:35,822] {backend.py:193} INFO - Loading SecretService
+[2022-08-09 21:41:35,827] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-09 21:41:35,829] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-09 21:41:35,829] {logging_mixin.py:115} INFO - [2022-08-09 21:41:35,829] {backend.py:193} INFO - Loading Windows
+[2022-08-09 21:41:35,830] {logging_mixin.py:115} INFO - [2022-08-09 21:41:35,830] {backend.py:193} INFO - Loading chainer
+[2022-08-09 21:41:35,830] {logging_mixin.py:115} INFO - [2022-08-09 21:41:35,830] {backend.py:193} INFO - Loading macOS
+[2022-08-09 21:41:35,938] {processor.py:651} INFO - DAG(s) dict_keys(['Snowflake_automation']) retrieved from /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:41:36,097] {logging_mixin.py:115} INFO - [2022-08-09 21:41:36,097] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-09 21:41:36,109] {logging_mixin.py:115} INFO - [2022-08-09 21:41:36,108] {dag.py:2915} INFO - Setting next_dagrun for Snowflake_automation to None, run_after=None
+[2022-08-09 21:41:36,134] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/test_0716.py took 0.634 seconds
+[2022-08-09 21:42:09,262] {processor.py:153} INFO - Started process (PID=350521) to work on /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:42:09,263] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/test_0716.py for tasks to queue
+[2022-08-09 21:42:09,263] {logging_mixin.py:115} INFO - [2022-08-09 21:42:09,263] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:42:09,562] {logging_mixin.py:115} INFO - [2022-08-09 21:42:09,561] {backend.py:193} INFO - Loading KWallet
+[2022-08-09 21:42:09,567] {logging_mixin.py:115} INFO - [2022-08-09 21:42:09,567] {backend.py:193} INFO - Loading SecretService
+[2022-08-09 21:42:09,571] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-09 21:42:09,572] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-09 21:42:09,572] {logging_mixin.py:115} INFO - [2022-08-09 21:42:09,572] {backend.py:193} INFO - Loading Windows
+[2022-08-09 21:42:09,573] {logging_mixin.py:115} INFO - [2022-08-09 21:42:09,573] {backend.py:193} INFO - Loading chainer
+[2022-08-09 21:42:09,573] {logging_mixin.py:115} INFO - [2022-08-09 21:42:09,573] {backend.py:193} INFO - Loading macOS
+[2022-08-09 21:42:09,674] {processor.py:651} INFO - DAG(s) dict_keys(['Snowflake_automation']) retrieved from /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:42:09,810] {logging_mixin.py:115} INFO - [2022-08-09 21:42:09,809] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-09 21:42:09,821] {logging_mixin.py:115} INFO - [2022-08-09 21:42:09,821] {dag.py:2915} INFO - Setting next_dagrun for Snowflake_automation to None, run_after=None
+[2022-08-09 21:42:09,858] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/test_0716.py took 0.599 seconds
+[2022-08-09 21:42:43,205] {processor.py:153} INFO - Started process (PID=350829) to work on /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:42:43,207] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/test_0716.py for tasks to queue
+[2022-08-09 21:42:43,207] {logging_mixin.py:115} INFO - [2022-08-09 21:42:43,207] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:42:43,512] {logging_mixin.py:115} INFO - [2022-08-09 21:42:43,511] {backend.py:193} INFO - Loading KWallet
+[2022-08-09 21:42:43,517] {logging_mixin.py:115} INFO - [2022-08-09 21:42:43,517] {backend.py:193} INFO - Loading SecretService
+[2022-08-09 21:42:43,521] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-09 21:42:43,522] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-09 21:42:43,522] {logging_mixin.py:115} INFO - [2022-08-09 21:42:43,522] {backend.py:193} INFO - Loading Windows
+[2022-08-09 21:42:43,523] {logging_mixin.py:115} INFO - [2022-08-09 21:42:43,523] {backend.py:193} INFO - Loading chainer
+[2022-08-09 21:42:43,523] {logging_mixin.py:115} INFO - [2022-08-09 21:42:43,523] {backend.py:193} INFO - Loading macOS
+[2022-08-09 21:42:43,628] {processor.py:651} INFO - DAG(s) dict_keys(['Snowflake_automation']) retrieved from /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:42:43,642] {logging_mixin.py:115} INFO - [2022-08-09 21:42:43,641] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-09 21:42:43,653] {logging_mixin.py:115} INFO - [2022-08-09 21:42:43,653] {dag.py:2915} INFO - Setting next_dagrun for Snowflake_automation to None, run_after=None
+[2022-08-09 21:42:43,690] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/test_0716.py took 0.488 seconds
+[2022-08-09 21:43:20,936] {processor.py:153} INFO - Started process (PID=351180) to work on /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:43:20,937] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/test_0716.py for tasks to queue
+[2022-08-09 21:43:20,937] {logging_mixin.py:115} INFO - [2022-08-09 21:43:20,937] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:43:21,248] {logging_mixin.py:115} INFO - [2022-08-09 21:43:21,247] {backend.py:193} INFO - Loading KWallet
+[2022-08-09 21:43:21,252] {logging_mixin.py:115} INFO - [2022-08-09 21:43:21,252] {backend.py:193} INFO - Loading SecretService
+[2022-08-09 21:43:21,258] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-09 21:43:21,258] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-09 21:43:21,259] {logging_mixin.py:115} INFO - [2022-08-09 21:43:21,259] {backend.py:193} INFO - Loading Windows
+[2022-08-09 21:43:21,259] {logging_mixin.py:115} INFO - [2022-08-09 21:43:21,259] {backend.py:193} INFO - Loading chainer
+[2022-08-09 21:43:21,260] {logging_mixin.py:115} INFO - [2022-08-09 21:43:21,260] {backend.py:193} INFO - Loading macOS
+[2022-08-09 21:43:21,360] {processor.py:651} INFO - DAG(s) dict_keys(['Snowflake_automation']) retrieved from /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:43:21,375] {logging_mixin.py:115} INFO - [2022-08-09 21:43:21,373] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-09 21:43:21,386] {logging_mixin.py:115} INFO - [2022-08-09 21:43:21,386] {dag.py:2915} INFO - Setting next_dagrun for Snowflake_automation to None, run_after=None
+[2022-08-09 21:43:21,436] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/test_0716.py took 0.503 seconds
+[2022-08-09 21:43:56,820] {processor.py:153} INFO - Started process (PID=351562) to work on /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:43:56,823] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/test_0716.py for tasks to queue
+[2022-08-09 21:43:56,823] {logging_mixin.py:115} INFO - [2022-08-09 21:43:56,823] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:43:57,113] {logging_mixin.py:115} INFO - [2022-08-09 21:43:57,112] {backend.py:193} INFO - Loading KWallet
+[2022-08-09 21:43:57,117] {logging_mixin.py:115} INFO - [2022-08-09 21:43:57,117] {backend.py:193} INFO - Loading SecretService
+[2022-08-09 21:43:57,124] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-09 21:43:57,125] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-09 21:43:57,125] {logging_mixin.py:115} INFO - [2022-08-09 21:43:57,125] {backend.py:193} INFO - Loading Windows
+[2022-08-09 21:43:57,125] {logging_mixin.py:115} INFO - [2022-08-09 21:43:57,125] {backend.py:193} INFO - Loading chainer
+[2022-08-09 21:43:57,126] {logging_mixin.py:115} INFO - [2022-08-09 21:43:57,126] {backend.py:193} INFO - Loading macOS
+[2022-08-09 21:43:57,226] {processor.py:651} INFO - DAG(s) dict_keys(['Snowflake_automation']) retrieved from /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:43:57,255] {logging_mixin.py:115} INFO - [2022-08-09 21:43:57,255] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-09 21:43:57,268] {logging_mixin.py:115} INFO - [2022-08-09 21:43:57,268] {dag.py:2915} INFO - Setting next_dagrun for Snowflake_automation to None, run_after=None
+[2022-08-09 21:43:57,302] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/test_0716.py took 0.484 seconds
+[2022-08-09 21:44:39,799] {processor.py:153} INFO - Started process (PID=351974) to work on /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:44:39,800] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/test_0716.py for tasks to queue
+[2022-08-09 21:44:39,801] {logging_mixin.py:115} INFO - [2022-08-09 21:44:39,801] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:44:40,098] {logging_mixin.py:115} INFO - [2022-08-09 21:44:40,097] {backend.py:193} INFO - Loading KWallet
+[2022-08-09 21:44:40,102] {logging_mixin.py:115} INFO - [2022-08-09 21:44:40,102] {backend.py:193} INFO - Loading SecretService
+[2022-08-09 21:44:40,108] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-09 21:44:40,109] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-09 21:44:40,109] {logging_mixin.py:115} INFO - [2022-08-09 21:44:40,109] {backend.py:193} INFO - Loading Windows
+[2022-08-09 21:44:40,110] {logging_mixin.py:115} INFO - [2022-08-09 21:44:40,110] {backend.py:193} INFO - Loading chainer
+[2022-08-09 21:44:40,110] {logging_mixin.py:115} INFO - [2022-08-09 21:44:40,110] {backend.py:193} INFO - Loading macOS
+[2022-08-09 21:44:40,210] {processor.py:651} INFO - DAG(s) dict_keys(['Snowflake_automation']) retrieved from /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:44:40,224] {logging_mixin.py:115} INFO - [2022-08-09 21:44:40,224] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-09 21:44:40,235] {logging_mixin.py:115} INFO - [2022-08-09 21:44:40,235] {dag.py:2915} INFO - Setting next_dagrun for Snowflake_automation to None, run_after=None
+[2022-08-09 21:44:40,272] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/test_0716.py took 0.475 seconds
+[2022-08-09 21:45:17,959] {processor.py:153} INFO - Started process (PID=352309) to work on /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:45:17,961] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/test_0716.py for tasks to queue
+[2022-08-09 21:45:17,961] {logging_mixin.py:115} INFO - [2022-08-09 21:45:17,961] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:45:18,253] {logging_mixin.py:115} INFO - [2022-08-09 21:45:18,252] {backend.py:193} INFO - Loading KWallet
+[2022-08-09 21:45:18,257] {logging_mixin.py:115} INFO - [2022-08-09 21:45:18,257] {backend.py:193} INFO - Loading SecretService
+[2022-08-09 21:45:18,262] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-09 21:45:18,262] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-09 21:45:18,263] {logging_mixin.py:115} INFO - [2022-08-09 21:45:18,263] {backend.py:193} INFO - Loading Windows
+[2022-08-09 21:45:18,263] {logging_mixin.py:115} INFO - [2022-08-09 21:45:18,263] {backend.py:193} INFO - Loading chainer
+[2022-08-09 21:45:18,264] {logging_mixin.py:115} INFO - [2022-08-09 21:45:18,264] {backend.py:193} INFO - Loading macOS
+[2022-08-09 21:45:18,381] {processor.py:651} INFO - DAG(s) dict_keys(['Snowflake_automation']) retrieved from /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:45:18,394] {logging_mixin.py:115} INFO - [2022-08-09 21:45:18,394] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-09 21:45:18,405] {logging_mixin.py:115} INFO - [2022-08-09 21:45:18,405] {dag.py:2915} INFO - Setting next_dagrun for Snowflake_automation to None, run_after=None
+[2022-08-09 21:45:18,446] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/test_0716.py took 0.490 seconds
+[2022-08-09 21:45:52,909] {processor.py:153} INFO - Started process (PID=352640) to work on /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:45:52,911] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/test_0716.py for tasks to queue
+[2022-08-09 21:45:52,912] {logging_mixin.py:115} INFO - [2022-08-09 21:45:52,912] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:45:53,210] {logging_mixin.py:115} INFO - [2022-08-09 21:45:53,209] {backend.py:193} INFO - Loading KWallet
+[2022-08-09 21:45:53,215] {logging_mixin.py:115} INFO - [2022-08-09 21:45:53,215] {backend.py:193} INFO - Loading SecretService
+[2022-08-09 21:45:53,220] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-09 21:45:53,220] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-09 21:45:53,221] {logging_mixin.py:115} INFO - [2022-08-09 21:45:53,221] {backend.py:193} INFO - Loading Windows
+[2022-08-09 21:45:53,221] {logging_mixin.py:115} INFO - [2022-08-09 21:45:53,221] {backend.py:193} INFO - Loading chainer
+[2022-08-09 21:45:53,222] {logging_mixin.py:115} INFO - [2022-08-09 21:45:53,222] {backend.py:193} INFO - Loading macOS
+[2022-08-09 21:45:53,324] {processor.py:651} INFO - DAG(s) dict_keys(['Snowflake_automation']) retrieved from /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:45:53,337] {logging_mixin.py:115} INFO - [2022-08-09 21:45:53,337] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-09 21:45:53,348] {logging_mixin.py:115} INFO - [2022-08-09 21:45:53,348] {dag.py:2915} INFO - Setting next_dagrun for Snowflake_automation to None, run_after=None
+[2022-08-09 21:45:53,398] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/test_0716.py took 0.491 seconds
+[2022-08-09 21:46:28,256] {processor.py:153} INFO - Started process (PID=352970) to work on /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:46:28,265] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/test_0716.py for tasks to queue
+[2022-08-09 21:46:28,271] {logging_mixin.py:115} INFO - [2022-08-09 21:46:28,270] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:46:28,787] {logging_mixin.py:115} INFO - [2022-08-09 21:46:28,786] {backend.py:193} INFO - Loading KWallet
+[2022-08-09 21:46:28,792] {logging_mixin.py:115} INFO - [2022-08-09 21:46:28,792] {backend.py:193} INFO - Loading SecretService
+[2022-08-09 21:46:28,799] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-09 21:46:28,800] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-09 21:46:28,801] {logging_mixin.py:115} INFO - [2022-08-09 21:46:28,800] {backend.py:193} INFO - Loading Windows
+[2022-08-09 21:46:28,801] {logging_mixin.py:115} INFO - [2022-08-09 21:46:28,801] {backend.py:193} INFO - Loading chainer
+[2022-08-09 21:46:28,801] {logging_mixin.py:115} INFO - [2022-08-09 21:46:28,801] {backend.py:193} INFO - Loading macOS
+[2022-08-09 21:46:28,916] {processor.py:651} INFO - DAG(s) dict_keys(['Snowflake_automation']) retrieved from /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:46:28,930] {logging_mixin.py:115} INFO - [2022-08-09 21:46:28,929] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-09 21:46:28,941] {logging_mixin.py:115} INFO - [2022-08-09 21:46:28,941] {dag.py:2915} INFO - Setting next_dagrun for Snowflake_automation to None, run_after=None
+[2022-08-09 21:46:28,967] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/test_0716.py took 0.802 seconds
+[2022-08-09 21:47:01,961] {processor.py:153} INFO - Started process (PID=353280) to work on /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:47:01,961] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/test_0716.py for tasks to queue
+[2022-08-09 21:47:01,962] {logging_mixin.py:115} INFO - [2022-08-09 21:47:01,962] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:47:02,252] {logging_mixin.py:115} INFO - [2022-08-09 21:47:02,251] {backend.py:193} INFO - Loading KWallet
+[2022-08-09 21:47:02,257] {logging_mixin.py:115} INFO - [2022-08-09 21:47:02,257] {backend.py:193} INFO - Loading SecretService
+[2022-08-09 21:47:02,263] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-09 21:47:02,264] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-09 21:47:02,264] {logging_mixin.py:115} INFO - [2022-08-09 21:47:02,264] {backend.py:193} INFO - Loading Windows
+[2022-08-09 21:47:02,265] {logging_mixin.py:115} INFO - [2022-08-09 21:47:02,265] {backend.py:193} INFO - Loading chainer
+[2022-08-09 21:47:02,265] {logging_mixin.py:115} INFO - [2022-08-09 21:47:02,265] {backend.py:193} INFO - Loading macOS
+[2022-08-09 21:47:02,369] {processor.py:651} INFO - DAG(s) dict_keys(['Snowflake_automation']) retrieved from /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:47:02,381] {logging_mixin.py:115} INFO - [2022-08-09 21:47:02,381] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-09 21:47:02,393] {logging_mixin.py:115} INFO - [2022-08-09 21:47:02,393] {dag.py:2915} INFO - Setting next_dagrun for Snowflake_automation to None, run_after=None
+[2022-08-09 21:47:02,433] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/test_0716.py took 0.475 seconds
+[2022-08-09 21:47:40,384] {processor.py:153} INFO - Started process (PID=353638) to work on /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:47:40,394] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/test_0716.py for tasks to queue
+[2022-08-09 21:47:40,395] {logging_mixin.py:115} INFO - [2022-08-09 21:47:40,395] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:47:40,712] {logging_mixin.py:115} INFO - [2022-08-09 21:47:40,711] {backend.py:193} INFO - Loading KWallet
+[2022-08-09 21:47:40,719] {logging_mixin.py:115} INFO - [2022-08-09 21:47:40,719] {backend.py:193} INFO - Loading SecretService
+[2022-08-09 21:47:40,723] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-09 21:47:40,725] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-09 21:47:40,725] {logging_mixin.py:115} INFO - [2022-08-09 21:47:40,725] {backend.py:193} INFO - Loading Windows
+[2022-08-09 21:47:40,726] {logging_mixin.py:115} INFO - [2022-08-09 21:47:40,726] {backend.py:193} INFO - Loading chainer
+[2022-08-09 21:47:40,726] {logging_mixin.py:115} INFO - [2022-08-09 21:47:40,726] {backend.py:193} INFO - Loading macOS
+[2022-08-09 21:47:40,825] {processor.py:651} INFO - DAG(s) dict_keys(['Snowflake_automation']) retrieved from /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:47:40,837] {logging_mixin.py:115} INFO - [2022-08-09 21:47:40,837] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-09 21:47:40,850] {logging_mixin.py:115} INFO - [2022-08-09 21:47:40,850] {dag.py:2915} INFO - Setting next_dagrun for Snowflake_automation to None, run_after=None
+[2022-08-09 21:47:40,889] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/test_0716.py took 0.508 seconds
+[2022-08-09 21:48:22,103] {processor.py:153} INFO - Started process (PID=354010) to work on /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:48:22,105] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/test_0716.py for tasks to queue
+[2022-08-09 21:48:22,105] {logging_mixin.py:115} INFO - [2022-08-09 21:48:22,105] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:48:22,391] {logging_mixin.py:115} INFO - [2022-08-09 21:48:22,390] {backend.py:193} INFO - Loading KWallet
+[2022-08-09 21:48:22,397] {logging_mixin.py:115} INFO - [2022-08-09 21:48:22,397] {backend.py:193} INFO - Loading SecretService
+[2022-08-09 21:48:22,402] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-09 21:48:22,402] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-09 21:48:22,403] {logging_mixin.py:115} INFO - [2022-08-09 21:48:22,403] {backend.py:193} INFO - Loading Windows
+[2022-08-09 21:48:22,411] {logging_mixin.py:115} INFO - [2022-08-09 21:48:22,411] {backend.py:193} INFO - Loading chainer
+[2022-08-09 21:48:22,412] {logging_mixin.py:115} INFO - [2022-08-09 21:48:22,411] {backend.py:193} INFO - Loading macOS
+[2022-08-09 21:48:22,515] {processor.py:651} INFO - DAG(s) dict_keys(['Snowflake_automation']) retrieved from /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:48:22,528] {logging_mixin.py:115} INFO - [2022-08-09 21:48:22,528] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-09 21:48:22,539] {logging_mixin.py:115} INFO - [2022-08-09 21:48:22,539] {dag.py:2915} INFO - Setting next_dagrun for Snowflake_automation to None, run_after=None
+[2022-08-09 21:48:22,574] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/test_0716.py took 0.474 seconds
+[2022-08-09 21:48:55,619] {processor.py:153} INFO - Started process (PID=354393) to work on /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:48:55,621] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/test_0716.py for tasks to queue
+[2022-08-09 21:48:55,621] {logging_mixin.py:115} INFO - [2022-08-09 21:48:55,621] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:48:55,940] {logging_mixin.py:115} INFO - [2022-08-09 21:48:55,939] {backend.py:193} INFO - Loading KWallet
+[2022-08-09 21:48:55,945] {logging_mixin.py:115} INFO - [2022-08-09 21:48:55,945] {backend.py:193} INFO - Loading SecretService
+[2022-08-09 21:48:55,950] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-09 21:48:55,951] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-09 21:48:55,952] {logging_mixin.py:115} INFO - [2022-08-09 21:48:55,951] {backend.py:193} INFO - Loading Windows
+[2022-08-09 21:48:55,952] {logging_mixin.py:115} INFO - [2022-08-09 21:48:55,952] {backend.py:193} INFO - Loading chainer
+[2022-08-09 21:48:55,953] {logging_mixin.py:115} INFO - [2022-08-09 21:48:55,953] {backend.py:193} INFO - Loading macOS
+[2022-08-09 21:48:56,055] {processor.py:651} INFO - DAG(s) dict_keys(['Snowflake_automation']) retrieved from /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:48:56,077] {logging_mixin.py:115} INFO - [2022-08-09 21:48:56,077] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-09 21:48:56,088] {logging_mixin.py:115} INFO - [2022-08-09 21:48:56,087] {dag.py:2915} INFO - Setting next_dagrun for Snowflake_automation to None, run_after=None
+[2022-08-09 21:48:56,134] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/test_0716.py took 0.518 seconds
+[2022-08-09 21:49:32,775] {processor.py:153} INFO - Started process (PID=354695) to work on /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:49:32,789] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/test_0716.py for tasks to queue
+[2022-08-09 21:49:32,790] {logging_mixin.py:115} INFO - [2022-08-09 21:49:32,790] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:49:33,458] {logging_mixin.py:115} INFO - [2022-08-09 21:49:33,456] {backend.py:193} INFO - Loading KWallet
+[2022-08-09 21:49:33,462] {logging_mixin.py:115} INFO - [2022-08-09 21:49:33,462] {backend.py:193} INFO - Loading SecretService
+[2022-08-09 21:49:33,467] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-09 21:49:33,468] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-09 21:49:33,468] {logging_mixin.py:115} INFO - [2022-08-09 21:49:33,468] {backend.py:193} INFO - Loading Windows
+[2022-08-09 21:49:33,471] {logging_mixin.py:115} INFO - [2022-08-09 21:49:33,471] {backend.py:193} INFO - Loading chainer
+[2022-08-09 21:49:33,472] {logging_mixin.py:115} INFO - [2022-08-09 21:49:33,472] {backend.py:193} INFO - Loading macOS
+[2022-08-09 21:49:33,574] {processor.py:651} INFO - DAG(s) dict_keys(['Snowflake_automation']) retrieved from /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:49:33,588] {logging_mixin.py:115} INFO - [2022-08-09 21:49:33,587] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-09 21:49:33,599] {logging_mixin.py:115} INFO - [2022-08-09 21:49:33,599] {dag.py:2915} INFO - Setting next_dagrun for Snowflake_automation to None, run_after=None
+[2022-08-09 21:49:33,628] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/test_0716.py took 0.855 seconds
+[2022-08-09 21:50:13,094] {processor.py:153} INFO - Started process (PID=355051) to work on /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:50:13,096] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/test_0716.py for tasks to queue
+[2022-08-09 21:50:13,096] {logging_mixin.py:115} INFO - [2022-08-09 21:50:13,096] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:50:13,407] {logging_mixin.py:115} INFO - [2022-08-09 21:50:13,406] {backend.py:193} INFO - Loading KWallet
+[2022-08-09 21:50:13,411] {logging_mixin.py:115} INFO - [2022-08-09 21:50:13,411] {backend.py:193} INFO - Loading SecretService
+[2022-08-09 21:50:13,420] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-09 21:50:13,420] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-09 21:50:13,421] {logging_mixin.py:115} INFO - [2022-08-09 21:50:13,421] {backend.py:193} INFO - Loading Windows
+[2022-08-09 21:50:13,421] {logging_mixin.py:115} INFO - [2022-08-09 21:50:13,421] {backend.py:193} INFO - Loading chainer
+[2022-08-09 21:50:13,421] {logging_mixin.py:115} INFO - [2022-08-09 21:50:13,421] {backend.py:193} INFO - Loading macOS
+[2022-08-09 21:50:13,526] {processor.py:651} INFO - DAG(s) dict_keys(['Snowflake_automation']) retrieved from /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:50:13,539] {logging_mixin.py:115} INFO - [2022-08-09 21:50:13,539] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-09 21:50:13,551] {logging_mixin.py:115} INFO - [2022-08-09 21:50:13,551] {dag.py:2915} INFO - Setting next_dagrun for Snowflake_automation to None, run_after=None
+[2022-08-09 21:50:13,580] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/test_0716.py took 0.487 seconds
+[2022-08-09 21:50:49,350] {processor.py:153} INFO - Started process (PID=355389) to work on /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:50:49,351] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/test_0716.py for tasks to queue
+[2022-08-09 21:50:49,352] {logging_mixin.py:115} INFO - [2022-08-09 21:50:49,352] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:50:49,646] {logging_mixin.py:115} INFO - [2022-08-09 21:50:49,645] {backend.py:193} INFO - Loading KWallet
+[2022-08-09 21:50:49,651] {logging_mixin.py:115} INFO - [2022-08-09 21:50:49,651] {backend.py:193} INFO - Loading SecretService
+[2022-08-09 21:50:49,655] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-09 21:50:49,656] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-09 21:50:49,656] {logging_mixin.py:115} INFO - [2022-08-09 21:50:49,656] {backend.py:193} INFO - Loading Windows
+[2022-08-09 21:50:49,657] {logging_mixin.py:115} INFO - [2022-08-09 21:50:49,657] {backend.py:193} INFO - Loading chainer
+[2022-08-09 21:50:49,658] {logging_mixin.py:115} INFO - [2022-08-09 21:50:49,657] {backend.py:193} INFO - Loading macOS
+[2022-08-09 21:50:49,758] {processor.py:651} INFO - DAG(s) dict_keys(['Snowflake_automation']) retrieved from /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 21:50:49,772] {logging_mixin.py:115} INFO - [2022-08-09 21:50:49,772] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-09 21:50:49,783] {logging_mixin.py:115} INFO - [2022-08-09 21:50:49,783] {dag.py:2915} INFO - Setting next_dagrun for Snowflake_automation to None, run_after=None
+[2022-08-09 21:50:49,822] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/test_0716.py took 0.475 seconds
+[2022-08-09 22:09:47,227] {processor.py:153} INFO - Started process (PID=356059) to work on /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 22:09:47,229] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/test_0716.py for tasks to queue
+[2022-08-09 22:09:47,229] {logging_mixin.py:115} INFO - [2022-08-09 22:09:47,229] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 22:09:47,523] {logging_mixin.py:115} INFO - [2022-08-09 22:09:47,522] {backend.py:193} INFO - Loading KWallet
+[2022-08-09 22:09:47,528] {logging_mixin.py:115} INFO - [2022-08-09 22:09:47,528] {backend.py:193} INFO - Loading SecretService
+[2022-08-09 22:09:47,533] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-09 22:09:47,534] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-09 22:09:47,535] {logging_mixin.py:115} INFO - [2022-08-09 22:09:47,535] {backend.py:193} INFO - Loading Windows
+[2022-08-09 22:09:47,536] {logging_mixin.py:115} INFO - [2022-08-09 22:09:47,535] {backend.py:193} INFO - Loading chainer
+[2022-08-09 22:09:47,536] {logging_mixin.py:115} INFO - [2022-08-09 22:09:47,536] {backend.py:193} INFO - Loading macOS
+[2022-08-09 22:09:47,637] {processor.py:651} INFO - DAG(s) dict_keys(['Snowflake_automation']) retrieved from /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 22:09:47,649] {logging_mixin.py:115} INFO - [2022-08-09 22:09:47,649] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-09 22:09:47,661] {logging_mixin.py:115} INFO - [2022-08-09 22:09:47,661] {dag.py:2915} INFO - Setting next_dagrun for Snowflake_automation to None, run_after=None
+[2022-08-09 22:09:47,703] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/test_0716.py took 0.478 seconds
+[2022-08-09 22:10:26,420] {processor.py:153} INFO - Started process (PID=356437) to work on /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 22:10:26,421] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/test_0716.py for tasks to queue
+[2022-08-09 22:10:26,421] {logging_mixin.py:115} INFO - [2022-08-09 22:10:26,421] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 22:10:26,737] {logging_mixin.py:115} INFO - [2022-08-09 22:10:26,735] {backend.py:193} INFO - Loading KWallet
+[2022-08-09 22:10:26,741] {logging_mixin.py:115} INFO - [2022-08-09 22:10:26,740] {backend.py:193} INFO - Loading SecretService
+[2022-08-09 22:10:26,746] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-09 22:10:26,747] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-09 22:10:26,747] {logging_mixin.py:115} INFO - [2022-08-09 22:10:26,747] {backend.py:193} INFO - Loading Windows
+[2022-08-09 22:10:26,748] {logging_mixin.py:115} INFO - [2022-08-09 22:10:26,748] {backend.py:193} INFO - Loading chainer
+[2022-08-09 22:10:26,748] {logging_mixin.py:115} INFO - [2022-08-09 22:10:26,748] {backend.py:193} INFO - Loading macOS
+[2022-08-09 22:10:26,849] {processor.py:651} INFO - DAG(s) dict_keys(['Snowflake_automation']) retrieved from /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 22:10:26,861] {logging_mixin.py:115} INFO - [2022-08-09 22:10:26,860] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-09 22:10:26,871] {logging_mixin.py:115} INFO - [2022-08-09 22:10:26,871] {dag.py:2915} INFO - Setting next_dagrun for Snowflake_automation to None, run_after=None
+[2022-08-09 22:10:26,909] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/test_0716.py took 0.492 seconds
+[2022-08-09 22:11:01,300] {processor.py:153} INFO - Started process (PID=356751) to work on /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 22:11:01,302] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/test_0716.py for tasks to queue
+[2022-08-09 22:11:01,303] {logging_mixin.py:115} INFO - [2022-08-09 22:11:01,303] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 22:11:01,609] {logging_mixin.py:115} INFO - [2022-08-09 22:11:01,608] {backend.py:193} INFO - Loading KWallet
+[2022-08-09 22:11:01,615] {logging_mixin.py:115} INFO - [2022-08-09 22:11:01,615] {backend.py:193} INFO - Loading SecretService
+[2022-08-09 22:11:01,619] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-09 22:11:01,620] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-09 22:11:01,620] {logging_mixin.py:115} INFO - [2022-08-09 22:11:01,620] {backend.py:193} INFO - Loading Windows
+[2022-08-09 22:11:01,621] {logging_mixin.py:115} INFO - [2022-08-09 22:11:01,621] {backend.py:193} INFO - Loading chainer
+[2022-08-09 22:11:01,621] {logging_mixin.py:115} INFO - [2022-08-09 22:11:01,621] {backend.py:193} INFO - Loading macOS
+[2022-08-09 22:11:01,724] {processor.py:651} INFO - DAG(s) dict_keys(['Snowflake_automation']) retrieved from /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 22:11:01,736] {logging_mixin.py:115} INFO - [2022-08-09 22:11:01,736] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-09 22:11:01,748] {logging_mixin.py:115} INFO - [2022-08-09 22:11:01,748] {dag.py:2915} INFO - Setting next_dagrun for Snowflake_automation to None, run_after=None
+[2022-08-09 22:11:01,774] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/test_0716.py took 0.476 seconds
+[2022-08-09 22:11:42,040] {processor.py:153} INFO - Started process (PID=357127) to work on /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 22:11:42,043] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/test_0716.py for tasks to queue
+[2022-08-09 22:11:42,044] {logging_mixin.py:115} INFO - [2022-08-09 22:11:42,043] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 22:11:42,412] {logging_mixin.py:115} INFO - [2022-08-09 22:11:42,411] {backend.py:193} INFO - Loading KWallet
+[2022-08-09 22:11:42,420] {logging_mixin.py:115} INFO - [2022-08-09 22:11:42,420] {backend.py:193} INFO - Loading SecretService
+[2022-08-09 22:11:42,426] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-09 22:11:42,427] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-09 22:11:42,428] {logging_mixin.py:115} INFO - [2022-08-09 22:11:42,428] {backend.py:193} INFO - Loading Windows
+[2022-08-09 22:11:42,429] {logging_mixin.py:115} INFO - [2022-08-09 22:11:42,429] {backend.py:193} INFO - Loading chainer
+[2022-08-09 22:11:42,429] {logging_mixin.py:115} INFO - [2022-08-09 22:11:42,429] {backend.py:193} INFO - Loading macOS
+[2022-08-09 22:11:42,548] {processor.py:651} INFO - DAG(s) dict_keys(['Snowflake_automation']) retrieved from /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 22:11:42,561] {logging_mixin.py:115} INFO - [2022-08-09 22:11:42,561] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-09 22:11:42,575] {logging_mixin.py:115} INFO - [2022-08-09 22:11:42,575] {dag.py:2915} INFO - Setting next_dagrun for Snowflake_automation to None, run_after=None
+[2022-08-09 22:11:42,601] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/test_0716.py took 0.563 seconds
+[2022-08-09 22:12:21,349] {processor.py:153} INFO - Started process (PID=357529) to work on /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 22:12:21,350] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/test_0716.py for tasks to queue
+[2022-08-09 22:12:21,351] {logging_mixin.py:115} INFO - [2022-08-09 22:12:21,350] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 22:12:21,810] {logging_mixin.py:115} INFO - [2022-08-09 22:12:21,807] {backend.py:193} INFO - Loading KWallet
+[2022-08-09 22:12:21,814] {logging_mixin.py:115} INFO - [2022-08-09 22:12:21,814] {backend.py:193} INFO - Loading SecretService
+[2022-08-09 22:12:21,819] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-09 22:12:21,820] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-09 22:12:21,820] {logging_mixin.py:115} INFO - [2022-08-09 22:12:21,820] {backend.py:193} INFO - Loading Windows
+[2022-08-09 22:12:21,821] {logging_mixin.py:115} INFO - [2022-08-09 22:12:21,821] {backend.py:193} INFO - Loading chainer
+[2022-08-09 22:12:21,821] {logging_mixin.py:115} INFO - [2022-08-09 22:12:21,821] {backend.py:193} INFO - Loading macOS
+[2022-08-09 22:12:21,924] {processor.py:651} INFO - DAG(s) dict_keys(['Snowflake_automation']) retrieved from /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 22:12:21,937] {logging_mixin.py:115} INFO - [2022-08-09 22:12:21,936] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-09 22:12:21,951] {logging_mixin.py:115} INFO - [2022-08-09 22:12:21,951] {dag.py:2915} INFO - Setting next_dagrun for Snowflake_automation to None, run_after=None
+[2022-08-09 22:12:21,979] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/test_0716.py took 0.633 seconds
+[2022-08-09 22:12:58,963] {processor.py:153} INFO - Started process (PID=357889) to work on /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 22:12:58,967] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/test_0716.py for tasks to queue
+[2022-08-09 22:12:58,968] {logging_mixin.py:115} INFO - [2022-08-09 22:12:58,968] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 22:12:59,281] {logging_mixin.py:115} INFO - [2022-08-09 22:12:59,280] {backend.py:193} INFO - Loading KWallet
+[2022-08-09 22:12:59,285] {logging_mixin.py:115} INFO - [2022-08-09 22:12:59,285] {backend.py:193} INFO - Loading SecretService
+[2022-08-09 22:12:59,291] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-09 22:12:59,292] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-09 22:12:59,293] {logging_mixin.py:115} INFO - [2022-08-09 22:12:59,292] {backend.py:193} INFO - Loading Windows
+[2022-08-09 22:12:59,293] {logging_mixin.py:115} INFO - [2022-08-09 22:12:59,293] {backend.py:193} INFO - Loading chainer
+[2022-08-09 22:12:59,293] {logging_mixin.py:115} INFO - [2022-08-09 22:12:59,293] {backend.py:193} INFO - Loading macOS
+[2022-08-09 22:12:59,417] {processor.py:651} INFO - DAG(s) dict_keys(['Snowflake_automation']) retrieved from /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 22:12:59,431] {logging_mixin.py:115} INFO - [2022-08-09 22:12:59,429] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-09 22:12:59,445] {logging_mixin.py:115} INFO - [2022-08-09 22:12:59,445] {dag.py:2915} INFO - Setting next_dagrun for Snowflake_automation to None, run_after=None
+[2022-08-09 22:12:59,474] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/test_0716.py took 0.513 seconds
+[2022-08-09 22:13:35,931] {processor.py:153} INFO - Started process (PID=358216) to work on /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 22:13:35,933] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/test_0716.py for tasks to queue
+[2022-08-09 22:13:35,933] {logging_mixin.py:115} INFO - [2022-08-09 22:13:35,933] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 22:13:36,229] {logging_mixin.py:115} INFO - [2022-08-09 22:13:36,228] {backend.py:193} INFO - Loading KWallet
+[2022-08-09 22:13:36,233] {logging_mixin.py:115} INFO - [2022-08-09 22:13:36,233] {backend.py:193} INFO - Loading SecretService
+[2022-08-09 22:13:36,238] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-09 22:13:36,239] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-09 22:13:36,239] {logging_mixin.py:115} INFO - [2022-08-09 22:13:36,239] {backend.py:193} INFO - Loading Windows
+[2022-08-09 22:13:36,240] {logging_mixin.py:115} INFO - [2022-08-09 22:13:36,240] {backend.py:193} INFO - Loading chainer
+[2022-08-09 22:13:36,240] {logging_mixin.py:115} INFO - [2022-08-09 22:13:36,240] {backend.py:193} INFO - Loading macOS
+[2022-08-09 22:13:36,359] {processor.py:651} INFO - DAG(s) dict_keys(['Snowflake_automation']) retrieved from /home/osboxes/airflow/dags/test_0716.py
+[2022-08-09 22:13:36,372] {logging_mixin.py:115} INFO - [2022-08-09 22:13:36,371] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-09 22:13:36,382] {logging_mixin.py:115} INFO - [2022-08-09 22:13:36,382] {dag.py:2915} INFO - Setting next_dagrun for Snowflake_automation to None, run_after=None
+[2022-08-09 22:13:36,416] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/test_0716.py took 0.488 seconds
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                

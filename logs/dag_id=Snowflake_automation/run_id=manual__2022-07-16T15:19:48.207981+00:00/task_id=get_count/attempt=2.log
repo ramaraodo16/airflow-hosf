@@ -1,0 +1,42 @@
+[2022-07-16 11:36:35,642] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: Snowflake_automation.get_count manual__2022-07-16T15:19:48.207981+00:00 [queued]>
+[2022-07-16 11:36:35,653] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: Snowflake_automation.get_count manual__2022-07-16T15:19:48.207981+00:00 [queued]>
+[2022-07-16 11:36:35,653] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-16 11:36:35,653] {taskinstance.py:1357} INFO - Starting attempt 2 of 2
+[2022-07-16 11:36:35,653] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-16 11:36:35,685] {taskinstance.py:1377} INFO - Executing <Task(PythonOperator): get_count> on 2022-07-16 15:19:48.207981+00:00
+[2022-07-16 11:36:35,688] {standard_task_runner.py:52} INFO - Started process 61160 to run task
+[2022-07-16 11:36:35,716] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'Snowflake_automation', 'get_count', 'manual__2022-07-16T15:19:48.207981+00:00', '--job-id', '13', '--raw', '--subdir', 'DAGS_FOLDER/test_0716.py', '--cfg-path', '/tmp/tmp56dd5ns1', '--error-file', '/tmp/tmp7ift08w6']
+[2022-07-16 11:36:35,717] {standard_task_runner.py:80} INFO - Job 13: Subtask get_count
+[2022-07-16 11:36:35,907] {task_command.py:369} INFO - Running <TaskInstance: Snowflake_automation.get_count manual__2022-07-16T15:19:48.207981+00:00 [running]> on host osboxes
+[2022-07-16 11:36:36,224] {taskinstance.py:1569} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=Airflow
+AIRFLOW_CTX_DAG_ID=Snowflake_automation
+AIRFLOW_CTX_TASK_ID=get_count
+AIRFLOW_CTX_EXECUTION_DATE=2022-07-16T15:19:48.207981+00:00
+AIRFLOW_CTX_TRY_NUMBER=2
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-07-16T15:19:48.207981+00:00
+[2022-07-16 11:36:36,252] {taskinstance.py:1889} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/osboxes/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 171, in execute
+    return_value = self.execute_callable()
+  File "/home/osboxes/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 189, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/osboxes/airflow/dags/test_0716.py", line 28, in get_row_count
+    result1 = dwh_hook.get_first("select count(*) from EDW_PROD.EDW.Airflow_test_tab")
+  File "/home/osboxes/.local/lib/python3.8/site-packages/airflow/hooks/dbapi.py", line 155, in get_first
+    with closing(self.get_conn()) as conn:
+  File "/home/osboxes/.local/lib/python3.8/site-packages/airflow/providers/snowflake/hooks/snowflake.py", line 258, in get_conn
+    conn_config = self._get_conn_params()
+  File "/home/osboxes/.local/lib/python3.8/site-packages/airflow/providers/snowflake/hooks/snowflake.py", line 160, in _get_conn_params
+    conn = self.get_connection(self.snowflake_conn_id)  # type: ignore[attr-defined]
+  File "/home/osboxes/.local/lib/python3.8/site-packages/airflow/hooks/base.py", line 67, in get_connection
+    conn = Connection.get_connection_from_secrets(conn_id)
+  File "/home/osboxes/.local/lib/python3.8/site-packages/airflow/models/connection.py", line 430, in get_connection_from_secrets
+    raise AirflowNotFoundException(f"The conn_id `{conn_id}` isn't defined")
+airflow.exceptions.AirflowNotFoundException: The conn_id `snowflake_default` isn't defined
+[2022-07-16 11:36:36,255] {taskinstance.py:1395} INFO - Marking task as FAILED. dag_id=Snowflake_automation, task_id=get_count, execution_date=20220716T151948, start_date=20220716T153635, end_date=20220716T153636
+[2022-07-16 11:36:36,294] {standard_task_runner.py:92} ERROR - Failed to execute job 13 for task get_count (The conn_id `snowflake_default` isn't defined; 61160)
+[2022-07-16 11:36:36,334] {local_task_job.py:156} INFO - Task exited with return code 1
+[2022-07-16 11:36:36,346] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

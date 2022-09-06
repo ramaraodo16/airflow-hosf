@@ -1,0 +1,120 @@
+[2022-07-27 20:55:52,887] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: nse_daily_data_load.load_ftp_namedstage manual__2022-07-28T00:55:36.359887+00:00 [queued]>
+[2022-07-27 20:55:52,936] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: nse_daily_data_load.load_ftp_namedstage manual__2022-07-28T00:55:36.359887+00:00 [queued]>
+[2022-07-27 20:55:52,993] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-27 20:55:52,993] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2022-07-27 20:55:52,993] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-27 20:55:53,240] {taskinstance.py:1377} INFO - Executing <Task(PythonOperator): load_ftp_namedstage> on 2022-07-28 00:55:36.359887+00:00
+[2022-07-27 20:55:53,495] {standard_task_runner.py:52} INFO - Started process 2195680 to run task
+[2022-07-27 20:55:53,583] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'nse_daily_data_load', 'load_ftp_namedstage', 'manual__2022-07-28T00:55:36.359887+00:00', '--job-id', '44', '--raw', '--subdir', 'DAGS_FOLDER/nse_daily_load_stg.py', '--cfg-path', '/tmp/tmpr4spsm2v', '--error-file', '/tmp/tmp8i7r5mek']
+[2022-07-27 20:55:53,591] {standard_task_runner.py:80} INFO - Job 44: Subtask load_ftp_namedstage
+[2022-07-27 20:55:53,965] {task_command.py:369} INFO - Running <TaskInstance: nse_daily_data_load.load_ftp_namedstage manual__2022-07-28T00:55:36.359887+00:00 [running]> on host osboxes
+[2022-07-27 20:55:54,357] {taskinstance.py:1569} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=Airflow
+AIRFLOW_CTX_DAG_ID=nse_daily_data_load
+AIRFLOW_CTX_TASK_ID=load_ftp_namedstage
+AIRFLOW_CTX_EXECUTION_DATE=2022-07-28T00:55:36.359887+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-07-28T00:55:36.359887+00:00
+[2022-07-27 20:55:54,373] {base.py:68} INFO - Using connection ID 'snowflake_conn_id' for task execution.
+[2022-07-27 20:55:54,376] {connection.py:257} INFO - Snowflake Connector for Python Version: 2.7.8, Python Version: 3.8.10, Platform: Linux-5.4.0-74-generic-x86_64-with-glibc2.29
+[2022-07-27 20:55:54,377] {connection.py:876} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2022-07-27 20:55:54,377] {connection.py:894} INFO - Setting use_openssl_only mode to False
+[2022-07-27 20:55:58,428] {cursor.py:710} INFO - query: [ALTER SESSION SET autocommit=False]
+[2022-07-27 20:55:58,730] {cursor.py:734} INFO - query execution done
+[2022-07-27 20:55:58,753] {snowflake.py:328} INFO - Running statement: put file:///home/osboxes/Desktop/Files/cm*.csv @EDW_DEV.EDW.NSE_DAILY_STG;, parameters: None
+[2022-07-27 20:55:58,753] {cursor.py:710} INFO - query: [put file:///home/osboxes/Desktop/Files/cm*.csv @EDW_DEV.EDW.NSE_DAILY_STG;]
+[2022-07-27 20:55:59,410] {cursor.py:734} INFO - query execution done
+[2022-07-27 20:56:01,378] {file_transfer_agent.py:574} ERROR - An exception was raised in <bound method SnowflakeStorageClient.prepare_upload of <snowflake.connector.s3_storage_client.SnowflakeS3RestClient object at 0x7effe3d52280>>
+Traceback (most recent call last):
+  File "/home/osboxes/.local/lib/python3.8/site-packages/snowflake/connector/file_transfer_agent.py", line 571, in function_and_callback_wrapper
+    work(*args, **kwargs),
+  File "/home/osboxes/.local/lib/python3.8/site-packages/snowflake/connector/storage_client.py", line 214, in prepare_upload
+    self.preprocess()
+  File "/home/osboxes/.local/lib/python3.8/site-packages/snowflake/connector/storage_client.py", line 192, in preprocess
+    self.get_file_header(meta.dst_file_name)  # Check if file exists on remote
+  File "/home/osboxes/.local/lib/python3.8/site-packages/snowflake/connector/s3_storage_client.py", line 408, in get_file_header
+    response.raise_for_status()
+  File "/home/osboxes/.local/lib/python3.8/site-packages/snowflake/connector/vendored/requests/models.py", line 953, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+snowflake.connector.vendored.requests.exceptions.HTTPError: 403 Client Error: Forbidden for url: https://sfc-prod2-ds1-33-customer-stage.s3.amazonaws.com/sjxd-s-p2sx7327/stages/9590ba62-9100-41d7-ba8e-dad112218e03/cm26JUL2022bhav.csv.gz
+[2022-07-27 20:56:01,430] {file_transfer_agent.py:574} ERROR - An exception was raised in <bound method SnowflakeStorageClient.prepare_upload of <snowflake.connector.s3_storage_client.SnowflakeS3RestClient object at 0x7effe3d52550>>
+Traceback (most recent call last):
+  File "/home/osboxes/.local/lib/python3.8/site-packages/snowflake/connector/file_transfer_agent.py", line 571, in function_and_callback_wrapper
+    work(*args, **kwargs),
+  File "/home/osboxes/.local/lib/python3.8/site-packages/snowflake/connector/storage_client.py", line 214, in prepare_upload
+    self.preprocess()
+  File "/home/osboxes/.local/lib/python3.8/site-packages/snowflake/connector/storage_client.py", line 192, in preprocess
+    self.get_file_header(meta.dst_file_name)  # Check if file exists on remote
+  File "/home/osboxes/.local/lib/python3.8/site-packages/snowflake/connector/s3_storage_client.py", line 408, in get_file_header
+    response.raise_for_status()
+  File "/home/osboxes/.local/lib/python3.8/site-packages/snowflake/connector/vendored/requests/models.py", line 953, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+snowflake.connector.vendored.requests.exceptions.HTTPError: 403 Client Error: Forbidden for url: https://sfc-prod2-ds1-33-customer-stage.s3.amazonaws.com/sjxd-s-p2sx7327/stages/9590ba62-9100-41d7-ba8e-dad112218e03/cm27JUL2022bhav.csv.gz
+[2022-07-27 20:56:01,463] {file_transfer_agent.py:574} ERROR - An exception was raised in <bound method SnowflakeStorageClient.prepare_upload of <snowflake.connector.s3_storage_client.SnowflakeS3RestClient object at 0x7effe3d52d00>>
+Traceback (most recent call last):
+  File "/home/osboxes/.local/lib/python3.8/site-packages/snowflake/connector/file_transfer_agent.py", line 571, in function_and_callback_wrapper
+    work(*args, **kwargs),
+  File "/home/osboxes/.local/lib/python3.8/site-packages/snowflake/connector/storage_client.py", line 214, in prepare_upload
+    self.preprocess()
+  File "/home/osboxes/.local/lib/python3.8/site-packages/snowflake/connector/storage_client.py", line 192, in preprocess
+    self.get_file_header(meta.dst_file_name)  # Check if file exists on remote
+  File "/home/osboxes/.local/lib/python3.8/site-packages/snowflake/connector/s3_storage_client.py", line 408, in get_file_header
+    response.raise_for_status()
+  File "/home/osboxes/.local/lib/python3.8/site-packages/snowflake/connector/vendored/requests/models.py", line 953, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+snowflake.connector.vendored.requests.exceptions.HTTPError: 403 Client Error: Forbidden for url: https://sfc-prod2-ds1-33-customer-stage.s3.amazonaws.com/sjxd-s-p2sx7327/stages/9590ba62-9100-41d7-ba8e-dad112218e03/cm25JUL2022bhav.csv.gz
+[2022-07-27 20:56:01,578] {file_transfer_agent.py:574} ERROR - An exception was raised in <bound method SnowflakeStorageClient.prepare_upload of <snowflake.connector.s3_storage_client.SnowflakeS3RestClient object at 0x7effe3d522e0>>
+Traceback (most recent call last):
+  File "/home/osboxes/.local/lib/python3.8/site-packages/snowflake/connector/file_transfer_agent.py", line 571, in function_and_callback_wrapper
+    work(*args, **kwargs),
+  File "/home/osboxes/.local/lib/python3.8/site-packages/snowflake/connector/storage_client.py", line 214, in prepare_upload
+    self.preprocess()
+  File "/home/osboxes/.local/lib/python3.8/site-packages/snowflake/connector/storage_client.py", line 192, in preprocess
+    self.get_file_header(meta.dst_file_name)  # Check if file exists on remote
+  File "/home/osboxes/.local/lib/python3.8/site-packages/snowflake/connector/s3_storage_client.py", line 408, in get_file_header
+    response.raise_for_status()
+  File "/home/osboxes/.local/lib/python3.8/site-packages/snowflake/connector/vendored/requests/models.py", line 953, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+snowflake.connector.vendored.requests.exceptions.HTTPError: 403 Client Error: Forbidden for url: https://sfc-prod2-ds1-33-customer-stage.s3.amazonaws.com/sjxd-s-p2sx7327/stages/9590ba62-9100-41d7-ba8e-dad112218e03/cm22JUL2022bhav.csv.gz
+[2022-07-27 20:56:01,632] {file_transfer_agent.py:574} ERROR - An exception was raised in <bound method SnowflakeStorageClient.prepare_upload of <snowflake.connector.s3_storage_client.SnowflakeS3RestClient object at 0x7effe3d52bb0>>
+Traceback (most recent call last):
+  File "/home/osboxes/.local/lib/python3.8/site-packages/snowflake/connector/file_transfer_agent.py", line 571, in function_and_callback_wrapper
+    work(*args, **kwargs),
+  File "/home/osboxes/.local/lib/python3.8/site-packages/snowflake/connector/storage_client.py", line 214, in prepare_upload
+    self.preprocess()
+  File "/home/osboxes/.local/lib/python3.8/site-packages/snowflake/connector/storage_client.py", line 192, in preprocess
+    self.get_file_header(meta.dst_file_name)  # Check if file exists on remote
+  File "/home/osboxes/.local/lib/python3.8/site-packages/snowflake/connector/s3_storage_client.py", line 408, in get_file_header
+    response.raise_for_status()
+  File "/home/osboxes/.local/lib/python3.8/site-packages/snowflake/connector/vendored/requests/models.py", line 953, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+snowflake.connector.vendored.requests.exceptions.HTTPError: 403 Client Error: Forbidden for url: https://sfc-prod2-ds1-33-customer-stage.s3.amazonaws.com/sjxd-s-p2sx7327/stages/9590ba62-9100-41d7-ba8e-dad112218e03/cm21JUL2022bhav.csv.gz
+[2022-07-27 20:56:01,639] {connection.py:507} INFO - closed
+[2022-07-27 20:56:01,687] {connection.py:510} INFO - No async queries seem to be running, deleting session
+[2022-07-27 20:56:01,790] {taskinstance.py:1889} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/osboxes/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 171, in execute
+    return_value = self.execute_callable()
+  File "/home/osboxes/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 189, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/osboxes/airflow/dags/nse_daily_load_stg.py", line 27, in load_local_inter_stg
+    res1 = ld_lcl_ins.run(sql = sql_t)
+  File "/home/osboxes/.local/lib/python3.8/site-packages/airflow/providers/snowflake/hooks/snowflake.py", line 332, in run
+    cur.execute(sql_statement)
+  File "/home/osboxes/.local/lib/python3.8/site-packages/snowflake/connector/cursor.py", line 761, in execute
+    data = sf_file_transfer_agent.result()
+  File "/home/osboxes/.local/lib/python3.8/site-packages/snowflake/connector/file_transfer_agent.py", line 711, in result
+    Error.errorhandler_wrapper(
+  File "/home/osboxes/.local/lib/python3.8/site-packages/snowflake/connector/errors.py", line 273, in errorhandler_wrapper
+    handed_over = Error.hand_to_other_handler(
+  File "/home/osboxes/.local/lib/python3.8/site-packages/snowflake/connector/errors.py", line 328, in hand_to_other_handler
+    cursor.errorhandler(connection, cursor, error_class, error_value)
+  File "/home/osboxes/.local/lib/python3.8/site-packages/snowflake/connector/errors.py", line 207, in default_errorhandler
+    raise error_class(
+snowflake.connector.errors.OperationalError: 253003: 253003: While putting file(s) there was an error: 'HTTPError('403 Client Error: Forbidden for url: https://sfc-prod2-ds1-33-customer-stage.s3.amazonaws.com/sjxd-s-p2sx7327/stages/9590ba62-9100-41d7-ba8e-dad112218e03/cm26JUL2022bhav.csv.gz')', this might be caused by your access to the blob storage provider, or by Snowflake.
+[2022-07-27 20:56:01,849] {taskinstance.py:1395} INFO - Marking task as FAILED. dag_id=nse_daily_data_load, task_id=load_ftp_namedstage, execution_date=20220728T005536, start_date=20220728T005552, end_date=20220728T005601
+[2022-07-27 20:56:02,137] {standard_task_runner.py:92} ERROR - Failed to execute job 44 for task load_ftp_namedstage (253003: 253003: While putting file(s) there was an error: 'HTTPError('403 Client Error: Forbidden for url: https://sfc-prod2-ds1-33-customer-stage.s3.amazonaws.com/sjxd-s-p2sx7327/stages/9590ba62-9100-41d7-ba8e-dad112218e03/cm26JUL2022bhav.csv.gz')', this might be caused by your access to the blob storage provider, or by Snowflake.; 2195680)
+[2022-07-27 20:56:02,216] {local_task_job.py:156} INFO - Task exited with return code 1
+[2022-07-27 20:56:02,380] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

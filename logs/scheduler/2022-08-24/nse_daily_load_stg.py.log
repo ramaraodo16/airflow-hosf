@@ -1,0 +1,336 @@
+[2022-08-24 00:00:53,480] {processor.py:153} INFO - Started process (PID=11920) to work on /home/osboxes/airflow/dags/nse_daily_load_stg.py
+[2022-08-24 00:00:53,489] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/nse_daily_load_stg.py for tasks to queue
+[2022-08-24 00:00:53,497] {logging_mixin.py:115} INFO - [2022-08-24 00:00:53,497] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/nse_daily_load_stg.py
+[2022-08-24 00:00:56,127] {logging_mixin.py:115} INFO - [2022-08-24 00:00:56,126] {backend.py:193} INFO - Loading KWallet
+[2022-08-24 00:00:56,147] {logging_mixin.py:115} INFO - [2022-08-24 00:00:56,146] {backend.py:193} INFO - Loading SecretService
+[2022-08-24 00:00:56,154] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-24 00:00:56,178] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-24 00:00:56,179] {logging_mixin.py:115} INFO - [2022-08-24 00:00:56,179] {backend.py:193} INFO - Loading Windows
+[2022-08-24 00:00:56,180] {logging_mixin.py:115} INFO - [2022-08-24 00:00:56,180] {backend.py:193} INFO - Loading chainer
+[2022-08-24 00:00:56,181] {logging_mixin.py:115} INFO - [2022-08-24 00:00:56,181] {backend.py:193} INFO - Loading macOS
+[2022-08-24 00:00:56,680] {processor.py:651} INFO - DAG(s) dict_keys(['nse_daily_data_load']) retrieved from /home/osboxes/airflow/dags/nse_daily_load_stg.py
+[2022-08-24 00:00:56,792] {logging_mixin.py:115} INFO - [2022-08-24 00:00:56,791] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-24 00:00:56,864] {logging_mixin.py:115} INFO - [2022-08-24 00:00:56,864] {dag.py:2915} INFO - Setting next_dagrun for nse_daily_data_load to 2022-08-22T13:37:00+00:00, run_after=2022-08-23T13:37:00+00:00
+[2022-08-24 00:00:56,916] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/nse_daily_load_stg.py took 3.438 seconds
+[2022-08-24 00:02:37,080] {processor.py:153} INFO - Started process (PID=13487) to work on /home/osboxes/airflow/dags/nse_daily_load_stg.py
+[2022-08-24 00:02:37,121] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/nse_daily_load_stg.py for tasks to queue
+[2022-08-24 00:02:37,121] {logging_mixin.py:115} INFO - [2022-08-24 00:02:37,121] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/nse_daily_load_stg.py
+[2022-08-24 00:02:49,602] {logging_mixin.py:115} INFO - [2022-08-24 00:02:49,601] {backend.py:193} INFO - Loading KWallet
+[2022-08-24 00:02:49,906] {logging_mixin.py:115} INFO - [2022-08-24 00:02:49,906] {backend.py:193} INFO - Loading SecretService
+[2022-08-24 00:02:50,163] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-24 00:02:50,406] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-24 00:02:50,406] {logging_mixin.py:115} INFO - [2022-08-24 00:02:50,406] {backend.py:193} INFO - Loading Windows
+[2022-08-24 00:02:50,430] {logging_mixin.py:115} INFO - [2022-08-24 00:02:50,430] {backend.py:193} INFO - Loading chainer
+[2022-08-24 00:02:50,446] {logging_mixin.py:115} INFO - [2022-08-24 00:02:50,446] {backend.py:193} INFO - Loading macOS
+[2022-08-24 00:02:53,043] {processor.py:651} INFO - DAG(s) dict_keys(['nse_daily_data_load']) retrieved from /home/osboxes/airflow/dags/nse_daily_load_stg.py
+[2022-08-24 00:02:53,261] {logging_mixin.py:115} INFO - [2022-08-24 00:02:53,260] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-24 00:02:53,568] {logging_mixin.py:115} INFO - [2022-08-24 00:02:53,568] {dag.py:2915} INFO - Setting next_dagrun for nse_daily_data_load to 2022-08-23T13:37:00+00:00, run_after=2022-08-24T13:37:00+00:00
+[2022-08-24 00:02:53,699] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/nse_daily_load_stg.py took 16.716 seconds
+[2022-08-24 00:07:38,461] {processor.py:153} INFO - Started process (PID=17936) to work on /home/osboxes/airflow/dags/nse_daily_load_stg.py
+[2022-08-24 00:07:38,481] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/nse_daily_load_stg.py for tasks to queue
+[2022-08-24 00:07:38,484] {logging_mixin.py:115} INFO - [2022-08-24 00:07:38,484] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/nse_daily_load_stg.py
+[2022-08-24 00:07:40,649] {logging_mixin.py:115} INFO - [2022-08-24 00:07:40,644] {backend.py:193} INFO - Loading KWallet
+[2022-08-24 00:07:40,657] {logging_mixin.py:115} INFO - [2022-08-24 00:07:40,657] {backend.py:193} INFO - Loading SecretService
+[2022-08-24 00:07:40,663] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-24 00:07:40,664] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-24 00:07:40,665] {logging_mixin.py:115} INFO - [2022-08-24 00:07:40,664] {backend.py:193} INFO - Loading Windows
+[2022-08-24 00:07:40,672] {logging_mixin.py:115} INFO - [2022-08-24 00:07:40,671] {backend.py:193} INFO - Loading chainer
+[2022-08-24 00:07:40,672] {logging_mixin.py:115} INFO - [2022-08-24 00:07:40,672] {backend.py:193} INFO - Loading macOS
+[2022-08-24 00:07:40,956] {processor.py:651} INFO - DAG(s) dict_keys(['nse_daily_data_load']) retrieved from /home/osboxes/airflow/dags/nse_daily_load_stg.py
+[2022-08-24 00:07:40,990] {logging_mixin.py:115} INFO - [2022-08-24 00:07:40,989] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-24 00:07:41,015] {logging_mixin.py:115} INFO - [2022-08-24 00:07:41,015] {dag.py:2915} INFO - Setting next_dagrun for nse_daily_data_load to 2022-08-23T13:37:00+00:00, run_after=2022-08-24T13:37:00+00:00
+[2022-08-24 00:07:41,068] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/nse_daily_load_stg.py took 2.667 seconds
+[2022-08-24 00:08:33,887] {processor.py:153} INFO - Started process (PID=18481) to work on /home/osboxes/airflow/dags/nse_daily_load_stg.py
+[2022-08-24 00:08:33,889] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/nse_daily_load_stg.py for tasks to queue
+[2022-08-24 00:08:33,889] {logging_mixin.py:115} INFO - [2022-08-24 00:08:33,889] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/nse_daily_load_stg.py
+[2022-08-24 00:08:35,802] {logging_mixin.py:115} INFO - [2022-08-24 00:08:35,801] {backend.py:193} INFO - Loading KWallet
+[2022-08-24 00:08:35,814] {logging_mixin.py:115} INFO - [2022-08-24 00:08:35,814] {backend.py:193} INFO - Loading SecretService
+[2022-08-24 00:08:35,831] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-24 00:08:35,833] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-24 00:08:35,834] {logging_mixin.py:115} INFO - [2022-08-24 00:08:35,833] {backend.py:193} INFO - Loading Windows
+[2022-08-24 00:08:35,835] {logging_mixin.py:115} INFO - [2022-08-24 00:08:35,835] {backend.py:193} INFO - Loading chainer
+[2022-08-24 00:08:35,836] {logging_mixin.py:115} INFO - [2022-08-24 00:08:35,836] {backend.py:193} INFO - Loading macOS
+[2022-08-24 00:08:36,203] {processor.py:651} INFO - DAG(s) dict_keys(['nse_daily_data_load']) retrieved from /home/osboxes/airflow/dags/nse_daily_load_stg.py
+[2022-08-24 00:08:36,240] {logging_mixin.py:115} INFO - [2022-08-24 00:08:36,239] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-24 00:08:36,277] {logging_mixin.py:115} INFO - [2022-08-24 00:08:36,277] {dag.py:2915} INFO - Setting next_dagrun for nse_daily_data_load to 2022-08-23T13:37:00+00:00, run_after=2022-08-24T13:37:00+00:00
+[2022-08-24 00:08:36,341] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/nse_daily_load_stg.py took 2.459 seconds
+[2022-08-24 00:09:11,391] {processor.py:153} INFO - Started process (PID=18784) to work on /home/osboxes/airflow/dags/nse_daily_load_stg.py
+[2022-08-24 00:09:11,393] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/nse_daily_load_stg.py for tasks to queue
+[2022-08-24 00:09:11,394] {logging_mixin.py:115} INFO - [2022-08-24 00:09:11,393] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/nse_daily_load_stg.py
+[2022-08-24 00:09:12,276] {logging_mixin.py:115} INFO - [2022-08-24 00:09:12,275] {backend.py:193} INFO - Loading KWallet
+[2022-08-24 00:09:12,282] {logging_mixin.py:115} INFO - [2022-08-24 00:09:12,281] {backend.py:193} INFO - Loading SecretService
+[2022-08-24 00:09:12,292] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-24 00:09:12,295] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-24 00:09:12,295] {logging_mixin.py:115} INFO - [2022-08-24 00:09:12,295] {backend.py:193} INFO - Loading Windows
+[2022-08-24 00:09:12,296] {logging_mixin.py:115} INFO - [2022-08-24 00:09:12,296] {backend.py:193} INFO - Loading chainer
+[2022-08-24 00:09:12,297] {logging_mixin.py:115} INFO - [2022-08-24 00:09:12,297] {backend.py:193} INFO - Loading macOS
+[2022-08-24 00:09:12,473] {processor.py:651} INFO - DAG(s) dict_keys(['nse_daily_data_load']) retrieved from /home/osboxes/airflow/dags/nse_daily_load_stg.py
+[2022-08-24 00:09:12,503] {logging_mixin.py:115} INFO - [2022-08-24 00:09:12,502] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-24 00:09:12,524] {logging_mixin.py:115} INFO - [2022-08-24 00:09:12,524] {dag.py:2915} INFO - Setting next_dagrun for nse_daily_data_load to 2022-08-23T13:37:00+00:00, run_after=2022-08-24T13:37:00+00:00
+[2022-08-24 00:09:12,560] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/nse_daily_load_stg.py took 1.172 seconds
+[2022-08-24 00:09:47,029] {processor.py:153} INFO - Started process (PID=19109) to work on /home/osboxes/airflow/dags/nse_daily_load_stg.py
+[2022-08-24 00:09:47,031] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/nse_daily_load_stg.py for tasks to queue
+[2022-08-24 00:09:47,031] {logging_mixin.py:115} INFO - [2022-08-24 00:09:47,031] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/nse_daily_load_stg.py
+[2022-08-24 00:09:47,759] {logging_mixin.py:115} INFO - [2022-08-24 00:09:47,758] {backend.py:193} INFO - Loading KWallet
+[2022-08-24 00:09:47,766] {logging_mixin.py:115} INFO - [2022-08-24 00:09:47,766] {backend.py:193} INFO - Loading SecretService
+[2022-08-24 00:09:47,776] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-24 00:09:47,777] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-24 00:09:47,778] {logging_mixin.py:115} INFO - [2022-08-24 00:09:47,778] {backend.py:193} INFO - Loading Windows
+[2022-08-24 00:09:47,780] {logging_mixin.py:115} INFO - [2022-08-24 00:09:47,779] {backend.py:193} INFO - Loading chainer
+[2022-08-24 00:09:47,782] {logging_mixin.py:115} INFO - [2022-08-24 00:09:47,782] {backend.py:193} INFO - Loading macOS
+[2022-08-24 00:09:47,967] {processor.py:651} INFO - DAG(s) dict_keys(['nse_daily_data_load']) retrieved from /home/osboxes/airflow/dags/nse_daily_load_stg.py
+[2022-08-24 00:09:47,987] {logging_mixin.py:115} INFO - [2022-08-24 00:09:47,987] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-24 00:09:48,011] {logging_mixin.py:115} INFO - [2022-08-24 00:09:48,011] {dag.py:2915} INFO - Setting next_dagrun for nse_daily_data_load to 2022-08-23T13:37:00+00:00, run_after=2022-08-24T13:37:00+00:00
+[2022-08-24 00:09:48,077] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/nse_daily_load_stg.py took 1.051 seconds
+[2022-08-24 00:10:23,692] {processor.py:153} INFO - Started process (PID=19394) to work on /home/osboxes/airflow/dags/nse_daily_load_stg.py
+[2022-08-24 00:10:23,693] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/nse_daily_load_stg.py for tasks to queue
+[2022-08-24 00:10:23,694] {logging_mixin.py:115} INFO - [2022-08-24 00:10:23,694] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/nse_daily_load_stg.py
+[2022-08-24 00:10:24,384] {logging_mixin.py:115} INFO - [2022-08-24 00:10:24,383] {backend.py:193} INFO - Loading KWallet
+[2022-08-24 00:10:24,389] {logging_mixin.py:115} INFO - [2022-08-24 00:10:24,389] {backend.py:193} INFO - Loading SecretService
+[2022-08-24 00:10:24,397] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-24 00:10:24,398] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-24 00:10:24,399] {logging_mixin.py:115} INFO - [2022-08-24 00:10:24,399] {backend.py:193} INFO - Loading Windows
+[2022-08-24 00:10:24,400] {logging_mixin.py:115} INFO - [2022-08-24 00:10:24,400] {backend.py:193} INFO - Loading chainer
+[2022-08-24 00:10:24,400] {logging_mixin.py:115} INFO - [2022-08-24 00:10:24,400] {backend.py:193} INFO - Loading macOS
+[2022-08-24 00:10:24,599] {processor.py:651} INFO - DAG(s) dict_keys(['nse_daily_data_load']) retrieved from /home/osboxes/airflow/dags/nse_daily_load_stg.py
+[2022-08-24 00:10:24,620] {logging_mixin.py:115} INFO - [2022-08-24 00:10:24,619] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-24 00:10:24,641] {logging_mixin.py:115} INFO - [2022-08-24 00:10:24,641] {dag.py:2915} INFO - Setting next_dagrun for nse_daily_data_load to 2022-08-23T13:37:00+00:00, run_after=2022-08-24T13:37:00+00:00
+[2022-08-24 00:10:24,676] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/nse_daily_load_stg.py took 0.987 seconds
+[2022-08-24 00:10:55,233] {processor.py:153} INFO - Started process (PID=19642) to work on /home/osboxes/airflow/dags/nse_daily_load_stg.py
+[2022-08-24 00:10:55,233] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/nse_daily_load_stg.py for tasks to queue
+[2022-08-24 00:10:55,234] {logging_mixin.py:115} INFO - [2022-08-24 00:10:55,234] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/nse_daily_load_stg.py
+[2022-08-24 00:10:55,862] {logging_mixin.py:115} INFO - [2022-08-24 00:10:55,861] {backend.py:193} INFO - Loading KWallet
+[2022-08-24 00:10:55,874] {logging_mixin.py:115} INFO - [2022-08-24 00:10:55,873] {backend.py:193} INFO - Loading SecretService
+[2022-08-24 00:10:55,885] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-24 00:10:55,886] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-24 00:10:55,888] {logging_mixin.py:115} INFO - [2022-08-24 00:10:55,887] {backend.py:193} INFO - Loading Windows
+[2022-08-24 00:10:55,890] {logging_mixin.py:115} INFO - [2022-08-24 00:10:55,889] {backend.py:193} INFO - Loading chainer
+[2022-08-24 00:10:55,890] {logging_mixin.py:115} INFO - [2022-08-24 00:10:55,890] {backend.py:193} INFO - Loading macOS
+[2022-08-24 00:10:56,185] {processor.py:651} INFO - DAG(s) dict_keys(['nse_daily_data_load']) retrieved from /home/osboxes/airflow/dags/nse_daily_load_stg.py
+[2022-08-24 00:10:56,261] {logging_mixin.py:115} INFO - [2022-08-24 00:10:56,260] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-24 00:10:56,299] {logging_mixin.py:115} INFO - [2022-08-24 00:10:56,299] {dag.py:2915} INFO - Setting next_dagrun for nse_daily_data_load to 2022-08-23T13:37:00+00:00, run_after=2022-08-24T13:37:00+00:00
+[2022-08-24 00:10:56,344] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/nse_daily_load_stg.py took 1.115 seconds
+[2022-08-24 00:11:31,167] {processor.py:153} INFO - Started process (PID=19926) to work on /home/osboxes/airflow/dags/nse_daily_load_stg.py
+[2022-08-24 00:11:31,178] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/nse_daily_load_stg.py for tasks to queue
+[2022-08-24 00:11:31,179] {logging_mixin.py:115} INFO - [2022-08-24 00:11:31,179] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/nse_daily_load_stg.py
+[2022-08-24 00:11:31,849] {logging_mixin.py:115} INFO - [2022-08-24 00:11:31,848] {backend.py:193} INFO - Loading KWallet
+[2022-08-24 00:11:31,857] {logging_mixin.py:115} INFO - [2022-08-24 00:11:31,857] {backend.py:193} INFO - Loading SecretService
+[2022-08-24 00:11:31,864] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-24 00:11:31,865] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-24 00:11:31,866] {logging_mixin.py:115} INFO - [2022-08-24 00:11:31,866] {backend.py:193} INFO - Loading Windows
+[2022-08-24 00:11:31,867] {logging_mixin.py:115} INFO - [2022-08-24 00:11:31,867] {backend.py:193} INFO - Loading chainer
+[2022-08-24 00:11:31,867] {logging_mixin.py:115} INFO - [2022-08-24 00:11:31,867] {backend.py:193} INFO - Loading macOS
+[2022-08-24 00:11:32,038] {processor.py:651} INFO - DAG(s) dict_keys(['nse_daily_data_load']) retrieved from /home/osboxes/airflow/dags/nse_daily_load_stg.py
+[2022-08-24 00:11:32,055] {logging_mixin.py:115} INFO - [2022-08-24 00:11:32,054] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-24 00:11:32,074] {logging_mixin.py:115} INFO - [2022-08-24 00:11:32,074] {dag.py:2915} INFO - Setting next_dagrun for nse_daily_data_load to 2022-08-23T13:37:00+00:00, run_after=2022-08-24T13:37:00+00:00
+[2022-08-24 00:11:32,106] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/nse_daily_load_stg.py took 0.942 seconds
+[2022-08-24 00:12:07,627] {processor.py:153} INFO - Started process (PID=20204) to work on /home/osboxes/airflow/dags/nse_daily_load_stg.py
+[2022-08-24 00:12:07,691] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/nse_daily_load_stg.py for tasks to queue
+[2022-08-24 00:12:07,770] {logging_mixin.py:115} INFO - [2022-08-24 00:12:07,770] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/nse_daily_load_stg.py
+[2022-08-24 00:12:11,655] {logging_mixin.py:115} INFO - [2022-08-24 00:12:11,648] {backend.py:193} INFO - Loading KWallet
+[2022-08-24 00:12:11,689] {logging_mixin.py:115} INFO - [2022-08-24 00:12:11,688] {backend.py:193} INFO - Loading SecretService
+[2022-08-24 00:12:11,733] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-24 00:12:11,751] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-24 00:12:11,752] {logging_mixin.py:115} INFO - [2022-08-24 00:12:11,752] {backend.py:193} INFO - Loading Windows
+[2022-08-24 00:12:11,755] {logging_mixin.py:115} INFO - [2022-08-24 00:12:11,754] {backend.py:193} INFO - Loading chainer
+[2022-08-24 00:12:11,758] {logging_mixin.py:115} INFO - [2022-08-24 00:12:11,758] {backend.py:193} INFO - Loading macOS
+[2022-08-24 00:12:12,305] {processor.py:651} INFO - DAG(s) dict_keys(['nse_daily_data_load']) retrieved from /home/osboxes/airflow/dags/nse_daily_load_stg.py
+[2022-08-24 00:12:12,747] {logging_mixin.py:115} INFO - [2022-08-24 00:12:12,746] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-24 00:12:12,956] {logging_mixin.py:115} INFO - [2022-08-24 00:12:12,955] {dag.py:2915} INFO - Setting next_dagrun for nse_daily_data_load to 2022-08-23T13:37:00+00:00, run_after=2022-08-24T13:37:00+00:00
+[2022-08-24 00:12:13,722] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/nse_daily_load_stg.py took 6.602 seconds
+[2022-08-24 00:13:18,852] {processor.py:153} INFO - Started process (PID=20779) to work on /home/osboxes/airflow/dags/nse_daily_load_stg.py
+[2022-08-24 00:13:18,854] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/nse_daily_load_stg.py for tasks to queue
+[2022-08-24 00:13:18,854] {logging_mixin.py:115} INFO - [2022-08-24 00:13:18,854] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/nse_daily_load_stg.py
+[2022-08-24 00:13:19,471] {logging_mixin.py:115} INFO - [2022-08-24 00:13:19,470] {backend.py:193} INFO - Loading KWallet
+[2022-08-24 00:13:19,480] {logging_mixin.py:115} INFO - [2022-08-24 00:13:19,480] {backend.py:193} INFO - Loading SecretService
+[2022-08-24 00:13:19,488] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-24 00:13:19,489] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-24 00:13:19,490] {logging_mixin.py:115} INFO - [2022-08-24 00:13:19,490] {backend.py:193} INFO - Loading Windows
+[2022-08-24 00:13:19,491] {logging_mixin.py:115} INFO - [2022-08-24 00:13:19,490] {backend.py:193} INFO - Loading chainer
+[2022-08-24 00:13:19,491] {logging_mixin.py:115} INFO - [2022-08-24 00:13:19,491] {backend.py:193} INFO - Loading macOS
+[2022-08-24 00:13:19,642] {processor.py:651} INFO - DAG(s) dict_keys(['nse_daily_data_load']) retrieved from /home/osboxes/airflow/dags/nse_daily_load_stg.py
+[2022-08-24 00:13:19,660] {logging_mixin.py:115} INFO - [2022-08-24 00:13:19,659] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-24 00:13:19,677] {logging_mixin.py:115} INFO - [2022-08-24 00:13:19,677] {dag.py:2915} INFO - Setting next_dagrun for nse_daily_data_load to 2022-08-23T13:37:00+00:00, run_after=2022-08-24T13:37:00+00:00
+[2022-08-24 00:13:19,721] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/nse_daily_load_stg.py took 0.872 seconds
+[2022-08-24 00:13:55,249] {processor.py:153} INFO - Started process (PID=21069) to work on /home/osboxes/airflow/dags/nse_daily_load_stg.py
+[2022-08-24 00:13:55,251] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/nse_daily_load_stg.py for tasks to queue
+[2022-08-24 00:13:55,251] {logging_mixin.py:115} INFO - [2022-08-24 00:13:55,251] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/nse_daily_load_stg.py
+[2022-08-24 00:13:55,861] {logging_mixin.py:115} INFO - [2022-08-24 00:13:55,860] {backend.py:193} INFO - Loading KWallet
+[2022-08-24 00:13:55,871] {logging_mixin.py:115} INFO - [2022-08-24 00:13:55,871] {backend.py:193} INFO - Loading SecretService
+[2022-08-24 00:13:55,884] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-24 00:13:55,885] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-24 00:13:55,887] {logging_mixin.py:115} INFO - [2022-08-24 00:13:55,887] {backend.py:193} INFO - Loading Windows
+[2022-08-24 00:13:55,889] {logging_mixin.py:115} INFO - [2022-08-24 00:13:55,888] {backend.py:193} INFO - Loading chainer
+[2022-08-24 00:13:55,893] {logging_mixin.py:115} INFO - [2022-08-24 00:13:55,893] {backend.py:193} INFO - Loading macOS
+[2022-08-24 00:13:56,192] {processor.py:651} INFO - DAG(s) dict_keys(['nse_daily_data_load']) retrieved from /home/osboxes/airflow/dags/nse_daily_load_stg.py
+[2022-08-24 00:13:56,223] {logging_mixin.py:115} INFO - [2022-08-24 00:13:56,222] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-24 00:13:56,251] {logging_mixin.py:115} INFO - [2022-08-24 00:13:56,251] {dag.py:2915} INFO - Setting next_dagrun for nse_daily_data_load to 2022-08-23T13:37:00+00:00, run_after=2022-08-24T13:37:00+00:00
+[2022-08-24 00:13:56,299] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/nse_daily_load_stg.py took 1.053 seconds
+[2022-08-24 00:14:29,076] {processor.py:153} INFO - Started process (PID=21330) to work on /home/osboxes/airflow/dags/nse_daily_load_stg.py
+[2022-08-24 00:14:29,078] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/nse_daily_load_stg.py for tasks to queue
+[2022-08-24 00:14:29,079] {logging_mixin.py:115} INFO - [2022-08-24 00:14:29,079] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/nse_daily_load_stg.py
+[2022-08-24 00:14:29,722] {logging_mixin.py:115} INFO - [2022-08-24 00:14:29,721] {backend.py:193} INFO - Loading KWallet
+[2022-08-24 00:14:29,731] {logging_mixin.py:115} INFO - [2022-08-24 00:14:29,731] {backend.py:193} INFO - Loading SecretService
+[2022-08-24 00:14:29,744] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-24 00:14:29,745] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-24 00:14:29,746] {logging_mixin.py:115} INFO - [2022-08-24 00:14:29,746] {backend.py:193} INFO - Loading Windows
+[2022-08-24 00:14:29,751] {logging_mixin.py:115} INFO - [2022-08-24 00:14:29,751] {backend.py:193} INFO - Loading chainer
+[2022-08-24 00:14:29,752] {logging_mixin.py:115} INFO - [2022-08-24 00:14:29,752] {backend.py:193} INFO - Loading macOS
+[2022-08-24 00:14:29,909] {processor.py:651} INFO - DAG(s) dict_keys(['nse_daily_data_load']) retrieved from /home/osboxes/airflow/dags/nse_daily_load_stg.py
+[2022-08-24 00:14:29,925] {logging_mixin.py:115} INFO - [2022-08-24 00:14:29,924] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-24 00:14:29,944] {logging_mixin.py:115} INFO - [2022-08-24 00:14:29,944] {dag.py:2915} INFO - Setting next_dagrun for nse_daily_data_load to 2022-08-23T13:37:00+00:00, run_after=2022-08-24T13:37:00+00:00
+[2022-08-24 00:14:29,976] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/nse_daily_load_stg.py took 0.906 seconds
+[2022-08-24 00:15:17,183] {processor.py:153} INFO - Started process (PID=21690) to work on /home/osboxes/airflow/dags/nse_daily_load_stg.py
+[2022-08-24 00:15:17,185] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/nse_daily_load_stg.py for tasks to queue
+[2022-08-24 00:15:17,185] {logging_mixin.py:115} INFO - [2022-08-24 00:15:17,185] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/nse_daily_load_stg.py
+[2022-08-24 00:15:17,810] {logging_mixin.py:115} INFO - [2022-08-24 00:15:17,809] {backend.py:193} INFO - Loading KWallet
+[2022-08-24 00:15:17,817] {logging_mixin.py:115} INFO - [2022-08-24 00:15:17,817] {backend.py:193} INFO - Loading SecretService
+[2022-08-24 00:15:17,823] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-24 00:15:17,824] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-24 00:15:17,825] {logging_mixin.py:115} INFO - [2022-08-24 00:15:17,825] {backend.py:193} INFO - Loading Windows
+[2022-08-24 00:15:17,826] {logging_mixin.py:115} INFO - [2022-08-24 00:15:17,825] {backend.py:193} INFO - Loading chainer
+[2022-08-24 00:15:17,828] {logging_mixin.py:115} INFO - [2022-08-24 00:15:17,828] {backend.py:193} INFO - Loading macOS
+[2022-08-24 00:15:17,976] {processor.py:651} INFO - DAG(s) dict_keys(['nse_daily_data_load']) retrieved from /home/osboxes/airflow/dags/nse_daily_load_stg.py
+[2022-08-24 00:15:17,991] {logging_mixin.py:115} INFO - [2022-08-24 00:15:17,991] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-24 00:15:18,012] {logging_mixin.py:115} INFO - [2022-08-24 00:15:18,012] {dag.py:2915} INFO - Setting next_dagrun for nse_daily_data_load to 2022-08-23T13:37:00+00:00, run_after=2022-08-24T13:37:00+00:00
+[2022-08-24 00:15:18,045] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/nse_daily_load_stg.py took 0.865 seconds
+[2022-08-24 00:16:02,062] {processor.py:153} INFO - Started process (PID=22052) to work on /home/osboxes/airflow/dags/nse_daily_load_stg.py
+[2022-08-24 00:16:02,064] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/nse_daily_load_stg.py for tasks to queue
+[2022-08-24 00:16:02,065] {logging_mixin.py:115} INFO - [2022-08-24 00:16:02,065] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/nse_daily_load_stg.py
+[2022-08-24 00:16:02,811] {logging_mixin.py:115} INFO - [2022-08-24 00:16:02,810] {backend.py:193} INFO - Loading KWallet
+[2022-08-24 00:16:02,817] {logging_mixin.py:115} INFO - [2022-08-24 00:16:02,816] {backend.py:193} INFO - Loading SecretService
+[2022-08-24 00:16:02,824] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-24 00:16:02,825] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-24 00:16:02,825] {logging_mixin.py:115} INFO - [2022-08-24 00:16:02,825] {backend.py:193} INFO - Loading Windows
+[2022-08-24 00:16:02,826] {logging_mixin.py:115} INFO - [2022-08-24 00:16:02,826] {backend.py:193} INFO - Loading chainer
+[2022-08-24 00:16:02,827] {logging_mixin.py:115} INFO - [2022-08-24 00:16:02,827] {backend.py:193} INFO - Loading macOS
+[2022-08-24 00:16:02,981] {processor.py:651} INFO - DAG(s) dict_keys(['nse_daily_data_load']) retrieved from /home/osboxes/airflow/dags/nse_daily_load_stg.py
+[2022-08-24 00:16:02,998] {logging_mixin.py:115} INFO - [2022-08-24 00:16:02,996] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-24 00:16:03,015] {logging_mixin.py:115} INFO - [2022-08-24 00:16:03,015] {dag.py:2915} INFO - Setting next_dagrun for nse_daily_data_load to 2022-08-23T13:37:00+00:00, run_after=2022-08-24T13:37:00+00:00
+[2022-08-24 00:16:03,054] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/nse_daily_load_stg.py took 0.994 seconds
+[2022-08-24 00:16:35,626] {processor.py:153} INFO - Started process (PID=22303) to work on /home/osboxes/airflow/dags/nse_daily_load_stg.py
+[2022-08-24 00:16:35,627] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/nse_daily_load_stg.py for tasks to queue
+[2022-08-24 00:16:35,627] {logging_mixin.py:115} INFO - [2022-08-24 00:16:35,627] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/nse_daily_load_stg.py
+[2022-08-24 00:16:38,762] {logging_mixin.py:115} INFO - [2022-08-24 00:16:38,761] {backend.py:193} INFO - Loading KWallet
+[2022-08-24 00:16:38,781] {logging_mixin.py:115} INFO - [2022-08-24 00:16:38,780] {backend.py:193} INFO - Loading SecretService
+[2022-08-24 00:16:38,878] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-24 00:16:38,885] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-24 00:16:38,887] {logging_mixin.py:115} INFO - [2022-08-24 00:16:38,887] {backend.py:193} INFO - Loading Windows
+[2022-08-24 00:16:38,893] {logging_mixin.py:115} INFO - [2022-08-24 00:16:38,893] {backend.py:193} INFO - Loading chainer
+[2022-08-24 00:16:38,894] {logging_mixin.py:115} INFO - [2022-08-24 00:16:38,894] {backend.py:193} INFO - Loading macOS
+[2022-08-24 00:16:39,309] {processor.py:651} INFO - DAG(s) dict_keys(['nse_daily_data_load']) retrieved from /home/osboxes/airflow/dags/nse_daily_load_stg.py
+[2022-08-24 00:16:39,364] {logging_mixin.py:115} INFO - [2022-08-24 00:16:39,363] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-24 00:16:39,458] {logging_mixin.py:115} INFO - [2022-08-24 00:16:39,458] {dag.py:2915} INFO - Setting next_dagrun for nse_daily_data_load to 2022-08-23T13:37:00+00:00, run_after=2022-08-24T13:37:00+00:00
+[2022-08-24 00:16:39,512] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/nse_daily_load_stg.py took 3.891 seconds
+[2022-08-24 00:17:23,076] {processor.py:153} INFO - Started process (PID=22671) to work on /home/osboxes/airflow/dags/nse_daily_load_stg.py
+[2022-08-24 00:17:23,078] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/nse_daily_load_stg.py for tasks to queue
+[2022-08-24 00:17:23,078] {logging_mixin.py:115} INFO - [2022-08-24 00:17:23,078] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/nse_daily_load_stg.py
+[2022-08-24 00:17:23,548] {logging_mixin.py:115} INFO - [2022-08-24 00:17:23,547] {backend.py:193} INFO - Loading KWallet
+[2022-08-24 00:17:23,552] {logging_mixin.py:115} INFO - [2022-08-24 00:17:23,552] {backend.py:193} INFO - Loading SecretService
+[2022-08-24 00:17:23,570] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-24 00:17:23,570] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-24 00:17:23,571] {logging_mixin.py:115} INFO - [2022-08-24 00:17:23,571] {backend.py:193} INFO - Loading Windows
+[2022-08-24 00:17:23,571] {logging_mixin.py:115} INFO - [2022-08-24 00:17:23,571] {backend.py:193} INFO - Loading chainer
+[2022-08-24 00:17:23,572] {logging_mixin.py:115} INFO - [2022-08-24 00:17:23,572] {backend.py:193} INFO - Loading macOS
+[2022-08-24 00:17:23,694] {processor.py:651} INFO - DAG(s) dict_keys(['nse_daily_data_load']) retrieved from /home/osboxes/airflow/dags/nse_daily_load_stg.py
+[2022-08-24 00:17:23,706] {logging_mixin.py:115} INFO - [2022-08-24 00:17:23,706] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-24 00:17:23,722] {logging_mixin.py:115} INFO - [2022-08-24 00:17:23,722] {dag.py:2915} INFO - Setting next_dagrun for nse_daily_data_load to 2022-08-23T13:37:00+00:00, run_after=2022-08-24T13:37:00+00:00
+[2022-08-24 00:17:23,751] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/nse_daily_load_stg.py took 0.677 seconds
+[2022-08-24 00:17:58,509] {processor.py:153} INFO - Started process (PID=22994) to work on /home/osboxes/airflow/dags/nse_daily_load_stg.py
+[2022-08-24 00:17:58,511] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/nse_daily_load_stg.py for tasks to queue
+[2022-08-24 00:17:58,512] {logging_mixin.py:115} INFO - [2022-08-24 00:17:58,512] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/nse_daily_load_stg.py
+[2022-08-24 00:17:59,766] {logging_mixin.py:115} INFO - [2022-08-24 00:17:59,765] {backend.py:193} INFO - Loading KWallet
+[2022-08-24 00:17:59,774] {logging_mixin.py:115} INFO - [2022-08-24 00:17:59,774] {backend.py:193} INFO - Loading SecretService
+[2022-08-24 00:17:59,786] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-24 00:17:59,787] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-24 00:17:59,788] {logging_mixin.py:115} INFO - [2022-08-24 00:17:59,788] {backend.py:193} INFO - Loading Windows
+[2022-08-24 00:17:59,792] {logging_mixin.py:115} INFO - [2022-08-24 00:17:59,792] {backend.py:193} INFO - Loading chainer
+[2022-08-24 00:17:59,793] {logging_mixin.py:115} INFO - [2022-08-24 00:17:59,793] {backend.py:193} INFO - Loading macOS
+[2022-08-24 00:18:00,025] {processor.py:651} INFO - DAG(s) dict_keys(['nse_daily_data_load']) retrieved from /home/osboxes/airflow/dags/nse_daily_load_stg.py
+[2022-08-24 00:18:00,050] {logging_mixin.py:115} INFO - [2022-08-24 00:18:00,050] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-24 00:18:00,081] {logging_mixin.py:115} INFO - [2022-08-24 00:18:00,081] {dag.py:2915} INFO - Setting next_dagrun for nse_daily_data_load to 2022-08-23T13:37:00+00:00, run_after=2022-08-24T13:37:00+00:00
+[2022-08-24 00:18:00,125] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/nse_daily_load_stg.py took 1.621 seconds
+[2022-08-24 00:18:57,113] {processor.py:153} INFO - Started process (PID=23437) to work on /home/osboxes/airflow/dags/nse_daily_load_stg.py
+[2022-08-24 00:18:57,130] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/nse_daily_load_stg.py for tasks to queue
+[2022-08-24 00:18:57,131] {logging_mixin.py:115} INFO - [2022-08-24 00:18:57,131] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/nse_daily_load_stg.py
+[2022-08-24 00:18:58,455] {logging_mixin.py:115} INFO - [2022-08-24 00:18:58,454] {backend.py:193} INFO - Loading KWallet
+[2022-08-24 00:18:58,466] {logging_mixin.py:115} INFO - [2022-08-24 00:18:58,466] {backend.py:193} INFO - Loading SecretService
+[2022-08-24 00:18:58,486] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-24 00:18:58,488] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-24 00:18:58,489] {logging_mixin.py:115} INFO - [2022-08-24 00:18:58,488] {backend.py:193} INFO - Loading Windows
+[2022-08-24 00:18:58,490] {logging_mixin.py:115} INFO - [2022-08-24 00:18:58,490] {backend.py:193} INFO - Loading chainer
+[2022-08-24 00:18:58,491] {logging_mixin.py:115} INFO - [2022-08-24 00:18:58,491] {backend.py:193} INFO - Loading macOS
+[2022-08-24 00:18:58,784] {processor.py:651} INFO - DAG(s) dict_keys(['nse_daily_data_load']) retrieved from /home/osboxes/airflow/dags/nse_daily_load_stg.py
+[2022-08-24 00:18:58,817] {logging_mixin.py:115} INFO - [2022-08-24 00:18:58,817] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-24 00:18:58,854] {logging_mixin.py:115} INFO - [2022-08-24 00:18:58,854] {dag.py:2915} INFO - Setting next_dagrun for nse_daily_data_load to 2022-08-23T13:37:00+00:00, run_after=2022-08-24T13:37:00+00:00
+[2022-08-24 00:18:58,897] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/nse_daily_load_stg.py took 1.789 seconds
+[2022-08-24 00:19:31,795] {processor.py:153} INFO - Started process (PID=23682) to work on /home/osboxes/airflow/dags/nse_daily_load_stg.py
+[2022-08-24 00:19:31,798] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/nse_daily_load_stg.py for tasks to queue
+[2022-08-24 00:19:31,800] {logging_mixin.py:115} INFO - [2022-08-24 00:19:31,800] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/nse_daily_load_stg.py
+[2022-08-24 00:19:33,416] {logging_mixin.py:115} INFO - [2022-08-24 00:19:33,414] {backend.py:193} INFO - Loading KWallet
+[2022-08-24 00:19:33,446] {logging_mixin.py:115} INFO - [2022-08-24 00:19:33,446] {backend.py:193} INFO - Loading SecretService
+[2022-08-24 00:19:33,468] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-24 00:19:33,475] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-24 00:19:33,477] {logging_mixin.py:115} INFO - [2022-08-24 00:19:33,477] {backend.py:193} INFO - Loading Windows
+[2022-08-24 00:19:33,480] {logging_mixin.py:115} INFO - [2022-08-24 00:19:33,480] {backend.py:193} INFO - Loading chainer
+[2022-08-24 00:19:33,488] {logging_mixin.py:115} INFO - [2022-08-24 00:19:33,487] {backend.py:193} INFO - Loading macOS
+[2022-08-24 00:19:34,048] {processor.py:651} INFO - DAG(s) dict_keys(['nse_daily_data_load']) retrieved from /home/osboxes/airflow/dags/nse_daily_load_stg.py
+[2022-08-24 00:19:34,086] {logging_mixin.py:115} INFO - [2022-08-24 00:19:34,085] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-24 00:19:34,136] {logging_mixin.py:115} INFO - [2022-08-24 00:19:34,136] {dag.py:2915} INFO - Setting next_dagrun for nse_daily_data_load to 2022-08-23T13:37:00+00:00, run_after=2022-08-24T13:37:00+00:00
+[2022-08-24 00:19:34,230] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/nse_daily_load_stg.py took 2.443 seconds
+[2022-08-24 00:20:23,252] {processor.py:153} INFO - Started process (PID=24087) to work on /home/osboxes/airflow/dags/nse_daily_load_stg.py
+[2022-08-24 00:20:23,255] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/nse_daily_load_stg.py for tasks to queue
+[2022-08-24 00:20:23,255] {logging_mixin.py:115} INFO - [2022-08-24 00:20:23,255] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/nse_daily_load_stg.py
+[2022-08-24 00:20:23,729] {logging_mixin.py:115} INFO - [2022-08-24 00:20:23,729] {backend.py:193} INFO - Loading KWallet
+[2022-08-24 00:20:23,736] {logging_mixin.py:115} INFO - [2022-08-24 00:20:23,736] {backend.py:193} INFO - Loading SecretService
+[2022-08-24 00:20:23,741] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-24 00:20:23,742] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-24 00:20:23,742] {logging_mixin.py:115} INFO - [2022-08-24 00:20:23,742] {backend.py:193} INFO - Loading Windows
+[2022-08-24 00:20:23,743] {logging_mixin.py:115} INFO - [2022-08-24 00:20:23,743] {backend.py:193} INFO - Loading chainer
+[2022-08-24 00:20:23,743] {logging_mixin.py:115} INFO - [2022-08-24 00:20:23,743] {backend.py:193} INFO - Loading macOS
+[2022-08-24 00:20:23,856] {processor.py:651} INFO - DAG(s) dict_keys(['nse_daily_data_load']) retrieved from /home/osboxes/airflow/dags/nse_daily_load_stg.py
+[2022-08-24 00:20:23,870] {logging_mixin.py:115} INFO - [2022-08-24 00:20:23,869] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-24 00:20:23,884] {logging_mixin.py:115} INFO - [2022-08-24 00:20:23,884] {dag.py:2915} INFO - Setting next_dagrun for nse_daily_data_load to 2022-08-23T13:37:00+00:00, run_after=2022-08-24T13:37:00+00:00
+[2022-08-24 00:20:23,921] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/nse_daily_load_stg.py took 0.672 seconds
+[2022-08-24 00:20:57,638] {processor.py:153} INFO - Started process (PID=24342) to work on /home/osboxes/airflow/dags/nse_daily_load_stg.py
+[2022-08-24 00:20:57,640] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/nse_daily_load_stg.py for tasks to queue
+[2022-08-24 00:20:57,641] {logging_mixin.py:115} INFO - [2022-08-24 00:20:57,641] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/nse_daily_load_stg.py
+[2022-08-24 00:20:58,467] {logging_mixin.py:115} INFO - [2022-08-24 00:20:58,466] {backend.py:193} INFO - Loading KWallet
+[2022-08-24 00:20:58,475] {logging_mixin.py:115} INFO - [2022-08-24 00:20:58,474] {backend.py:193} INFO - Loading SecretService
+[2022-08-24 00:20:58,482] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-24 00:20:58,483] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-24 00:20:58,484] {logging_mixin.py:115} INFO - [2022-08-24 00:20:58,484] {backend.py:193} INFO - Loading Windows
+[2022-08-24 00:20:58,485] {logging_mixin.py:115} INFO - [2022-08-24 00:20:58,485] {backend.py:193} INFO - Loading chainer
+[2022-08-24 00:20:58,485] {logging_mixin.py:115} INFO - [2022-08-24 00:20:58,485] {backend.py:193} INFO - Loading macOS
+[2022-08-24 00:20:58,682] {processor.py:651} INFO - DAG(s) dict_keys(['nse_daily_data_load']) retrieved from /home/osboxes/airflow/dags/nse_daily_load_stg.py
+[2022-08-24 00:20:58,709] {logging_mixin.py:115} INFO - [2022-08-24 00:20:58,708] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-24 00:20:58,737] {logging_mixin.py:115} INFO - [2022-08-24 00:20:58,737] {dag.py:2915} INFO - Setting next_dagrun for nse_daily_data_load to 2022-08-23T13:37:00+00:00, run_after=2022-08-24T13:37:00+00:00
+[2022-08-24 00:20:58,783] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/nse_daily_load_stg.py took 1.149 seconds
+[2022-08-24 00:21:29,282] {processor.py:153} INFO - Started process (PID=24537) to work on /home/osboxes/airflow/dags/nse_daily_load_stg.py
+[2022-08-24 00:21:29,285] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/nse_daily_load_stg.py for tasks to queue
+[2022-08-24 00:21:29,287] {logging_mixin.py:115} INFO - [2022-08-24 00:21:29,286] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/nse_daily_load_stg.py
+[2022-08-24 00:21:34,736] {logging_mixin.py:115} INFO - [2022-08-24 00:21:34,727] {backend.py:193} INFO - Loading KWallet
+[2022-08-24 00:21:34,767] {logging_mixin.py:115} INFO - [2022-08-24 00:21:34,767] {backend.py:193} INFO - Loading SecretService
+[2022-08-24 00:21:34,862] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-24 00:21:34,875] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-24 00:21:34,877] {logging_mixin.py:115} INFO - [2022-08-24 00:21:34,877] {backend.py:193} INFO - Loading Windows
+[2022-08-24 00:21:34,883] {logging_mixin.py:115} INFO - [2022-08-24 00:21:34,883] {backend.py:193} INFO - Loading chainer
+[2022-08-24 00:21:34,893] {logging_mixin.py:115} INFO - [2022-08-24 00:21:34,893] {backend.py:193} INFO - Loading macOS
+[2022-08-24 00:21:35,793] {processor.py:651} INFO - DAG(s) dict_keys(['nse_daily_data_load']) retrieved from /home/osboxes/airflow/dags/nse_daily_load_stg.py
+[2022-08-24 00:21:35,925] {logging_mixin.py:115} INFO - [2022-08-24 00:21:35,924] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-24 00:21:36,301] {logging_mixin.py:115} INFO - [2022-08-24 00:21:36,300] {dag.py:2915} INFO - Setting next_dagrun for nse_daily_data_load to 2022-08-23T13:37:00+00:00, run_after=2022-08-24T13:37:00+00:00
+[2022-08-24 00:21:36,556] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/nse_daily_load_stg.py took 7.284 seconds
+[2022-08-24 00:22:17,958] {processor.py:153} INFO - Started process (PID=24896) to work on /home/osboxes/airflow/dags/nse_daily_load_stg.py
+[2022-08-24 00:22:17,965] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/nse_daily_load_stg.py for tasks to queue
+[2022-08-24 00:22:17,967] {logging_mixin.py:115} INFO - [2022-08-24 00:22:17,967] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/nse_daily_load_stg.py
+[2022-08-24 00:22:19,869] {logging_mixin.py:115} INFO - [2022-08-24 00:22:19,864] {backend.py:193} INFO - Loading KWallet
+[2022-08-24 00:22:19,885] {logging_mixin.py:115} INFO - [2022-08-24 00:22:19,885] {backend.py:193} INFO - Loading SecretService
+[2022-08-24 00:22:19,903] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-24 00:22:19,904] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-24 00:22:19,905] {logging_mixin.py:115} INFO - [2022-08-24 00:22:19,905] {backend.py:193} INFO - Loading Windows
+[2022-08-24 00:22:19,907] {logging_mixin.py:115} INFO - [2022-08-24 00:22:19,907] {backend.py:193} INFO - Loading chainer
+[2022-08-24 00:22:19,910] {logging_mixin.py:115} INFO - [2022-08-24 00:22:19,909] {backend.py:193} INFO - Loading macOS
+[2022-08-24 00:22:20,674] {processor.py:651} INFO - DAG(s) dict_keys(['nse_daily_data_load']) retrieved from /home/osboxes/airflow/dags/nse_daily_load_stg.py
+[2022-08-24 00:22:20,715] {logging_mixin.py:115} INFO - [2022-08-24 00:22:20,714] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-24 00:22:20,780] {logging_mixin.py:115} INFO - [2022-08-24 00:22:20,779] {dag.py:2915} INFO - Setting next_dagrun for nse_daily_data_load to 2022-08-23T13:37:00+00:00, run_after=2022-08-24T13:37:00+00:00
+[2022-08-24 00:22:20,848] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/nse_daily_load_stg.py took 2.900 seconds

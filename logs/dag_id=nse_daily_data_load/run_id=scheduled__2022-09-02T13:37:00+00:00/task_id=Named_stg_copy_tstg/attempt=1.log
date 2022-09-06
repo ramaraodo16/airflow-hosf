@@ -1,0 +1,44 @@
+[2022-09-05 00:22:24,680] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: nse_daily_data_load.Named_stg_copy_tstg scheduled__2022-09-02T13:37:00+00:00 [queued]>
+[2022-09-05 00:22:24,773] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: nse_daily_data_load.Named_stg_copy_tstg scheduled__2022-09-02T13:37:00+00:00 [queued]>
+[2022-09-05 00:22:24,789] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2022-09-05 00:22:24,790] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2022-09-05 00:22:24,790] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2022-09-05 00:22:25,005] {taskinstance.py:1377} INFO - Executing <Task(SnowflakeOperator): Named_stg_copy_tstg> on 2022-09-02 13:37:00+00:00
+[2022-09-05 00:22:25,066] {standard_task_runner.py:52} INFO - Started process 13203 to run task
+[2022-09-05 00:22:25,078] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'nse_daily_data_load', 'Named_stg_copy_tstg', 'scheduled__2022-09-02T13:37:00+00:00', '--job-id', '478', '--raw', '--subdir', 'DAGS_FOLDER/nse_daily_load_stg.py', '--cfg-path', '/tmp/tmp6l5ulyg2', '--error-file', '/tmp/tmpa1chlgei']
+[2022-09-05 00:22:25,110] {standard_task_runner.py:80} INFO - Job 478: Subtask Named_stg_copy_tstg
+[2022-09-05 00:22:25,649] {task_command.py:369} INFO - Running <TaskInstance: nse_daily_data_load.Named_stg_copy_tstg scheduled__2022-09-02T13:37:00+00:00 [running]> on host osboxes
+[2022-09-05 00:22:26,108] {taskinstance.py:1569} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=Airflow
+AIRFLOW_CTX_DAG_ID=nse_daily_data_load
+AIRFLOW_CTX_TASK_ID=Named_stg_copy_tstg
+AIRFLOW_CTX_EXECUTION_DATE=2022-09-02T13:37:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-09-02T13:37:00+00:00
+[2022-09-05 00:22:26,130] {snowflake.py:118} INFO - Executing: copy into "EDW_DEV"."EDW"."NSE_STOCK_DAILY_DATA_STG" 
+from @EDW_DEV.EDW.NSE_DAILY_STG/ pattern =  '.*cm.*' file_format = 'EDW_DEV.EDW.NSE_SD_FMT_CSV' purge =true; 
+[2022-09-05 00:22:26,273] {base.py:68} INFO - Using connection ID 'snowflake_conn_id' for task execution.
+[2022-09-05 00:22:26,324] {connection.py:257} INFO - Snowflake Connector for Python Version: 2.7.8, Python Version: 3.8.10, Platform: Linux-5.4.0-74-generic-x86_64-with-glibc2.29
+[2022-09-05 00:22:26,363] {connection.py:876} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2022-09-05 00:22:26,385] {connection.py:894} INFO - Setting use_openssl_only mode to False
+[2022-09-05 00:22:29,461] {cursor.py:710} INFO - query: [ALTER SESSION SET autocommit=True]
+[2022-09-05 00:22:29,770] {cursor.py:734} INFO - query execution done
+[2022-09-05 00:22:29,771] {snowflake.py:328} INFO - Running statement: copy into "EDW_DEV"."EDW"."NSE_STOCK_DAILY_DATA_STG" 
+from @EDW_DEV.EDW.NSE_DAILY_STG/ pattern =  '.*cm.*' file_format = 'EDW_DEV.EDW.NSE_SD_FMT_CSV' purge =true;, parameters: None
+[2022-09-05 00:22:29,771] {cursor.py:710} INFO - query: [copy into "EDW_DEV"."EDW"."NSE_STOCK_DAILY_DATA_STG" from @EDW_DEV.EDW.NSE_DAILY...]
+[2022-09-05 00:22:35,199] {cursor.py:734} INFO - query execution done
+[2022-09-05 00:22:35,199] {snowflake.py:338} INFO - Statement execution info - {'file': 'nse_daily_stg/cm26AUG2022bhav.csv.gz', 'status': 'LOADED', 'rows_parsed': 2254, 'rows_loaded': 2254, 'error_limit': 1, 'errors_seen': 0, 'first_error': None, 'first_error_line': None, 'first_error_character': None, 'first_error_column_name': None}
+[2022-09-05 00:22:35,200] {snowflake.py:338} INFO - Statement execution info - {'file': 'nse_daily_stg/cm25AUG2022bhav.csv.gz', 'status': 'LOADED', 'rows_parsed': 2240, 'rows_loaded': 2240, 'error_limit': 1, 'errors_seen': 0, 'first_error': None, 'first_error_line': None, 'first_error_character': None, 'first_error_column_name': None}
+[2022-09-05 00:22:35,200] {snowflake.py:338} INFO - Statement execution info - {'file': 'nse_daily_stg/cm02SEP2022bhav.csv.gz', 'status': 'LOADED', 'rows_parsed': 2291, 'rows_loaded': 2291, 'error_limit': 1, 'errors_seen': 0, 'first_error': None, 'first_error_line': None, 'first_error_character': None, 'first_error_column_name': None}
+[2022-09-05 00:22:35,200] {snowflake.py:338} INFO - Statement execution info - {'file': 'nse_daily_stg/cm01SEP2022bhav.csv.gz', 'status': 'LOADED', 'rows_parsed': 2270, 'rows_loaded': 2270, 'error_limit': 1, 'errors_seen': 0, 'first_error': None, 'first_error_line': None, 'first_error_character': None, 'first_error_column_name': None}
+[2022-09-05 00:22:35,200] {snowflake.py:338} INFO - Statement execution info - {'file': 'nse_daily_stg/cm29AUG2022bhav.csv.gz', 'status': 'LOADED', 'rows_parsed': 2301, 'rows_loaded': 2301, 'error_limit': 1, 'errors_seen': 0, 'first_error': None, 'first_error_line': None, 'first_error_character': None, 'first_error_column_name': None}
+[2022-09-05 00:22:35,200] {snowflake.py:338} INFO - Statement execution info - {'file': 'nse_daily_stg/cm30AUG2022bhav.csv.gz', 'status': 'LOADED', 'rows_parsed': 2273, 'rows_loaded': 2273, 'error_limit': 1, 'errors_seen': 0, 'first_error': None, 'first_error_line': None, 'first_error_character': None, 'first_error_column_name': None}
+[2022-09-05 00:22:35,201] {snowflake.py:342} INFO - Rows affected: 6
+[2022-09-05 00:22:35,201] {snowflake.py:343} INFO - Snowflake query id: 01a6c206-0401-d0e4-0074-3a830001e032
+[2022-09-05 00:22:35,202] {connection.py:507} INFO - closed
+[2022-09-05 00:22:35,253] {connection.py:510} INFO - No async queries seem to be running, deleting session
+[2022-09-05 00:22:35,489] {taskinstance.py:1395} INFO - Marking task as SUCCESS. dag_id=nse_daily_data_load, task_id=Named_stg_copy_tstg, execution_date=20220902T133700, start_date=20220905T042224, end_date=20220905T042235
+[2022-09-05 00:22:35,588] {local_task_job.py:156} INFO - Task exited with return code 0
+[2022-09-05 00:22:35,698] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check

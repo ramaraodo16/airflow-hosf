@@ -1,0 +1,25 @@
+[2022-07-31 14:45:25,041] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: nse_daily_data_load.nse_files_move scheduled__2022-07-31T13:22:00+00:00 [queued]>
+[2022-07-31 14:45:25,052] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: nse_daily_data_load.nse_files_move scheduled__2022-07-31T13:22:00+00:00 [queued]>
+[2022-07-31 14:45:25,052] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-31 14:45:25,052] {taskinstance.py:1357} INFO - Starting attempt 2 of 2
+[2022-07-31 14:45:25,052] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-31 14:45:25,111] {taskinstance.py:1377} INFO - Executing <Task(PythonOperator): nse_files_move> on 2022-07-31 13:22:00+00:00
+[2022-07-31 14:45:25,115] {standard_task_runner.py:52} INFO - Started process 823848 to run task
+[2022-07-31 14:45:25,119] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'nse_daily_data_load', 'nse_files_move', 'scheduled__2022-07-31T13:22:00+00:00', '--job-id', '96', '--raw', '--subdir', 'DAGS_FOLDER/nse_daily_load_stg.py', '--cfg-path', '/tmp/tmpx6nyujl6', '--error-file', '/tmp/tmpjir_y308']
+[2022-07-31 14:45:25,120] {standard_task_runner.py:80} INFO - Job 96: Subtask nse_files_move
+[2022-07-31 14:45:25,184] {task_command.py:369} INFO - Running <TaskInstance: nse_daily_data_load.nse_files_move scheduled__2022-07-31T13:22:00+00:00 [running]> on host osboxes
+[2022-07-31 14:45:25,275] {taskinstance.py:1569} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=Airflow
+AIRFLOW_CTX_DAG_ID=nse_daily_data_load
+AIRFLOW_CTX_TASK_ID=nse_files_move
+AIRFLOW_CTX_EXECUTION_DATE=2022-07-31T13:22:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=2
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-07-31T13:22:00+00:00
+[2022-07-31 14:45:25,277] {logging_mixin.py:115} INFO - 2022-07-31
+[2022-07-31 14:45:25,294] {logging_mixin.py:115} INFO - /home/osboxes/Desktop/archives_files/2022-07-31 target file location
+[2022-07-31 14:45:25,296] {python.py:173} INFO - Done. Returned value was: None
+[2022-07-31 14:45:25,326] {taskinstance.py:1395} INFO - Marking task as SUCCESS. dag_id=nse_daily_data_load, task_id=nse_files_move, execution_date=20220731T132200, start_date=20220731T184525, end_date=20220731T184525
+[2022-07-31 14:45:25,503] {local_task_job.py:156} INFO - Task exited with return code 0
+[2022-07-31 14:45:25,645] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check

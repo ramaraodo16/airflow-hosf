@@ -1,0 +1,126 @@
+[2022-07-16 11:30:35,252] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: Snowflake_automation.snowflake_create manual__2022-07-16T15:19:48.207981+00:00 [queued]>
+[2022-07-16 11:30:35,262] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: Snowflake_automation.snowflake_create manual__2022-07-16T15:19:48.207981+00:00 [queued]>
+[2022-07-16 11:30:35,262] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-16 11:30:35,262] {taskinstance.py:1357} INFO - Starting attempt 3 of 3
+[2022-07-16 11:30:35,262] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-16 11:30:35,298] {taskinstance.py:1377} INFO - Executing <Task(SnowflakeOperator): snowflake_create> on 2022-07-16 15:19:48.207981+00:00
+[2022-07-16 11:30:35,300] {standard_task_runner.py:52} INFO - Started process 57007 to run task
+[2022-07-16 11:30:35,333] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'Snowflake_automation', 'snowflake_create', 'manual__2022-07-16T15:19:48.207981+00:00', '--job-id', '10', '--raw', '--subdir', 'DAGS_FOLDER/test_0716.py', '--cfg-path', '/tmp/tmpzjds78ek', '--error-file', '/tmp/tmphrbc1w2g']
+[2022-07-16 11:30:35,334] {standard_task_runner.py:80} INFO - Job 10: Subtask snowflake_create
+[2022-07-16 11:30:35,505] {task_command.py:369} INFO - Running <TaskInstance: Snowflake_automation.snowflake_create manual__2022-07-16T15:19:48.207981+00:00 [running]> on host osboxes
+[2022-07-16 11:30:35,587] {taskinstance.py:1569} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=Airflow
+AIRFLOW_CTX_DAG_ID=Snowflake_automation
+AIRFLOW_CTX_TASK_ID=snowflake_create
+AIRFLOW_CTX_EXECUTION_DATE=2022-07-16T15:19:48.207981+00:00
+AIRFLOW_CTX_TRY_NUMBER=3
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-07-16T15:19:48.207981+00:00
+[2022-07-16 11:30:35,588] {snowflake.py:118} INFO - Executing: [' Create table EDW_PROD.EDW.Airflow_test_tab IF not exists  (dag_pname string , Pipe_number number(10,0));', " insert into EDW_PROD.EDW.Airflow_test_tab values('Test_AF_SF', 1);", " insert into EDW_PROD.EDW.Airflow_test_tab values('Test2_AF_SF', 2);"]
+[2022-07-16 11:30:35,593] {base.py:68} INFO - Using connection ID 'snowflake_conn_id' for task execution.
+[2022-07-16 11:30:35,598] {connection.py:257} INFO - Snowflake Connector for Python Version: 2.7.8, Python Version: 3.8.10, Platform: Linux-5.4.0-74-generic-x86_64-with-glibc2.29
+[2022-07-16 11:30:35,599] {connection.py:876} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2022-07-16 11:30:35,599] {connection.py:894} INFO - Setting use_openssl_only mode to False
+[2022-07-16 11:30:35,604] {connectionpool.py:780} WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<snowflake.connector.vendored.urllib3.connection.HTTPSConnection object at 0x7fdc22e09d30>: Failed to establish a new connection: [Errno -2] Name or service not known')': /session/v1/login-request?request_id=fdca96df-7b81-425e-a3b8-11fc90e42d12&databaseName=EDW_PROD&schemaName=EDW&warehouse=COMPUTE_WH&roleName=ACCOUNTADMIN&request_guid=198afa5b-ad81-4402-ba27-6a3f30adb7e0
+[2022-07-16 11:30:37,613] {connectionpool.py:780} WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<snowflake.connector.vendored.urllib3.connection.HTTPSConnection object at 0x7fdc22db87c0>: Failed to establish a new connection: [Errno -2] Name or service not known')': /session/v1/login-request?request_id=f98d5d07-b366-4707-8764-d6496b3bfe6b&databaseName=EDW_PROD&schemaName=EDW&warehouse=COMPUTE_WH&roleName=ACCOUNTADMIN&request_guid=21349ca2-6e3e-4b08-834d-1c5477dec63a
+[2022-07-16 11:30:37,616] {taskinstance.py:1889} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/osboxes/.local/lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/connection.py", line 169, in _new_conn
+    conn = connection.create_connection(
+  File "/home/osboxes/.local/lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/util/connection.py", line 73, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/usr/lib/python3.8/socket.py", line 918, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/osboxes/.local/lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/connectionpool.py", line 699, in urlopen
+    httplib_response = self._make_request(
+  File "/home/osboxes/.local/lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/connectionpool.py", line 382, in _make_request
+    self._validate_conn(conn)
+  File "/home/osboxes/.local/lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/connectionpool.py", line 1010, in _validate_conn
+    conn.connect()
+  File "/home/osboxes/.local/lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/connection.py", line 353, in connect
+    conn = self._new_conn()
+  File "/home/osboxes/.local/lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/connection.py", line 181, in _new_conn
+    raise NewConnectionError(
+snowflake.connector.vendored.urllib3.exceptions.NewConnectionError: <snowflake.connector.vendored.urllib3.connection.HTTPSConnection object at 0x7fdc22e09ee0>: Failed to establish a new connection: [Errno -2] Name or service not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/osboxes/.local/lib/python3.8/site-packages/snowflake/connector/vendored/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/home/osboxes/.local/lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/connectionpool.py", line 783, in urlopen
+    return self.urlopen(
+  File "/home/osboxes/.local/lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/connectionpool.py", line 755, in urlopen
+    retries = retries.increment(
+  File "/home/osboxes/.local/lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/util/retry.py", line 574, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+snowflake.connector.vendored.urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='nya25226.us%20west%20(oregon).snowflakecomputing.com', port=443): Max retries exceeded with url: /session/v1/login-request?request_id=fdca96df-7b81-425e-a3b8-11fc90e42d12&databaseName=EDW_PROD&schemaName=EDW&warehouse=COMPUTE_WH&roleName=ACCOUNTADMIN&request_guid=198afa5b-ad81-4402-ba27-6a3f30adb7e0 (Caused by NewConnectionError('<snowflake.connector.vendored.urllib3.connection.HTTPSConnection object at 0x7fdc22e09ee0>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/osboxes/.local/lib/python3.8/site-packages/snowflake/connector/network.py", line 1009, in _request_exec
+    raw_ret = session.request(
+  File "/home/osboxes/.local/lib/python3.8/site-packages/snowflake/connector/vendored/requests/sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/osboxes/.local/lib/python3.8/site-packages/snowflake/connector/vendored/requests/sessions.py", line 655, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/osboxes/.local/lib/python3.8/site-packages/snowflake/connector/vendored/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+snowflake.connector.vendored.requests.exceptions.ConnectionError: HTTPSConnectionPool(host='nya25226.us%20west%20(oregon).snowflakecomputing.com', port=443): Max retries exceeded with url: /session/v1/login-request?request_id=fdca96df-7b81-425e-a3b8-11fc90e42d12&databaseName=EDW_PROD&schemaName=EDW&warehouse=COMPUTE_WH&roleName=ACCOUNTADMIN&request_guid=198afa5b-ad81-4402-ba27-6a3f30adb7e0 (Caused by NewConnectionError('<snowflake.connector.vendored.urllib3.connection.HTTPSConnection object at 0x7fdc22e09ee0>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/osboxes/.local/lib/python3.8/site-packages/snowflake/connector/connection.py", line 1014, in __authenticate
+    auth.authenticate(
+  File "/home/osboxes/.local/lib/python3.8/site-packages/snowflake/connector/auth.py", line 257, in authenticate
+    ret = self._rest._post_request(
+  File "/home/osboxes/.local/lib/python3.8/site-packages/snowflake/connector/network.py", line 705, in _post_request
+    ret = self.fetch(
+  File "/home/osboxes/.local/lib/python3.8/site-packages/snowflake/connector/network.py", line 795, in fetch
+    ret = self._request_exec_wrapper(
+  File "/home/osboxes/.local/lib/python3.8/site-packages/snowflake/connector/network.py", line 905, in _request_exec_wrapper
+    raise e
+  File "/home/osboxes/.local/lib/python3.8/site-packages/snowflake/connector/network.py", line 838, in _request_exec_wrapper
+    return_object = self._request_exec(
+  File "/home/osboxes/.local/lib/python3.8/site-packages/snowflake/connector/network.py", line 1086, in _request_exec
+    raise OperationalError(
+snowflake.connector.errors.OperationalError: 251011: 251011: ConnectionTimeout occurred. Will be handled by authenticator
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/osboxes/.local/lib/python3.8/site-packages/airflow/providers/snowflake/operators/snowflake.py", line 120, in execute
+    execution_info = hook.run(self.sql, autocommit=self.autocommit, parameters=self.parameters)
+  File "/home/osboxes/.local/lib/python3.8/site-packages/airflow/providers/snowflake/hooks/snowflake.py", line 320, in run
+    with closing(self.get_conn()) as conn:
+  File "/home/osboxes/.local/lib/python3.8/site-packages/airflow/providers/snowflake/hooks/snowflake.py", line 259, in get_conn
+    conn = connector.connect(**conn_config)
+  File "/home/osboxes/.local/lib/python3.8/site-packages/snowflake/connector/__init__.py", line 51, in Connect
+    return SnowflakeConnection(**kwargs)
+  File "/home/osboxes/.local/lib/python3.8/site-packages/snowflake/connector/connection.py", line 279, in __init__
+    self.connect(**kwargs)
+  File "/home/osboxes/.local/lib/python3.8/site-packages/snowflake/connector/connection.py", line 492, in connect
+    self.__open_connection()
+  File "/home/osboxes/.local/lib/python3.8/site-packages/snowflake/connector/connection.py", line 731, in __open_connection
+    self._authenticate(auth_instance)
+  File "/home/osboxes/.local/lib/python3.8/site-packages/snowflake/connector/connection.py", line 994, in _authenticate
+    self.__authenticate(self.__preprocess_auth_instance(auth_instance))
+  File "/home/osboxes/.local/lib/python3.8/site-packages/snowflake/connector/connection.py", line 1059, in __authenticate
+    raise auth_op
+  File "/home/osboxes/.local/lib/python3.8/site-packages/snowflake/connector/connection.py", line 1036, in __authenticate
+    auth_instance.handle_timeout(
+  File "/home/osboxes/.local/lib/python3.8/site-packages/snowflake/connector/auth_by_plugin.py", line 117, in handle_timeout
+    raise OperationalError(
+snowflake.connector.errors.OperationalError: 250001: 250001: Could not connect to Snowflake backend after 0 attempt(s).Aborting
+[2022-07-16 11:30:37,635] {taskinstance.py:1395} INFO - Marking task as FAILED. dag_id=Snowflake_automation, task_id=snowflake_create, execution_date=20220716T151948, start_date=20220716T153035, end_date=20220716T153037
+[2022-07-16 11:30:37,871] {standard_task_runner.py:92} ERROR - Failed to execute job 10 for task snowflake_create (250001: 250001: Could not connect to Snowflake backend after 0 attempt(s).Aborting; 57007)
+[2022-07-16 11:30:37,881] {local_task_job.py:156} INFO - Task exited with return code 1
+[2022-07-16 11:30:38,099] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

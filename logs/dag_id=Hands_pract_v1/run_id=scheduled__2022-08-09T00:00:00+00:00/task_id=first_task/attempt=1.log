@@ -1,0 +1,28 @@
+[2022-08-09 21:17:59,954] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: Hands_pract_v1.first_task scheduled__2022-08-09T00:00:00+00:00 [queued]>
+[2022-08-09 21:17:59,986] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: Hands_pract_v1.first_task scheduled__2022-08-09T00:00:00+00:00 [queued]>
+[2022-08-09 21:18:00,044] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2022-08-09 21:18:00,044] {taskinstance.py:1357} INFO - Starting attempt 1 of 6
+[2022-08-09 21:18:00,044] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2022-08-09 21:18:00,123] {taskinstance.py:1377} INFO - Executing <Task(BashOperator): first_task> on 2022-08-09 00:00:00+00:00
+[2022-08-09 21:18:00,126] {standard_task_runner.py:52} INFO - Started process 336798 to run task
+[2022-08-09 21:18:00,475] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'Hands_pract_v1', 'first_task', 'scheduled__2022-08-09T00:00:00+00:00', '--job-id', '221', '--raw', '--subdir', 'DAGS_FOLDER/dag_hand1.py', '--cfg-path', '/tmp/tmp2p_imoyf', '--error-file', '/tmp/tmpa_10cxgy']
+[2022-08-09 21:18:00,551] {standard_task_runner.py:80} INFO - Job 221: Subtask first_task
+[2022-08-09 21:18:02,591] {task_command.py:369} INFO - Running <TaskInstance: Hands_pract_v1.first_task scheduled__2022-08-09T00:00:00+00:00 [running]> on host osboxes
+[2022-08-09 21:18:03,883] {taskinstance.py:1569} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=SFAFDE
+AIRFLOW_CTX_DAG_ID=Hands_pract_v1
+AIRFLOW_CTX_TASK_ID=first_task
+AIRFLOW_CTX_EXECUTION_DATE=2022-08-09T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-08-09T00:00:00+00:00
+[2022-08-09 21:18:03,889] {subprocess.py:62} INFO - Tmp dir root location: 
+ /tmp
+[2022-08-09 21:18:03,958] {subprocess.py:74} INFO - Running command: ['bash', '-c', ' echo Hello world this is my first task in this hands on!']
+[2022-08-09 21:18:04,311] {subprocess.py:85} INFO - Output:
+[2022-08-09 21:18:04,312] {subprocess.py:92} INFO - Hello world this is my first task in this hands on!
+[2022-08-09 21:18:04,312] {subprocess.py:96} INFO - Command exited with return code 0
+[2022-08-09 21:18:04,779] {taskinstance.py:1395} INFO - Marking task as SUCCESS. dag_id=Hands_pract_v1, task_id=first_task, execution_date=20220809T000000, start_date=20220810T011759, end_date=20220810T011804
+[2022-08-09 21:18:04,899] {local_task_job.py:156} INFO - Task exited with return code 0
+[2022-08-09 21:18:04,980] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,26 @@
+[2022-08-21 21:06:46,451] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: nse_daily_data_load.old_files_clear scheduled__2022-08-18T13:37:00+00:00 [queued]>
+[2022-08-21 21:06:46,484] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: nse_daily_data_load.old_files_clear scheduled__2022-08-18T13:37:00+00:00 [queued]>
+[2022-08-21 21:06:46,545] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2022-08-21 21:06:46,546] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2022-08-21 21:06:46,546] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2022-08-21 21:06:46,700] {taskinstance.py:1377} INFO - Executing <Task(PythonOperator): old_files_clear> on 2022-08-18 13:37:00+00:00
+[2022-08-21 21:06:46,764] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'nse_daily_data_load', 'old_files_clear', 'scheduled__2022-08-18T13:37:00+00:00', '--job-id', '337', '--raw', '--subdir', 'DAGS_FOLDER/nse_daily_load_stg.py', '--cfg-path', '/tmp/tmpobn2493y', '--error-file', '/tmp/tmp810hi9ke']
+[2022-08-21 21:06:46,702] {standard_task_runner.py:52} INFO - Started process 7483 to run task
+[2022-08-21 21:06:46,812] {standard_task_runner.py:80} INFO - Job 337: Subtask old_files_clear
+[2022-08-21 21:06:47,449] {task_command.py:369} INFO - Running <TaskInstance: nse_daily_data_load.old_files_clear scheduled__2022-08-18T13:37:00+00:00 [running]> on host osboxes
+[2022-08-21 21:06:48,457] {taskinstance.py:1569} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=Airflow
+AIRFLOW_CTX_DAG_ID=nse_daily_data_load
+AIRFLOW_CTX_TASK_ID=old_files_clear
+AIRFLOW_CTX_EXECUTION_DATE=2022-08-18T13:37:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-08-18T13:37:00+00:00
+[2022-08-21 21:06:48,530] {logging_mixin.py:115} INFO - 2022-08-21
+[2022-08-21 21:06:48,530] {logging_mixin.py:115} INFO - ['.env', 'airflow.cfg', 'dags', 'plugins', 'logs', 'webserver_config.py', 'README.md', '.git', 'docker-compose.yml', 'airflow.db', 'airflow-webserver.pid'] get current directory
+[2022-08-21 21:06:48,530] {logging_mixin.py:115} INFO - Testin ------------- <module 'posixpath' from '/usr/lib/python3.8/posixpath.py'> ------- /home/osboxes/airflow/dags
+[2022-08-21 21:06:48,530] {python.py:173} INFO - Done. Returned value was: None
+[2022-08-21 21:06:48,576] {taskinstance.py:1395} INFO - Marking task as SUCCESS. dag_id=nse_daily_data_load, task_id=old_files_clear, execution_date=20220818T133700, start_date=20220822T010646, end_date=20220822T010648
+[2022-08-21 21:06:49,054] {local_task_job.py:156} INFO - Task exited with return code 0
+[2022-08-21 21:06:49,797] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check

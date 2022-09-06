@@ -1,0 +1,659 @@
+[2022-08-23 00:06:32,075] {processor.py:153} INFO - Started process (PID=178698) to work on /home/osboxes/airflow/dags/old2new_sf_data_move.py
+[2022-08-23 00:06:32,076] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/old2new_sf_data_move.py for tasks to queue
+[2022-08-23 00:06:32,107] {logging_mixin.py:115} INFO - [2022-08-23 00:06:32,107] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/old2new_sf_data_move.py
+[2022-08-23 00:06:38,879] {logging_mixin.py:115} INFO - [2022-08-23 00:06:38,878] {backend.py:193} INFO - Loading KWallet
+[2022-08-23 00:06:38,925] {logging_mixin.py:115} INFO - [2022-08-23 00:06:38,925] {backend.py:193} INFO - Loading SecretService
+[2022-08-23 00:06:38,989] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:06:39,083] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:06:39,084] {logging_mixin.py:115} INFO - [2022-08-23 00:06:39,084] {backend.py:193} INFO - Loading Windows
+[2022-08-23 00:06:39,086] {logging_mixin.py:115} INFO - [2022-08-23 00:06:39,086] {backend.py:193} INFO - Loading chainer
+[2022-08-23 00:06:39,241] {logging_mixin.py:115} INFO - [2022-08-23 00:06:39,241] {backend.py:193} INFO - Loading macOS
+[2022-08-23 00:06:40,120] {processor.py:651} INFO - DAG(s) dict_keys(['Data4old2newSF']) retrieved from /home/osboxes/airflow/dags/old2new_sf_data_move.py
+[2022-08-23 00:06:40,228] {logging_mixin.py:115} INFO - [2022-08-23 00:06:40,227] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-23 00:06:40,419] {logging_mixin.py:115} INFO - [2022-08-23 00:06:40,419] {dag.py:2915} INFO - Setting next_dagrun for Data4old2newSF to 2022-07-28T18:00:00+00:00, run_after=2022-07-28T19:00:00+00:00
+[2022-08-23 00:06:40,469] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/old2new_sf_data_move.py took 8.598 seconds
+[2022-08-23 00:07:20,047] {processor.py:153} INFO - Started process (PID=179446) to work on /home/osboxes/airflow/dags/old2new_sf_data_move.py
+[2022-08-23 00:07:20,059] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/old2new_sf_data_move.py for tasks to queue
+[2022-08-23 00:07:20,060] {logging_mixin.py:115} INFO - [2022-08-23 00:07:20,059] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/old2new_sf_data_move.py
+[2022-08-23 00:07:20,578] {logging_mixin.py:115} INFO - [2022-08-23 00:07:20,577] {backend.py:193} INFO - Loading KWallet
+[2022-08-23 00:07:20,584] {logging_mixin.py:115} INFO - [2022-08-23 00:07:20,584] {backend.py:193} INFO - Loading SecretService
+[2022-08-23 00:07:20,589] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:07:20,590] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:07:20,590] {logging_mixin.py:115} INFO - [2022-08-23 00:07:20,590] {backend.py:193} INFO - Loading Windows
+[2022-08-23 00:07:20,592] {logging_mixin.py:115} INFO - [2022-08-23 00:07:20,592] {backend.py:193} INFO - Loading chainer
+[2022-08-23 00:07:20,592] {logging_mixin.py:115} INFO - [2022-08-23 00:07:20,592] {backend.py:193} INFO - Loading macOS
+[2022-08-23 00:07:20,731] {processor.py:651} INFO - DAG(s) dict_keys(['Data4old2newSF']) retrieved from /home/osboxes/airflow/dags/old2new_sf_data_move.py
+[2022-08-23 00:07:20,768] {logging_mixin.py:115} INFO - [2022-08-23 00:07:20,759] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-23 00:07:20,886] {logging_mixin.py:115} INFO - [2022-08-23 00:07:20,886] {dag.py:2915} INFO - Setting next_dagrun for Data4old2newSF to 2022-07-28T18:00:00+00:00, run_after=2022-07-28T19:00:00+00:00
+[2022-08-23 00:07:20,952] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/old2new_sf_data_move.py took 0.908 seconds
+[2022-08-23 00:08:02,408] {processor.py:153} INFO - Started process (PID=179788) to work on /home/osboxes/airflow/dags/old2new_sf_data_move.py
+[2022-08-23 00:08:02,410] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/old2new_sf_data_move.py for tasks to queue
+[2022-08-23 00:08:02,411] {logging_mixin.py:115} INFO - [2022-08-23 00:08:02,411] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/old2new_sf_data_move.py
+[2022-08-23 00:08:03,023] {logging_mixin.py:115} INFO - [2022-08-23 00:08:03,023] {backend.py:193} INFO - Loading KWallet
+[2022-08-23 00:08:03,030] {logging_mixin.py:115} INFO - [2022-08-23 00:08:03,030] {backend.py:193} INFO - Loading SecretService
+[2022-08-23 00:08:03,038] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:08:03,040] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:08:03,042] {logging_mixin.py:115} INFO - [2022-08-23 00:08:03,042] {backend.py:193} INFO - Loading Windows
+[2022-08-23 00:08:03,043] {logging_mixin.py:115} INFO - [2022-08-23 00:08:03,043] {backend.py:193} INFO - Loading chainer
+[2022-08-23 00:08:03,044] {logging_mixin.py:115} INFO - [2022-08-23 00:08:03,044] {backend.py:193} INFO - Loading macOS
+[2022-08-23 00:08:03,205] {processor.py:651} INFO - DAG(s) dict_keys(['Data4old2newSF']) retrieved from /home/osboxes/airflow/dags/old2new_sf_data_move.py
+[2022-08-23 00:08:03,218] {logging_mixin.py:115} INFO - [2022-08-23 00:08:03,216] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-23 00:08:03,232] {logging_mixin.py:115} INFO - [2022-08-23 00:08:03,232] {dag.py:2915} INFO - Setting next_dagrun for Data4old2newSF to 2022-07-28T18:00:00+00:00, run_after=2022-07-28T19:00:00+00:00
+[2022-08-23 00:08:03,260] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/old2new_sf_data_move.py took 0.855 seconds
+[2022-08-23 00:08:41,084] {processor.py:153} INFO - Started process (PID=180102) to work on /home/osboxes/airflow/dags/old2new_sf_data_move.py
+[2022-08-23 00:08:41,090] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/old2new_sf_data_move.py for tasks to queue
+[2022-08-23 00:08:41,091] {logging_mixin.py:115} INFO - [2022-08-23 00:08:41,091] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/old2new_sf_data_move.py
+[2022-08-23 00:08:41,652] {logging_mixin.py:115} INFO - [2022-08-23 00:08:41,651] {backend.py:193} INFO - Loading KWallet
+[2022-08-23 00:08:41,657] {logging_mixin.py:115} INFO - [2022-08-23 00:08:41,657] {backend.py:193} INFO - Loading SecretService
+[2022-08-23 00:08:41,662] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:08:41,663] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:08:41,663] {logging_mixin.py:115} INFO - [2022-08-23 00:08:41,663] {backend.py:193} INFO - Loading Windows
+[2022-08-23 00:08:41,664] {logging_mixin.py:115} INFO - [2022-08-23 00:08:41,664] {backend.py:193} INFO - Loading chainer
+[2022-08-23 00:08:41,665] {logging_mixin.py:115} INFO - [2022-08-23 00:08:41,665] {backend.py:193} INFO - Loading macOS
+[2022-08-23 00:08:41,781] {processor.py:651} INFO - DAG(s) dict_keys(['Data4old2newSF']) retrieved from /home/osboxes/airflow/dags/old2new_sf_data_move.py
+[2022-08-23 00:08:41,792] {logging_mixin.py:115} INFO - [2022-08-23 00:08:41,792] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-23 00:08:41,805] {logging_mixin.py:115} INFO - [2022-08-23 00:08:41,804] {dag.py:2915} INFO - Setting next_dagrun for Data4old2newSF to 2022-07-28T18:00:00+00:00, run_after=2022-07-28T19:00:00+00:00
+[2022-08-23 00:08:41,841] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/old2new_sf_data_move.py took 0.759 seconds
+[2022-08-23 00:09:19,628] {processor.py:153} INFO - Started process (PID=180407) to work on /home/osboxes/airflow/dags/old2new_sf_data_move.py
+[2022-08-23 00:09:19,629] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/old2new_sf_data_move.py for tasks to queue
+[2022-08-23 00:09:19,630] {logging_mixin.py:115} INFO - [2022-08-23 00:09:19,630] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/old2new_sf_data_move.py
+[2022-08-23 00:09:20,119] {logging_mixin.py:115} INFO - [2022-08-23 00:09:20,118] {backend.py:193} INFO - Loading KWallet
+[2022-08-23 00:09:20,124] {logging_mixin.py:115} INFO - [2022-08-23 00:09:20,123] {backend.py:193} INFO - Loading SecretService
+[2022-08-23 00:09:20,128] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:09:20,129] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:09:20,129] {logging_mixin.py:115} INFO - [2022-08-23 00:09:20,129] {backend.py:193} INFO - Loading Windows
+[2022-08-23 00:09:20,130] {logging_mixin.py:115} INFO - [2022-08-23 00:09:20,130] {backend.py:193} INFO - Loading chainer
+[2022-08-23 00:09:20,130] {logging_mixin.py:115} INFO - [2022-08-23 00:09:20,130] {backend.py:193} INFO - Loading macOS
+[2022-08-23 00:09:20,250] {processor.py:651} INFO - DAG(s) dict_keys(['Data4old2newSF']) retrieved from /home/osboxes/airflow/dags/old2new_sf_data_move.py
+[2022-08-23 00:09:20,264] {logging_mixin.py:115} INFO - [2022-08-23 00:09:20,263] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-23 00:09:20,286] {logging_mixin.py:115} INFO - [2022-08-23 00:09:20,286] {dag.py:2915} INFO - Setting next_dagrun for Data4old2newSF to 2022-07-28T18:00:00+00:00, run_after=2022-07-28T19:00:00+00:00
+[2022-08-23 00:09:20,310] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/old2new_sf_data_move.py took 0.685 seconds
+[2022-08-23 00:09:53,784] {processor.py:153} INFO - Started process (PID=180677) to work on /home/osboxes/airflow/dags/old2new_sf_data_move.py
+[2022-08-23 00:09:53,786] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/old2new_sf_data_move.py for tasks to queue
+[2022-08-23 00:09:53,786] {logging_mixin.py:115} INFO - [2022-08-23 00:09:53,786] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/old2new_sf_data_move.py
+[2022-08-23 00:09:54,293] {logging_mixin.py:115} INFO - [2022-08-23 00:09:54,293] {backend.py:193} INFO - Loading KWallet
+[2022-08-23 00:09:54,298] {logging_mixin.py:115} INFO - [2022-08-23 00:09:54,298] {backend.py:193} INFO - Loading SecretService
+[2022-08-23 00:09:54,306] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:09:54,307] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:09:54,308] {logging_mixin.py:115} INFO - [2022-08-23 00:09:54,307] {backend.py:193} INFO - Loading Windows
+[2022-08-23 00:09:54,309] {logging_mixin.py:115} INFO - [2022-08-23 00:09:54,309] {backend.py:193} INFO - Loading chainer
+[2022-08-23 00:09:54,309] {logging_mixin.py:115} INFO - [2022-08-23 00:09:54,309] {backend.py:193} INFO - Loading macOS
+[2022-08-23 00:09:54,447] {processor.py:651} INFO - DAG(s) dict_keys(['Data4old2newSF']) retrieved from /home/osboxes/airflow/dags/old2new_sf_data_move.py
+[2022-08-23 00:09:54,460] {logging_mixin.py:115} INFO - [2022-08-23 00:09:54,460] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-23 00:09:54,476] {logging_mixin.py:115} INFO - [2022-08-23 00:09:54,476] {dag.py:2915} INFO - Setting next_dagrun for Data4old2newSF to 2022-07-28T18:00:00+00:00, run_after=2022-07-28T19:00:00+00:00
+[2022-08-23 00:09:54,531] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/old2new_sf_data_move.py took 0.749 seconds
+[2022-08-23 00:10:42,835] {processor.py:153} INFO - Started process (PID=181114) to work on /home/osboxes/airflow/dags/old2new_sf_data_move.py
+[2022-08-23 00:10:42,838] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/old2new_sf_data_move.py for tasks to queue
+[2022-08-23 00:10:42,839] {logging_mixin.py:115} INFO - [2022-08-23 00:10:42,839] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/old2new_sf_data_move.py
+[2022-08-23 00:10:43,681] {logging_mixin.py:115} INFO - [2022-08-23 00:10:43,680] {backend.py:193} INFO - Loading KWallet
+[2022-08-23 00:10:43,690] {logging_mixin.py:115} INFO - [2022-08-23 00:10:43,690] {backend.py:193} INFO - Loading SecretService
+[2022-08-23 00:10:43,699] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:10:43,700] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:10:43,701] {logging_mixin.py:115} INFO - [2022-08-23 00:10:43,701] {backend.py:193} INFO - Loading Windows
+[2022-08-23 00:10:43,702] {logging_mixin.py:115} INFO - [2022-08-23 00:10:43,702] {backend.py:193} INFO - Loading chainer
+[2022-08-23 00:10:43,703] {logging_mixin.py:115} INFO - [2022-08-23 00:10:43,703] {backend.py:193} INFO - Loading macOS
+[2022-08-23 00:10:43,910] {processor.py:651} INFO - DAG(s) dict_keys(['Data4old2newSF']) retrieved from /home/osboxes/airflow/dags/old2new_sf_data_move.py
+[2022-08-23 00:10:43,931] {logging_mixin.py:115} INFO - [2022-08-23 00:10:43,931] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-23 00:10:43,957] {logging_mixin.py:115} INFO - [2022-08-23 00:10:43,957] {dag.py:2915} INFO - Setting next_dagrun for Data4old2newSF to 2022-07-28T18:00:00+00:00, run_after=2022-07-28T19:00:00+00:00
+[2022-08-23 00:10:43,992] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/old2new_sf_data_move.py took 1.161 seconds
+[2022-08-23 00:11:18,607] {processor.py:153} INFO - Started process (PID=181385) to work on /home/osboxes/airflow/dags/old2new_sf_data_move.py
+[2022-08-23 00:11:18,620] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/old2new_sf_data_move.py for tasks to queue
+[2022-08-23 00:11:18,621] {logging_mixin.py:115} INFO - [2022-08-23 00:11:18,621] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/old2new_sf_data_move.py
+[2022-08-23 00:11:19,199] {logging_mixin.py:115} INFO - [2022-08-23 00:11:19,199] {backend.py:193} INFO - Loading KWallet
+[2022-08-23 00:11:19,204] {logging_mixin.py:115} INFO - [2022-08-23 00:11:19,204] {backend.py:193} INFO - Loading SecretService
+[2022-08-23 00:11:19,209] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:11:19,209] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:11:19,210] {logging_mixin.py:115} INFO - [2022-08-23 00:11:19,209] {backend.py:193} INFO - Loading Windows
+[2022-08-23 00:11:19,210] {logging_mixin.py:115} INFO - [2022-08-23 00:11:19,210] {backend.py:193} INFO - Loading chainer
+[2022-08-23 00:11:19,210] {logging_mixin.py:115} INFO - [2022-08-23 00:11:19,210] {backend.py:193} INFO - Loading macOS
+[2022-08-23 00:11:19,322] {processor.py:651} INFO - DAG(s) dict_keys(['Data4old2newSF']) retrieved from /home/osboxes/airflow/dags/old2new_sf_data_move.py
+[2022-08-23 00:11:19,333] {logging_mixin.py:115} INFO - [2022-08-23 00:11:19,333] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-23 00:11:19,346] {logging_mixin.py:115} INFO - [2022-08-23 00:11:19,346] {dag.py:2915} INFO - Setting next_dagrun for Data4old2newSF to 2022-07-28T18:00:00+00:00, run_after=2022-07-28T19:00:00+00:00
+[2022-08-23 00:11:19,373] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/old2new_sf_data_move.py took 0.768 seconds
+[2022-08-23 00:11:49,520] {processor.py:153} INFO - Started process (PID=181709) to work on /home/osboxes/airflow/dags/old2new_sf_data_move.py
+[2022-08-23 00:11:49,522] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/old2new_sf_data_move.py for tasks to queue
+[2022-08-23 00:11:49,523] {logging_mixin.py:115} INFO - [2022-08-23 00:11:49,522] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/old2new_sf_data_move.py
+[2022-08-23 00:11:50,260] {logging_mixin.py:115} INFO - [2022-08-23 00:11:50,260] {backend.py:193} INFO - Loading KWallet
+[2022-08-23 00:11:50,265] {logging_mixin.py:115} INFO - [2022-08-23 00:11:50,265] {backend.py:193} INFO - Loading SecretService
+[2022-08-23 00:11:50,270] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:11:50,271] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:11:50,271] {logging_mixin.py:115} INFO - [2022-08-23 00:11:50,271] {backend.py:193} INFO - Loading Windows
+[2022-08-23 00:11:50,272] {logging_mixin.py:115} INFO - [2022-08-23 00:11:50,272] {backend.py:193} INFO - Loading chainer
+[2022-08-23 00:11:50,273] {logging_mixin.py:115} INFO - [2022-08-23 00:11:50,272] {backend.py:193} INFO - Loading macOS
+[2022-08-23 00:11:50,379] {processor.py:651} INFO - DAG(s) dict_keys(['Data4old2newSF']) retrieved from /home/osboxes/airflow/dags/old2new_sf_data_move.py
+[2022-08-23 00:11:50,390] {logging_mixin.py:115} INFO - [2022-08-23 00:11:50,390] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-23 00:11:50,403] {logging_mixin.py:115} INFO - [2022-08-23 00:11:50,403] {dag.py:2915} INFO - Setting next_dagrun for Data4old2newSF to 2022-07-28T18:00:00+00:00, run_after=2022-07-28T19:00:00+00:00
+[2022-08-23 00:11:50,442] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/old2new_sf_data_move.py took 0.925 seconds
+[2022-08-23 00:12:27,966] {processor.py:153} INFO - Started process (PID=182042) to work on /home/osboxes/airflow/dags/old2new_sf_data_move.py
+[2022-08-23 00:12:27,967] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/old2new_sf_data_move.py for tasks to queue
+[2022-08-23 00:12:27,968] {logging_mixin.py:115} INFO - [2022-08-23 00:12:27,968] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/old2new_sf_data_move.py
+[2022-08-23 00:12:28,440] {logging_mixin.py:115} INFO - [2022-08-23 00:12:28,439] {backend.py:193} INFO - Loading KWallet
+[2022-08-23 00:12:28,445] {logging_mixin.py:115} INFO - [2022-08-23 00:12:28,445] {backend.py:193} INFO - Loading SecretService
+[2022-08-23 00:12:28,451] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:12:28,452] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:12:28,453] {logging_mixin.py:115} INFO - [2022-08-23 00:12:28,452] {backend.py:193} INFO - Loading Windows
+[2022-08-23 00:12:28,453] {logging_mixin.py:115} INFO - [2022-08-23 00:12:28,453] {backend.py:193} INFO - Loading chainer
+[2022-08-23 00:12:28,454] {logging_mixin.py:115} INFO - [2022-08-23 00:12:28,454] {backend.py:193} INFO - Loading macOS
+[2022-08-23 00:12:28,562] {processor.py:651} INFO - DAG(s) dict_keys(['Data4old2newSF']) retrieved from /home/osboxes/airflow/dags/old2new_sf_data_move.py
+[2022-08-23 00:12:28,573] {logging_mixin.py:115} INFO - [2022-08-23 00:12:28,573] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-23 00:12:28,585] {logging_mixin.py:115} INFO - [2022-08-23 00:12:28,585] {dag.py:2915} INFO - Setting next_dagrun for Data4old2newSF to 2022-07-28T18:00:00+00:00, run_after=2022-07-28T19:00:00+00:00
+[2022-08-23 00:12:28,619] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/old2new_sf_data_move.py took 0.655 seconds
+[2022-08-23 00:13:03,894] {processor.py:153} INFO - Started process (PID=182325) to work on /home/osboxes/airflow/dags/old2new_sf_data_move.py
+[2022-08-23 00:13:03,896] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/old2new_sf_data_move.py for tasks to queue
+[2022-08-23 00:13:03,896] {logging_mixin.py:115} INFO - [2022-08-23 00:13:03,896] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/old2new_sf_data_move.py
+[2022-08-23 00:13:04,386] {logging_mixin.py:115} INFO - [2022-08-23 00:13:04,386] {backend.py:193} INFO - Loading KWallet
+[2022-08-23 00:13:04,393] {logging_mixin.py:115} INFO - [2022-08-23 00:13:04,393] {backend.py:193} INFO - Loading SecretService
+[2022-08-23 00:13:04,397] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:13:04,398] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:13:04,398] {logging_mixin.py:115} INFO - [2022-08-23 00:13:04,398] {backend.py:193} INFO - Loading Windows
+[2022-08-23 00:13:04,399] {logging_mixin.py:115} INFO - [2022-08-23 00:13:04,399] {backend.py:193} INFO - Loading chainer
+[2022-08-23 00:13:04,400] {logging_mixin.py:115} INFO - [2022-08-23 00:13:04,399] {backend.py:193} INFO - Loading macOS
+[2022-08-23 00:13:04,508] {processor.py:651} INFO - DAG(s) dict_keys(['Data4old2newSF']) retrieved from /home/osboxes/airflow/dags/old2new_sf_data_move.py
+[2022-08-23 00:13:04,523] {logging_mixin.py:115} INFO - [2022-08-23 00:13:04,522] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-23 00:13:04,534] {logging_mixin.py:115} INFO - [2022-08-23 00:13:04,533] {dag.py:2915} INFO - Setting next_dagrun for Data4old2newSF to 2022-07-28T18:00:00+00:00, run_after=2022-07-28T19:00:00+00:00
+[2022-08-23 00:13:04,572] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/old2new_sf_data_move.py took 0.696 seconds
+[2022-08-23 00:13:40,206] {processor.py:153} INFO - Started process (PID=182615) to work on /home/osboxes/airflow/dags/old2new_sf_data_move.py
+[2022-08-23 00:13:40,208] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/old2new_sf_data_move.py for tasks to queue
+[2022-08-23 00:13:40,209] {logging_mixin.py:115} INFO - [2022-08-23 00:13:40,209] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/old2new_sf_data_move.py
+[2022-08-23 00:13:40,682] {logging_mixin.py:115} INFO - [2022-08-23 00:13:40,681] {backend.py:193} INFO - Loading KWallet
+[2022-08-23 00:13:40,687] {logging_mixin.py:115} INFO - [2022-08-23 00:13:40,687] {backend.py:193} INFO - Loading SecretService
+[2022-08-23 00:13:40,691] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:13:40,692] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:13:40,693] {logging_mixin.py:115} INFO - [2022-08-23 00:13:40,693] {backend.py:193} INFO - Loading Windows
+[2022-08-23 00:13:40,694] {logging_mixin.py:115} INFO - [2022-08-23 00:13:40,694] {backend.py:193} INFO - Loading chainer
+[2022-08-23 00:13:40,695] {logging_mixin.py:115} INFO - [2022-08-23 00:13:40,695] {backend.py:193} INFO - Loading macOS
+[2022-08-23 00:13:40,805] {processor.py:651} INFO - DAG(s) dict_keys(['Data4old2newSF']) retrieved from /home/osboxes/airflow/dags/old2new_sf_data_move.py
+[2022-08-23 00:13:40,816] {logging_mixin.py:115} INFO - [2022-08-23 00:13:40,815] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-23 00:13:40,827] {logging_mixin.py:115} INFO - [2022-08-23 00:13:40,827] {dag.py:2915} INFO - Setting next_dagrun for Data4old2newSF to 2022-07-28T18:00:00+00:00, run_after=2022-07-28T19:00:00+00:00
+[2022-08-23 00:13:40,862] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/old2new_sf_data_move.py took 0.658 seconds
+[2022-08-23 00:14:14,792] {processor.py:153} INFO - Started process (PID=182883) to work on /home/osboxes/airflow/dags/old2new_sf_data_move.py
+[2022-08-23 00:14:14,795] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/old2new_sf_data_move.py for tasks to queue
+[2022-08-23 00:14:14,795] {logging_mixin.py:115} INFO - [2022-08-23 00:14:14,795] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/old2new_sf_data_move.py
+[2022-08-23 00:14:15,287] {logging_mixin.py:115} INFO - [2022-08-23 00:14:15,287] {backend.py:193} INFO - Loading KWallet
+[2022-08-23 00:14:15,293] {logging_mixin.py:115} INFO - [2022-08-23 00:14:15,292] {backend.py:193} INFO - Loading SecretService
+[2022-08-23 00:14:15,297] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:14:15,298] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:14:15,298] {logging_mixin.py:115} INFO - [2022-08-23 00:14:15,298] {backend.py:193} INFO - Loading Windows
+[2022-08-23 00:14:15,299] {logging_mixin.py:115} INFO - [2022-08-23 00:14:15,299] {backend.py:193} INFO - Loading chainer
+[2022-08-23 00:14:15,299] {logging_mixin.py:115} INFO - [2022-08-23 00:14:15,299] {backend.py:193} INFO - Loading macOS
+[2022-08-23 00:14:15,518] {processor.py:651} INFO - DAG(s) dict_keys(['Data4old2newSF']) retrieved from /home/osboxes/airflow/dags/old2new_sf_data_move.py
+[2022-08-23 00:14:15,542] {logging_mixin.py:115} INFO - [2022-08-23 00:14:15,542] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-23 00:14:15,564] {logging_mixin.py:115} INFO - [2022-08-23 00:14:15,564] {dag.py:2915} INFO - Setting next_dagrun for Data4old2newSF to 2022-07-28T18:00:00+00:00, run_after=2022-07-28T19:00:00+00:00
+[2022-08-23 00:14:15,612] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/old2new_sf_data_move.py took 0.824 seconds
+[2022-08-23 00:14:53,751] {processor.py:153} INFO - Started process (PID=183192) to work on /home/osboxes/airflow/dags/old2new_sf_data_move.py
+[2022-08-23 00:14:53,752] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/old2new_sf_data_move.py for tasks to queue
+[2022-08-23 00:14:53,753] {logging_mixin.py:115} INFO - [2022-08-23 00:14:53,753] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/old2new_sf_data_move.py
+[2022-08-23 00:14:54,236] {logging_mixin.py:115} INFO - [2022-08-23 00:14:54,235] {backend.py:193} INFO - Loading KWallet
+[2022-08-23 00:14:54,242] {logging_mixin.py:115} INFO - [2022-08-23 00:14:54,242] {backend.py:193} INFO - Loading SecretService
+[2022-08-23 00:14:54,246] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:14:54,247] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:14:54,247] {logging_mixin.py:115} INFO - [2022-08-23 00:14:54,247] {backend.py:193} INFO - Loading Windows
+[2022-08-23 00:14:54,248] {logging_mixin.py:115} INFO - [2022-08-23 00:14:54,248] {backend.py:193} INFO - Loading chainer
+[2022-08-23 00:14:54,248] {logging_mixin.py:115} INFO - [2022-08-23 00:14:54,248] {backend.py:193} INFO - Loading macOS
+[2022-08-23 00:14:54,395] {processor.py:651} INFO - DAG(s) dict_keys(['Data4old2newSF']) retrieved from /home/osboxes/airflow/dags/old2new_sf_data_move.py
+[2022-08-23 00:14:54,408] {logging_mixin.py:115} INFO - [2022-08-23 00:14:54,408] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-23 00:14:54,420] {logging_mixin.py:115} INFO - [2022-08-23 00:14:54,419] {dag.py:2915} INFO - Setting next_dagrun for Data4old2newSF to 2022-07-28T18:00:00+00:00, run_after=2022-07-28T19:00:00+00:00
+[2022-08-23 00:14:54,457] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/old2new_sf_data_move.py took 0.708 seconds
+[2022-08-23 00:15:32,092] {processor.py:153} INFO - Started process (PID=183578) to work on /home/osboxes/airflow/dags/old2new_sf_data_move.py
+[2022-08-23 00:15:32,094] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/old2new_sf_data_move.py for tasks to queue
+[2022-08-23 00:15:32,095] {logging_mixin.py:115} INFO - [2022-08-23 00:15:32,095] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/old2new_sf_data_move.py
+[2022-08-23 00:15:32,644] {logging_mixin.py:115} INFO - [2022-08-23 00:15:32,643] {backend.py:193} INFO - Loading KWallet
+[2022-08-23 00:15:32,648] {logging_mixin.py:115} INFO - [2022-08-23 00:15:32,648] {backend.py:193} INFO - Loading SecretService
+[2022-08-23 00:15:32,654] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:15:32,654] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:15:32,655] {logging_mixin.py:115} INFO - [2022-08-23 00:15:32,655] {backend.py:193} INFO - Loading Windows
+[2022-08-23 00:15:32,655] {logging_mixin.py:115} INFO - [2022-08-23 00:15:32,655] {backend.py:193} INFO - Loading chainer
+[2022-08-23 00:15:32,656] {logging_mixin.py:115} INFO - [2022-08-23 00:15:32,656] {backend.py:193} INFO - Loading macOS
+[2022-08-23 00:15:32,768] {processor.py:651} INFO - DAG(s) dict_keys(['Data4old2newSF']) retrieved from /home/osboxes/airflow/dags/old2new_sf_data_move.py
+[2022-08-23 00:15:32,779] {logging_mixin.py:115} INFO - [2022-08-23 00:15:32,779] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-23 00:15:32,792] {logging_mixin.py:115} INFO - [2022-08-23 00:15:32,792] {dag.py:2915} INFO - Setting next_dagrun for Data4old2newSF to 2022-07-28T18:00:00+00:00, run_after=2022-07-28T19:00:00+00:00
+[2022-08-23 00:15:32,837] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/old2new_sf_data_move.py took 0.748 seconds
+[2022-08-23 00:16:05,878] {processor.py:153} INFO - Started process (PID=183846) to work on /home/osboxes/airflow/dags/old2new_sf_data_move.py
+[2022-08-23 00:16:05,880] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/old2new_sf_data_move.py for tasks to queue
+[2022-08-23 00:16:05,880] {logging_mixin.py:115} INFO - [2022-08-23 00:16:05,880] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/old2new_sf_data_move.py
+[2022-08-23 00:16:06,367] {logging_mixin.py:115} INFO - [2022-08-23 00:16:06,366] {backend.py:193} INFO - Loading KWallet
+[2022-08-23 00:16:06,372] {logging_mixin.py:115} INFO - [2022-08-23 00:16:06,372] {backend.py:193} INFO - Loading SecretService
+[2022-08-23 00:16:06,376] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:16:06,377] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:16:06,377] {logging_mixin.py:115} INFO - [2022-08-23 00:16:06,377] {backend.py:193} INFO - Loading Windows
+[2022-08-23 00:16:06,378] {logging_mixin.py:115} INFO - [2022-08-23 00:16:06,378] {backend.py:193} INFO - Loading chainer
+[2022-08-23 00:16:06,378] {logging_mixin.py:115} INFO - [2022-08-23 00:16:06,378] {backend.py:193} INFO - Loading macOS
+[2022-08-23 00:16:06,486] {processor.py:651} INFO - DAG(s) dict_keys(['Data4old2newSF']) retrieved from /home/osboxes/airflow/dags/old2new_sf_data_move.py
+[2022-08-23 00:16:06,499] {logging_mixin.py:115} INFO - [2022-08-23 00:16:06,498] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-23 00:16:06,512] {logging_mixin.py:115} INFO - [2022-08-23 00:16:06,512] {dag.py:2915} INFO - Setting next_dagrun for Data4old2newSF to 2022-07-28T18:00:00+00:00, run_after=2022-07-28T19:00:00+00:00
+[2022-08-23 00:16:06,546] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/old2new_sf_data_move.py took 0.671 seconds
+[2022-08-23 00:16:44,669] {processor.py:153} INFO - Started process (PID=184155) to work on /home/osboxes/airflow/dags/old2new_sf_data_move.py
+[2022-08-23 00:16:44,671] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/old2new_sf_data_move.py for tasks to queue
+[2022-08-23 00:16:44,672] {logging_mixin.py:115} INFO - [2022-08-23 00:16:44,672] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/old2new_sf_data_move.py
+[2022-08-23 00:16:45,136] {logging_mixin.py:115} INFO - [2022-08-23 00:16:45,135] {backend.py:193} INFO - Loading KWallet
+[2022-08-23 00:16:45,141] {logging_mixin.py:115} INFO - [2022-08-23 00:16:45,141] {backend.py:193} INFO - Loading SecretService
+[2022-08-23 00:16:45,146] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:16:45,146] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:16:45,147] {logging_mixin.py:115} INFO - [2022-08-23 00:16:45,147] {backend.py:193} INFO - Loading Windows
+[2022-08-23 00:16:45,147] {logging_mixin.py:115} INFO - [2022-08-23 00:16:45,147] {backend.py:193} INFO - Loading chainer
+[2022-08-23 00:16:45,148] {logging_mixin.py:115} INFO - [2022-08-23 00:16:45,148] {backend.py:193} INFO - Loading macOS
+[2022-08-23 00:16:45,430] {processor.py:651} INFO - DAG(s) dict_keys(['Data4old2newSF']) retrieved from /home/osboxes/airflow/dags/old2new_sf_data_move.py
+[2022-08-23 00:16:45,445] {logging_mixin.py:115} INFO - [2022-08-23 00:16:45,445] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-23 00:16:45,458] {logging_mixin.py:115} INFO - [2022-08-23 00:16:45,458] {dag.py:2915} INFO - Setting next_dagrun for Data4old2newSF to 2022-07-28T18:00:00+00:00, run_after=2022-07-28T19:00:00+00:00
+[2022-08-23 00:16:45,488] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/old2new_sf_data_move.py took 0.822 seconds
+[2022-08-23 00:17:21,583] {processor.py:153} INFO - Started process (PID=184466) to work on /home/osboxes/airflow/dags/old2new_sf_data_move.py
+[2022-08-23 00:17:21,591] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/old2new_sf_data_move.py for tasks to queue
+[2022-08-23 00:17:21,591] {logging_mixin.py:115} INFO - [2022-08-23 00:17:21,591] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/old2new_sf_data_move.py
+[2022-08-23 00:17:22,105] {logging_mixin.py:115} INFO - [2022-08-23 00:17:22,105] {backend.py:193} INFO - Loading KWallet
+[2022-08-23 00:17:22,110] {logging_mixin.py:115} INFO - [2022-08-23 00:17:22,110] {backend.py:193} INFO - Loading SecretService
+[2022-08-23 00:17:22,116] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:17:22,117] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:17:22,118] {logging_mixin.py:115} INFO - [2022-08-23 00:17:22,117] {backend.py:193} INFO - Loading Windows
+[2022-08-23 00:17:22,118] {logging_mixin.py:115} INFO - [2022-08-23 00:17:22,118] {backend.py:193} INFO - Loading chainer
+[2022-08-23 00:17:22,119] {logging_mixin.py:115} INFO - [2022-08-23 00:17:22,119] {backend.py:193} INFO - Loading macOS
+[2022-08-23 00:17:22,230] {processor.py:651} INFO - DAG(s) dict_keys(['Data4old2newSF']) retrieved from /home/osboxes/airflow/dags/old2new_sf_data_move.py
+[2022-08-23 00:17:22,242] {logging_mixin.py:115} INFO - [2022-08-23 00:17:22,242] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-23 00:17:22,255] {logging_mixin.py:115} INFO - [2022-08-23 00:17:22,255] {dag.py:2915} INFO - Setting next_dagrun for Data4old2newSF to 2022-07-28T18:00:00+00:00, run_after=2022-07-28T19:00:00+00:00
+[2022-08-23 00:17:22,290] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/old2new_sf_data_move.py took 0.710 seconds
+[2022-08-23 00:17:54,750] {processor.py:153} INFO - Started process (PID=184716) to work on /home/osboxes/airflow/dags/old2new_sf_data_move.py
+[2022-08-23 00:17:54,752] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/old2new_sf_data_move.py for tasks to queue
+[2022-08-23 00:17:54,752] {logging_mixin.py:115} INFO - [2022-08-23 00:17:54,752] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/old2new_sf_data_move.py
+[2022-08-23 00:17:55,209] {logging_mixin.py:115} INFO - [2022-08-23 00:17:55,208] {backend.py:193} INFO - Loading KWallet
+[2022-08-23 00:17:55,214] {logging_mixin.py:115} INFO - [2022-08-23 00:17:55,214] {backend.py:193} INFO - Loading SecretService
+[2022-08-23 00:17:55,220] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:17:55,221] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:17:55,221] {logging_mixin.py:115} INFO - [2022-08-23 00:17:55,221] {backend.py:193} INFO - Loading Windows
+[2022-08-23 00:17:55,222] {logging_mixin.py:115} INFO - [2022-08-23 00:17:55,222] {backend.py:193} INFO - Loading chainer
+[2022-08-23 00:17:55,222] {logging_mixin.py:115} INFO - [2022-08-23 00:17:55,222] {backend.py:193} INFO - Loading macOS
+[2022-08-23 00:17:55,330] {processor.py:651} INFO - DAG(s) dict_keys(['Data4old2newSF']) retrieved from /home/osboxes/airflow/dags/old2new_sf_data_move.py
+[2022-08-23 00:17:55,341] {logging_mixin.py:115} INFO - [2022-08-23 00:17:55,341] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-23 00:17:55,355] {logging_mixin.py:115} INFO - [2022-08-23 00:17:55,355] {dag.py:2915} INFO - Setting next_dagrun for Data4old2newSF to 2022-07-28T18:00:00+00:00, run_after=2022-07-28T19:00:00+00:00
+[2022-08-23 00:17:55,395] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/old2new_sf_data_move.py took 0.646 seconds
+[2022-08-23 00:18:34,699] {processor.py:153} INFO - Started process (PID=185041) to work on /home/osboxes/airflow/dags/old2new_sf_data_move.py
+[2022-08-23 00:18:34,702] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/old2new_sf_data_move.py for tasks to queue
+[2022-08-23 00:18:34,703] {logging_mixin.py:115} INFO - [2022-08-23 00:18:34,703] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/old2new_sf_data_move.py
+[2022-08-23 00:18:35,161] {logging_mixin.py:115} INFO - [2022-08-23 00:18:35,160] {backend.py:193} INFO - Loading KWallet
+[2022-08-23 00:18:35,166] {logging_mixin.py:115} INFO - [2022-08-23 00:18:35,166] {backend.py:193} INFO - Loading SecretService
+[2022-08-23 00:18:35,171] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:18:35,172] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:18:35,173] {logging_mixin.py:115} INFO - [2022-08-23 00:18:35,173] {backend.py:193} INFO - Loading Windows
+[2022-08-23 00:18:35,174] {logging_mixin.py:115} INFO - [2022-08-23 00:18:35,173] {backend.py:193} INFO - Loading chainer
+[2022-08-23 00:18:35,174] {logging_mixin.py:115} INFO - [2022-08-23 00:18:35,174] {backend.py:193} INFO - Loading macOS
+[2022-08-23 00:18:35,284] {processor.py:651} INFO - DAG(s) dict_keys(['Data4old2newSF']) retrieved from /home/osboxes/airflow/dags/old2new_sf_data_move.py
+[2022-08-23 00:18:35,297] {logging_mixin.py:115} INFO - [2022-08-23 00:18:35,296] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-23 00:18:35,311] {logging_mixin.py:115} INFO - [2022-08-23 00:18:35,311] {dag.py:2915} INFO - Setting next_dagrun for Data4old2newSF to 2022-07-28T18:00:00+00:00, run_after=2022-07-28T19:00:00+00:00
+[2022-08-23 00:18:35,347] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/old2new_sf_data_move.py took 0.650 seconds
+[2022-08-23 00:19:10,323] {processor.py:153} INFO - Started process (PID=185318) to work on /home/osboxes/airflow/dags/old2new_sf_data_move.py
+[2022-08-23 00:19:10,329] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/old2new_sf_data_move.py for tasks to queue
+[2022-08-23 00:19:10,349] {logging_mixin.py:115} INFO - [2022-08-23 00:19:10,349] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/old2new_sf_data_move.py
+[2022-08-23 00:19:10,863] {logging_mixin.py:115} INFO - [2022-08-23 00:19:10,863] {backend.py:193} INFO - Loading KWallet
+[2022-08-23 00:19:10,868] {logging_mixin.py:115} INFO - [2022-08-23 00:19:10,868] {backend.py:193} INFO - Loading SecretService
+[2022-08-23 00:19:10,875] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:19:10,875] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:19:10,876] {logging_mixin.py:115} INFO - [2022-08-23 00:19:10,876] {backend.py:193} INFO - Loading Windows
+[2022-08-23 00:19:10,876] {logging_mixin.py:115} INFO - [2022-08-23 00:19:10,876] {backend.py:193} INFO - Loading chainer
+[2022-08-23 00:19:10,877] {logging_mixin.py:115} INFO - [2022-08-23 00:19:10,877] {backend.py:193} INFO - Loading macOS
+[2022-08-23 00:19:10,987] {processor.py:651} INFO - DAG(s) dict_keys(['Data4old2newSF']) retrieved from /home/osboxes/airflow/dags/old2new_sf_data_move.py
+[2022-08-23 00:19:11,000] {logging_mixin.py:115} INFO - [2022-08-23 00:19:10,999] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-23 00:19:11,014] {logging_mixin.py:115} INFO - [2022-08-23 00:19:11,014] {dag.py:2915} INFO - Setting next_dagrun for Data4old2newSF to 2022-07-28T18:00:00+00:00, run_after=2022-07-28T19:00:00+00:00
+[2022-08-23 00:19:11,042] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/old2new_sf_data_move.py took 0.725 seconds
+[2022-08-23 00:19:44,216] {processor.py:153} INFO - Started process (PID=185589) to work on /home/osboxes/airflow/dags/old2new_sf_data_move.py
+[2022-08-23 00:19:44,217] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/old2new_sf_data_move.py for tasks to queue
+[2022-08-23 00:19:44,217] {logging_mixin.py:115} INFO - [2022-08-23 00:19:44,217] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/old2new_sf_data_move.py
+[2022-08-23 00:19:44,760] {logging_mixin.py:115} INFO - [2022-08-23 00:19:44,760] {backend.py:193} INFO - Loading KWallet
+[2022-08-23 00:19:44,766] {logging_mixin.py:115} INFO - [2022-08-23 00:19:44,766] {backend.py:193} INFO - Loading SecretService
+[2022-08-23 00:19:44,771] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:19:44,771] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:19:44,772] {logging_mixin.py:115} INFO - [2022-08-23 00:19:44,772] {backend.py:193} INFO - Loading Windows
+[2022-08-23 00:19:44,772] {logging_mixin.py:115} INFO - [2022-08-23 00:19:44,772] {backend.py:193} INFO - Loading chainer
+[2022-08-23 00:19:44,773] {logging_mixin.py:115} INFO - [2022-08-23 00:19:44,773] {backend.py:193} INFO - Loading macOS
+[2022-08-23 00:19:44,920] {processor.py:651} INFO - DAG(s) dict_keys(['Data4old2newSF']) retrieved from /home/osboxes/airflow/dags/old2new_sf_data_move.py
+[2022-08-23 00:19:44,931] {logging_mixin.py:115} INFO - [2022-08-23 00:19:44,931] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-23 00:19:44,945] {logging_mixin.py:115} INFO - [2022-08-23 00:19:44,945] {dag.py:2915} INFO - Setting next_dagrun for Data4old2newSF to 2022-07-28T18:00:00+00:00, run_after=2022-07-28T19:00:00+00:00
+[2022-08-23 00:19:44,984] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/old2new_sf_data_move.py took 0.770 seconds
+[2022-08-23 00:20:18,362] {processor.py:153} INFO - Started process (PID=185913) to work on /home/osboxes/airflow/dags/old2new_sf_data_move.py
+[2022-08-23 00:20:18,364] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/old2new_sf_data_move.py for tasks to queue
+[2022-08-23 00:20:18,364] {logging_mixin.py:115} INFO - [2022-08-23 00:20:18,364] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/old2new_sf_data_move.py
+[2022-08-23 00:20:18,822] {logging_mixin.py:115} INFO - [2022-08-23 00:20:18,822] {backend.py:193} INFO - Loading KWallet
+[2022-08-23 00:20:18,827] {logging_mixin.py:115} INFO - [2022-08-23 00:20:18,826] {backend.py:193} INFO - Loading SecretService
+[2022-08-23 00:20:18,832] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:20:18,833] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:20:18,834] {logging_mixin.py:115} INFO - [2022-08-23 00:20:18,833] {backend.py:193} INFO - Loading Windows
+[2022-08-23 00:20:18,834] {logging_mixin.py:115} INFO - [2022-08-23 00:20:18,834] {backend.py:193} INFO - Loading chainer
+[2022-08-23 00:20:18,834] {logging_mixin.py:115} INFO - [2022-08-23 00:20:18,834] {backend.py:193} INFO - Loading macOS
+[2022-08-23 00:20:18,951] {processor.py:651} INFO - DAG(s) dict_keys(['Data4old2newSF']) retrieved from /home/osboxes/airflow/dags/old2new_sf_data_move.py
+[2022-08-23 00:20:18,962] {logging_mixin.py:115} INFO - [2022-08-23 00:20:18,962] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-23 00:20:18,974] {logging_mixin.py:115} INFO - [2022-08-23 00:20:18,973] {dag.py:2915} INFO - Setting next_dagrun for Data4old2newSF to 2022-07-28T18:00:00+00:00, run_after=2022-07-28T19:00:00+00:00
+[2022-08-23 00:20:19,015] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/old2new_sf_data_move.py took 0.655 seconds
+[2022-08-23 00:20:57,054] {processor.py:153} INFO - Started process (PID=186216) to work on /home/osboxes/airflow/dags/old2new_sf_data_move.py
+[2022-08-23 00:20:57,055] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/old2new_sf_data_move.py for tasks to queue
+[2022-08-23 00:20:57,056] {logging_mixin.py:115} INFO - [2022-08-23 00:20:57,055] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/old2new_sf_data_move.py
+[2022-08-23 00:20:57,514] {logging_mixin.py:115} INFO - [2022-08-23 00:20:57,513] {backend.py:193} INFO - Loading KWallet
+[2022-08-23 00:20:57,520] {logging_mixin.py:115} INFO - [2022-08-23 00:20:57,520] {backend.py:193} INFO - Loading SecretService
+[2022-08-23 00:20:57,524] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:20:57,525] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:20:57,525] {logging_mixin.py:115} INFO - [2022-08-23 00:20:57,525] {backend.py:193} INFO - Loading Windows
+[2022-08-23 00:20:57,526] {logging_mixin.py:115} INFO - [2022-08-23 00:20:57,526] {backend.py:193} INFO - Loading chainer
+[2022-08-23 00:20:57,528] {logging_mixin.py:115} INFO - [2022-08-23 00:20:57,528] {backend.py:193} INFO - Loading macOS
+[2022-08-23 00:20:57,635] {processor.py:651} INFO - DAG(s) dict_keys(['Data4old2newSF']) retrieved from /home/osboxes/airflow/dags/old2new_sf_data_move.py
+[2022-08-23 00:20:57,646] {logging_mixin.py:115} INFO - [2022-08-23 00:20:57,646] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-23 00:20:57,661] {logging_mixin.py:115} INFO - [2022-08-23 00:20:57,661] {dag.py:2915} INFO - Setting next_dagrun for Data4old2newSF to 2022-07-28T18:00:00+00:00, run_after=2022-07-28T19:00:00+00:00
+[2022-08-23 00:20:57,695] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/old2new_sf_data_move.py took 0.644 seconds
+[2022-08-23 00:21:35,068] {processor.py:153} INFO - Started process (PID=186507) to work on /home/osboxes/airflow/dags/old2new_sf_data_move.py
+[2022-08-23 00:21:35,070] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/old2new_sf_data_move.py for tasks to queue
+[2022-08-23 00:21:35,071] {logging_mixin.py:115} INFO - [2022-08-23 00:21:35,070] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/old2new_sf_data_move.py
+[2022-08-23 00:21:35,580] {logging_mixin.py:115} INFO - [2022-08-23 00:21:35,579] {backend.py:193} INFO - Loading KWallet
+[2022-08-23 00:21:35,612] {logging_mixin.py:115} INFO - [2022-08-23 00:21:35,612] {backend.py:193} INFO - Loading SecretService
+[2022-08-23 00:21:35,623] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:21:35,624] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:21:35,630] {logging_mixin.py:115} INFO - [2022-08-23 00:21:35,630] {backend.py:193} INFO - Loading Windows
+[2022-08-23 00:21:35,631] {logging_mixin.py:115} INFO - [2022-08-23 00:21:35,631] {backend.py:193} INFO - Loading chainer
+[2022-08-23 00:21:35,631] {logging_mixin.py:115} INFO - [2022-08-23 00:21:35,631] {backend.py:193} INFO - Loading macOS
+[2022-08-23 00:21:35,763] {processor.py:651} INFO - DAG(s) dict_keys(['Data4old2newSF']) retrieved from /home/osboxes/airflow/dags/old2new_sf_data_move.py
+[2022-08-23 00:21:35,776] {logging_mixin.py:115} INFO - [2022-08-23 00:21:35,776] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-23 00:21:35,788] {logging_mixin.py:115} INFO - [2022-08-23 00:21:35,788] {dag.py:2915} INFO - Setting next_dagrun for Data4old2newSF to 2022-07-28T18:00:00+00:00, run_after=2022-07-28T19:00:00+00:00
+[2022-08-23 00:21:35,811] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/old2new_sf_data_move.py took 0.745 seconds
+[2022-08-23 00:22:11,485] {processor.py:153} INFO - Started process (PID=186809) to work on /home/osboxes/airflow/dags/old2new_sf_data_move.py
+[2022-08-23 00:22:11,488] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/old2new_sf_data_move.py for tasks to queue
+[2022-08-23 00:22:11,488] {logging_mixin.py:115} INFO - [2022-08-23 00:22:11,488] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/old2new_sf_data_move.py
+[2022-08-23 00:22:12,080] {logging_mixin.py:115} INFO - [2022-08-23 00:22:12,078] {backend.py:193} INFO - Loading KWallet
+[2022-08-23 00:22:12,085] {logging_mixin.py:115} INFO - [2022-08-23 00:22:12,085] {backend.py:193} INFO - Loading SecretService
+[2022-08-23 00:22:12,090] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:22:12,091] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:22:12,091] {logging_mixin.py:115} INFO - [2022-08-23 00:22:12,091] {backend.py:193} INFO - Loading Windows
+[2022-08-23 00:22:12,092] {logging_mixin.py:115} INFO - [2022-08-23 00:22:12,092] {backend.py:193} INFO - Loading chainer
+[2022-08-23 00:22:12,092] {logging_mixin.py:115} INFO - [2022-08-23 00:22:12,092] {backend.py:193} INFO - Loading macOS
+[2022-08-23 00:22:12,198] {processor.py:651} INFO - DAG(s) dict_keys(['Data4old2newSF']) retrieved from /home/osboxes/airflow/dags/old2new_sf_data_move.py
+[2022-08-23 00:22:12,211] {logging_mixin.py:115} INFO - [2022-08-23 00:22:12,211] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-23 00:22:12,223] {logging_mixin.py:115} INFO - [2022-08-23 00:22:12,222] {dag.py:2915} INFO - Setting next_dagrun for Data4old2newSF to 2022-07-28T18:00:00+00:00, run_after=2022-07-28T19:00:00+00:00
+[2022-08-23 00:22:12,259] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/old2new_sf_data_move.py took 0.776 seconds
+[2022-08-23 00:22:49,927] {processor.py:153} INFO - Started process (PID=187130) to work on /home/osboxes/airflow/dags/old2new_sf_data_move.py
+[2022-08-23 00:22:49,929] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/old2new_sf_data_move.py for tasks to queue
+[2022-08-23 00:22:49,929] {logging_mixin.py:115} INFO - [2022-08-23 00:22:49,929] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/old2new_sf_data_move.py
+[2022-08-23 00:22:50,418] {logging_mixin.py:115} INFO - [2022-08-23 00:22:50,417] {backend.py:193} INFO - Loading KWallet
+[2022-08-23 00:22:50,423] {logging_mixin.py:115} INFO - [2022-08-23 00:22:50,423] {backend.py:193} INFO - Loading SecretService
+[2022-08-23 00:22:50,428] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:22:50,428] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:22:50,429] {logging_mixin.py:115} INFO - [2022-08-23 00:22:50,429] {backend.py:193} INFO - Loading Windows
+[2022-08-23 00:22:50,429] {logging_mixin.py:115} INFO - [2022-08-23 00:22:50,429] {backend.py:193} INFO - Loading chainer
+[2022-08-23 00:22:50,430] {logging_mixin.py:115} INFO - [2022-08-23 00:22:50,430] {backend.py:193} INFO - Loading macOS
+[2022-08-23 00:22:50,536] {processor.py:651} INFO - DAG(s) dict_keys(['Data4old2newSF']) retrieved from /home/osboxes/airflow/dags/old2new_sf_data_move.py
+[2022-08-23 00:22:50,546] {logging_mixin.py:115} INFO - [2022-08-23 00:22:50,546] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-23 00:22:50,558] {logging_mixin.py:115} INFO - [2022-08-23 00:22:50,558] {dag.py:2915} INFO - Setting next_dagrun for Data4old2newSF to 2022-07-28T18:00:00+00:00, run_after=2022-07-28T19:00:00+00:00
+[2022-08-23 00:22:50,592] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/old2new_sf_data_move.py took 0.668 seconds
+[2022-08-23 00:23:31,250] {processor.py:153} INFO - Started process (PID=187452) to work on /home/osboxes/airflow/dags/old2new_sf_data_move.py
+[2022-08-23 00:23:31,251] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/old2new_sf_data_move.py for tasks to queue
+[2022-08-23 00:23:31,252] {logging_mixin.py:115} INFO - [2022-08-23 00:23:31,252] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/old2new_sf_data_move.py
+[2022-08-23 00:23:31,711] {logging_mixin.py:115} INFO - [2022-08-23 00:23:31,710] {backend.py:193} INFO - Loading KWallet
+[2022-08-23 00:23:31,715] {logging_mixin.py:115} INFO - [2022-08-23 00:23:31,715] {backend.py:193} INFO - Loading SecretService
+[2022-08-23 00:23:31,720] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:23:31,721] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:23:31,721] {logging_mixin.py:115} INFO - [2022-08-23 00:23:31,721] {backend.py:193} INFO - Loading Windows
+[2022-08-23 00:23:31,722] {logging_mixin.py:115} INFO - [2022-08-23 00:23:31,722] {backend.py:193} INFO - Loading chainer
+[2022-08-23 00:23:31,723] {logging_mixin.py:115} INFO - [2022-08-23 00:23:31,722] {backend.py:193} INFO - Loading macOS
+[2022-08-23 00:23:31,830] {processor.py:651} INFO - DAG(s) dict_keys(['Data4old2newSF']) retrieved from /home/osboxes/airflow/dags/old2new_sf_data_move.py
+[2022-08-23 00:23:31,842] {logging_mixin.py:115} INFO - [2022-08-23 00:23:31,842] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-23 00:23:31,853] {logging_mixin.py:115} INFO - [2022-08-23 00:23:31,853] {dag.py:2915} INFO - Setting next_dagrun for Data4old2newSF to 2022-07-28T18:00:00+00:00, run_after=2022-07-28T19:00:00+00:00
+[2022-08-23 00:23:31,901] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/old2new_sf_data_move.py took 0.654 seconds
+[2022-08-23 00:24:09,911] {processor.py:153} INFO - Started process (PID=187738) to work on /home/osboxes/airflow/dags/old2new_sf_data_move.py
+[2022-08-23 00:24:09,913] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/old2new_sf_data_move.py for tasks to queue
+[2022-08-23 00:24:09,914] {logging_mixin.py:115} INFO - [2022-08-23 00:24:09,914] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/old2new_sf_data_move.py
+[2022-08-23 00:24:10,383] {logging_mixin.py:115} INFO - [2022-08-23 00:24:10,383] {backend.py:193} INFO - Loading KWallet
+[2022-08-23 00:24:10,389] {logging_mixin.py:115} INFO - [2022-08-23 00:24:10,388] {backend.py:193} INFO - Loading SecretService
+[2022-08-23 00:24:10,393] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:24:10,394] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:24:10,394] {logging_mixin.py:115} INFO - [2022-08-23 00:24:10,394] {backend.py:193} INFO - Loading Windows
+[2022-08-23 00:24:10,395] {logging_mixin.py:115} INFO - [2022-08-23 00:24:10,395] {backend.py:193} INFO - Loading chainer
+[2022-08-23 00:24:10,397] {logging_mixin.py:115} INFO - [2022-08-23 00:24:10,397] {backend.py:193} INFO - Loading macOS
+[2022-08-23 00:24:10,514] {processor.py:651} INFO - DAG(s) dict_keys(['Data4old2newSF']) retrieved from /home/osboxes/airflow/dags/old2new_sf_data_move.py
+[2022-08-23 00:24:10,526] {logging_mixin.py:115} INFO - [2022-08-23 00:24:10,526] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-23 00:24:10,537] {logging_mixin.py:115} INFO - [2022-08-23 00:24:10,537] {dag.py:2915} INFO - Setting next_dagrun for Data4old2newSF to 2022-07-28T18:00:00+00:00, run_after=2022-07-28T19:00:00+00:00
+[2022-08-23 00:24:10,571] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/old2new_sf_data_move.py took 0.663 seconds
+[2022-08-23 00:24:48,865] {processor.py:153} INFO - Started process (PID=188063) to work on /home/osboxes/airflow/dags/old2new_sf_data_move.py
+[2022-08-23 00:24:48,866] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/old2new_sf_data_move.py for tasks to queue
+[2022-08-23 00:24:48,867] {logging_mixin.py:115} INFO - [2022-08-23 00:24:48,867] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/old2new_sf_data_move.py
+[2022-08-23 00:24:49,324] {logging_mixin.py:115} INFO - [2022-08-23 00:24:49,324] {backend.py:193} INFO - Loading KWallet
+[2022-08-23 00:24:49,330] {logging_mixin.py:115} INFO - [2022-08-23 00:24:49,330] {backend.py:193} INFO - Loading SecretService
+[2022-08-23 00:24:49,334] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:24:49,335] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:24:49,335] {logging_mixin.py:115} INFO - [2022-08-23 00:24:49,335] {backend.py:193} INFO - Loading Windows
+[2022-08-23 00:24:49,336] {logging_mixin.py:115} INFO - [2022-08-23 00:24:49,336] {backend.py:193} INFO - Loading chainer
+[2022-08-23 00:24:49,336] {logging_mixin.py:115} INFO - [2022-08-23 00:24:49,336] {backend.py:193} INFO - Loading macOS
+[2022-08-23 00:24:49,449] {processor.py:651} INFO - DAG(s) dict_keys(['Data4old2newSF']) retrieved from /home/osboxes/airflow/dags/old2new_sf_data_move.py
+[2022-08-23 00:24:49,461] {logging_mixin.py:115} INFO - [2022-08-23 00:24:49,460] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-23 00:24:49,474] {logging_mixin.py:115} INFO - [2022-08-23 00:24:49,474] {dag.py:2915} INFO - Setting next_dagrun for Data4old2newSF to 2022-07-28T18:00:00+00:00, run_after=2022-07-28T19:00:00+00:00
+[2022-08-23 00:24:49,507] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/old2new_sf_data_move.py took 0.645 seconds
+[2022-08-23 00:25:23,713] {processor.py:153} INFO - Started process (PID=188398) to work on /home/osboxes/airflow/dags/old2new_sf_data_move.py
+[2022-08-23 00:25:23,741] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/old2new_sf_data_move.py for tasks to queue
+[2022-08-23 00:25:23,742] {logging_mixin.py:115} INFO - [2022-08-23 00:25:23,742] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/old2new_sf_data_move.py
+[2022-08-23 00:25:24,233] {logging_mixin.py:115} INFO - [2022-08-23 00:25:24,232] {backend.py:193} INFO - Loading KWallet
+[2022-08-23 00:25:24,237] {logging_mixin.py:115} INFO - [2022-08-23 00:25:24,237] {backend.py:193} INFO - Loading SecretService
+[2022-08-23 00:25:24,243] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:25:24,243] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:25:24,244] {logging_mixin.py:115} INFO - [2022-08-23 00:25:24,243] {backend.py:193} INFO - Loading Windows
+[2022-08-23 00:25:24,244] {logging_mixin.py:115} INFO - [2022-08-23 00:25:24,244] {backend.py:193} INFO - Loading chainer
+[2022-08-23 00:25:24,244] {logging_mixin.py:115} INFO - [2022-08-23 00:25:24,244] {backend.py:193} INFO - Loading macOS
+[2022-08-23 00:25:24,376] {processor.py:651} INFO - DAG(s) dict_keys(['Data4old2newSF']) retrieved from /home/osboxes/airflow/dags/old2new_sf_data_move.py
+[2022-08-23 00:25:24,386] {logging_mixin.py:115} INFO - [2022-08-23 00:25:24,386] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-23 00:25:24,401] {logging_mixin.py:115} INFO - [2022-08-23 00:25:24,401] {dag.py:2915} INFO - Setting next_dagrun for Data4old2newSF to 2022-07-28T18:00:00+00:00, run_after=2022-07-28T19:00:00+00:00
+[2022-08-23 00:25:24,446] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/old2new_sf_data_move.py took 0.736 seconds
+[2022-08-23 00:26:02,385] {processor.py:153} INFO - Started process (PID=188703) to work on /home/osboxes/airflow/dags/old2new_sf_data_move.py
+[2022-08-23 00:26:02,386] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/old2new_sf_data_move.py for tasks to queue
+[2022-08-23 00:26:02,386] {logging_mixin.py:115} INFO - [2022-08-23 00:26:02,386] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/old2new_sf_data_move.py
+[2022-08-23 00:26:02,874] {logging_mixin.py:115} INFO - [2022-08-23 00:26:02,871] {backend.py:193} INFO - Loading KWallet
+[2022-08-23 00:26:02,879] {logging_mixin.py:115} INFO - [2022-08-23 00:26:02,879] {backend.py:193} INFO - Loading SecretService
+[2022-08-23 00:26:02,884] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:26:02,885] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:26:02,885] {logging_mixin.py:115} INFO - [2022-08-23 00:26:02,885] {backend.py:193} INFO - Loading Windows
+[2022-08-23 00:26:02,886] {logging_mixin.py:115} INFO - [2022-08-23 00:26:02,886] {backend.py:193} INFO - Loading chainer
+[2022-08-23 00:26:02,886] {logging_mixin.py:115} INFO - [2022-08-23 00:26:02,886] {backend.py:193} INFO - Loading macOS
+[2022-08-23 00:26:02,992] {processor.py:651} INFO - DAG(s) dict_keys(['Data4old2newSF']) retrieved from /home/osboxes/airflow/dags/old2new_sf_data_move.py
+[2022-08-23 00:26:03,004] {logging_mixin.py:115} INFO - [2022-08-23 00:26:03,003] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-23 00:26:03,015] {logging_mixin.py:115} INFO - [2022-08-23 00:26:03,015] {dag.py:2915} INFO - Setting next_dagrun for Data4old2newSF to 2022-07-28T18:00:00+00:00, run_after=2022-07-28T19:00:00+00:00
+[2022-08-23 00:26:03,049] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/old2new_sf_data_move.py took 0.667 seconds
+[2022-08-23 00:26:42,949] {processor.py:153} INFO - Started process (PID=189031) to work on /home/osboxes/airflow/dags/old2new_sf_data_move.py
+[2022-08-23 00:26:42,950] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/old2new_sf_data_move.py for tasks to queue
+[2022-08-23 00:26:42,950] {logging_mixin.py:115} INFO - [2022-08-23 00:26:42,950] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/old2new_sf_data_move.py
+[2022-08-23 00:26:43,392] {logging_mixin.py:115} INFO - [2022-08-23 00:26:43,391] {backend.py:193} INFO - Loading KWallet
+[2022-08-23 00:26:43,397] {logging_mixin.py:115} INFO - [2022-08-23 00:26:43,397] {backend.py:193} INFO - Loading SecretService
+[2022-08-23 00:26:43,401] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:26:43,402] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:26:43,402] {logging_mixin.py:115} INFO - [2022-08-23 00:26:43,402] {backend.py:193} INFO - Loading Windows
+[2022-08-23 00:26:43,403] {logging_mixin.py:115} INFO - [2022-08-23 00:26:43,403] {backend.py:193} INFO - Loading chainer
+[2022-08-23 00:26:43,403] {logging_mixin.py:115} INFO - [2022-08-23 00:26:43,403] {backend.py:193} INFO - Loading macOS
+[2022-08-23 00:26:43,538] {processor.py:651} INFO - DAG(s) dict_keys(['Data4old2newSF']) retrieved from /home/osboxes/airflow/dags/old2new_sf_data_move.py
+[2022-08-23 00:26:43,550] {logging_mixin.py:115} INFO - [2022-08-23 00:26:43,549] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-23 00:26:43,562] {logging_mixin.py:115} INFO - [2022-08-23 00:26:43,562] {dag.py:2915} INFO - Setting next_dagrun for Data4old2newSF to 2022-07-28T18:00:00+00:00, run_after=2022-07-28T19:00:00+00:00
+[2022-08-23 00:26:43,587] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/old2new_sf_data_move.py took 0.640 seconds
+[2022-08-23 00:27:21,528] {processor.py:153} INFO - Started process (PID=189343) to work on /home/osboxes/airflow/dags/old2new_sf_data_move.py
+[2022-08-23 00:27:21,530] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/old2new_sf_data_move.py for tasks to queue
+[2022-08-23 00:27:21,530] {logging_mixin.py:115} INFO - [2022-08-23 00:27:21,530] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/old2new_sf_data_move.py
+[2022-08-23 00:27:21,972] {logging_mixin.py:115} INFO - [2022-08-23 00:27:21,971] {backend.py:193} INFO - Loading KWallet
+[2022-08-23 00:27:21,977] {logging_mixin.py:115} INFO - [2022-08-23 00:27:21,976] {backend.py:193} INFO - Loading SecretService
+[2022-08-23 00:27:21,981] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:27:21,982] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:27:21,982] {logging_mixin.py:115} INFO - [2022-08-23 00:27:21,982] {backend.py:193} INFO - Loading Windows
+[2022-08-23 00:27:21,983] {logging_mixin.py:115} INFO - [2022-08-23 00:27:21,982] {backend.py:193} INFO - Loading chainer
+[2022-08-23 00:27:21,983] {logging_mixin.py:115} INFO - [2022-08-23 00:27:21,983] {backend.py:193} INFO - Loading macOS
+[2022-08-23 00:27:22,088] {processor.py:651} INFO - DAG(s) dict_keys(['Data4old2newSF']) retrieved from /home/osboxes/airflow/dags/old2new_sf_data_move.py
+[2022-08-23 00:27:22,104] {logging_mixin.py:115} INFO - [2022-08-23 00:27:22,103] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-23 00:27:22,125] {logging_mixin.py:115} INFO - [2022-08-23 00:27:22,125] {dag.py:2915} INFO - Setting next_dagrun for Data4old2newSF to 2022-07-28T18:00:00+00:00, run_after=2022-07-28T19:00:00+00:00
+[2022-08-23 00:27:22,158] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/old2new_sf_data_move.py took 0.632 seconds
+[2022-08-23 00:27:58,516] {processor.py:153} INFO - Started process (PID=189631) to work on /home/osboxes/airflow/dags/old2new_sf_data_move.py
+[2022-08-23 00:27:58,631] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/old2new_sf_data_move.py for tasks to queue
+[2022-08-23 00:27:58,632] {logging_mixin.py:115} INFO - [2022-08-23 00:27:58,632] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/old2new_sf_data_move.py
+[2022-08-23 00:27:59,111] {logging_mixin.py:115} INFO - [2022-08-23 00:27:59,111] {backend.py:193} INFO - Loading KWallet
+[2022-08-23 00:27:59,116] {logging_mixin.py:115} INFO - [2022-08-23 00:27:59,115] {backend.py:193} INFO - Loading SecretService
+[2022-08-23 00:27:59,120] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:27:59,121] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:27:59,122] {logging_mixin.py:115} INFO - [2022-08-23 00:27:59,122] {backend.py:193} INFO - Loading Windows
+[2022-08-23 00:27:59,123] {logging_mixin.py:115} INFO - [2022-08-23 00:27:59,123] {backend.py:193} INFO - Loading chainer
+[2022-08-23 00:27:59,123] {logging_mixin.py:115} INFO - [2022-08-23 00:27:59,123] {backend.py:193} INFO - Loading macOS
+[2022-08-23 00:27:59,230] {processor.py:651} INFO - DAG(s) dict_keys(['Data4old2newSF']) retrieved from /home/osboxes/airflow/dags/old2new_sf_data_move.py
+[2022-08-23 00:27:59,242] {logging_mixin.py:115} INFO - [2022-08-23 00:27:59,242] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-23 00:27:59,254] {logging_mixin.py:115} INFO - [2022-08-23 00:27:59,254] {dag.py:2915} INFO - Setting next_dagrun for Data4old2newSF to 2022-07-28T18:00:00+00:00, run_after=2022-07-28T19:00:00+00:00
+[2022-08-23 00:27:59,282] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/old2new_sf_data_move.py took 0.768 seconds
+[2022-08-23 00:28:36,520] {processor.py:153} INFO - Started process (PID=189942) to work on /home/osboxes/airflow/dags/old2new_sf_data_move.py
+[2022-08-23 00:28:36,522] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/old2new_sf_data_move.py for tasks to queue
+[2022-08-23 00:28:36,522] {logging_mixin.py:115} INFO - [2022-08-23 00:28:36,522] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/old2new_sf_data_move.py
+[2022-08-23 00:28:36,991] {logging_mixin.py:115} INFO - [2022-08-23 00:28:36,991] {backend.py:193} INFO - Loading KWallet
+[2022-08-23 00:28:36,995] {logging_mixin.py:115} INFO - [2022-08-23 00:28:36,995] {backend.py:193} INFO - Loading SecretService
+[2022-08-23 00:28:37,000] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:28:37,001] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:28:37,001] {logging_mixin.py:115} INFO - [2022-08-23 00:28:37,001] {backend.py:193} INFO - Loading Windows
+[2022-08-23 00:28:37,002] {logging_mixin.py:115} INFO - [2022-08-23 00:28:37,002] {backend.py:193} INFO - Loading chainer
+[2022-08-23 00:28:37,002] {logging_mixin.py:115} INFO - [2022-08-23 00:28:37,002] {backend.py:193} INFO - Loading macOS
+[2022-08-23 00:28:37,110] {processor.py:651} INFO - DAG(s) dict_keys(['Data4old2newSF']) retrieved from /home/osboxes/airflow/dags/old2new_sf_data_move.py
+[2022-08-23 00:28:37,121] {logging_mixin.py:115} INFO - [2022-08-23 00:28:37,121] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-23 00:28:37,132] {logging_mixin.py:115} INFO - [2022-08-23 00:28:37,132] {dag.py:2915} INFO - Setting next_dagrun for Data4old2newSF to 2022-07-28T18:00:00+00:00, run_after=2022-07-28T19:00:00+00:00
+[2022-08-23 00:28:37,175] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/old2new_sf_data_move.py took 0.658 seconds
+[2022-08-23 00:29:13,377] {processor.py:153} INFO - Started process (PID=190229) to work on /home/osboxes/airflow/dags/old2new_sf_data_move.py
+[2022-08-23 00:29:13,380] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/old2new_sf_data_move.py for tasks to queue
+[2022-08-23 00:29:13,380] {logging_mixin.py:115} INFO - [2022-08-23 00:29:13,380] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/old2new_sf_data_move.py
+[2022-08-23 00:29:14,016] {logging_mixin.py:115} INFO - [2022-08-23 00:29:14,015] {backend.py:193} INFO - Loading KWallet
+[2022-08-23 00:29:14,022] {logging_mixin.py:115} INFO - [2022-08-23 00:29:14,022] {backend.py:193} INFO - Loading SecretService
+[2022-08-23 00:29:14,028] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:29:14,028] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:29:14,030] {logging_mixin.py:115} INFO - [2022-08-23 00:29:14,030] {backend.py:193} INFO - Loading Windows
+[2022-08-23 00:29:14,031] {logging_mixin.py:115} INFO - [2022-08-23 00:29:14,030] {backend.py:193} INFO - Loading chainer
+[2022-08-23 00:29:14,031] {logging_mixin.py:115} INFO - [2022-08-23 00:29:14,031] {backend.py:193} INFO - Loading macOS
+[2022-08-23 00:29:14,158] {processor.py:651} INFO - DAG(s) dict_keys(['Data4old2newSF']) retrieved from /home/osboxes/airflow/dags/old2new_sf_data_move.py
+[2022-08-23 00:29:14,172] {logging_mixin.py:115} INFO - [2022-08-23 00:29:14,172] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-23 00:29:14,185] {logging_mixin.py:115} INFO - [2022-08-23 00:29:14,185] {dag.py:2915} INFO - Setting next_dagrun for Data4old2newSF to 2022-07-28T18:00:00+00:00, run_after=2022-07-28T19:00:00+00:00
+[2022-08-23 00:29:14,216] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/old2new_sf_data_move.py took 0.841 seconds
+[2022-08-23 00:29:47,158] {processor.py:153} INFO - Started process (PID=190517) to work on /home/osboxes/airflow/dags/old2new_sf_data_move.py
+[2022-08-23 00:29:47,160] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/old2new_sf_data_move.py for tasks to queue
+[2022-08-23 00:29:47,160] {logging_mixin.py:115} INFO - [2022-08-23 00:29:47,160] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/old2new_sf_data_move.py
+[2022-08-23 00:29:47,610] {logging_mixin.py:115} INFO - [2022-08-23 00:29:47,609] {backend.py:193} INFO - Loading KWallet
+[2022-08-23 00:29:47,614] {logging_mixin.py:115} INFO - [2022-08-23 00:29:47,614] {backend.py:193} INFO - Loading SecretService
+[2022-08-23 00:29:47,620] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:29:47,621] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:29:47,621] {logging_mixin.py:115} INFO - [2022-08-23 00:29:47,621] {backend.py:193} INFO - Loading Windows
+[2022-08-23 00:29:47,622] {logging_mixin.py:115} INFO - [2022-08-23 00:29:47,622] {backend.py:193} INFO - Loading chainer
+[2022-08-23 00:29:47,622] {logging_mixin.py:115} INFO - [2022-08-23 00:29:47,622] {backend.py:193} INFO - Loading macOS
+[2022-08-23 00:29:47,745] {processor.py:651} INFO - DAG(s) dict_keys(['Data4old2newSF']) retrieved from /home/osboxes/airflow/dags/old2new_sf_data_move.py
+[2022-08-23 00:29:47,758] {logging_mixin.py:115} INFO - [2022-08-23 00:29:47,757] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-23 00:29:47,770] {logging_mixin.py:115} INFO - [2022-08-23 00:29:47,770] {dag.py:2915} INFO - Setting next_dagrun for Data4old2newSF to 2022-07-28T18:00:00+00:00, run_after=2022-07-28T19:00:00+00:00
+[2022-08-23 00:29:47,805] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/old2new_sf_data_move.py took 0.649 seconds
+[2022-08-23 00:30:27,564] {processor.py:153} INFO - Started process (PID=190879) to work on /home/osboxes/airflow/dags/old2new_sf_data_move.py
+[2022-08-23 00:30:27,566] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/old2new_sf_data_move.py for tasks to queue
+[2022-08-23 00:30:27,567] {logging_mixin.py:115} INFO - [2022-08-23 00:30:27,567] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/old2new_sf_data_move.py
+[2022-08-23 00:30:28,067] {logging_mixin.py:115} INFO - [2022-08-23 00:30:28,062] {backend.py:193} INFO - Loading KWallet
+[2022-08-23 00:30:28,072] {logging_mixin.py:115} INFO - [2022-08-23 00:30:28,072] {backend.py:193} INFO - Loading SecretService
+[2022-08-23 00:30:28,077] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:30:28,082] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:30:28,082] {logging_mixin.py:115} INFO - [2022-08-23 00:30:28,082] {backend.py:193} INFO - Loading Windows
+[2022-08-23 00:30:28,083] {logging_mixin.py:115} INFO - [2022-08-23 00:30:28,083] {backend.py:193} INFO - Loading chainer
+[2022-08-23 00:30:28,084] {logging_mixin.py:115} INFO - [2022-08-23 00:30:28,084] {backend.py:193} INFO - Loading macOS
+[2022-08-23 00:30:28,393] {processor.py:651} INFO - DAG(s) dict_keys(['Data4old2newSF']) retrieved from /home/osboxes/airflow/dags/old2new_sf_data_move.py
+[2022-08-23 00:30:28,405] {logging_mixin.py:115} INFO - [2022-08-23 00:30:28,404] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-23 00:30:28,418] {logging_mixin.py:115} INFO - [2022-08-23 00:30:28,417] {dag.py:2915} INFO - Setting next_dagrun for Data4old2newSF to 2022-07-28T18:00:00+00:00, run_after=2022-07-28T19:00:00+00:00
+[2022-08-23 00:30:28,447] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/old2new_sf_data_move.py took 0.886 seconds
+[2022-08-23 00:31:13,547] {processor.py:153} INFO - Started process (PID=191284) to work on /home/osboxes/airflow/dags/old2new_sf_data_move.py
+[2022-08-23 00:31:13,550] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/old2new_sf_data_move.py for tasks to queue
+[2022-08-23 00:31:13,551] {logging_mixin.py:115} INFO - [2022-08-23 00:31:13,551] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/old2new_sf_data_move.py
+[2022-08-23 00:31:14,080] {logging_mixin.py:115} INFO - [2022-08-23 00:31:14,080] {backend.py:193} INFO - Loading KWallet
+[2022-08-23 00:31:14,086] {logging_mixin.py:115} INFO - [2022-08-23 00:31:14,086] {backend.py:193} INFO - Loading SecretService
+[2022-08-23 00:31:14,091] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:31:14,092] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:31:14,094] {logging_mixin.py:115} INFO - [2022-08-23 00:31:14,094] {backend.py:193} INFO - Loading Windows
+[2022-08-23 00:31:14,095] {logging_mixin.py:115} INFO - [2022-08-23 00:31:14,095] {backend.py:193} INFO - Loading chainer
+[2022-08-23 00:31:14,095] {logging_mixin.py:115} INFO - [2022-08-23 00:31:14,095] {backend.py:193} INFO - Loading macOS
+[2022-08-23 00:31:14,223] {processor.py:651} INFO - DAG(s) dict_keys(['Data4old2newSF']) retrieved from /home/osboxes/airflow/dags/old2new_sf_data_move.py
+[2022-08-23 00:31:14,236] {logging_mixin.py:115} INFO - [2022-08-23 00:31:14,236] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-23 00:31:14,249] {logging_mixin.py:115} INFO - [2022-08-23 00:31:14,249] {dag.py:2915} INFO - Setting next_dagrun for Data4old2newSF to 2022-07-28T18:00:00+00:00, run_after=2022-07-28T19:00:00+00:00
+[2022-08-23 00:31:14,282] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/old2new_sf_data_move.py took 0.737 seconds
+[2022-08-23 00:31:48,637] {processor.py:153} INFO - Started process (PID=191557) to work on /home/osboxes/airflow/dags/old2new_sf_data_move.py
+[2022-08-23 00:31:48,638] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/old2new_sf_data_move.py for tasks to queue
+[2022-08-23 00:31:48,639] {logging_mixin.py:115} INFO - [2022-08-23 00:31:48,639] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/old2new_sf_data_move.py
+[2022-08-23 00:31:49,140] {logging_mixin.py:115} INFO - [2022-08-23 00:31:49,140] {backend.py:193} INFO - Loading KWallet
+[2022-08-23 00:31:49,167] {logging_mixin.py:115} INFO - [2022-08-23 00:31:49,167] {backend.py:193} INFO - Loading SecretService
+[2022-08-23 00:31:49,172] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:31:49,173] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:31:49,174] {logging_mixin.py:115} INFO - [2022-08-23 00:31:49,174] {backend.py:193} INFO - Loading Windows
+[2022-08-23 00:31:49,175] {logging_mixin.py:115} INFO - [2022-08-23 00:31:49,175] {backend.py:193} INFO - Loading chainer
+[2022-08-23 00:31:49,176] {logging_mixin.py:115} INFO - [2022-08-23 00:31:49,176] {backend.py:193} INFO - Loading macOS
+[2022-08-23 00:31:49,462] {processor.py:651} INFO - DAG(s) dict_keys(['Data4old2newSF']) retrieved from /home/osboxes/airflow/dags/old2new_sf_data_move.py
+[2022-08-23 00:31:49,475] {logging_mixin.py:115} INFO - [2022-08-23 00:31:49,475] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-23 00:31:49,491] {logging_mixin.py:115} INFO - [2022-08-23 00:31:49,491] {dag.py:2915} INFO - Setting next_dagrun for Data4old2newSF to 2022-07-28T18:00:00+00:00, run_after=2022-07-28T19:00:00+00:00
+[2022-08-23 00:31:49,519] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/old2new_sf_data_move.py took 0.885 seconds
+[2022-08-23 00:32:27,532] {processor.py:153} INFO - Started process (PID=191867) to work on /home/osboxes/airflow/dags/old2new_sf_data_move.py
+[2022-08-23 00:32:27,533] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/old2new_sf_data_move.py for tasks to queue
+[2022-08-23 00:32:27,534] {logging_mixin.py:115} INFO - [2022-08-23 00:32:27,534] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/old2new_sf_data_move.py
+[2022-08-23 00:32:28,026] {logging_mixin.py:115} INFO - [2022-08-23 00:32:28,026] {backend.py:193} INFO - Loading KWallet
+[2022-08-23 00:32:28,030] {logging_mixin.py:115} INFO - [2022-08-23 00:32:28,030] {backend.py:193} INFO - Loading SecretService
+[2022-08-23 00:32:28,035] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:32:28,043] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:32:28,044] {logging_mixin.py:115} INFO - [2022-08-23 00:32:28,044] {backend.py:193} INFO - Loading Windows
+[2022-08-23 00:32:28,044] {logging_mixin.py:115} INFO - [2022-08-23 00:32:28,044] {backend.py:193} INFO - Loading chainer
+[2022-08-23 00:32:28,045] {logging_mixin.py:115} INFO - [2022-08-23 00:32:28,045] {backend.py:193} INFO - Loading macOS
+[2022-08-23 00:32:28,150] {processor.py:651} INFO - DAG(s) dict_keys(['Data4old2newSF']) retrieved from /home/osboxes/airflow/dags/old2new_sf_data_move.py
+[2022-08-23 00:32:28,163] {logging_mixin.py:115} INFO - [2022-08-23 00:32:28,163] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-23 00:32:28,180] {logging_mixin.py:115} INFO - [2022-08-23 00:32:28,180] {dag.py:2915} INFO - Setting next_dagrun for Data4old2newSF to 2022-07-28T18:00:00+00:00, run_after=2022-07-28T19:00:00+00:00
+[2022-08-23 00:32:28,213] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/old2new_sf_data_move.py took 0.683 seconds
+[2022-08-23 00:33:05,940] {processor.py:153} INFO - Started process (PID=192196) to work on /home/osboxes/airflow/dags/old2new_sf_data_move.py
+[2022-08-23 00:33:05,942] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/old2new_sf_data_move.py for tasks to queue
+[2022-08-23 00:33:05,942] {logging_mixin.py:115} INFO - [2022-08-23 00:33:05,942] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/old2new_sf_data_move.py
+[2022-08-23 00:33:06,659] {logging_mixin.py:115} INFO - [2022-08-23 00:33:06,659] {backend.py:193} INFO - Loading KWallet
+[2022-08-23 00:33:06,665] {logging_mixin.py:115} INFO - [2022-08-23 00:33:06,665] {backend.py:193} INFO - Loading SecretService
+[2022-08-23 00:33:06,674] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:33:06,675] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:33:06,675] {logging_mixin.py:115} INFO - [2022-08-23 00:33:06,675] {backend.py:193} INFO - Loading Windows
+[2022-08-23 00:33:06,676] {logging_mixin.py:115} INFO - [2022-08-23 00:33:06,676] {backend.py:193} INFO - Loading chainer
+[2022-08-23 00:33:06,676] {logging_mixin.py:115} INFO - [2022-08-23 00:33:06,676] {backend.py:193} INFO - Loading macOS
+[2022-08-23 00:33:06,808] {processor.py:651} INFO - DAG(s) dict_keys(['Data4old2newSF']) retrieved from /home/osboxes/airflow/dags/old2new_sf_data_move.py
+[2022-08-23 00:33:06,821] {logging_mixin.py:115} INFO - [2022-08-23 00:33:06,821] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-23 00:33:06,834] {logging_mixin.py:115} INFO - [2022-08-23 00:33:06,834] {dag.py:2915} INFO - Setting next_dagrun for Data4old2newSF to 2022-07-28T18:00:00+00:00, run_after=2022-07-28T19:00:00+00:00
+[2022-08-23 00:33:06,861] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/old2new_sf_data_move.py took 0.923 seconds
+[2022-08-23 00:33:38,501] {processor.py:153} INFO - Started process (PID=192520) to work on /home/osboxes/airflow/dags/old2new_sf_data_move.py
+[2022-08-23 00:33:38,501] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/old2new_sf_data_move.py for tasks to queue
+[2022-08-23 00:33:38,502] {logging_mixin.py:115} INFO - [2022-08-23 00:33:38,502] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/old2new_sf_data_move.py
+[2022-08-23 00:33:39,002] {logging_mixin.py:115} INFO - [2022-08-23 00:33:39,001] {backend.py:193} INFO - Loading KWallet
+[2022-08-23 00:33:39,006] {logging_mixin.py:115} INFO - [2022-08-23 00:33:39,006] {backend.py:193} INFO - Loading SecretService
+[2022-08-23 00:33:39,011] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:33:39,012] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:33:39,012] {logging_mixin.py:115} INFO - [2022-08-23 00:33:39,012] {backend.py:193} INFO - Loading Windows
+[2022-08-23 00:33:39,013] {logging_mixin.py:115} INFO - [2022-08-23 00:33:39,013] {backend.py:193} INFO - Loading chainer
+[2022-08-23 00:33:39,013] {logging_mixin.py:115} INFO - [2022-08-23 00:33:39,013] {backend.py:193} INFO - Loading macOS
+[2022-08-23 00:33:39,131] {processor.py:651} INFO - DAG(s) dict_keys(['Data4old2newSF']) retrieved from /home/osboxes/airflow/dags/old2new_sf_data_move.py
+[2022-08-23 00:33:39,142] {logging_mixin.py:115} INFO - [2022-08-23 00:33:39,142] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-23 00:33:39,154] {logging_mixin.py:115} INFO - [2022-08-23 00:33:39,154] {dag.py:2915} INFO - Setting next_dagrun for Data4old2newSF to 2022-07-28T18:00:00+00:00, run_after=2022-07-28T19:00:00+00:00
+[2022-08-23 00:33:39,187] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/old2new_sf_data_move.py took 0.689 seconds
+[2022-08-23 00:34:17,653] {processor.py:153} INFO - Started process (PID=192812) to work on /home/osboxes/airflow/dags/old2new_sf_data_move.py
+[2022-08-23 00:34:17,658] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/old2new_sf_data_move.py for tasks to queue
+[2022-08-23 00:34:17,658] {logging_mixin.py:115} INFO - [2022-08-23 00:34:17,658] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/old2new_sf_data_move.py
+[2022-08-23 00:34:18,098] {logging_mixin.py:115} INFO - [2022-08-23 00:34:18,098] {backend.py:193} INFO - Loading KWallet
+[2022-08-23 00:34:18,105] {logging_mixin.py:115} INFO - [2022-08-23 00:34:18,105] {backend.py:193} INFO - Loading SecretService
+[2022-08-23 00:34:18,110] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:34:18,110] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:34:18,111] {logging_mixin.py:115} INFO - [2022-08-23 00:34:18,111] {backend.py:193} INFO - Loading Windows
+[2022-08-23 00:34:18,111] {logging_mixin.py:115} INFO - [2022-08-23 00:34:18,111] {backend.py:193} INFO - Loading chainer
+[2022-08-23 00:34:18,112] {logging_mixin.py:115} INFO - [2022-08-23 00:34:18,112] {backend.py:193} INFO - Loading macOS
+[2022-08-23 00:34:18,219] {processor.py:651} INFO - DAG(s) dict_keys(['Data4old2newSF']) retrieved from /home/osboxes/airflow/dags/old2new_sf_data_move.py
+[2022-08-23 00:34:18,230] {logging_mixin.py:115} INFO - [2022-08-23 00:34:18,229] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-23 00:34:18,243] {logging_mixin.py:115} INFO - [2022-08-23 00:34:18,243] {dag.py:2915} INFO - Setting next_dagrun for Data4old2newSF to 2022-07-28T18:00:00+00:00, run_after=2022-07-28T19:00:00+00:00
+[2022-08-23 00:34:18,283] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/old2new_sf_data_move.py took 0.632 seconds
+[2022-08-23 00:34:56,201] {processor.py:153} INFO - Started process (PID=193167) to work on /home/osboxes/airflow/dags/old2new_sf_data_move.py
+[2022-08-23 00:34:56,202] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/old2new_sf_data_move.py for tasks to queue
+[2022-08-23 00:34:56,202] {logging_mixin.py:115} INFO - [2022-08-23 00:34:56,202] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/old2new_sf_data_move.py
+[2022-08-23 00:34:56,706] {logging_mixin.py:115} INFO - [2022-08-23 00:34:56,705] {backend.py:193} INFO - Loading KWallet
+[2022-08-23 00:34:56,712] {logging_mixin.py:115} INFO - [2022-08-23 00:34:56,712] {backend.py:193} INFO - Loading SecretService
+[2022-08-23 00:34:56,717] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:34:56,717] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:34:56,718] {logging_mixin.py:115} INFO - [2022-08-23 00:34:56,718] {backend.py:193} INFO - Loading Windows
+[2022-08-23 00:34:56,719] {logging_mixin.py:115} INFO - [2022-08-23 00:34:56,719] {backend.py:193} INFO - Loading chainer
+[2022-08-23 00:34:56,719] {logging_mixin.py:115} INFO - [2022-08-23 00:34:56,719] {backend.py:193} INFO - Loading macOS
+[2022-08-23 00:34:56,828] {processor.py:651} INFO - DAG(s) dict_keys(['Data4old2newSF']) retrieved from /home/osboxes/airflow/dags/old2new_sf_data_move.py
+[2022-08-23 00:34:56,839] {logging_mixin.py:115} INFO - [2022-08-23 00:34:56,838] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-23 00:34:56,850] {logging_mixin.py:115} INFO - [2022-08-23 00:34:56,850] {dag.py:2915} INFO - Setting next_dagrun for Data4old2newSF to 2022-07-28T18:00:00+00:00, run_after=2022-07-28T19:00:00+00:00
+[2022-08-23 00:34:56,878] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/old2new_sf_data_move.py took 0.679 seconds
+[2022-08-23 00:35:34,992] {processor.py:153} INFO - Started process (PID=193513) to work on /home/osboxes/airflow/dags/old2new_sf_data_move.py
+[2022-08-23 00:35:34,994] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/old2new_sf_data_move.py for tasks to queue
+[2022-08-23 00:35:34,995] {logging_mixin.py:115} INFO - [2022-08-23 00:35:34,995] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/old2new_sf_data_move.py
+[2022-08-23 00:35:36,231] {logging_mixin.py:115} INFO - [2022-08-23 00:35:36,230] {backend.py:193} INFO - Loading KWallet
+[2022-08-23 00:35:36,243] {logging_mixin.py:115} INFO - [2022-08-23 00:35:36,243] {backend.py:193} INFO - Loading SecretService
+[2022-08-23 00:35:36,253] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/dhcrypto.py:15 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:35:36,258] {logging_mixin.py:115} WARNING - /usr/lib/python3/dist-packages/secretstorage/util.py:19 CryptographyDeprecationWarning: int_from_bytes is deprecated, use int.from_bytes instead
+[2022-08-23 00:35:36,259] {logging_mixin.py:115} INFO - [2022-08-23 00:35:36,259] {backend.py:193} INFO - Loading Windows
+[2022-08-23 00:35:36,263] {logging_mixin.py:115} INFO - [2022-08-23 00:35:36,262] {backend.py:193} INFO - Loading chainer
+[2022-08-23 00:35:36,267] {logging_mixin.py:115} INFO - [2022-08-23 00:35:36,265] {backend.py:193} INFO - Loading macOS
+[2022-08-23 00:35:36,588] {processor.py:651} INFO - DAG(s) dict_keys(['Data4old2newSF']) retrieved from /home/osboxes/airflow/dags/old2new_sf_data_move.py
+[2022-08-23 00:35:36,653] {logging_mixin.py:115} INFO - [2022-08-23 00:35:36,652] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-23 00:35:36,686] {logging_mixin.py:115} INFO - [2022-08-23 00:35:36,685] {dag.py:2915} INFO - Setting next_dagrun for Data4old2newSF to 2022-07-28T18:00:00+00:00, run_after=2022-07-28T19:00:00+00:00
+[2022-08-23 00:35:36,732] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/old2new_sf_data_move.py took 1.747 seconds
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     

@@ -1,0 +1,51 @@
+[2022-08-11 22:47:48,227] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: nse_daily_data_load.Named_stg_copy_tstg manual__2022-08-12T02:46:13.868910+00:00 [queued]>
+[2022-08-11 22:47:48,281] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: nse_daily_data_load.Named_stg_copy_tstg manual__2022-08-12T02:46:13.868910+00:00 [queued]>
+[2022-08-11 22:47:48,291] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2022-08-11 22:47:48,291] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2022-08-11 22:47:48,291] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2022-08-11 22:47:48,360] {taskinstance.py:1377} INFO - Executing <Task(SnowflakeOperator): Named_stg_copy_tstg> on 2022-08-12 02:46:13.868910+00:00
+[2022-08-11 22:47:48,363] {standard_task_runner.py:52} INFO - Started process 32225 to run task
+[2022-08-11 22:47:48,372] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'nse_daily_data_load', 'Named_stg_copy_tstg', 'manual__2022-08-12T02:46:13.868910+00:00', '--job-id', '264', '--raw', '--subdir', 'DAGS_FOLDER/nse_daily_load_stg.py', '--cfg-path', '/tmp/tmptnpr8wyp', '--error-file', '/tmp/tmplh8kzz83']
+[2022-08-11 22:47:48,376] {standard_task_runner.py:80} INFO - Job 264: Subtask Named_stg_copy_tstg
+[2022-08-11 22:47:48,444] {task_command.py:369} INFO - Running <TaskInstance: nse_daily_data_load.Named_stg_copy_tstg manual__2022-08-12T02:46:13.868910+00:00 [running]> on host osboxes
+[2022-08-11 22:47:48,533] {taskinstance.py:1569} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=Airflow
+AIRFLOW_CTX_DAG_ID=nse_daily_data_load
+AIRFLOW_CTX_TASK_ID=Named_stg_copy_tstg
+AIRFLOW_CTX_EXECUTION_DATE=2022-08-12T02:46:13.868910+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-08-12T02:46:13.868910+00:00
+[2022-08-11 22:47:48,534] {snowflake.py:118} INFO - Executing: copy into "EDW_DEV"."EDW"."NSE_STOCK_DAILY_DATA_STG" 
+from @EDW_DEV.EDW.NSE_DAILY_STG/ pattern =  '.*cm.*' file_format = 'EDW_DEV.EDW.NSE_SD_FMT_CSV' purge =true; 
+[2022-08-11 22:47:48,544] {base.py:68} INFO - Using connection ID 'snowflake_conn_id' for task execution.
+[2022-08-11 22:47:48,546] {connection.py:257} INFO - Snowflake Connector for Python Version: 2.7.8, Python Version: 3.8.10, Platform: Linux-5.4.0-74-generic-x86_64-with-glibc2.29
+[2022-08-11 22:47:48,547] {connection.py:876} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2022-08-11 22:47:48,547] {connection.py:894} INFO - Setting use_openssl_only mode to False
+[2022-08-11 22:47:49,681] {cursor.py:710} INFO - query: [ALTER SESSION SET autocommit=True]
+[2022-08-11 22:47:49,794] {cursor.py:734} INFO - query execution done
+[2022-08-11 22:47:49,795] {snowflake.py:328} INFO - Running statement: copy into "EDW_DEV"."EDW"."NSE_STOCK_DAILY_DATA_STG" 
+from @EDW_DEV.EDW.NSE_DAILY_STG/ pattern =  '.*cm.*' file_format = 'EDW_DEV.EDW.NSE_SD_FMT_CSV' purge =true;, parameters: None
+[2022-08-11 22:47:49,795] {cursor.py:710} INFO - query: [copy into "EDW_DEV"."EDW"."NSE_STOCK_DAILY_DATA_STG" from @EDW_DEV.EDW.NSE_DAILY...]
+[2022-08-11 22:47:52,312] {cursor.py:734} INFO - query execution done
+[2022-08-11 22:47:52,313] {snowflake.py:338} INFO - Statement execution info - {'file': 'nse_daily_stg/cm05AUG2022bhav.csv.gz', 'status': 'LOADED', 'rows_parsed': 2216, 'rows_loaded': 2216, 'error_limit': 1, 'errors_seen': 0, 'first_error': None, 'first_error_line': None, 'first_error_character': None, 'first_error_column_name': None}
+[2022-08-11 22:47:52,313] {snowflake.py:338} INFO - Statement execution info - {'file': 'nse_daily_stg/cm01AUG2022bhav.csv.gz', 'status': 'LOADED', 'rows_parsed': 2279, 'rows_loaded': 2279, 'error_limit': 1, 'errors_seen': 0, 'first_error': None, 'first_error_line': None, 'first_error_character': None, 'first_error_column_name': None}
+[2022-08-11 22:47:52,313] {snowflake.py:338} INFO - Statement execution info - {'file': 'nse_daily_stg/cm11AUG2022bhav.csv.gz', 'status': 'LOADED', 'rows_parsed': 2227, 'rows_loaded': 2227, 'error_limit': 1, 'errors_seen': 0, 'first_error': None, 'first_error_line': None, 'first_error_character': None, 'first_error_column_name': None}
+[2022-08-11 22:47:52,313] {snowflake.py:338} INFO - Statement execution info - {'file': 'nse_daily_stg/cm03AUG2022bhav.csv.gz', 'status': 'LOADED', 'rows_parsed': 2224, 'rows_loaded': 2224, 'error_limit': 1, 'errors_seen': 0, 'first_error': None, 'first_error_line': None, 'first_error_character': None, 'first_error_column_name': None}
+[2022-08-11 22:47:52,313] {snowflake.py:338} INFO - Statement execution info - {'file': 'nse_daily_stg/cm27JUL2022bhav.csv.gz', 'status': 'LOADED', 'rows_parsed': 2215, 'rows_loaded': 2215, 'error_limit': 1, 'errors_seen': 0, 'first_error': None, 'first_error_line': None, 'first_error_character': None, 'first_error_column_name': None}
+[2022-08-11 22:47:52,313] {snowflake.py:338} INFO - Statement execution info - {'file': 'nse_daily_stg/cm04AUG2022bhav.csv.gz', 'status': 'LOADED', 'rows_parsed': 2216, 'rows_loaded': 2216, 'error_limit': 1, 'errors_seen': 0, 'first_error': None, 'first_error_line': None, 'first_error_character': None, 'first_error_column_name': None}
+[2022-08-11 22:47:52,313] {snowflake.py:338} INFO - Statement execution info - {'file': 'nse_daily_stg/cm08AUG2022bhav.csv.gz', 'status': 'LOADED', 'rows_parsed': 2377, 'rows_loaded': 2377, 'error_limit': 1, 'errors_seen': 0, 'first_error': None, 'first_error_line': None, 'first_error_character': None, 'first_error_column_name': None}
+[2022-08-11 22:47:52,313] {snowflake.py:338} INFO - Statement execution info - {'file': 'nse_daily_stg/cm25JUL2022bhav.csv.gz', 'status': 'LOADED', 'rows_parsed': 2366, 'rows_loaded': 2366, 'error_limit': 1, 'errors_seen': 0, 'first_error': None, 'first_error_line': None, 'first_error_character': None, 'first_error_column_name': None}
+[2022-08-11 22:47:52,313] {snowflake.py:338} INFO - Statement execution info - {'file': 'nse_daily_stg/cm26JUL2022bhav.csv.gz', 'status': 'LOADED', 'rows_parsed': 2211, 'rows_loaded': 2211, 'error_limit': 1, 'errors_seen': 0, 'first_error': None, 'first_error_line': None, 'first_error_character': None, 'first_error_column_name': None}
+[2022-08-11 22:47:52,313] {snowflake.py:338} INFO - Statement execution info - {'file': 'nse_daily_stg/cm10AUG2022bhav.csv.gz', 'status': 'LOADED', 'rows_parsed': 2244, 'rows_loaded': 2244, 'error_limit': 1, 'errors_seen': 0, 'first_error': None, 'first_error_line': None, 'first_error_character': None, 'first_error_column_name': None}
+[2022-08-11 22:47:52,313] {snowflake.py:338} INFO - Statement execution info - {'file': 'nse_daily_stg/cm29JUL2022bhav.csv.gz', 'status': 'LOADED', 'rows_parsed': 2224, 'rows_loaded': 2224, 'error_limit': 1, 'errors_seen': 0, 'first_error': None, 'first_error_line': None, 'first_error_character': None, 'first_error_column_name': None}
+[2022-08-11 22:47:52,314] {snowflake.py:338} INFO - Statement execution info - {'file': 'nse_daily_stg/cm02AUG2022bhav.csv.gz', 'status': 'LOADED', 'rows_parsed': 2220, 'rows_loaded': 2220, 'error_limit': 1, 'errors_seen': 0, 'first_error': None, 'first_error_line': None, 'first_error_character': None, 'first_error_column_name': None}
+[2022-08-11 22:47:52,314] {snowflake.py:338} INFO - Statement execution info - {'file': 'nse_daily_stg/cm28JUL2022bhav.csv.gz', 'status': 'LOADED', 'rows_parsed': 2222, 'rows_loaded': 2222, 'error_limit': 1, 'errors_seen': 0, 'first_error': None, 'first_error_line': None, 'first_error_character': None, 'first_error_column_name': None}
+[2022-08-11 22:47:52,314] {snowflake.py:342} INFO - Rows affected: 13
+[2022-08-11 22:47:52,314] {snowflake.py:343} INFO - Snowflake query id: 01a63aa7-0501-b618-006e-0a830002b2c6
+[2022-08-11 22:47:52,314] {connection.py:507} INFO - closed
+[2022-08-11 22:47:52,372] {connection.py:510} INFO - No async queries seem to be running, deleting session
+[2022-08-11 22:47:52,560] {taskinstance.py:1395} INFO - Marking task as SUCCESS. dag_id=nse_daily_data_load, task_id=Named_stg_copy_tstg, execution_date=20220812T024613, start_date=20220812T024748, end_date=20220812T024752
+[2022-08-11 22:47:52,642] {local_task_job.py:156} INFO - Task exited with return code 0
+[2022-08-11 22:47:52,762] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,52 @@
+[2022-07-17 12:45:41,488] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: nse_daily_data_load.Truncate_relaod_table manual__2022-07-17T15:51:20.430255+00:00 [queued]>
+[2022-07-17 12:45:41,494] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: nse_daily_data_load.Truncate_relaod_table manual__2022-07-17T15:51:20.430255+00:00 [queued]>
+[2022-07-17 12:45:41,494] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-17 12:45:41,494] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2022-07-17 12:45:41,494] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-17 12:45:41,593] {taskinstance.py:1377} INFO - Executing <Task(SnowflakeOperator): Truncate_relaod_table> on 2022-07-17 15:51:20.430255+00:00
+[2022-07-17 12:45:41,600] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'nse_daily_data_load', 'Truncate_relaod_table', 'manual__2022-07-17T15:51:20.430255+00:00', '--job-id', '28', '--raw', '--subdir', 'DAGS_FOLDER/nse_daily_load_stg.py', '--cfg-path', '/tmp/tmppbhw2voz', '--error-file', '/tmp/tmpetil0g6v']
+[2022-07-17 12:45:41,617] {standard_task_runner.py:52} INFO - Started process 384578 to run task
+[2022-07-17 12:45:41,619] {standard_task_runner.py:80} INFO - Job 28: Subtask Truncate_relaod_table
+[2022-07-17 12:45:41,679] {task_command.py:369} INFO - Running <TaskInstance: nse_daily_data_load.Truncate_relaod_table manual__2022-07-17T15:51:20.430255+00:00 [running]> on host osboxes
+[2022-07-17 12:45:41,780] {taskinstance.py:1569} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=Airflow
+AIRFLOW_CTX_DAG_ID=nse_daily_data_load
+AIRFLOW_CTX_TASK_ID=Truncate_relaod_table
+AIRFLOW_CTX_EXECUTION_DATE=2022-07-17T15:51:20.430255+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-07-17T15:51:20.430255+00:00
+[2022-07-17 12:45:41,781] {snowflake.py:118} INFO - Executing:  call LOAD_NSE_DAILY_DATA_WITH_MEASURES(); 
+[2022-07-17 12:45:41,787] {base.py:68} INFO - Using connection ID 'snowflake_conn_id' for task execution.
+[2022-07-17 12:45:41,790] {connection.py:257} INFO - Snowflake Connector for Python Version: 2.7.8, Python Version: 3.8.10, Platform: Linux-5.4.0-74-generic-x86_64-with-glibc2.29
+[2022-07-17 12:45:41,790] {connection.py:876} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2022-07-17 12:45:41,790] {connection.py:894} INFO - Setting use_openssl_only mode to False
+[2022-07-17 12:45:44,984] {cursor.py:710} INFO - query: [ALTER SESSION SET autocommit=True]
+[2022-07-17 12:45:45,077] {cursor.py:734} INFO - query execution done
+[2022-07-17 12:45:45,077] {snowflake.py:328} INFO - Running statement: call LOAD_NSE_DAILY_DATA_WITH_MEASURES();, parameters: None
+[2022-07-17 12:45:45,077] {cursor.py:710} INFO - query: [call LOAD_NSE_DAILY_DATA_WITH_MEASURES();]
+[2022-07-17 12:45:45,212] {cursor.py:734} INFO - query execution done
+[2022-07-17 12:45:45,214] {connection.py:507} INFO - closed
+[2022-07-17 12:45:45,268] {connection.py:510} INFO - No async queries seem to be running, deleting session
+[2022-07-17 12:45:45,395] {taskinstance.py:1889} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/osboxes/.local/lib/python3.8/site-packages/airflow/providers/snowflake/operators/snowflake.py", line 120, in execute
+    execution_info = hook.run(self.sql, autocommit=self.autocommit, parameters=self.parameters)
+  File "/home/osboxes/.local/lib/python3.8/site-packages/airflow/providers/snowflake/hooks/snowflake.py", line 332, in run
+    cur.execute(sql_statement)
+  File "/home/osboxes/.local/lib/python3.8/site-packages/snowflake/connector/cursor.py", line 799, in execute
+    Error.errorhandler_wrapper(self.connection, self, error_class, errvalue)
+  File "/home/osboxes/.local/lib/python3.8/site-packages/snowflake/connector/errors.py", line 273, in errorhandler_wrapper
+    handed_over = Error.hand_to_other_handler(
+  File "/home/osboxes/.local/lib/python3.8/site-packages/snowflake/connector/errors.py", line 328, in hand_to_other_handler
+    cursor.errorhandler(connection, cursor, error_class, error_value)
+  File "/home/osboxes/.local/lib/python3.8/site-packages/snowflake/connector/errors.py", line 207, in default_errorhandler
+    raise error_class(
+snowflake.connector.errors.ProgrammingError: 002140 (42601): 01a5abad-0601-a5e9-0065-880300063152: SQL compilation error:
+Unknown function LOAD_NSE_DAILY_DATA_WITH_MEASURES
+[2022-07-17 12:45:45,402] {taskinstance.py:1395} INFO - Marking task as FAILED. dag_id=nse_daily_data_load, task_id=Truncate_relaod_table, execution_date=20220717T155120, start_date=20220717T164541, end_date=20220717T164545
+[2022-07-17 12:45:45,515] {standard_task_runner.py:92} ERROR - Failed to execute job 28 for task Truncate_relaod_table (002140 (42601): 01a5abad-0601-a5e9-0065-880300063152: SQL compilation error:
+Unknown function LOAD_NSE_DAILY_DATA_WITH_MEASURES; 384578)
+[2022-07-17 12:45:45,528] {local_task_job.py:156} INFO - Task exited with return code 1
+[2022-07-17 12:45:45,542] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

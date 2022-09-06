@@ -1,0 +1,64 @@
+[2022-07-17 12:44:27,357] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: nse_daily_data_load.Stg_tgt_merge manual__2022-07-17T15:51:20.430255+00:00 [queued]>
+[2022-07-17 12:44:27,363] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: nse_daily_data_load.Stg_tgt_merge manual__2022-07-17T15:51:20.430255+00:00 [queued]>
+[2022-07-17 12:44:27,363] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-17 12:44:27,363] {taskinstance.py:1357} INFO - Starting attempt 2 of 2
+[2022-07-17 12:44:27,363] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-17 12:44:27,403] {taskinstance.py:1377} INFO - Executing <Task(SnowflakeOperator): Stg_tgt_merge> on 2022-07-17 15:51:20.430255+00:00
+[2022-07-17 12:44:27,407] {standard_task_runner.py:52} INFO - Started process 383613 to run task
+[2022-07-17 12:44:27,411] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'nse_daily_data_load', 'Stg_tgt_merge', 'manual__2022-07-17T15:51:20.430255+00:00', '--job-id', '26', '--raw', '--subdir', 'DAGS_FOLDER/nse_daily_load_stg.py', '--cfg-path', '/tmp/tmpr0c_k3bx', '--error-file', '/tmp/tmpsrl6zcn9']
+[2022-07-17 12:44:27,412] {standard_task_runner.py:80} INFO - Job 26: Subtask Stg_tgt_merge
+[2022-07-17 12:44:27,473] {task_command.py:369} INFO - Running <TaskInstance: nse_daily_data_load.Stg_tgt_merge manual__2022-07-17T15:51:20.430255+00:00 [running]> on host osboxes
+[2022-07-17 12:44:27,556] {taskinstance.py:1569} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=Airflow
+AIRFLOW_CTX_DAG_ID=nse_daily_data_load
+AIRFLOW_CTX_TASK_ID=Stg_tgt_merge
+AIRFLOW_CTX_EXECUTION_DATE=2022-07-17T15:51:20.430255+00:00
+AIRFLOW_CTX_TRY_NUMBER=2
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-07-17T15:51:20.430255+00:00
+[2022-07-17 12:44:27,557] {snowflake.py:118} INFO - Executing:  MERGE into EDW_DEV.EDW.NSE_STOCK_DAILY_DATA_F f1
+USING EDW_DEV.EDW.NSE_STOCK_DAILY_DATA_STream stg1
+on f1.SYMBOL = stg1.SYMBOL and f1.TIMESTAMP = stg1.TIMESTAMP
+when not matched and stg1.METADATA$ACTION ='INSERT' and stg1.METADATA%ISUPDATE = FALSE 
+then
+insert (f1.SYMBOL,f1.SERIES,f1.OPEN,f1.HIGH,f1.LOW,f1.CLOSE,f1.LAST,f1.PREVCLOSE,f1.TOTTRDQTY,f1.TOTTRDVAL,f1.TIMESTAMP,f1.TOTALTRADES,f1.ISIN)  
+values (stg1.SYMBOL,stg1.SERIES,stg1.OPEN,stg1.HIGH,stg1.LOW,stg1.CLOSE,stg1.LAST,stg1.PREVCLOSE,stg1.TOTTRDQTY,stg1.TOTTRDVAL,stg1.TIMESTAMP,stg1.TOTALTRADES,stg1.ISIN);
+[2022-07-17 12:44:27,563] {base.py:68} INFO - Using connection ID 'snowflake_conn_id' for task execution.
+[2022-07-17 12:44:27,566] {connection.py:257} INFO - Snowflake Connector for Python Version: 2.7.8, Python Version: 3.8.10, Platform: Linux-5.4.0-74-generic-x86_64-with-glibc2.29
+[2022-07-17 12:44:27,566] {connection.py:876} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2022-07-17 12:44:27,566] {connection.py:894} INFO - Setting use_openssl_only mode to False
+[2022-07-17 12:44:28,343] {cursor.py:710} INFO - query: [ALTER SESSION SET autocommit=True]
+[2022-07-17 12:44:28,453] {cursor.py:734} INFO - query execution done
+[2022-07-17 12:44:28,454] {snowflake.py:328} INFO - Running statement: MERGE into EDW_DEV.EDW.NSE_STOCK_DAILY_DATA_F f1
+USING EDW_DEV.EDW.NSE_STOCK_DAILY_DATA_STream stg1
+on f1.SYMBOL = stg1.SYMBOL and f1.TIMESTAMP = stg1.TIMESTAMP
+when not matched and stg1.METADATA$ACTION ='INSERT' and stg1.METADATA%ISUPDATE = FALSE 
+then
+insert (f1.SYMBOL,f1.SERIES,f1.OPEN,f1.HIGH,f1.LOW,f1.CLOSE,f1.LAST,f1.PREVCLOSE,f1.TOTTRDQTY,f1.TOTTRDVAL,f1.TIMESTAMP,f1.TOTALTRADES,f1.ISIN)  
+values (stg1.SYMBOL,stg1.SERIES,stg1.OPEN,stg1.HIGH,stg1.LOW,stg1.CLOSE,stg1.LAST,stg1.PREVCLOSE,stg1.TOTTRDQTY,stg1.TOTTRDVAL,stg1.TIMESTAMP,stg1.TOTALTRADES,stg1.ISIN);, parameters: None
+[2022-07-17 12:44:28,454] {cursor.py:710} INFO - query: [MERGE into EDW_DEV.EDW.NSE_STOCK_DAILY_DATA_F f1 USING EDW_DEV.EDW.NSE_STOCK_DAI...]
+[2022-07-17 12:44:28,587] {cursor.py:734} INFO - query execution done
+[2022-07-17 12:44:28,590] {connection.py:507} INFO - closed
+[2022-07-17 12:44:28,625] {connection.py:510} INFO - No async queries seem to be running, deleting session
+[2022-07-17 12:44:28,687] {taskinstance.py:1889} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/osboxes/.local/lib/python3.8/site-packages/airflow/providers/snowflake/operators/snowflake.py", line 120, in execute
+    execution_info = hook.run(self.sql, autocommit=self.autocommit, parameters=self.parameters)
+  File "/home/osboxes/.local/lib/python3.8/site-packages/airflow/providers/snowflake/hooks/snowflake.py", line 332, in run
+    cur.execute(sql_statement)
+  File "/home/osboxes/.local/lib/python3.8/site-packages/snowflake/connector/cursor.py", line 799, in execute
+    Error.errorhandler_wrapper(self.connection, self, error_class, errvalue)
+  File "/home/osboxes/.local/lib/python3.8/site-packages/snowflake/connector/errors.py", line 273, in errorhandler_wrapper
+    handed_over = Error.hand_to_other_handler(
+  File "/home/osboxes/.local/lib/python3.8/site-packages/snowflake/connector/errors.py", line 328, in hand_to_other_handler
+    cursor.errorhandler(connection, cursor, error_class, error_value)
+  File "/home/osboxes/.local/lib/python3.8/site-packages/snowflake/connector/errors.py", line 207, in default_errorhandler
+    raise error_class(
+snowflake.connector.errors.ProgrammingError: 000904 (42000): 01a5abac-0601-a668-0065-88030005e22a: SQL compilation error: error line 4 at position 56
+invalid identifier 'STG1.METADATA'
+[2022-07-17 12:44:28,691] {taskinstance.py:1395} INFO - Marking task as FAILED. dag_id=nse_daily_data_load, task_id=Stg_tgt_merge, execution_date=20220717T155120, start_date=20220717T164427, end_date=20220717T164428
+[2022-07-17 12:44:28,742] {standard_task_runner.py:92} ERROR - Failed to execute job 26 for task Stg_tgt_merge (000904 (42000): 01a5abac-0601-a668-0065-88030005e22a: SQL compilation error: error line 4 at position 56
+invalid identifier 'STG1.METADATA'; 383613)
+[2022-07-17 12:44:28,770] {local_task_job.py:156} INFO - Task exited with return code 1
+[2022-07-17 12:44:28,932] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

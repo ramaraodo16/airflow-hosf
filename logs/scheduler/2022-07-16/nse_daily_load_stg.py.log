@@ -1,0 +1,119 @@
+[2022-07-16 19:56:13,810] {processor.py:153} INFO - Started process (PID=197390) to work on /home/osboxes/airflow/dags/nse_daily_load_stg.py
+[2022-07-16 19:56:13,811] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/nse_daily_load_stg.py for tasks to queue
+[2022-07-16 19:56:13,812] {logging_mixin.py:115} INFO - [2022-07-16 19:56:13,811] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/nse_daily_load_stg.py
+[2022-07-16 19:56:13,816] {logging_mixin.py:115} INFO - [2022-07-16 19:56:13,813] {dagbag.py:320} ERROR - Failed to import: /home/osboxes/airflow/dags/nse_daily_load_stg.py
+Traceback (most recent call last):
+  File "/home/osboxes/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/osboxes/airflow/dags/nse_daily_load_stg.py", line 11
+    intr_stg_stg_load_query =
+                            ^
+SyntaxError: invalid syntax
+[2022-07-16 19:56:13,816] {processor.py:653} WARNING - No viable dags retrieved from /home/osboxes/airflow/dags/nse_daily_load_stg.py
+[2022-07-16 19:56:13,859] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/nse_daily_load_stg.py took 0.051 seconds
+[2022-07-16 19:56:44,824] {processor.py:153} INFO - Started process (PID=197656) to work on /home/osboxes/airflow/dags/nse_daily_load_stg.py
+[2022-07-16 19:56:44,825] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/nse_daily_load_stg.py for tasks to queue
+[2022-07-16 19:56:44,825] {logging_mixin.py:115} INFO - [2022-07-16 19:56:44,825] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/nse_daily_load_stg.py
+[2022-07-16 19:56:44,827] {logging_mixin.py:115} INFO - [2022-07-16 19:56:44,826] {dagbag.py:320} ERROR - Failed to import: /home/osboxes/airflow/dags/nse_daily_load_stg.py
+Traceback (most recent call last):
+  File "/home/osboxes/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/osboxes/airflow/dags/nse_daily_load_stg.py", line 11
+    intr_stg_stg_load_query =
+                            ^
+SyntaxError: invalid syntax
+[2022-07-16 19:56:44,827] {processor.py:653} WARNING - No viable dags retrieved from /home/osboxes/airflow/dags/nse_daily_load_stg.py
+[2022-07-16 19:56:44,857] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/nse_daily_load_stg.py took 0.035 seconds
+[2022-07-16 19:57:18,682] {processor.py:153} INFO - Started process (PID=197978) to work on /home/osboxes/airflow/dags/nse_daily_load_stg.py
+[2022-07-16 19:57:18,684] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/nse_daily_load_stg.py for tasks to queue
+[2022-07-16 19:57:18,685] {logging_mixin.py:115} INFO - [2022-07-16 19:57:18,685] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/nse_daily_load_stg.py
+[2022-07-16 19:57:18,686] {logging_mixin.py:115} INFO - [2022-07-16 19:57:18,686] {dagbag.py:320} ERROR - Failed to import: /home/osboxes/airflow/dags/nse_daily_load_stg.py
+Traceback (most recent call last):
+  File "/home/osboxes/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/osboxes/airflow/dags/nse_daily_load_stg.py", line 11
+    intr_stg_stg_load_query =
+                            ^
+SyntaxError: invalid syntax
+[2022-07-16 19:57:18,687] {processor.py:653} WARNING - No viable dags retrieved from /home/osboxes/airflow/dags/nse_daily_load_stg.py
+[2022-07-16 19:57:18,716] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/nse_daily_load_stg.py took 0.036 seconds
+[2022-07-16 19:57:54,232] {processor.py:153} INFO - Started process (PID=198301) to work on /home/osboxes/airflow/dags/nse_daily_load_stg.py
+[2022-07-16 19:57:54,233] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/nse_daily_load_stg.py for tasks to queue
+[2022-07-16 19:57:54,234] {logging_mixin.py:115} INFO - [2022-07-16 19:57:54,234] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/nse_daily_load_stg.py
+[2022-07-16 19:57:54,235] {logging_mixin.py:115} INFO - [2022-07-16 19:57:54,235] {dagbag.py:320} ERROR - Failed to import: /home/osboxes/airflow/dags/nse_daily_load_stg.py
+Traceback (most recent call last):
+  File "/home/osboxes/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/osboxes/airflow/dags/nse_daily_load_stg.py", line 11
+    intr_stg_stg_load_query =
+                            ^
+SyntaxError: invalid syntax
+[2022-07-16 19:57:54,236] {processor.py:653} WARNING - No viable dags retrieved from /home/osboxes/airflow/dags/nse_daily_load_stg.py
+[2022-07-16 19:57:54,265] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/nse_daily_load_stg.py took 0.035 seconds
+[2022-07-16 19:58:28,752] {processor.py:153} INFO - Started process (PID=198626) to work on /home/osboxes/airflow/dags/nse_daily_load_stg.py
+[2022-07-16 19:58:28,772] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/nse_daily_load_stg.py for tasks to queue
+[2022-07-16 19:58:28,772] {logging_mixin.py:115} INFO - [2022-07-16 19:58:28,772] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/nse_daily_load_stg.py
+[2022-07-16 19:58:28,773] {logging_mixin.py:115} INFO - [2022-07-16 19:58:28,773] {dagbag.py:320} ERROR - Failed to import: /home/osboxes/airflow/dags/nse_daily_load_stg.py
+Traceback (most recent call last):
+  File "/home/osboxes/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/osboxes/airflow/dags/nse_daily_load_stg.py", line 11
+    intr_stg_stg_load_query =
+                            ^
+SyntaxError: invalid syntax
+[2022-07-16 19:58:28,774] {processor.py:653} WARNING - No viable dags retrieved from /home/osboxes/airflow/dags/nse_daily_load_stg.py
+[2022-07-16 19:58:28,830] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/nse_daily_load_stg.py took 0.080 seconds
+[2022-07-16 19:59:05,693] {processor.py:153} INFO - Started process (PID=198963) to work on /home/osboxes/airflow/dags/nse_daily_load_stg.py
+[2022-07-16 19:59:05,698] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/nse_daily_load_stg.py for tasks to queue
+[2022-07-16 19:59:05,699] {logging_mixin.py:115} INFO - [2022-07-16 19:59:05,698] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/nse_daily_load_stg.py
+[2022-07-16 19:59:05,700] {logging_mixin.py:115} INFO - [2022-07-16 19:59:05,699] {dagbag.py:320} ERROR - Failed to import: /home/osboxes/airflow/dags/nse_daily_load_stg.py
+Traceback (most recent call last):
+  File "/home/osboxes/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/osboxes/airflow/dags/nse_daily_load_stg.py", line 11
+    intr_stg_stg_load_query =
+                            ^
+SyntaxError: invalid syntax
+[2022-07-16 19:59:05,700] {processor.py:653} WARNING - No viable dags retrieved from /home/osboxes/airflow/dags/nse_daily_load_stg.py
+[2022-07-16 19:59:05,747] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/nse_daily_load_stg.py took 0.056 seconds
+[2022-07-16 19:59:39,084] {processor.py:153} INFO - Started process (PID=199263) to work on /home/osboxes/airflow/dags/nse_daily_load_stg.py
+[2022-07-16 19:59:39,086] {processor.py:641} INFO - Processing file /home/osboxes/airflow/dags/nse_daily_load_stg.py for tasks to queue
+[2022-07-16 19:59:39,087] {logging_mixin.py:115} INFO - [2022-07-16 19:59:39,087] {dagbag.py:507} INFO - Filling up the DagBag from /home/osboxes/airflow/dags/nse_daily_load_stg.py
+[2022-07-16 19:59:39,088] {logging_mixin.py:115} INFO - [2022-07-16 19:59:39,088] {dagbag.py:320} ERROR - Failed to import: /home/osboxes/airflow/dags/nse_daily_load_stg.py
+Traceback (most recent call last):
+  File "/home/osboxes/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/osboxes/airflow/dags/nse_daily_load_stg.py", line 11
+    intr_stg_stg_load_query =
+                            ^
+SyntaxError: invalid syntax
+[2022-07-16 19:59:39,089] {processor.py:653} WARNING - No viable dags retrieved from /home/osboxes/airflow/dags/nse_daily_load_stg.py
+[2022-07-16 19:59:39,141] {processor.py:161} INFO - Processing /home/osboxes/airflow/dags/nse_daily_load_stg.py took 0.060 seconds
